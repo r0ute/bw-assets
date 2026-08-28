@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WoodcuttersAxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WoodcuttersAxe_C'Default__WoodcuttersAxe_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WoodcuttersAxe_C",
+    "Name": "Default__WoodcuttersAxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe.WoodcuttersAxe_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe",
+    "Properties": {
+      "HandRequirement": "EEquipmentHandRequirement::Both",
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_2H_Axe.SM_T0_2H_Axe",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_2H_Axe.SM_T0_2H_Axe",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'AxeBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/AxeBack.1"
+      },
+      "Damage": 36.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeAxeDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeAxeDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/HeavyTwoHandedWeaponType.HeavyTwoHandedWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 82,
+      "Impact": 35,
+      "Stability": 14,
+      "WeaponLength": 64.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 1
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Axe'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Axe.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::TreeCutting",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "F02D08EB4990F2DB33EFD397ED4905DE",
+        "SourceString": "Woodcutter's Axe",
+        "LocalizedString": "Woodcutter's Axe"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'TwoHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/TwoHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/Tier2/T_WeaponIconsAxeT2_08.T_WeaponIconsAxeT2_08",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodcuttersAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicWeapons_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicWeapons.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'WoodcuttersAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T0/WoodcuttersAxe.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/CrudeStone.CrudeStone_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 65.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodcuttersAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/WoodcuttersAxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/JourneymanWeaponryKit.JourneymanWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 32.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_2H_Axe.SM_T0_2H_Axe",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_2H_Axe.SM_T0_2H_Axe",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "A92ECFC846D04CB408CEF9A95BE57995",
+        "SourceString": "Can be crafted at Advanced Workbench",
+        "LocalizedString": "Can be crafted at Advanced Workbench"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 500,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWoodcuttersAxe_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWoodcuttersAxe_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 68.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

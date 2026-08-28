@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Large-HeadedAxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Large-HeadedAxe_C'Default__Large-HeadedAxe_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Large-HeadedAxe_C",
+    "Name": "Default__Large-HeadedAxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe.Large-HeadedAxe_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Axe_02_L.SM_T2_Axe_02_L",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Axe_02_L.SM_T2_Axe_02_L",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedAxe_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedAxe.0"
+      },
+      "Damage": 67.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeAxeDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeAxeDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 90,
+      "Impact": 30,
+      "Stability": 30,
+      "WeaponLength": 95.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 6
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Weapon_Metal_On_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Metal_On_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::TreeCutting",
+            "Tier": 2
+          },
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 2
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "C25822F4409D7C32A8017987F3788440",
+        "SourceString": "Large-Headed Axe",
+        "LocalizedString": "Large-Headed Axe"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OneHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/OneHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_LargeHeadedAxe.T_LargeHeadedAxe",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Large-HeadedAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Blacksmith_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Blacksmith.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'LargeHeadAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/LargeHeadAxe.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/TinIngot.TinIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 254.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Large-HeadedAxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Large-HeadedAxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/MasterWeaponryKit.MasterWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 127.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Axe_02_L.SM_T2_Axe_02_L",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier2/SM_T2_Axe_02.SM_T2_Axe_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "5C38BCC74709E589779DD580619D097A",
+        "SourceString": "Can be crafted at Blacksmith",
+        "LocalizedString": "Can be crafted at Blacksmith"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 820,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenShortbeardedAxe_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenShortbeardedAxe_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 233.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

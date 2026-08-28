@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SledgeHammer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SledgeHammer_C'Default__SledgeHammer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SledgeHammer_C",
+    "Name": "Default__SledgeHammer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer.SledgeHammer_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer",
+    "Properties": {
+      "HandRequirement": "EEquipmentHandRequirement::Both",
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_2H_Hammer_L.SM_T1_2H_Hammer_L",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_2H_Hammer.SM_T1_2H_Hammer",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'AxeBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/AxeBack.1"
+      },
+      "Damage": 62.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeBluntDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeBluntDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/HeavyTwoHandedWeaponType.HeavyTwoHandedWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 85,
+      "Impact": 40,
+      "Stability": 15,
+      "WeaponLength": 92.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 4
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Weapon_Metal_On_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Metal_On_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "897EBC744D81F016A5DD73A76C5400F6",
+        "SourceString": "Sledgehammer",
+        "LocalizedString": "Sledgehammer"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'TwoHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/TwoHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsHammerT1_02.T_WeaponIconsHammerT1_02",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SledgeHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedWeapons_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedWeapons.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Sledgehammer_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T1/Sledgehammer.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 15
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 177.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SledgeHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/SledgeHammer.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 88.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_2H_Hammer_L.SM_T1_2H_Hammer_L",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Sack_04.SM_Decor_Container_Sack_04",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_2H_Hammer_L.SM_T1_2H_Hammer_L",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "FD1047FC4B9B1877F35958A9A204C778",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 700,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSledgeHammer_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSledgeHammer_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 328.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

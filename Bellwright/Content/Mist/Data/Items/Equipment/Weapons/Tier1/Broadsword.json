@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Broadsword_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Broadsword_C'Default__Broadsword_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Broadsword_C",
+    "Name": "Default__Broadsword_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword.Broadsword_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_Sword_06_L.SM_T1_Sword_06_L",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Sword_06.SM_T1_Sword_06",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedSword_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedSword.0"
+      },
+      "Damage": 47.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeCuttingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeCuttingDamage.0"
+      },
+      "ThrustDamage": 43.0,
+      "ThrustDamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "Impact": 20,
+      "Stability": 19,
+      "WeaponLength": 110.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 4
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Sword'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Sword.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9831073B414F5DBAC2FF82B0DC926B5B",
+        "SourceString": "Broadsword",
+        "LocalizedString": "Broadsword"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OneHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/OneHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_Broadsword.T_Broadsword",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Broadsword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedWeapons_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedWeapons.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Broadsword_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T1/Broadsword.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 9
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 154.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Broadsword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/Broadsword.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 72.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_Sword_06_L.SM_T1_Sword_06_L",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T1_Sword_06_L.SM_T1_Sword_06_L",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "72733F5644E6161E8B634E9028952D3D",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 450,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenBroadsword_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenBroadsword_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 110.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

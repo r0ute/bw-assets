@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IronBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/IronBolt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistProjectileItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IronBolt_C'Default__IronBolt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/IronBolt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "IronBolt_C",
+    "Name": "Default__IronBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Ranged/IronBolt.IronBolt_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/IronBolt",
+    "Properties": {
+      "MeshWhenPreparing": {
+        "ObjectName": "StaticMesh'SM_IronBolt_02'",
+        "ObjectPath": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_IronBolt_02.2"
+      },
+      "ProjectileActor": {
+        "ObjectName": "BlueprintGeneratedClass'IronBolt_Projectile_C'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Bolts/IronBolt_Projectile.0"
+      },
+      "Damage": 80.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'BoltPiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/BoltPiercingDamage.0"
+      },
+      "ProjectileDamage": {
+        "Damage": 45.0
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0C1986C1437BFEDDF0E9A8B9B99DD0F7",
+        "SourceString": "Iron Bolts",
+        "LocalizedString": "Iron Bolts"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Bolts_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Bolts.1"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_IronBolt.T_IronBolt",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'IronBolt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/IronBolt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'IronBolt_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/Ranged/IronBolt.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Feathers.Feathers_C'",
+              "Value": 8
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_IronBolt_02.SM_IronBolt_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "C08DCF944C262991EBC1309D14D1B12C",
+        "SourceString": "Can be crafted at the Workshop",
+        "LocalizedString": "Can be crafted at the Workshop"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 30,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 122.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

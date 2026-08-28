@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Greatsword_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Greatsword_C'Default__Greatsword_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Greatsword_C",
+    "Name": "Default__Greatsword_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword.Greatsword_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword",
+    "Properties": {
+      "HandRequirement": "EEquipmentHandRequirement::Both",
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Sword_04_L.SM_T2_Sword_04_L",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier2/SM_T2_Sword_04.SM_T2_Sword_04",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'AxeBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/AxeBack.1"
+      },
+      "Damage": 72.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeCuttingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeCuttingDamage.0"
+      },
+      "ThrustDamage": 72.0,
+      "ThrustDamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/TwoHandedWeaponType.TwoHandedWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 85,
+      "Impact": 18,
+      "Stability": 25,
+      "WeaponLength": 109.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 7
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Sword'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Sword.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 2
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "3943434A40FCD22F4AF11DAC3B6E44D9",
+        "SourceString": "Greatsword",
+        "LocalizedString": "Greatsword"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'TwoHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/TwoHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/Tier2/T_WeaponIconsSwordT2_03.T_WeaponIconsSwordT2_03",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Greatsword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Blacksmith_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Blacksmith.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Greatsword_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/Greatsword.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate.Tinplate_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 537.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Greatsword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Greatsword.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/MasterWeaponryKit.MasterWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 267.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Sword_04_L.SM_T2_Sword_04_L",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Sword_04_L.SM_T2_Sword_04_L",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "E1B9FB0E4572730D9A9B21BAF73DDF16",
+        "SourceString": "Can be crafted at Blacksmith",
+        "LocalizedString": "Can be crafted at Blacksmith"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 780,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenGreatsword_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenGreatsword_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 463.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

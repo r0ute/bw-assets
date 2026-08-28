@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeaterShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield",
+    "SuperStruct": {
+      "ObjectName": "Class'MistShieldItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeaterShield_C'Default__HeaterShield_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeaterShield_C",
+    "Name": "Default__HeaterShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield.HeaterShield_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield",
+    "Properties": {
+      "MovementSpeedReduction": 0.05,
+      "MovementAccelerationReduction": 0.1,
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield.SM_Heater_shield",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield.SM_Heater_shield",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'Shield_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/Shield.0"
+      },
+      "Damage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/1HShieldWeaponType.1HShieldWeaponType_C",
+        "SubPathString": ""
+      },
+      "Impact": 50,
+      "Stability": 70,
+      "WeaponLength": 5.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 8
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Shield'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Shield.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Shield",
+            "Tier": 3
+          }
+        ]
+      },
+      "BreakingSound": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/UI/S_WoodenShield_Broke_Cue.S_WoodenShield_Broke_Cue",
+        "SubPathString": ""
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "1A105C8C4448BDA15F4947AC0C41F397",
+        "SourceString": "Heater",
+        "LocalizedString": "Heater"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Shields_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Gear/Shields.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_Heater.T_Heater",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HeaterShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'HeaterShield_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/HeaterShield.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+              "Value": 6
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 390.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HeaterShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/HeaterShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 225.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield.SM_Heater_shield",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield.SM_Heater_shield",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield_CartCarry.SM_Heater_shield_CartCarry",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Heater_shield_CartCarry.SM_Heater_shield_CartCarry",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "15A441154D373AA745465DA801918DFF",
+        "SourceString": "Can be crafted at Workshop",
+        "LocalizedString": "Can be crafted at Workshop"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 5000,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenHeaterShield_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenHeaterShield_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 287.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

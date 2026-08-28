@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BucklerShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield",
+    "SuperStruct": {
+      "ObjectName": "Class'MistShieldItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BucklerShield_C'Default__BucklerShield_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BucklerShield_C",
+    "Name": "Default__BucklerShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield.BucklerShield_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield",
+    "Properties": {
+      "MovementSpeedReduction": 0.05,
+      "MovementAccelerationReduction": 0.1,
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv2.SM_Buckler_T3_lv2",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv3_Sheath.SM_Buckler_T3_lv3_Sheath",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'SmallShield_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/SmallShield.0"
+      },
+      "Damage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/1HBucklerWeaponType.1HBucklerWeaponType_C",
+        "SubPathString": ""
+      },
+      "Impact": 50,
+      "Stability": 70,
+      "WeaponLength": 8.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Agility",
+          "Value": 6
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Shield'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Shield.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Shield",
+            "Tier": 2
+          }
+        ]
+      },
+      "BreakingSound": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/UI/S_MetalShield_Broke_Cue.S_MetalShield_Broke_Cue",
+        "SubPathString": ""
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "196F56F24E8E0E59753F72AB55A207BE",
+        "SourceString": "Buckler",
+        "LocalizedString": "Buckler"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Shields_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Gear/Shields.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_Buckler.T_Buckler",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_Buckler'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Weapons/T_Buckler.0"
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BucklerShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Blacksmith_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Blacksmith.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'BucklerShield_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/BucklerShield.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 480.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BucklerShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/BucklerShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 225.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv2.SM_Buckler_T3_lv2",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv2.SM_Buckler_T3_lv2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv2_CartCarry.SM_Buckler_T3_lv2_CartCarry",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier3/SM_Buckler_T3_lv2_CartCarry.SM_Buckler_T3_lv2_CartCarry",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0953AC0E493E54CF238AB8854322E6A3",
+        "SourceString": "Can be crafted at Blacksmith",
+        "LocalizedString": "Can be crafted at Blacksmith"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 5000,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenBucklerShield_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenBucklerShield_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 396.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

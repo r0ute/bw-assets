@@ -1,0 +1,196 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SneakyDagger_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SneakyDagger_C'Default__SneakyDagger_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SneakyDagger_C",
+    "Name": "Default__SneakyDagger_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger.SneakyDagger_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Knife_02_L.SM_T2_Knife_02_L",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier2/SM_T2_Knife_02.SM_T2_Knife_02",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedSword_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedSword.0"
+      },
+      "Damage": 20.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeCuttingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeCuttingDamage.0"
+      },
+      "ThrustDamage": 42.0,
+      "ThrustDamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 125,
+      "Impact": 10,
+      "Stability": 10,
+      "WeaponLength": 59.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Agility",
+          "Value": 4
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Sword'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Sword.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 2
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0678B90749D0F09514BA21BD0121F874",
+        "SourceString": "Sneaky Dagger",
+        "LocalizedString": "Sneaky Dagger"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OneHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/OneHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/Tier2/T_WeaponIconsShortDaggerT02.T_WeaponIconsShortDaggerT02",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SneakyDagger_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Blacksmith_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Blacksmith.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'SneakyDagger_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/SneakyDagger.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/TinIngot.TinIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 236.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SneakyDagger_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/SneakyDagger.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/MasterWeaponryKit.MasterWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 117.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Knife_02_L.SM_T2_Knife_02_L",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/ExtendedWeapons/SM_T2_Knife_02_L.SM_T2_Knife_02_L",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0FB6003E4FA17F4513B8B08AD07E163D",
+        "SourceString": "Can be crafted at Blacksmith",
+        "LocalizedString": "Can be crafted at Blacksmith"
+      },
+      "MaxDurability": 750,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSneakyDagger_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSneakyDagger_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 149.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

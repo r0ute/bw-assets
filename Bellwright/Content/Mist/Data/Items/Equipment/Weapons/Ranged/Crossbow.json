@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Crossbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBowItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Crossbow_C'Default__Crossbow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Crossbow_C",
+    "Name": "Default__Crossbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow.Crossbow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow",
+    "Properties": {
+      "AmmunitionCategory": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Bolts_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Bolts.1"
+      },
+      "DrawWeightLbs": 180.0,
+      "SpeedReduction": 45.0,
+      "ProjectileSpeed": 3500.0,
+      "WeaponAnimAsset": {
+        "ObjectName": "AnimMontage'CrossbowSpanReleaseMontage'",
+        "ObjectPath": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/CrossbowSpanReleaseMontage.0"
+      },
+      "ActivatedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/Crossbow_rig.Crossbow_rig",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Crossbow_Full.SM_Crossbow_Full",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/Crossbow.0"
+      },
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Ranged/CrossbowWeaponType.CrossbowWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponLength": -1.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "ComponentClass": {
+        "AssetPathName": "/Script/Mist.MistBowLogicComponent",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Wood.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "FB5A76C349687E79408308A5DCCACF89",
+        "SourceString": "Crossbow",
+        "LocalizedString": "Crossbow"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Bows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/Bows.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_Crossbow.T_Crossbow",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/Ranged/Crossbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.WoodenPlank_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 135.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/Crossbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/JourneymanWeaponryKit.JourneymanWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 72.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Crossbow_01.SM_Crossbow_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Crossbow_01.SM_Crossbow_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "C9D91E8B413A48DA73A412B4C93A9AD5",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 150,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenCrossbow_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenCrossbow_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 155.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

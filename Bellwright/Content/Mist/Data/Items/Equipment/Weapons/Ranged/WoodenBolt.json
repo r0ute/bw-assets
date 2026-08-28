@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WoodenBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/WoodenBolt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistProjectileItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WoodenBolt_C'Default__WoodenBolt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/WoodenBolt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WoodenBolt_C",
+    "Name": "Default__WoodenBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Ranged/WoodenBolt.WoodenBolt_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/WoodenBolt",
+    "Properties": {
+      "MeshWhenPreparing": {
+        "ObjectName": "StaticMesh'SM_Bolt_01'",
+        "ObjectPath": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Bolt_01.2"
+      },
+      "ProjectileActor": {
+        "ObjectName": "BlueprintGeneratedClass'WoodenBolt_Projectile_C'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Bolts/WoodenBolt_Projectile.0"
+      },
+      "Damage": 55.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'BoltPiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/BoltPiercingDamage.0"
+      },
+      "ProjectileDamage": {
+        "Damage": 45.0
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "D4B6FEC9487F0BB2ACD3E384E04DBEEA",
+        "SourceString": "Wooden Bolts",
+        "LocalizedString": "Wooden Bolts"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Bolts_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Bolts.1"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WoodenBolt.T_WoodenBolt",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodenBolt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Ranged/WoodenBolt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/Ranged/Crossbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Feathers.Feathers_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Bolt_01.SM_Bolt_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "6A8B92B5464976416F07D5B79237CE68",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 30,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 27.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Longbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBowItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Longbow_C'Default__Longbow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Longbow_C",
+    "Name": "Default__Longbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow.Longbow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow",
+    "Properties": {
+      "AmmunitionCategory": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      },
+      "DrawWeightLbs": 150.0,
+      "SpeedReduction": 90.0,
+      "ProjectileSpeed": 3100.0,
+      "WeaponAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Bow/ABP_Bow.ABP_Bow_C",
+        "SubPathString": ""
+      },
+      "ActivatedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier2/Longbow/Longbow_Skeletal_Mesh.Longbow_Skeletal_Mesh",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Bow.SM_Bow",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'BowBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/BowBack.0"
+      },
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Ranged/LongbowWeaponType.LongbowWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponLength": -1.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Agility",
+          "Value": 7
+        },
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 6
+        }
+      ],
+      "ComponentClass": {
+        "AssetPathName": "/Script/Mist.MistBowLogicComponent",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::BowTool",
+            "Tier": 2
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "839037504B5C88EFF3D3308EEACEDD15",
+        "SourceString": "Longbow",
+        "LocalizedString": "Longbow"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Bows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/Bows.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_Longbow.T_Longbow",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Longbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Longbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/Longbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/HardWood.HardWood_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.CuredRope_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 260.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Longbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/Longbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/MasterWeaponryKit.MasterWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 130.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Bow.SM_Bow",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Bow.SM_Bow",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "6FF017E94736A99E557C18BB9305530D",
+        "SourceString": "Can be crafted at Workshop",
+        "LocalizedString": "Can be crafted at Workshop"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 3
+      },
+      "MaxDurability": 360,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenLongbow_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenLongbow_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 327.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

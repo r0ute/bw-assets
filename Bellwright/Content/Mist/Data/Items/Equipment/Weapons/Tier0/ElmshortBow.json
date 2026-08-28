@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ElmShortbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/ElmShortbow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBowItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ElmShortbow_C'Default__ElmShortbow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/ElmShortbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ElmShortbow_C",
+    "Name": "Default__ElmShortbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier0/ElmShortbow.ElmShortbow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/ElmShortbow",
+    "Properties": {
+      "AmmunitionCategory": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      },
+      "DrawWeightLbs": 40.0,
+      "SpeedReduction": 22.0,
+      "ProjectileSpeed": 1600.0,
+      "WeaponAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Bow/ABP_ElmShortbow.ABP_ElmShortbow_C",
+        "SubPathString": ""
+      },
+      "ActivatedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Bow/SK_T0_Bow_01.SK_T0_Bow_01",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Bow_01.SM_T0_Bow_01",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'BowBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/BowBack.0"
+      },
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Ranged/BowShootingWeaponType.BowShootingWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponLength": -1.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Agility",
+          "Value": 1
+        }
+      ],
+      "ComponentClass": {
+        "AssetPathName": "/Script/Mist.MistBowLogicComponent",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::BowTool",
+            "Tier": 0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B105BFAB4904D026B3D1A4A5CD61F1F1",
+        "SourceString": "Elm Shortbow",
+        "LocalizedString": "Elm Shortbow"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Bows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/Bows.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsBowCarry.T_WeaponIconsBowCarry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ElmShortbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/ElmShortbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ElmshortBow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T0/ElmshortBow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RiverReed.RiverReed_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 84.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Bow_01.SM_T0_Bow_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Bow_01.SM_T0_Bow_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "18430ABD40DDA65AFF24879C168F9F00",
+        "SourceString": "Can be crafted at Advanced Workbench",
+        "LocalizedString": "Can be crafted at Advanced Workbench"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 3
+      },
+      "MaxDurability": 150,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenElmShortbow_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenElmShortbow_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 59.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

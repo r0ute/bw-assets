@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RoundShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield",
+    "SuperStruct": {
+      "ObjectName": "Class'MistShieldItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RoundShield_C'Default__RoundShield_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RoundShield_C",
+    "Name": "Default__RoundShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield.RoundShield_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield",
+    "Properties": {
+      "MovementSpeedReduction": 0.1,
+      "MovementAccelerationReduction": 0.1,
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv2.Shield_T02_Lv2",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv2.Shield_T02_Lv2",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'Shield_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/Shield.0"
+      },
+      "Damage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/1HShieldWeaponType.1HShieldWeaponType_C",
+        "SubPathString": ""
+      },
+      "Impact": 10,
+      "Stability": 45,
+      "WeaponLength": 10.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Shield'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Shield.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Shield",
+            "Tier": 1
+          }
+        ]
+      },
+      "BreakingSound": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/UI/S_WoodenShield_Broke_Cue.S_WoodenShield_Broke_Cue",
+        "SubPathString": ""
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "88E929B346F55CB3A20A029E2313AEA3",
+        "SourceString": "Round Shield",
+        "LocalizedString": "Round Shield"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Shields_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Gear/Shields.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsRoundShieldT02.T_WeaponIconsRoundShieldT02",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RoundShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RoundShield_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T1/RoundShield.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.WoodenPlank_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.CopperNails_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 210.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RoundShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/RoundShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 105.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv2.Shield_T02_Lv2",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv2.Shield_T02_Lv2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv1.Shield_T02_Lv1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/Shield_T02_Lv1.Shield_T02_Lv1",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "C135A29742B3CE6FADB50590724F5A39",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 1000,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSturdyRoundShield_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSturdyRoundShield_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 68.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

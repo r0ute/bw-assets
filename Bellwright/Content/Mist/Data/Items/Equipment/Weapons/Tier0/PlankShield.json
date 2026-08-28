@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PlankShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield",
+    "SuperStruct": {
+      "ObjectName": "Class'MistShieldItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PlankShield_C'Default__PlankShield_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PlankShield_C",
+    "Name": "Default__PlankShield_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield.PlankShield_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield",
+    "Properties": {
+      "MovementSpeedReduction": 0.2,
+      "MovementAccelerationReduction": 0.3,
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv2.Shield_T01_lv2",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv2.Shield_T01_lv2",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'Shield_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/Shield.0"
+      },
+      "Damage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/1HShieldWeaponType.1HShieldWeaponType_C",
+        "SubPathString": ""
+      },
+      "Impact": 1,
+      "Stability": 20,
+      "WeaponLength": 5.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 1
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Shield'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Shield.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Shield",
+            "Tier": 0
+          }
+        ]
+      },
+      "BreakingSound": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/UI/S_WoodenShield_Broke_Cue.S_WoodenShield_Broke_Cue",
+        "SubPathString": ""
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0231D03C479A51C1F4D5689634A1AA5A",
+        "SourceString": "Plank Shield",
+        "LocalizedString": "Plank Shield"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Shields_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Gear/Shields.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsPlankShieldT01.T_WeaponIconsPlankShieldT01",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'PlankShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'PlankShield_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T0/PlankShield.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 8
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 60.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'PlankShield_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/PlankShield.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/JourneymanWeaponryKit.JourneymanWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv2.Shield_T01_lv2",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv2.Shield_T01_lv2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv1.Shield_T01_lv1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/Shield_T01_lv1.Shield_T01_lv1",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "8159A65B45902F23B91D339BA89A725A",
+        "SourceString": "Can be crafted at Shack, Advanced Workbench",
+        "LocalizedString": "Can be crafted at Shack, Advanced Workbench"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 350,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenPlankShield_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenPlankShield_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 49.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

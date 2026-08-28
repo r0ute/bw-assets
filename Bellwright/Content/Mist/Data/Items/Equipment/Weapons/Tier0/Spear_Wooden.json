@@ -1,0 +1,198 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Spear_Wooden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Spear_Wooden_C'Default__Spear_Wooden_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Spear_Wooden_C",
+    "Name": "Default__Spear_Wooden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden.Spear_Wooden_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Spear_02.SM_T0_Spear_02",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Spear_02.SM_T0_Spear_02",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'SpearBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/SpearBack.0"
+      },
+      "Damage": 18.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeCuttingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeCuttingDamage.0"
+      },
+      "ThrustDamage": 25.0,
+      "ThrustDamageType": {
+        "ObjectName": "BlueprintGeneratedClass'SpearPiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/SpearPiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Spear_WeaponMetatype.Spear_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 115,
+      "Impact": 15,
+      "Stability": 11,
+      "WeaponLength": 155.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 1
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Weapon_Metal_On_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Metal_On_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "BC5F69D649D72518DADD48841EE4B613",
+        "SourceString": "Wooden Spear",
+        "LocalizedString": "Wooden Spear"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OneHanded_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/OneHanded.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsSpear_01.T_WeaponIconsSpear_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Spear_Wooden_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicWeapons_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicWeapons.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'WoodenSpear_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/WoodenSpear.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 12
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 42.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Spear_Wooden_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Spear_Wooden.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/JourneymanWeaponryKit.JourneymanWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 21.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Spear_02.SM_T0_Spear_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Spear_02.SM_T0_Spear_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "BA4ECD234BF14675EE371FAF4AD24219",
+        "SourceString": "Can be crafted at Simple Workbench",
+        "LocalizedString": "Can be crafted at Simple Workbench"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 330,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSpear_Medium_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSpear_Medium_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 63.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

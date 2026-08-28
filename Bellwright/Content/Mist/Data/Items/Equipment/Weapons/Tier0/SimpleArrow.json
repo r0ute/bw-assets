@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SimpleArrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistProjectileItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SimpleArrow_C'Default__SimpleArrow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SimpleArrow_C",
+    "Name": "Default__SimpleArrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow.SimpleArrow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow",
+    "Properties": {
+      "MeshWhenPreparing": {
+        "ObjectName": "StaticMesh'SM_T0_Arrow_01'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Arrow_01.2"
+      },
+      "ProjectileActor": {
+        "ObjectName": "BlueprintGeneratedClass'SimpleArrow_Projectile_C'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Arrows/SimpleArrow_Projectile.0"
+      },
+      "Damage": 15.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'ArrowPiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/ArrowPiercingDamage.1"
+      },
+      "ProjectileDamage": {
+        "Damage": 45.0
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B3AD71684C6A97DB764C308E6B9EDD64",
+        "SourceString": "Simple Arrows",
+        "LocalizedString": "Simple Arrows"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsArrow01_base.T_WeaponIconsArrow01_base",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SimpleArrow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ElmshortBow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T0/ElmshortBow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RiverReed.RiverReed_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Arrow_01.SM_T0_Arrow_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0659F83A4B3EA0257DC0AFB37A933322",
+        "SourceString": "Can be crafted at Advanced Workbench",
+        "LocalizedString": "Can be crafted at Advanced Workbench"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 30,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 49.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

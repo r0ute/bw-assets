@@ -1,0 +1,212 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "YewShortbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBowItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "YewShortbow_C'Default__YewShortbow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "YewShortbow_C",
+    "Name": "Default__YewShortbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow.YewShortbow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow",
+    "Properties": {
+      "AmmunitionCategory": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      },
+      "DrawWeightLbs": 48.0,
+      "SpeedReduction": 26.0,
+      "ProjectileSpeed": 1800.0,
+      "WeaponAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/YewShortbow/ABP_YewShortBow.ABP_YewShortBow_C",
+        "SubPathString": ""
+      },
+      "ActivatedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/YewShortbow/YewShortbow_SkeletalMesh.YewShortbow_SkeletalMesh",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Bow.SM_T1_Bow",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'BowBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/BowBack.0"
+      },
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePiercingDamage.0"
+      },
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Ranged/BowShootingWeaponType.BowShootingWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponLength": -1.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Agility",
+          "Value": 4
+        }
+      ],
+      "ComponentClass": {
+        "AssetPathName": "/Script/Mist.MistBowLogicComponent",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::BowTool",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "5A23606544DCCB72E3526298A3332394",
+        "SourceString": "Yew Shortbow",
+        "LocalizedString": "Yew Shortbow"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Bows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Weapons/Bows.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsBowT1_01.T_WeaponIconsBowT1_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'YewShortbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'YewShortbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T1/YewShortbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 10
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 10
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 180.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'YewShortbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 105.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Bow.SM_T1_Bow",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Bow.SM_T1_Bow",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "346EC1844FB4C6F05C140794F34CDFE4",
+        "SourceString": "Can be crafted at Toolmaker",
+        "LocalizedString": "Can be crafted at Toolmaker"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 3
+      },
+      "MaxDurability": 250,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenHazelShortbow_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenHazelShortbow_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 183.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

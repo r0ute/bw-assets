@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IronArrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/IronArrow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistProjectileItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IronArrow_C'Default__IronArrow_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/IronArrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "IronArrow_C",
+    "Name": "Default__IronArrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Weapons/Tier2/IronArrow.IronArrow_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/IronArrow",
+    "Properties": {
+      "MeshWhenPreparing": {
+        "ObjectName": "StaticMesh'SM_Arrow'",
+        "ObjectPath": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Arrow.2"
+      },
+      "ProjectileActor": {
+        "ObjectName": "BlueprintGeneratedClass'SteelArrow_Projectile_C'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Arrows/SteelArrow_Projectile.0"
+      },
+      "Damage": 25.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'ArrowPiercingDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/ArrowPiercingDamage.1"
+      },
+      "ProjectileDamage": {
+        "Damage": 80.0
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "30A19B5E408F728AC5FC5AB8E483F461",
+        "SourceString": "Sharpened Arrows",
+        "LocalizedString": "Sharpened Arrows"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsArrowa_projectile.T_WeaponIconsArrowa_projectile",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'IronArrow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier2/IronArrow.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'IronArrows_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T2/IronArrows.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Feathers.Feathers_C'",
+              "Value": 12
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 323.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/WOODEN_FORT/MESHES/WEAPON/SM_Arrow.SM_Arrow",
+        "SubPathString": ""
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "A69D55584E7315A2E89E42B80958E38A",
+        "SourceString": "Can be crafted at Workshop",
+        "LocalizedString": "Can be crafted at Workshop"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 30,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 179.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]
