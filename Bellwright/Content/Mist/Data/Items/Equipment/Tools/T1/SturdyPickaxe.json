@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SturdyPickaxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SturdyPickaxe_C'Default__SturdyPickaxe_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SturdyPickaxe_C",
+    "Name": "Default__SturdyPickaxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe.SturdyPickaxe_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Pickaxe.SM_T1_Pickaxe",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Pickaxe.SM_T1_Pickaxe",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedAxe_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedAxe.0"
+      },
+      "Damage": 30.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePickaxeDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePickaxeDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 83,
+      "Impact": 20,
+      "Stability": 15,
+      "WeaponLength": 56.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 2
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Pickaxe'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Pickaxe.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Mining",
+            "Tier": 2
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "47A3614347344358A9EAB18BC6C160CE",
+        "SourceString": "Sturdy Pickaxe",
+        "LocalizedString": "Sturdy Pickaxe"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Tools_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Tools.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsPickaxeT1.T_WeaponIconsPickaxeT1",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/SturdyPickaxe_CodexEntry.SturdyPickaxe_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SturdyPickaxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedTools.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'MiningHut_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/MiningHut.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.Hide_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 12
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 89.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SturdyPickaxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/SturdyPickaxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/ApprenticeWeaponryKit.ApprenticeWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 44.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Pickaxe.SM_T1_Pickaxe",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Pickaxe.SM_T1_Pickaxe",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "A33FDD36452A7CD348488685E95D1547",
+        "SourceString": "A better version of the simple pickaxe used for mining ores and stones. Can also be used as weapon.",
+        "LocalizedString": "A better version of the simple pickaxe used for mining ores and stones. Can also be used as weapon."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 1000,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSturdyPickaxe_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSturdyPickaxe_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 129.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

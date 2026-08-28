@@ -1,0 +1,207 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IronHammer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IronHammer_C'Default__IronHammer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "IronHammer_C",
+    "Name": "Default__IronHammer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer.IronHammer_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Hammer.SM_T1_Hammer",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Hammer.SM_T1_Hammer",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedAxe_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedAxe.0"
+      },
+      "Damage": 35.0,
+      "DurabilityDamage": 2.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleeBluntDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleeBluntDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 96,
+      "Impact": 28,
+      "Stability": 10,
+      "WeaponLength": 52.0,
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_Weapon_Metal_On_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Metal_On_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Smithing",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9FBC112E4C9A9607EDEC958F163BFBA9",
+        "SourceString": "Smithing Hammer",
+        "LocalizedString": "Smithing Hammer"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Tools_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Tools.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsHammerT1_01.T_WeaponIconsHammerT1_01",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/SimpleHammer_CodexEntry.SimpleHammer_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'IronHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedTools.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'IronHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/T1/IronHammer.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.Hide_C'",
+              "Value": 7
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 104.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'IronHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/MasterWeaponryKit.MasterWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 52.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Hammer.SM_T1_Hammer",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier1/SM_T1_Hammer.SM_T1_Hammer",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E4291F67492DA6FC7BF08096249CCD49",
+        "SourceString": "Iron hammer that is required for smithing and also can be used as a basic weapon.",
+        "LocalizedString": "Iron hammer that is required for smithing and also can be used as a basic weapon."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 550,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSimpleHammer_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSimpleHammer_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 348.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

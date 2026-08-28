@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SimplePickaxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SimplePickaxe_C'Default__SimplePickaxe_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SimplePickaxe_C",
+    "Name": "Default__SimplePickaxe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe.SimplePickaxe_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe",
+    "Properties": {
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Pickaxe_02.SM_T0_Pickaxe_02",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Pickaxe_02.SM_T0_Pickaxe_02",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'OneHandedAxe_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/OneHandedAxe.0"
+      },
+      "Damage": 20.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'MeleePickaxeDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/MeleePickaxeDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/OneHanded_WeaponMetatype.OneHanded_WeaponMetatype_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 83,
+      "Impact": 13,
+      "Stability": 7,
+      "WeaponLength": 51.0,
+      "PhysMaterial": {
+        "ObjectName": "PM_Base_C'PM_PickAxe'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_PickAxe.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Mining",
+            "Tier": 1
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "E2C6C9E64268E5795130229C3CEFB770",
+        "SourceString": "Simple Pickaxe",
+        "LocalizedString": "Simple Pickaxe"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Tools_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Tools.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsPickaxeT0.T_WeaponIconsPickaxeT0",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/SimplePickaxe_CodexEntry.SimplePickaxe_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SimplePickaxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicTools.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'MiningCamp_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/MiningCamp.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 8
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 25.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SimplePickaxe_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/SimplePickaxe.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TestRepairBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/TestRepairBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/JourneymanWeaponryKit.JourneymanWeaponryKit_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 12.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Pickaxe_02.SM_T0_Pickaxe_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Pickaxe_02.SM_T0_Pickaxe_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "C9E3046948AC3D8CAA7446B09A23C356",
+        "SourceString": "Unlocks mining stone and simple metals. Can also be used as weapon.",
+        "LocalizedString": "Unlocks mining stone and simple metals. Can also be used as weapon."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "DC00B19947BA68C13A7A31ADE4D97B9F",
+        "SourceString": "Can be crafted at Workbenches.",
+        "LocalizedString": "Can be crafted at Workbenches."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 500,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSimplePickaxe_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSimplePickaxe_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 83.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

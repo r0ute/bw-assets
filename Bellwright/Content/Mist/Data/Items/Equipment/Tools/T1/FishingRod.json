@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishingRod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/FishingRod",
+    "SuperStruct": {
+      "ObjectName": "Class'MistFishingRodItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishingRod_C'Default__FishingRod_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/FishingRod.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishingRod_C",
+    "Name": "Default__FishingRod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Tools/T1/FishingRod.FishingRod_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T1/FishingRod",
+    "Properties": {
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'FishingHook_Projectile_C'",
+        "ObjectPath": "/Game/Mist/Props/Equipment/Weapons/Arrows/FishingHook_Projectile.0"
+      },
+      "PrimaryHandOverride": "EEquipmentHand::Right",
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Tools/SM_Tool_Rod_01_Test.SM_Tool_Rod_01_Test",
+        "SubPathString": ""
+      },
+      "SheathMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Tools/SM_Tool_Rod_01_Test.SM_Tool_Rod_01_Test",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'AxeBack_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/AxeBack.1"
+      },
+      "Damage": 3.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'BluntDamage_C'",
+        "ObjectPath": "/Game/Mist/Data/DamageTypes/BluntDamage.0"
+      },
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/Misc/NewFishingRodWeaponType.NewFishingRodWeaponType_C",
+        "SubPathString": ""
+      },
+      "WeaponSpeed": 83,
+      "Impact": 13,
+      "Stability": 7,
+      "WeaponLength": -1.0,
+      "ComponentClass": {
+        "AssetPathName": "/Script/Mist.MistFishingLogicComponent",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::Rod",
+            "Tier": 0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "D3EFC9C94507C180F5A744BCA52873B9",
+        "SourceString": "Fishing Rod",
+        "LocalizedString": "Fishing Rod"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Tools_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Tools.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/Tools/T_FishingRod.T_FishingRod",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/FishingRod_CodexEntry.FishingRod_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FishingRod_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/FishingRod.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicTools.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'FishingCamp_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/FishingCamp.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Tools/SM_Tool_Rod_01_Rotated.SM_Tool_Rod_01_Rotated",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Tools/SM_Tool_Rod_01_Test.SM_Tool_Rod_01_Test",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "CB4A060844067EF06CF99E98BC973137",
+        "SourceString": "Can be crafted at Workbenches. Allows fishing but requires bait.",
+        "LocalizedString": "Can be crafted at Workbenches. Allows fishing but requires bait."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "BCF776E1426003AEEACA919C1FD7A727",
+        "SourceString": "Can be crafted at Workbenches. Allows fishing but requires bait.",
+        "LocalizedString": "Can be crafted at Workbenches. Allows fishing but requires bait."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 3
+      },
+      "MaxDurability": 500,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenFishingRod_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenFishingRod_Auto.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 45.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

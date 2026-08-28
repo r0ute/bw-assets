@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Torch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T0/Torch",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWeaponItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Torch_C'Default__Torch_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/Torch.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Torch_C",
+    "Name": "Default__Torch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Tools/T0/Torch.Torch_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Tools/T0/Torch",
+    "Properties": {
+      "HandRequirement": "EEquipmentHandRequirement::Left",
+      "ActivatedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Torch_01_Translucent.SM_T0_Torch_01_Translucent",
+        "SubPathString": ""
+      },
+      "CarryType": {
+        "ObjectName": "BlueprintGeneratedClass'Torch_C'",
+        "ObjectPath": "/Game/Mist/Data/WeaponCarryTypes/Torch.0"
+      },
+      "Damage": 0.0,
+      "ThrustDamage": 0.0,
+      "WeaponType": {
+        "AssetPathName": "/Game/Mist/Data/WeaponTypes/UnarmedWeaponType.UnarmedWeaponType_C",
+        "SubPathString": ""
+      },
+      "Impact": 5,
+      "Stability": 5,
+      "WeaponLength": 39.0,
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/TorchComponent.TorchComponent_C",
+        "SubPathString": ""
+      },
+      "ClientActorClass": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Tools/HandTorch/BP_HandTorch.BP_HandTorch_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Weapon_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Weapon_Wood.0"
+      },
+      "ToolProperties": {
+        "Types": [
+          {
+            "ToolType": "EEquipmentTool::LAST",
+            "Tier": 0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "BEA25E7143AD4C779FB7E9AA984CCCEF",
+        "SourceString": "Torch",
+        "LocalizedString": "Torch"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Tools_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Tools.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Weapons/T_WeaponIconsTorch.T_WeaponIconsTorch",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/Torch_CodexEntry.Torch_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Torch_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/Torch.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 3.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Torch_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T0/Torch.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'StumpCrafting_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/StumpCrafting.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Torch_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Tools/Torch.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 3.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Torch_02.SM_T0_Torch_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Tier0/SM_T0_Torch_02.SM_T0_Torch_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "0BF7394745201D4EC065BCA1ED340F0C",
+        "SourceString": "The best way to see in the dark.",
+        "LocalizedString": "The best way to see in the dark."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "1B7540034559872187F591ACF44763D2",
+        "SourceString": "Can be crafted at Workbenches.",
+        "LocalizedString": "Can be crafted at Workbenches."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 180,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenTorch_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenTorch_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 6.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]
