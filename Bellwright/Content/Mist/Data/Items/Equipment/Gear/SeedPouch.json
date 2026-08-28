@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SeedPouch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/SeedPouch",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SeedPouch_C'Default__SeedPouch_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/SeedPouch.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SeedPouch_C",
+    "Name": "Default__SeedPouch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/SeedPouch.SeedPouch_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/SeedPouch",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Belt",
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/SeedPouch.SeedPouch_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Wood.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "67E52FCC4FE257041DD090A4120B719F",
+        "SourceString": "Seed Pouch",
+        "LocalizedString": "Seed Pouch"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_SeedPouch_Placeholder.T_SeedPouch_Placeholder",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/SeedPouchCodexEntry.SeedPouchCodexEntry",
+        "SubPathString": ""
+      },
+      "bIgnoreContainerMaxStackSize": true,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SeedPouch_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/SeedPouch.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'SeedPouch_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/SeedPouch.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 85.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_SackOpen_01_Grain.SM_Decor_Container_SackOpen_01_Grain",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_SackOpen_01_Grain.SM_Decor_Container_SackOpen_01_Grain",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "C997A74D48593CDD9F3EFF9F91A3D954",
+        "SourceString": "Allows easy transportation of seeds for planting.",
+        "LocalizedString": "Allows easy transportation of seeds for planting."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 70,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSeedPouch_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSeedPouch_Auto.0"
+      },
+      "RecipeIndexForRawCalculation": 1,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 60.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistLiquidItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

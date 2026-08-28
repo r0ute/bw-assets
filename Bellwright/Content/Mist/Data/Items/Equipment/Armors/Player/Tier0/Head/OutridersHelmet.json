@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OutridersHelmet_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/OutridersHelmet",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OutridersHelmet_C'Default__OutridersHelmet_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/OutridersHelmet.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OutridersHelmet_C",
+    "Name": "Default__OutridersHelmet_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/OutridersHelmet.OutridersHelmet_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/OutridersHelmet",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorFirst",
+      "ArmorType": "EArmorType::Heavy",
+      "Armor": 15,
+      "MovementSpeedReduction": 4,
+      "bHideUpperDefaultClothing": false,
+      "bHideLowerDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_Helmet_05.SK_T0_Helmet_05",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_Helmet_05_Mutable.SK_T0_Helmet_05_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Head/SK_T0_Female_Helmet_05.SK_T0_Female_Helmet_05",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Head/SK_T0_Female_Helmet_05_Mutable.SK_T0_Female_Helmet_05_Mutable",
+        "SubPathString": ""
+      },
+      "bHideMeshInFirstPerson": true,
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "DD710F7F4E12149427CEB69004EF8296",
+        "SourceString": "Outrider's Helmet",
+        "LocalizedString": "Outrider's Helmet"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'HeavyArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/HeavyArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_OutraidersHelmet.T_OutraidersHelmet",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'OutridersHelmet_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/OutridersHelmet.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'OutridersHelmet_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T0/OutridersHelmet.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.Fur_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 132.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "F8605AA94747A29507B709B0D989BDE0",
+        "SourceString": "Can be crafted at Weaver Loom",
+        "LocalizedString": "Can be crafted at Weaver Loom"
+      },
+      "MaxDurability": 110,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenOutridersHelmet_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenOutridersHelmet_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 160.0
+    }
+  }
+]

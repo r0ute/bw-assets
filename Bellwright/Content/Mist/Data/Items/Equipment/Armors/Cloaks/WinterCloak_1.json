@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WinterCloak_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WinterCloak_1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WinterCloak_1_C'Default__WinterCloak_1_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WinterCloak_1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WinterCloak_1_C",
+    "Name": "Default__WinterCloak_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WinterCloak_1.WinterCloak_1_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WinterCloak_1",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorLast",
+      "Armor": 2,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Cloak/SK_T0_Cloak_1.SK_T0_Cloak_1",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Cloaks/SK_T0_Female_Cloak_1.SK_T0_Female_Cloak_1",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "66E1B54E4C5D7972DA4377B90053FD07",
+        "SourceString": "Fur Cape",
+        "LocalizedString": "Fur Cape"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_WinterCloak_1.T_WinterCloak_1",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WinterCloak_1_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WinterCloak_1.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'WinterCloak_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/WinterCloak.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.Pelt_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.Fur_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "FA76816C4346314B9C97CFAA9D283B20",
+        "SourceString": "A cloak made of animal fur. Too warm for most to wear during summer.",
+        "LocalizedString": "A cloak made of animal fur. Too warm for most to wear during summer."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "2B194E2C4EF3C9A9DB4BA299AFFE3AF2",
+        "SourceString": "Can be crafted at Weaver Loom",
+        "LocalizedString": "Can be crafted at Weaver Loom"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 65,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWinterCloak_1_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWinterCloak_1_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 48.0
+    }
+  }
+]

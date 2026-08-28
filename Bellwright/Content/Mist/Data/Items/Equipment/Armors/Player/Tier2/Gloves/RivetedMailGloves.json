@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RivetedMailGloves_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Gloves/RivetedMailGloves",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RivetedMailGloves_C'Default__RivetedMailGloves_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Gloves/RivetedMailGloves.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RivetedMailGloves_C",
+    "Name": "Default__RivetedMailGloves_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Gloves/RivetedMailGloves.RivetedMailGloves_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Gloves/RivetedMailGloves",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Hands",
+      "ArmorType": "EArmorType::Medium",
+      "Armor": 22,
+      "MovementSpeedReduction": 4,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 6
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Hands/SK_Gloves1_Heavy_T4.SK_Gloves1_Heavy_T4",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Hands/SK_Gloves1_Heavy_T4_Mutable.SK_Gloves1_Heavy_T4_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Hands/SK_Gloves1_Heavy_T4.SK_Gloves1_Heavy_T4",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Hands/SK_Gloves1_Heavy_T4_Mutable.SK_Gloves1_Heavy_T4_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "2C7FAA14423FFE233BAB619A63F28654",
+        "SourceString": "Riveted Mail Gloves",
+        "LocalizedString": "Riveted Mail Gloves"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'HeavyArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/HeavyArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_RivetedMailGloves.T_RivetedMailGloves",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RivetedMailGloves_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Gloves/RivetedMailGloves.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Armourer_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Armourer.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RivetedMailGloves_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T2/RivetedMailGloves.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 245.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "03B5F9D2467D60C1282F2EBD95D138DA",
+        "SourceString": "Can be crafted at Armourer.",
+        "LocalizedString": "Can be crafted at Armourer."
+      },
+      "MaxDurability": 370,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenRivetedMailGloves_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenRivetedMailGloves_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 579.0
+    }
+  }
+]

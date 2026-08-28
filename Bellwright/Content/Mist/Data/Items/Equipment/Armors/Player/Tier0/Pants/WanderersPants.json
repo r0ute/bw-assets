@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WanderersPants_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/WanderersPants",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WanderersPants_C'Default__WanderersPants_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/WanderersPants.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WanderersPants_C",
+    "Name": "Default__WanderersPants_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/WanderersPants.WanderersPants_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/WanderersPants",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Legs",
+      "Armor": 12,
+      "MovementSpeedReduction": 3,
+      "bHideUpperDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 2
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Legs/SK_T0_Pants_01.SK_T0_Pants_01",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Legs/SK_T0_Pants_01_Mutable.SK_T0_Pants_01_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Legs/SK_T0_Pants_01_Fem.SK_T0_Pants_01_Fem",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Legs/SK_T0_Pants_01_Fem_Mutable.SK_T0_Pants_01_Fem_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "1A6AE6154E9485E3798E5AAD389C163B",
+        "SourceString": "Wanderer's Pants",
+        "LocalizedString": "Wanderer's Pants"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'MediumArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/MediumArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Pants/T_ArmorPeasantJerkin.T_ArmorPeasantJerkin",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WanderersPants_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/WanderersPants.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'WanderersPants_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T0/WanderersPants.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.Pelt_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 4
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 88.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "13ACE23A4B1B94E2ADD08394B8639D88",
+        "SourceString": "Can be crafted at Weaver Loom",
+        "LocalizedString": "Can be crafted at Weaver Loom"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 90,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWanderersPants_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWanderersPants_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 32.0
+    }
+  }
+]

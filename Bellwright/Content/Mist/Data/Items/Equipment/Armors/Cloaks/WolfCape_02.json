@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WolfCape_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WolfCape_02",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WolfCape_02_C'Default__WolfCape_02_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WolfCape_02.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WolfCape_02_C",
+    "Name": "Default__WolfCape_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WolfCape_02.WolfCape_02_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WolfCape_02",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorLast",
+      "Armor": 4,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Accessories_Robes/UE5_Mannequins/Manny/Cloaks/SkeletalMeshes/SK_Cloak1_T7_Wolf.SK_Cloak1_T7_Wolf",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Accessories_Robes/UE5_Mannequins/Quinn/Cloaks/SkeletalMeshes/SK_Cloak1_T7_Wolf.SK_Cloak1_T7_Wolf",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0BDA6A6E4E63785382FEC4B853E1488F",
+        "SourceString": "Herald’s Cloak",
+        "LocalizedString": "Herald’s Cloak"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Cloaks/T_HeraldsCloak.T_HeraldsCloak",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WolfCape_02_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/WolfCape_02.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/WeaverHut.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'HeraldsCloak_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/HeraldsCloak.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.CuredRope_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 10
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.Fur_C'",
+              "Value": 4
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "315227F74DDA4B1F98B475953B7BEA69",
+        "SourceString": "Can be crafted at Weaver Hut",
+        "LocalizedString": "Can be crafted at Weaver Hut"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 65,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWolfCape_02_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWolfCape_02_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 420.0
+    }
+  }
+]

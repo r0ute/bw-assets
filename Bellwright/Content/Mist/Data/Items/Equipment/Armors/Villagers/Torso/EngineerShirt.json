@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "EngineerShirt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/EngineerShirt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "EngineerShirt_C'Default__EngineerShirt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/EngineerShirt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "EngineerShirt_C",
+    "Name": "Default__EngineerShirt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/EngineerShirt.EngineerShirt_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/EngineerShirt",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "Armor": 5,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_Armor_LlightMetal_Cue.S_Armor_LlightMetal_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/EngineerSet/SK_EngineerSet_01_Chest.SK_EngineerSet_01_Chest",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/EngineerSet/SK_EngineerSet_01_Chest_Mutable.SK_EngineerSet_01_Chest_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/EngineerSet/SK_EngineerSet_01_Chest_Fem.SK_EngineerSet_01_Chest_Fem",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/EngineerSet/SK_EngineerSet_01_Chest_Fem_Mutable.SK_EngineerSet_01_Chest_Fem_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "C59DD77E47146BB1EB80CAA1452DC12E",
+        "SourceString": "Engineer Shirt",
+        "LocalizedString": "Engineer Shirt"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_EngineerShirt.T_EngineerShirt",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_EngineerShirt'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Armor/T_EngineerShirt.0"
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'EngineerShirt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/EngineerShirt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ProfessionClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/ProfessionClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "58EC157B40A438CD89B3FDA70137A906",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "4FEC05244F0D00DC86DBDFBE235333C2",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "MaxDurability": 120,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenEngineerShirt_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenEngineerShirt_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 130.0
+    }
+  }
+]

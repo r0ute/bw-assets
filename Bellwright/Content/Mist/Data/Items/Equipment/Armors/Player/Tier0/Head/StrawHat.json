@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StrawHat_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/StrawHat",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StrawHat_C'Default__StrawHat_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/StrawHat.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StrawHat_C",
+    "Name": "Default__StrawHat_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/StrawHat.StrawHat_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/StrawHat",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorFirst",
+      "Armor": 1,
+      "bHideUpperDefaultClothing": false,
+      "bHideLowerDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_StrawHat_01.SK_T0_StrawHat_01",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_StrawHat_01_Mutable.SK_T0_StrawHat_01_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_StrawHat_01.SK_T0_StrawHat_01",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_StrawHat_01_Mutable.SK_T0_StrawHat_01_Mutable",
+        "SubPathString": ""
+      },
+      "bHideMeshInFirstPerson": true,
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "39FE2DC24CCA6ED1FA8491A74C6DDEB0",
+        "SourceString": "Straw Hat",
+        "LocalizedString": "Straw Hat"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Hats/T_ArmorStrawHat.T_ArmorStrawHat",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'StrawHat_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/StrawHat.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'TownsfolkClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/TownsfolkClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "D1F2A79741D44F641CCC67BA8903B156",
+        "SourceString": "Can be crafted at Weaver Loom",
+        "LocalizedString": "Can be crafted at Weaver Loom"
+      },
+      "MaxDurability": 20,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenStrawHat_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenStrawHat_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 4.0
+    }
+  }
+]

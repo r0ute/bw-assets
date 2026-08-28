@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RoughGambeson_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Torso/RoughGambeson",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RoughGambeson_C'Default__RoughGambeson_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Torso/RoughGambeson.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RoughGambeson_C",
+    "Name": "Default__RoughGambeson_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Torso/RoughGambeson.RoughGambeson_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Torso/RoughGambeson",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "ArmorType": "EArmorType::Heavy",
+      "Armor": 37,
+      "MovementSpeedReduction": 14,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_Armor_MediumHeavy_Cue.S_Armor_MediumHeavy_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Chest/SK_T1_Chest_02.SK_T1_Chest_02",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Chest/SK_T1_Chest_02_Mutable.SK_T1_Chest_02_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Chest/SK_T1_Fem_Chest_02.SK_T1_Fem_Chest_02",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Chest/SK_T1_Fem_Chest_02_Mutable.SK_T1_Fem_Chest_02_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A3E220084ADF26644936BD944DB4C626",
+        "SourceString": "Rough Gambeson",
+        "LocalizedString": "Rough Gambeson"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'HeavyArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/HeavyArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Shirts/T_ArmorLeatherBrigandine.T_ArmorLeatherBrigandine",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RoughGambeson_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Torso/RoughGambeson.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RoughGambeson_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T1/RoughGambeson.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 177.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 315,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenRoughGambeson_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenRoughGambeson_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 365.0
+    }
+  }
+]

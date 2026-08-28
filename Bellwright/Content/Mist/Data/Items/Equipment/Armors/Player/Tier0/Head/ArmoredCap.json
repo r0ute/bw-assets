@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "ArmoredCap_C",
+    "Name": "Default__ArmoredCap_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ArmoredCap.ArmoredCap_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ArmoredCap",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorFirst",
+      "Armor": 5,
+      "MovementSpeedReduction": 1,
+      "bHideUpperDefaultClothing": false,
+      "bHideLowerDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 1
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_Helmet_02.SK_T0_Helmet_02",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_0/Head/SK_T0_Helmet_02_Mutable.SK_T0_Helmet_02_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Head/SK_T0_Female_Helmet_02.SK_T0_Female_Helmet_02",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_0/Head/SK_T0_Female_Helmet_02_Mutable.SK_T0_Female_Helmet_02_Mutable",
+        "SubPathString": ""
+      },
+      "bHideMeshInFirstPerson": true,
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "899500B74A81BA33878ED39E9F0286C0",
+        "SourceString": "Armored Cap",
+        "LocalizedString": "Armored Cap"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'MediumArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/MediumArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_ArmoredCap.T_ArmoredCap",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ArmoredCap_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ArmoredCap.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ArmoredCap_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T0/ArmoredCap.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hemp.Hemp_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 75.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "83E19AB74069B495D0857BBEDD0D22DB",
+        "SourceString": "Can be crafted at Weaver Loom",
+        "LocalizedString": "Can be crafted at Weaver Loom"
+      },
+      "MaxDurability": 50,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenArmoredCap_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenArmoredCap_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 15.0
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ArmoredCap_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ArmoredCap",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ArmoredCap_C'Default__ArmoredCap_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ArmoredCap.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

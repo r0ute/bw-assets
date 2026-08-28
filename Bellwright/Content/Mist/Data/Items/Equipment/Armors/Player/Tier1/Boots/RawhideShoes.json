@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RawhideShoes_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/RawhideShoes",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RawhideShoes_C'Default__RawhideShoes_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/RawhideShoes.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RawhideShoes_C",
+    "Name": "Default__RawhideShoes_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/RawhideShoes.RawhideShoes_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/RawhideShoes",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Boots",
+      "Armor": 12,
+      "MovementSpeedReduction": 1,
+      "bHideUpperDefaultClothing": false,
+      "bHideLowerDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 2
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Feet/SK_ma_meta_tal_nrw_medieval_armour_boot_03_a.SK_ma_meta_tal_nrw_medieval_armour_boot_03_a",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Feet/SK_ma_meta_tal_nrw_medieval_armour_boot_03_a_Mutable.SK_ma_meta_tal_nrw_medieval_armour_boot_03_a_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Feet/SK_fe_meta_tal_nrw_medieval_armour_boot_03_a.SK_fe_meta_tal_nrw_medieval_armour_boot_03_a",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Feet/SK_fe_meta_tal_nrw_medieval_armour_boot_03_a_Mutable.SK_fe_meta_tal_nrw_medieval_armour_boot_03_a_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B460EF0748672E16EA6D398F0AD435BA",
+        "SourceString": "Rawhide Shoes",
+        "LocalizedString": "Rawhide Shoes"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'MediumArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/MediumArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Shoes/T_ArmorLeatherBoots.T_ArmorLeatherBoots",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RawhideShoes_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/RawhideShoes.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'LeatherClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/LeatherClothing.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RawhideShoes_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T1/RawhideShoes.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.Pelt_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 117.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "4F606EB44C4E7E1B49BC8BB4BE43C7A0",
+        "SourceString": "Can be crafted at Tanner's Hut",
+        "LocalizedString": "Can be crafted at Tanner's Hut"
+      },
+      "MaxDurability": 240,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenRawhideShoes_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenRawhideShoes_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 61.0
+    }
+  }
+]

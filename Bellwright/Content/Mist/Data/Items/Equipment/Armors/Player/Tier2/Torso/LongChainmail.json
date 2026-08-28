@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LongChainmail_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Torso/LongChainmail",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LongChainmail_C'Default__LongChainmail_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Torso/LongChainmail.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LongChainmail_C",
+    "Name": "Default__LongChainmail_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Torso/LongChainmail.LongChainmail_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Torso/LongChainmail",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "ArmorType": "EArmorType::Medium",
+      "Armor": 50,
+      "MovementSpeedReduction": 11,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_Armor_MediumHeavy_Cue.S_Armor_MediumHeavy_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 4
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Chest/SK_ma_meta_tal_nrw_chest_knight_02_b.SK_ma_meta_tal_nrw_chest_knight_02_b",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Chest/SK_ma_meta_tal_nrw_chest_knight_02_b_Mutable.SK_ma_meta_tal_nrw_chest_knight_02_b_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Chest/SK_UE5_fe_chest_knight_02_a.SK_UE5_fe_chest_knight_02_a",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Chest/SK_UE5_fe_chest_knight_02_a_Mutable.SK_UE5_fe_chest_knight_02_a_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "D1CDD97144D0BBEDBFB86F8D07E03F0B",
+        "SourceString": "Long Chainmail",
+        "LocalizedString": "Long Chainmail"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'MediumArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/MediumArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_LongChainmail.T_LongChainmail",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'LongChainmail_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Torso/LongChainmail.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Armourer_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Armourer.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'LongChainmail_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T2/LongChainmail.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+              "Value": 6
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 8
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 269.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "758EA75C488276C8B192D5BE12F4A2BB",
+        "SourceString": "Can be crafted at Armourer.",
+        "LocalizedString": "Can be crafted at Armourer."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 610,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenLongChainmail_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenLongChainmail_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 1151.0
+    }
+  }
+]

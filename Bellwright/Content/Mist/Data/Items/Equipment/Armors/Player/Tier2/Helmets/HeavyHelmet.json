@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeavyHelmet_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Helmets/HeavyHelmet",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeavyHelmet_C'Default__HeavyHelmet_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Helmets/HeavyHelmet.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeavyHelmet_C",
+    "Name": "Default__HeavyHelmet_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Helmets/HeavyHelmet.HeavyHelmet_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Helmets/HeavyHelmet",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorFirst",
+      "Armor": 34,
+      "MovementSpeedReduction": 5,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 5
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Head/SK_ma_meta_tal_nrw_helmet_soldier_04_a.SK_ma_meta_tal_nrw_helmet_soldier_04_a",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier2/Head/SK_ma_meta_tal_nrw_helmet_soldier_04_a_Mutable.SK_ma_meta_tal_nrw_helmet_soldier_04_a_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Head/SK_fe_meta_tal_nrw_helmet_soldier_04_a.SK_fe_meta_tal_nrw_helmet_soldier_04_a",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_2/Head/SK_fe_meta_tal_nrw_helmet_soldier_04_a_Mutable.SK_fe_meta_tal_nrw_helmet_soldier_04_a_Mutable",
+        "SubPathString": ""
+      },
+      "bHideMeshInFirstPerson": true,
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "22AC2BF747D933A65740EFA50AE27C5D",
+        "SourceString": "Heavy Helmet",
+        "LocalizedString": "Heavy Helmet"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'HeavyArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/HeavyArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_HeavyHelmet.T_HeavyHelmet",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HeavyHelmet_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier2/Helmets/HeavyHelmet.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Armourer_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Armourer.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'HeavyHelmet_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T2/HeavyHelmet.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Canvas.Canvas_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 215.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "DF457EEA4E278D08A5F99AB1E00D0CF6",
+        "SourceString": "Can be crafted at Armourer.",
+        "LocalizedString": "Can be crafted at Armourer."
+      },
+      "MaxDurability": 440,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenHeavyHelmet_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenHeavyHelmet_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 1145.0
+    }
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WeaverTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/WeaverTrousers",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WeaverTrousers_C'Default__WeaverTrousers_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/WeaverTrousers.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WeaverTrousers_C",
+    "Name": "Default__WeaverTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/WeaverTrousers.WeaverTrousers_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/WeaverTrousers",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Legs",
+      "ArmorType": "EArmorType::Medium",
+      "Armor": 2,
+      "bHideUpperDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/WeaverSet/SK_WeaverSet_01_Legs.SK_WeaverSet_01_Legs",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/WeaverSet/SK_WeaverSet_01_Legs_Mutable.SK_WeaverSet_01_Legs_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/WeaverSet/SK_WeaverSet_01_Legs_Fem.SK_WeaverSet_01_Legs_Fem",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/WeaverSet/SK_WeaverSet_01_Legs_Fem_Mutable.SK_WeaverSet_01_Legs_Fem_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "MaterialReplacements": [
+        {
+          "Key": "MistFaction'/Game/Mist/Data/Factions/Brigands/BrigandsParent.BrigandsParent'",
+          "Value": {
+            "MaterialsByMaterialSlot": [
+              {
+                "Key": "lambert44",
+                "Value": {
+                  "AssetPathName": "/Game/Mist/Props/NewImported/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Pants/Materials/MI_SK_T1_Pants_01_Ruby.MI_SK_T1_Pants_01_Ruby",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Name": {
+        "Namespace": "",
+        "Key": "3EE41DD749B5528AB2F0C1BCC7696391",
+        "SourceString": "Weaver Trousers",
+        "LocalizedString": "Weaver Trousers"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_WeaverTrousers.T_WeaverTrousers",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/WeaverTrousers.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ProfessionClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/ProfessionClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Cotton.Cotton_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "017A7E6E46F6F3A339A472A665662772",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0A1BAC904E7FD8E817C3A993830B7680",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 140,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWeaverTrousers_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWeaverTrousers_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 44.0
+    }
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TownsfolkTunic_3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/TownsfolkTunic_3",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TownsfolkTunic_3_C'Default__TownsfolkTunic_3_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/TownsfolkTunic_3.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TownsfolkTunic_3_C",
+    "Name": "Default__TownsfolkTunic_3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/TownsfolkTunic_3.TownsfolkTunic_3_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/TownsfolkTunic_3",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "Armor": 5,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Armor_Cloth/UE5_Mannequins/Manny/Chests/SkeletalMeshes/SK_Chest1_Light_T1.SK_Chest1_Light_T1",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Armor_Cloth/UE5_Mannequins/Manny/Chests/SkeletalMeshes/SK_Chest1_Light_T1_Mutable.SK_Chest1_Light_T1_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Armor_Cloth/UE5_Mannequins/Quinn/Chests/SkeletalMeshes/SK_Chest1_Light_T1.SK_Chest1_Light_T1",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Armor_Cloth/UE5_Mannequins/Quinn/Chests/SkeletalMeshes/SK_Chest1_Light_T1_Mutable.SK_Chest1_Light_T1_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0D5EA0D4416955AB04EFC58B5F93B46F",
+        "SourceString": "Townsfolk Tunic",
+        "LocalizedString": "Townsfolk Tunic"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Shirts/T_ArmorRuggedJerkinoverShirt.T_ArmorRuggedJerkinoverShirt",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'TownsfolkTunic_3_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/TownsfolkTunic_3.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'TownsfolkClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/TownsfolkClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hemp.Hemp_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "314598AD4974B2C0421F92853ED784F2",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "412ABFFE45C891525A5DA19940934CA1",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "MaxDurability": 100,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenTownsfolkTunic_3_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenTownsfolkTunic_3_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 14.0
+    }
+  }
+]

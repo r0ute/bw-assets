@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "Bag_C",
+    "Name": "Default__Bag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/Bag.Bag_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/Bag",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Belt",
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/Bag.Bag_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_LeatherItem'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_LeatherItem.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "1078B0CA45B7AFA5E1E941AC7F415FA0",
+        "SourceString": "Bag",
+        "LocalizedString": "Bag"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_GearSmallBag.T_GearSmallBag",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/Bag_CodexEntry.Bag_CodexEntry",
+        "SubPathString": ""
+      },
+      "bIgnoreContainerMaxStackSize": true,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Bag_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/Bag.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Bag_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/Bag.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hemp.Hemp_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RiverReed.RiverReed_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 85.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "7C0CA7BA439ABB92F6945FAE3CA1FF07",
+        "SourceString": "Allows the wearer to carry a few items on a belt.",
+        "LocalizedString": "Allows the wearer to carry a few items on a belt."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "4A5EA1ED43221FA91565909DED9B7C8B",
+        "SourceString": "Can be crafted by a Weaver.",
+        "LocalizedString": "Can be crafted by a Weaver."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 70,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenBag_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenBag_Auto.0"
+      },
+      "RecipeIndexForRawCalculation": 1,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 61.0,
+      "NativeClass": {
+        "ObjectName": "Class'MistLiquidItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Bag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/Bag",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Bag_C'Default__Bag_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/Bag.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

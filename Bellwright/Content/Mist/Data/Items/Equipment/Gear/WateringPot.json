@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WateringPot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/WateringPot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WateringPot_C'Default__WateringPot_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/WateringPot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WateringPot_C",
+    "Name": "Default__WateringPot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/WateringPot.WateringPot_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/WateringPot",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Belt",
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/WateringPot.WateringPot_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Metal'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Metal.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "510BFCA54AE656809CC0618DDA89D5E3",
+        "SourceString": "Watering Pot",
+        "LocalizedString": "Watering Pot"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_WateringPot_Placeholder.T_WateringPot_Placeholder",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/WateringPotCodexEntry.WateringPotCodexEntry",
+        "SubPathString": ""
+      },
+      "bIgnoreContainerMaxStackSize": true,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WateringPot_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/WateringPot.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedTools.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'WateringPot_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/WateringPot.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/TinIngot.TinIngot_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 120.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "71780C6547900498E900C394DA0C0EA7",
+        "SourceString": "Holds a fair amount of water",
+        "LocalizedString": "Holds a fair amount of water"
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 70,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenWateringPot_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenWateringPot_Auto.0"
+      },
+      "RecipeIndexForRawCalculation": 1,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 142.0,
+      "NativeClass": {
+        "ObjectName": "Class'MistLiquidItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

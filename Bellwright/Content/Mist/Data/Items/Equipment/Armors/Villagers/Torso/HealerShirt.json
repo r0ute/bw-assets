@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HealerShirt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/HealerShirt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HealerShirt_C'Default__HealerShirt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/HealerShirt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HealerShirt_C",
+    "Name": "Default__HealerShirt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/HealerShirt.HealerShirt_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/HealerShirt",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "Armor": 5,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_Armor_LlightMetal_Cue.S_Armor_LlightMetal_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/HealerSet/SK_HealerSet_01_Chest.SK_HealerSet_01_Chest",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/HealerSet/SK_HealerSet_01_Chest_Mutable.SK_HealerSet_01_Chest_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/HealerSet/SK_HealerSet_01_Chest_Fem.SK_HealerSet_01_Chest_Fem",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/HealerSet/SK_HealerSet_01_Chest_Fem_Mutable.SK_HealerSet_01_Chest_Fem_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B93D65B34B2236B6E48972B1C4B47D1C",
+        "SourceString": "Healer Shirt",
+        "LocalizedString": "Healer Shirt"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_HealerShirt.T_HealerShirt",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_HealerShirt'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Armor/T_HealerShirt.0"
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HealerShirt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/HealerShirt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ProfessionClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/ProfessionClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "8DFD793A4224CA9BA65611B05D432B7E",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0C43F45A4F10F5459D91968E56B47961",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "MaxDurability": 200,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenHealerShirt_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenHealerShirt_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 155.0
+    }
+  }
+]

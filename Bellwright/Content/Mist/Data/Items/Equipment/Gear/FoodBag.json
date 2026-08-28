@@ -1,0 +1,150 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FoodBag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/FoodBag",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FoodBag_C'Default__FoodBag_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/FoodBag.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FoodBag_C",
+    "Name": "Default__FoodBag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/FoodBag.FoodBag_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/FoodBag",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::CoinPouch",
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/Food_Bag.Food_Bag_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Wood.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0739B72B4C4C7F386FA003B3CF7F59BC",
+        "SourceString": "Food Bag",
+        "LocalizedString": "Food Bag"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_GearPouch.T_GearPouch",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/FoodBagCodexEntry.FoodBagCodexEntry",
+        "SubPathString": ""
+      },
+      "bIgnoreContainerMaxStackSize": true,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FoodBag_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/FoodBag.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'FoodBag_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/FoodBag.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 85.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "F9A158B34823EA1E6A11CC9D918DAB5D",
+        "SourceString": "This specialized satchel offers extra food storage for you and your companions, essential for long crusades.",
+        "LocalizedString": "This specialized satchel offers extra food storage for you and your companions, essential for long crusades."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 70,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenFoodBag_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenFoodBag_Auto.0"
+      },
+      "RecipeIndexForRawCalculation": 1,
+      "SoundUsedId": 5,
+      "ExpectedPrice": 116.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistLiquidItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

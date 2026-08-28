@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "BasicBoltQuiver_C",
+    "Name": "Default__BasicBoltQuiver_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver.BasicBoltQuiver_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Quiver",
+      "MovementSpeedReduction": 1,
+      "bDealDurabilityDamageOnReceivingHit": false,
+      "bHideUpperDefaultClothing": false,
+      "bHideLowerDefaultClothing": false,
+      "EquippedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Bolts/SM_QuiverWithBolts.SM_QuiverWithBolts",
+        "SubPathString": ""
+      },
+      "FemaleEquippedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Weapons/Bolts/SM_QuiverWithBolts.SM_QuiverWithBolts",
+        "SubPathString": ""
+      },
+      "EquippedMeshAttachSocket": "QuiverCarry",
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/BasicBoltQuiver.BasicBoltQuiver_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_LeatherItem'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_LeatherItem.0"
+      },
+      "PhysAsset": {
+        "ObjectName": "PhysicsAsset'PA_Human_Quiver'",
+        "ObjectPath": "/Game/Mist/Characters/Metahuman/PA_Human_Quiver.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "F81511034FB47BC4529E5E98ADB921ED",
+        "SourceString": "Bolt Quiver",
+        "LocalizedString": "Bolt Quiver"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_BasicBoltQuiver.T_BasicBoltQuiver",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/BoltQuiver_CodexEntry.BoltQuiver_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BasicBoltQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/WeaverHut.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/Ranged/Crossbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.Hide_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 65.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BasicBoltQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Crossbow_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Weapons/Ranged/Crossbow.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.Hide_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 65.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Quiver_02.SM_Quiver_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Quiver_02.SM_Quiver_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/Medieval_Archery/Meshes/SM_Quiver_02.SM_Quiver_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "852EB3E44FAC710D829188838A1B963C",
+        "SourceString": "Allows the wearer to carry 30 bolts of one type.",
+        "LocalizedString": "Allows the wearer to carry 30 bolts of one type."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "BEFBA55B4AF4E3EE3628ECB6CFB2ECFC",
+        "SourceString": "Can be crafted by a weaver.",
+        "LocalizedString": "Can be crafted by a weaver."
+      },
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenBasicBoltQuiver_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenBasicBoltQuiver_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 51.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistLiquidItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BasicBoltQuiver_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BasicBoltQuiver_C'Default__BasicBoltQuiver_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicBoltQuiver.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

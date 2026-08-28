@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PeasantTunic_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/PeasantTunic_1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PeasantTunic_1_C'Default__PeasantTunic_1_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/PeasantTunic_1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PeasantTunic_1_C",
+    "Name": "Default__PeasantTunic_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/PeasantTunic_1.PeasantTunic_1_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/PeasantTunic_1",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Torso",
+      "Armor": 5,
+      "bHideCorrespondingBodypart": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/PeasantSet/SK_PeasantSet_01_Chest.SK_PeasantSet_01_Chest",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/PeasantSet/SK_PeasantSet_01_Chest_Mutable.SK_PeasantSet_01_Chest_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/PeasantSet/SK_PeasantSet_Fem_01_Chest.SK_PeasantSet_Fem_01_Chest",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/PeasantSet/SK_PeasantSet_Fem_01_Chest_Mutable.SK_PeasantSet_Fem_01_Chest_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "FA6FA3BC4A5EAA8E8D3D719BAE11D3D6",
+        "SourceString": "Peasant's Upper Clothing",
+        "LocalizedString": "Peasant's Upper Clothing"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Shirts/T_ArmorTownsfolkTunic1.T_ArmorTownsfolkTunic1",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_ArmorTownsfolkTunic1'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Armor/Shirts/T_ArmorTownsfolkTunic1.0"
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'PeasantTunic_1_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Torso/PeasantTunic_1.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'PeasantClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/PeasantClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "59F89CA0491244ABA35695B6A2543DF9",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "D54592804E99E3F00D19E59CC86BB301",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "MaxDurability": 100,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenPeasantTunic_1_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenPeasantTunic_1_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 82.0
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RichCape_08_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/RichCape_08",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RichCape_08_C'Default__RichCape_08_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/RichCape_08.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RichCape_08_C",
+    "Name": "Default__RichCape_08_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Cloaks/RichCape_08.RichCape_08_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/RichCape_08",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::ArmorLast",
+      "Armor": 4,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Accessories_Robes/UE5_Mannequins/Manny/Cloaks/SkeletalMeshes/SK_Cloak1_T2_Rich2.SK_Cloak1_T2_Rich2",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/ROG_Modular_Armor/Accessories_Robes/UE5_Mannequins/Quinn/Cloaks/SkeletalMeshes/SK_Cloak1_T2_Rich2.SK_Cloak1_T2_Rich2",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9F6027AA46C0A2D8D029AA83767F9EB9",
+        "SourceString": "Azure Cloak",
+        "LocalizedString": "Azure Cloak"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Cloaks/T_AzureCloak.T_AzureCloak",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RichCape_08_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Cloaks/RichCape_08.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/WeaverHut.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'AzureCloak_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/AzureCloak.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.CuredRope_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "63A863D44CF8CD9CB99C22B8722983F7",
+        "SourceString": "Can be crafted at Weaver Hut",
+        "LocalizedString": "Can be crafted at Weaver Hut"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 65,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenRichCape_08_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenRichCape_08_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 185.0
+    }
+  }
+]

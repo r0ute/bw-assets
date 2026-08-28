@@ -1,0 +1,162 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LaborerTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/LaborerTrousers",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LaborerTrousers_C'Default__LaborerTrousers_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/LaborerTrousers.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LaborerTrousers_C",
+    "Name": "Default__LaborerTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/LaborerTrousers.LaborerTrousers_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/LaborerTrousers",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Legs",
+      "Armor": 2,
+      "bHideUpperDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/LaborerSet/SK_LaborerSet_01_Legs.SK_LaborerSet_01_Legs",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/LaborerSet/SK_LaborerSet_01_Legs_Mutable.SK_LaborerSet_01_Legs_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/LaborerSet/SK_LaborerSet_01_Legs_Fem.SK_LaborerSet_01_Legs_Fem",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/LaborerSet/SK_LaborerSet_01_Legs_Fem_Mutable.SK_LaborerSet_01_Legs_Fem_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "MaterialReplacements": [
+        {
+          "Key": "MistFaction'/Game/Mist/Data/Factions/Brigands/BrigandsParent.BrigandsParent'",
+          "Value": {
+            "MaterialsByMaterialSlot": [
+              {
+                "Key": "MI_Pants_Light_T1_Green",
+                "Value": {
+                  "AssetPathName": "/Game/Mist/Props/NewImported/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Pants/Materials/MI_SK_T0_Pants_03_Ruby.MI_SK_T0_Pants_03_Ruby",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Name": {
+        "Namespace": "",
+        "Key": "89C4B1FE424A9A4A108C10AD0EA1DE23",
+        "SourceString": "Labourer Trousers",
+        "LocalizedString": "Labourer Trousers"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_LaborerTrousers.T_LaborerTrousers",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'LaborerTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/LaborerTrousers.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ProfessionClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/ProfessionClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Cotton.Cotton_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "8B49330F4657EF1EAA3FFE9C131BA2F4",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "A3FA6D3F48C0B6B2D94CBC9D9F830819",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 100,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenLaborerTrousers_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenLaborerTrousers_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 39.0
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ReinforcedTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/ReinforcedTrousers",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ReinforcedTrousers_C'Default__ReinforcedTrousers_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/ReinforcedTrousers.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ReinforcedTrousers_C",
+    "Name": "Default__ReinforcedTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/ReinforcedTrousers.ReinforcedTrousers_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/ReinforcedTrousers",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Legs",
+      "ArmorType": "EArmorType::Medium",
+      "Armor": 21,
+      "MovementSpeedReduction": 4,
+      "bHideUpperDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "SkillRequirements": [
+        {
+          "Key": "EMistNpcSkill::Strength",
+          "Value": 3
+        }
+      ],
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Legs/SK_T1_Pants_05.SK_T1_Pants_05",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Male/Tier_1/Legs/SK_T1_Pants_05_Mutable.SK_T1_Pants_05_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Legs/SK_T1_Female_Pants_05.SK_T1_Female_Pants_05",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Female/Tier_1/Legs/SK_T1_Female_Pants_05_Mutable.SK_T1_Female_Pants_05_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "MaterialReplacements": [
+        {
+          "Key": "MistFaction'/Game/Mist/Data/Factions/Brigands/BrigandsParent.BrigandsParent'",
+          "Value": {
+            "MaterialsByMaterialSlot": [
+              {
+                "Key": "lambert44",
+                "Value": {
+                  "AssetPathName": "/Game/Mist/Props/NewImported/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Pants/Materials/MI_SK_T1_Pants_01_Ruby.MI_SK_T1_Pants_01_Ruby",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Name": {
+        "Namespace": "",
+        "Key": "72E79E3D4DBD25483A71A8837407BF53",
+        "SourceString": "Reinforced Trousers",
+        "LocalizedString": "Reinforced Trousers"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'MediumArmors_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/MediumArmors.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/T_ReinforcedTrousers.T_ReinforcedTrousers",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ReinforcedTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/ReinforcedTrousers.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedArmors_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedArmors.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ReinforcedTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Armours/T1/ReinforcedTrousers.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 190.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "09F50C174F42650CF42B17BDE40B14BD",
+        "SourceString": "Can be crafted at Tanner's Hut",
+        "LocalizedString": "Can be crafted at Tanner's Hut"
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 270,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenReinforcedTrousers_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenReinforcedTrousers_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 306.0
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TownsfolkTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/TownsfolkTrousers",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TownsfolkTrousers_C'Default__TownsfolkTrousers_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/TownsfolkTrousers.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TownsfolkTrousers_C",
+    "Name": "Default__TownsfolkTrousers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/TownsfolkTrousers.TownsfolkTrousers_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/TownsfolkTrousers",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Legs",
+      "Armor": 2,
+      "bHideUpperDefaultClothing": false,
+      "SoundCue": {
+        "AssetPathName": "/Game/Mist/Audio/SoundCues/Armors/S_ArmorDefault_Cue.S_ArmorDefault_Cue",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/Villagers/Male/SK_Pants_Light_T1.SK_Pants_Light_T1",
+        "SubPathString": ""
+      },
+      "EquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/Villagers/Male/SK_Pants_Light_T1_Mutable.SK_Pants_Light_T1_Mutable",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/Villagers/Female/SK_Pants_Light_T2.SK_Pants_Light_T2",
+        "SubPathString": ""
+      },
+      "FemaleEquippedRiggedMesh_Mutable": {
+        "AssetPathName": "/Game/Mist/Props/Equipment/Armors/Sets/Villagers/Female/SK_Pants_Light_T2_Mutable.SK_Pants_Light_T2_Mutable",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "MaterialReplacements": [
+        {
+          "Key": "MistFaction'/Game/Mist/Data/Factions/Brigands/BrigandsParent.BrigandsParent'",
+          "Value": {
+            "MaterialsByMaterialSlot": [
+              {
+                "Key": "lambert74",
+                "Value": {
+                  "AssetPathName": "/Game/Mist/Props/NewImported/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Pants/Materials/MI_SK_T0_Pants_02_Ruby.MI_SK_T0_Pants_02_Ruby",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Name": {
+        "Namespace": "",
+        "Key": "4A8A7A0E4FB6C1034D7F9F91AB3B4DE0",
+        "SourceString": "Townsfolk Trousers",
+        "LocalizedString": "Townsfolk Trousers"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Clothing_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment/Armors/Clothing.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'ArmorItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/ArmorItemSetting.1"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Armor/Pants/T_ArmorTownsfolkPants.T_ArmorTownsfolkPants",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'TownsfolkTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Villagers/Pants/TownsfolkTrousers.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedClothing.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'TownsfolkClothing_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Clothing/TownsfolkClothing.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "102344674A10A1CA46632C81817D8EA7",
+        "SourceString": "Villager clothing.",
+        "LocalizedString": "Villager clothing."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "FDEF71834893AFD746FE45A79E7601B6",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 72,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenTownsfolkTrousers_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenTownsfolkTrousers_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 7.0
+    }
+  }
+]

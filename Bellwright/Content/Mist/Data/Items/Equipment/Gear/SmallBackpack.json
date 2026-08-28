@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SmallBackpack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/SmallBackpack",
+    "SuperStruct": {
+      "ObjectName": "Class'MistArmorItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SmallBackpack_C'Default__SmallBackpack_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/SmallBackpack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SmallBackpack_C",
+    "Name": "Default__SmallBackpack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Equipment/Gear/SmallBackpack.SmallBackpack_C'",
+    "Package": "/Game/Mist/Data/Items/Equipment/Gear/SmallBackpack",
+    "Properties": {
+      "ArmorSlot": "EEquipmentSlot::Belt",
+      "bDealDurabilityDamageOnReceivingHit": false,
+      "ComponentClass": {
+        "AssetPathName": "/Game/Mist/Logic/Items/SmallBackpack.SmallBackpack_C",
+        "SubPathString": ""
+      },
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Cloth'",
+        "ObjectPath": "/Game/Mist/Materials/PhysicalMaterials/PM_Cloth.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9F551985472E9478B8497C82102B1C20",
+        "SourceString": "Small Backpack",
+        "LocalizedString": "Small Backpack"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Gear/T_GeaBagPack.T_GeaBagPack",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/SmallBackpack_CodexEntry.SmallBackpack_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SmallBackpack_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/SmallBackpack.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TannersHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/TannersHut.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'SmallBackpack_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/SmallBackpack.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.RawHide_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 210.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 50,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/LootBag/SM_Bag.SM_Bag",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "1642364E486731A5FD5ED5A02E0581B5",
+        "SourceString": "Allows the wearer to carry items on your back.",
+        "LocalizedString": "Allows the wearer to carry items on your back."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "4C6EA82E45AA88B9F020DEB355522955",
+        "SourceString": "Can be crafted by a Tanner.",
+        "LocalizedString": "Can be crafted by a Tanner."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 3
+      },
+      "MaxDurability": 120,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'BrokenSmallBackpack_Auto_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/BrokenItems/BrokenSmallBackpack_Auto.0"
+      },
+      "SoundUsedId": 5,
+      "ExpectedPrice": 33.0
+    }
+  }
+]
