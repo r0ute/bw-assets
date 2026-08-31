@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BurningStove_FreeBelindaPrisonerBeforeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/BurningStove_FreeBelindaPrisonerBeforeQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BurningStove_FreeBelindaPrisonerBeforeQuest_C'Default__BurningStove_FreeBelindaPrisonerBeforeQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/BurningStove_FreeBelindaPrisonerBeforeQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BurningStove_FreeBelindaPrisonerBeforeQuest_C",
+    "Name": "Default__BurningStove_FreeBelindaPrisonerBeforeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/BurningStove_FreeBelindaPrisonerBeforeQuest.BurningStove_FreeBelindaPrisonerBeforeQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/BurningStove_FreeBelindaPrisonerBeforeQuest",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "2E9AD141406C9B43FC26EF95E8AD686E",
+        "SourceString": "Free and talk to {Npc}",
+        "LocalizedString": "Free and talk to {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerBelindaStoneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBelindaStoneNpcTemplate.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "95CE58A34BAE9A852A3CA988B2CEF1D9",
+        "SourceString": "Innocent soul",
+        "LocalizedString": "Innocent soul"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrisonerBelindaStoneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBelindaStoneNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

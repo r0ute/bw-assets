@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WintersReserveQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WintersReserveQuest_BringItems_C'Default__WintersReserveQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WintersReserveQuest_BringItems_C",
+    "Name": "Default__WintersReserveQuest_BringItems_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_BringItems.WintersReserveQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoarCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/BoarCarcass.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'DeerCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/DeerCarcass.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CressidaStoneNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/CryMeARiver/CressidaStoneNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CressidaStone_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CressidaStone_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CC282925408F7E196DC7DD83736E241A",
+          "SourceString": "About the stuff you asked for...",
+          "LocalizedString": "About the stuff you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WintersReserveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Return to Cressida Stone",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false,
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "A175222A473A664079F93FA101B2AC0A",
+        "SourceString": "I successfully tracked and hunted the boars and deers, it was challenging but it’ll prove to be worth it - the meat would feed the village, and the hide could be used for warm clothing.",
+        "LocalizedString": "I successfully tracked and hunted the boars and deers, it was challenging but it’ll prove to be worth it - the meat would feed the village, and the hide could be used for warm clothing."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6E1E8ECC4CC3329A335209A7FC092773",
+        "SourceString": "I finally brought the boar carcass to Cressida, she thanked me for my efforts and assured me that the village’s chances of surviving the winter had improved.",
+        "LocalizedString": "I finally brought the boar carcass to Cressida, she thanked me for my efforts and assured me that the village’s chances of surviving the winter had improved."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CressidaStoneNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/CryMeARiver/CressidaStoneNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest.WintersReserveQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

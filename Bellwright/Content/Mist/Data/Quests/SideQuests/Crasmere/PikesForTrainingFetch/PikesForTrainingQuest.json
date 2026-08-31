@@ -1,0 +1,162 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PikesForTrainingQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PikesForTrainingQuest_C'Default__PikesForTrainingQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PikesForTrainingQuest_C",
+    "Name": "Default__PikesForTrainingQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest.PikesForTrainingQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PikesForTrainingQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C456D71B4CDED0A4EBEDF98DF911F5FF",
+        "SourceString": "Self-preservation",
+        "LocalizedString": "Self-preservation"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "CF5B8C7B4A5773F942E743BB14269806",
+        "SourceString": "It seems that working with Ashbourne is not what Crasmere wishes for, I wonder how hard it will be to convince them to leave this alliance. Bring Bastard Swords to {QuestGiver}.",
+        "LocalizedString": "It seems that working with Ashbourne is not what Crasmere wishes for, I wonder how hard it will be to convince them to leave this alliance. Bring Bastard Swords to {QuestGiver}."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "60EC97464EB95F3224714A848C0EFEEC",
+          "SourceString": "Pikes For Training",
+          "LocalizedString": "Pikes For Training"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PikesForTrainingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvalible",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 350,
+      "RenownReward": 300,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'AdvancedStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/AdvancedStews.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 350.0,
+            "MaxQuantityMultiplier": 350.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 3.0,
+            "MaxQuantityMultiplier": 3.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook3'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook3.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest.PlanksAndNailsQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

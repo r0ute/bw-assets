@@ -1,0 +1,277 @@
+[
+  {
+    "Type": "AToastToWarQuest_C",
+    "Name": "Default__AToastToWarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.AToastToWarQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_TalkToEirikSkarn_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToEirikSkarn.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_DuelEirikSkarn_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_DuelEirikSkarn.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_TalkToEirikSkarnAfterDuel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToEirikSkarnAfterDuel.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_TalkToRavioSarran_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToRavioSarran.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_FindHiddenStash_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_FindHiddenStash.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_BringStashToRavio_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_TalkToDarioVeleno_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToDarioVeleno.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_TalkToMateoCavalii_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToMateoCavalii.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "6B3E863B4E77011D7B7136AEEBFCA5C2",
+        "SourceString": "A Toast to War",
+        "LocalizedString": "A Toast to War"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CB310BD748E96999BD2442A6CD1EFB9A",
+        "SourceString": "It looks like there’s some internal conflict these people are dealing with. I should take a closer look into that.",
+        "LocalizedString": "It looks like there’s some internal conflict these people are dealing with. I should take a closer look into that."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EC55D98049484AF1A81EC08C3B8F2BA3",
+        "SourceString": "The innkeeper at Sorwynn's Cup said he needs someone to handle three troublemakers in the tavern. I should talk to Falsgar first.",
+        "LocalizedString": "The innkeeper at Sorwynn's Cup said he needs someone to handle three troublemakers in the tavern. I should talk to Falsgar first."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToMateoCavalli"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9367F8CC4D11B14E239C7E8DE3A0CEDE",
+          "SourceString": "About the people who were causing trouble in your tavern…",
+          "LocalizedString": "About the people who were causing trouble in your tavern…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "MateoCavalii_QuestInProgress"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 350,
+      "RenownReward": 500,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 350,
+            "MaxQuantity": 350
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest.TheOneAboveAllQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'EirikSkarnNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/EirikSkarnNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'EirikSkarnNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/OldPort/EirikSkarnNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'EirikSkarnNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/EirikSkarnNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RavioSarranNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RavioSarranNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AToastToWarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AToastToWarQuest_C'Default__AToastToWarQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

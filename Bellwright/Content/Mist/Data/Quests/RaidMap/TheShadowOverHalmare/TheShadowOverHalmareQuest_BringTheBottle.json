@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheShadowOverHalmareQuest_BringTheBottle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_BringTheBottle",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheShadowOverHalmareQuest_BringTheBottle_C'Default__TheShadowOverHalmareQuest_BringTheBottle_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_BringTheBottle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheShadowOverHalmareQuest_BringTheBottle_C",
+    "Name": "Default__TheShadowOverHalmareQuest_BringTheBottle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_BringTheBottle.TheShadowOverHalmareQuest_BringTheBottle_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_BringTheBottle",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheShadowOverHalmareQuest_Bottle_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/TheShadowOverHalmareQuest_Bottle.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheShadowOverHalmareQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToViktor",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "641254344EED3AC70A6532912E9CB6B8",
+        "SourceString": "Report back to Viktor",
+        "LocalizedString": "Report back to Viktor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C598562C4C57125A4184408F9D2092F6",
+        "SourceString": "I reported to Viktor my findings from Balzar, Lysara, and Elder Miron. He took the bottle to study it further, promising to reach out when he learns more.",
+        "LocalizedString": "I reported to Viktor my findings from Balzar, Lysara, and Elder Miron. He took the bottle to study it further, promising to reach out when he learns more."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest.TheShadowOverHalmareQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeadTraumaQuest_KillBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_KillBandits",
+    "SuperStruct": {
+      "ObjectName": "Class'MistStartingBanditQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeadTraumaQuest_KillBandits_C'Default__HeadTraumaQuest_KillBandits_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_KillBandits.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeadTraumaQuest_KillBandits_C",
+    "Name": "Default__HeadTraumaQuest_KillBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_KillBandits.HeadTraumaQuest_KillBandits_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_KillBandits",
+    "Properties": {
+      "CampTag": "HeadTraumaQuest_BanditCamp",
+      "ClearTaskDescription": {
+        "Namespace": "",
+        "Key": "B87923F84FB817B18B760E8F0C3FC06A",
+        "SourceString": "Clear the bandit's camp",
+        "LocalizedString": "Clear the bandit's camp"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "04EC69EF468561231B72A2AEC4392CB3",
+        "SourceString": "I cleared out the bandit camps along Marlin's transport route. I need to go back to him.",
+        "LocalizedString": "I cleared out the bandit camps along Marlin's transport route. I need to go back to him."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0DB22FFB490804CE17D777A9662E2F37",
+          "SourceString": "About the bandits...",
+          "LocalizedString": "About the bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HeadTraumaQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Marlin_Fulke_Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMerchantTalk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest.HeadTraumaQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

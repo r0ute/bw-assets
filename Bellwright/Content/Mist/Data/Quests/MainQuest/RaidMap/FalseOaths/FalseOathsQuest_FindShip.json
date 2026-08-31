@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FalseOathsQuest_FindShip_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'FalseOathsQuest_FindShip_C:ExecuteUbergraph_FalseOathsQuest_FindShip'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FalseOathsQuest_FindShip_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.3"
+      },
+      {
+        "ObjectName": "Function'FalseOathsQuest_FindShip_C:ExecuteUbergraph_FalseOathsQuest_FindShip'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FalseOathsQuest_FindShip": {
+        "ObjectName": "Function'FalseOathsQuest_FindShip_C:ExecuteUbergraph_FalseOathsQuest_FindShip'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'FalseOathsQuest_FindShip_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FalseOathsQuest_FindShip_C'Default__FalseOathsQuest_FindShip_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FalseOathsQuest_FindShip_C",
+    "Name": "Default__FalseOathsQuest_FindShip_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.FalseOathsQuest_FindShip_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/FalseOaths/FalseOathsShip_QuestPoi.FalseOathsShip_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "DisplayTypeText": {
+        "Namespace": "",
+        "Key": "FD5A737041625753349CB8BAC0A266E5",
+        "SourceString": "Betrayer's Ship",
+        "LocalizedString": "Betrayer's Ship"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "DC93A79D4398DC5FA5ED3FAAFB6E94D0",
+        "SourceString": "Find the betrayer's ship.",
+        "LocalizedString": "Find the betrayer's ship."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "42868A92446B62185519C6938FD3AE44",
+        "SourceString": "Find the betrayer's ship.",
+        "LocalizedString": "Find the betrayer's ship."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "081BB4E84D893D2AC6ECB2B8ADC34E68",
+        "SourceString": "The ship looms ahead, guarded by wreckage and fire. Inside, the one who betrayed us waits. He will not escape justice.",
+        "LocalizedString": "The ship looms ahead, guarded by wreckage and fire. Inside, the one who betrayed us waits. He will not escape justice."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest.FalseOathsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FalseOathsQuest_FindShip",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_FindShip_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_FindShip_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_FindShip.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

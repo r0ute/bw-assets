@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBuildingCamp_BuildChest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildChest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBuildingCamp_BuildChest_C'Default__MainQuestBuildingCamp_BuildChest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildChest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBuildingCamp_BuildChest_C",
+    "Name": "Default__MainQuestBuildingCamp_BuildChest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildChest.MainQuestBuildingCamp_BuildChest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildChest",
+    "Properties": {
+      "BuildTaskDescription": {
+        "Namespace": "",
+        "Key": "102F4E714CE568C1BB369F9482FF4A8A",
+        "SourceString": "Build a {Structure} to store your shared belongings.",
+        "LocalizedString": "Build a {Structure} to store your shared belongings."
+      },
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/TownBuilding/SharedChest.SharedChest_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CBE7A5934116B36904BD43902D34E2BC",
+          "SourceString": "Do you have a moment?",
+          "LocalizedString": "Do you have a moment?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.0"
+        },
+        "TalkEntryPoint": "Lubomir_ChestTent"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp.MainQuestBuildingCamp_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

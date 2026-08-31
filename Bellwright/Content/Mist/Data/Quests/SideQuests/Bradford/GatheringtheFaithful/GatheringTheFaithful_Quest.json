@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GatheringTheFaithful_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GatheringTheFaithful_Quest_C'Default__GatheringTheFaithful_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GatheringTheFaithful_Quest_C",
+    "Name": "Default__GatheringTheFaithful_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest.GatheringTheFaithful_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_Build_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Build.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_AskAboutGods_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_AskAboutGods.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_BringItem.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2F706D724CB012378410E1A0A5012997",
+        "SourceString": "Gathering the Faithful",
+        "LocalizedString": "Gathering the Faithful"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "533AA9F94B0640C5AD41339A108F1BC6",
+        "SourceString": "Elder Patryk Sten informed me that the village's bond with the gods had grown weak, leading to a decline in faith among the villagers. He entrusted me with an important mission: to construct a shrine that would help restore our devotion and perhaps leave a small offering as well. If curiosity got the better of me to learn more about these deities, the Elder suggested I consult Vasil Starhoff for his valuable insights.",
+        "LocalizedString": "Elder Patryk Sten informed me that the village's bond with the gods had grown weak, leading to a decline in faith among the villagers. He entrusted me with an important mission: to construct a shrine that would help restore our devotion and perhaps leave a small offering as well. If curiosity got the better of me to learn more about these deities, the Elder suggested I consult Vasil Starhoff for his valuable insights."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "33E4C9AC41BD43898F807BBE651C9D91",
+        "SourceString": "Elder Patryk Sten informed me that the village's bond with the gods had grown weak, leading to a decline in faith among the villagers. He entrusted me with an important mission: to construct a shrine that would help restore our devotion and perhaps leave a small offering as well. If curiosity got the better of me to learn more about these deities, the Elder suggested I consult Vasil Starhoff for his valuable insights.",
+        "LocalizedString": "Elder Patryk Sten informed me that the village's bond with the gods had grown weak, leading to a decline in faith among the villagers. He entrusted me with an important mission: to construct a shrine that would help restore our devotion and perhaps leave a small offering as well. If curiosity got the better of me to learn more about these deities, the Elder suggested I consult Vasil Starhoff for his valuable insights."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "AC7CE19F424CCAC814BA65B309D749DA",
+          "SourceString": "Can I help you with something?",
+          "LocalizedString": "Can I help you with something?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "VillageProsperityReward": 100,
+      "VillageConstructionPointsReward": 1,
+      "RenownReward": 250,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/BradfordVillageProfile.BradfordVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

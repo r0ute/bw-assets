@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MissingMerchantQuest_FindMerchantCart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_FindMerchantCart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MissingMerchantQuest_FindMerchantCart_C'Default__MissingMerchantQuest_FindMerchantCart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_FindMerchantCart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MissingMerchantQuest_FindMerchantCart_C",
+    "Name": "Default__MissingMerchantQuest_FindMerchantCart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_FindMerchantCart.MissingMerchantQuest_FindMerchantCart_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_FindMerchantCart",
+    "Properties": {
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Quests_Codex/MissingMerchant/BrokenCart_QuestPoi.BrokenCart_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "8AA352EC4A58FD702938C39186D8C586",
+        "SourceString": "Missing Merchant",
+        "LocalizedString": "Missing Merchant"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "18CCAC564C9D992991AE1FB7C42B924C",
+        "SourceString": "Find Missing Merchant Cart.",
+        "LocalizedString": "Find Missing Merchant Cart."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C1A6B471446D0CE5795C229737A3C4CB",
+        "SourceString": "I found the merchant's cart abandoned on the road. It looks like someone ambushed him—definitely more than just a broken wheel. Need to investigate further.",
+        "LocalizedString": "I found the merchant's cart abandoned on the road. It looks like someone ambushed him—definitely more than just a broken wheel. Need to investigate further."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5240350641216A475837AF9DED236956",
+          "SourceString": "About the merchant…",
+          "LocalizedString": "About the merchant…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "FindMerchantCart_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanBookMerchantNPCTemplate.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest.MissingMerchantQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

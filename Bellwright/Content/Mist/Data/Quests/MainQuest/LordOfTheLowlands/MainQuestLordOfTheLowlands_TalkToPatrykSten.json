@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLordOfTheLowlands_TalkToPatrykSten_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToPatrykSten",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLordOfTheLowlands_TalkToPatrykSten_C'Default__MainQuestLordOfTheLowlands_TalkToPatrykSten_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToPatrykSten.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLordOfTheLowlands_TalkToPatrykSten_C",
+    "Name": "Default__MainQuestLordOfTheLowlands_TalkToPatrykSten_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToPatrykSten.MainQuestLordOfTheLowlands_TalkToPatrykSten_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToPatrykSten",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "430490FA4C7195A16CBC2C94F2098276",
+        "SourceString": "{Npc} has something for you. Visit him in Bradford.",
+        "LocalizedString": "{Npc} has something for you. Visit him in Bradford."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_Talk.0"
+        },
+        "TalkEntryPoint": "GetLetter_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D4522DD24F1CFEE6B02D8B84027E6F0B",
+        "SourceString": "Lord of the Lowlands",
+        "LocalizedString": "Lord of the Lowlands"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A5BE86304EF9003A3AACFEBDEAAC7A53",
+        "SourceString": "Lord Ashbourne has invited me to his castle. Obviously something feels off about that, so I better consult with my allies.",
+        "LocalizedString": "Lord Ashbourne has invited me to his castle. Obviously something feels off about that, so I better consult with my allies."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.MainQuestLordOfTheLowlands_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

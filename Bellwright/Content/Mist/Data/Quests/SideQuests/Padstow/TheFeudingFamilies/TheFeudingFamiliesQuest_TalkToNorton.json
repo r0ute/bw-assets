@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheFeudingFamiliesQuest_TalkToNorton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToNorton",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheFeudingFamiliesQuest_TalkToNorton_C'Default__TheFeudingFamiliesQuest_TalkToNorton_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToNorton.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheFeudingFamiliesQuest_TalkToNorton_C",
+    "Name": "Default__TheFeudingFamiliesQuest_TalkToNorton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToNorton.TheFeudingFamiliesQuest_TalkToNorton_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToNorton",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowWeaverTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowWeaverTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8C21842D460E3AB0804ED885190BC699",
+          "SourceString": "I wanted to ask you what you were doing on the day boars got into Marek Tholy’s shed.",
+          "LocalizedString": "I wanted to ask you what you were doing on the day boars got into Marek Tholy’s shed."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFeudingFamilies_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamilies_Talk.0"
+        },
+        "TalkEntryPoint": "Norton Rhodes"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "522E373D46B46147BB0309BE8093AD85",
+        "SourceString": "Norton insists that he didn't lure the boars into Marek's shed, although he has told me about how this feud has been ongoing for years. I should speak with the Elders to see if they can help this situation.",
+        "LocalizedString": "Norton insists that he didn't lure the boars into Marek's shed, although he has told me about how this feud has been ongoing for years. I should speak with the Elders to see if they can help this situation."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowWeaverTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowWeaverTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest.TheFeudingFamiliesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

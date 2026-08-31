@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MinersFortuneQuest_TalkFinton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_TalkFinton",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MinersFortuneQuest_TalkFinton_C'Default__MinersFortuneQuest_TalkFinton_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_TalkFinton.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MinersFortuneQuest_TalkFinton_C",
+    "Name": "Default__MinersFortuneQuest_TalkFinton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_TalkFinton.MinersFortuneQuest_TalkFinton_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_TalkFinton",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkFinton"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0DDCC0CB4B99BBF0A9F4A18266661F44",
+        "SourceString": "I approached Finton, the village blacksmith, and asked him to help with the mine repairs. He was hesitant at first, citing his busy forge and the mine’s troubled history. I tried to convince him by explaining how the mine’s success would benefit his business.",
+        "LocalizedString": "I approached Finton, the village blacksmith, and asked him to help with the mine repairs. He was hesitant at first, citing his busy forge and the mine’s troubled history. I tried to convince him by explaining how the mine’s success would benefit his business."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest.MinersFortuneQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

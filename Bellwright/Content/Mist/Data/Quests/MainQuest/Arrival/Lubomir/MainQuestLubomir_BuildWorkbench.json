@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLubomir_BuildWorkbench_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BuildWorkbench",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLubomir_BuildWorkbench_C'Default__MainQuestLubomir_BuildWorkbench_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BuildWorkbench.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLubomir_BuildWorkbench_C",
+    "Name": "Default__MainQuestLubomir_BuildWorkbench_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BuildWorkbench.MainQuestLubomir_BuildWorkbench_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BuildWorkbench",
+    "Properties": {
+      "BuildTaskDescription": {
+        "Namespace": "",
+        "Key": "9CF258E04AAEDDC14C5B83B28EAC7B9E",
+        "SourceString": "Build {Structure} to craft a trap.",
+        "LocalizedString": "Build {Structure} to craft a trap."
+      },
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/TownBuilding/SimpleWorkbench.SimpleWorkbench_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "67DA648E42B23B77193C33997639299B",
+        "SourceString": "The workbench is ready for hands-on projects. As I stepped back to admire our work, I felt a sense of accomplishment wash over me. The proper camp is finally done.",
+        "LocalizedString": "The workbench is ready for hands-on projects. As I stepped back to admire our work, I felt a sense of accomplishment wash over me. The proper camp is finally done."
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "Lubomir_RDWorkbench"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

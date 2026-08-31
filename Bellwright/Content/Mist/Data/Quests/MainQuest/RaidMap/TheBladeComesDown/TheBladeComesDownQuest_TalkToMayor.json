@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheBladeComesDownQuest_TalkToMayor_C:ExecuteUbergraph_TheBladeComesDownQuest_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_TalkToMayor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.2"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_TalkToMayor_C:ExecuteUbergraph_TheBladeComesDownQuest_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheBladeComesDownQuest_TalkToMayor": {
+        "ObjectName": "Function'TheBladeComesDownQuest_TalkToMayor_C:ExecuteUbergraph_TheBladeComesDownQuest_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheBladeComesDownQuest_TalkToMayor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_TalkToMayor_C'Default__TheBladeComesDownQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheBladeComesDownQuest_TalkToMayor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheBladeComesDownQuest_TalkToMayor_C",
+    "Name": "Default__TheBladeComesDownQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor.TheBladeComesDownQuest_TalkToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToMayor",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "68C7B9A548B339265C2E47857A112BA4",
+        "SourceString": "Montverde will now take over the stewardship of the Isles. He will govern under Halmayan law, not as a tyrant but as a servant of the people. Still, he warned me that Cassandra Kim lurks in the shadows.",
+        "LocalizedString": "Montverde will now take over the stewardship of the Isles. He will govern under Halmayan law, not as a tyrant but as a servant of the people. Still, he warned me that Cassandra Kim lurks in the shadows."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

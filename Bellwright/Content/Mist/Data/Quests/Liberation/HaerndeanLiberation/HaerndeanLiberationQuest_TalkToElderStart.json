@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HaerndeanLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest_TalkToElderStart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HaerndeanLiberationQuest_TalkToElderStart_C'Default__HaerndeanLiberationQuest_TalkToElderStart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest_TalkToElderStart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HaerndeanLiberationQuest_TalkToElderStart_C",
+    "Name": "Default__HaerndeanLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest_TalkToElderStart.HaerndeanLiberationQuest_TalkToElderStart_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest_TalkToElderStart",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "ABB750204C9DD9B6DD82A6BE160F3018",
+          "SourceString": "I heard you were looking for me...",
+          "LocalizedString": "I heard you were looking for me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "StartLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6CB100C54300E4F22C1371AAA5FCEC49",
+        "SourceString": "Time has come: Haerndean",
+        "LocalizedString": "Time has come: Haerndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2E9559194AEBB53448D293B708BCDE91",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "AE8D4E054C20D10ADB875DBD421970A1",
+        "SourceString": "After speaking with the elder the intention is clear, the people want to be free from Ashbourne's grasp and I shall be the one to lead them. The responsability lays heavy on me but I will not fail.",
+        "LocalizedString": "After speaking with the elder the intention is clear, the people want to be free from Ashbourne's grasp and I shall be the one to lead them. The responsability lays heavy on me but I will not fail."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/HaerndeanLiberationQuest.HaerndeanLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

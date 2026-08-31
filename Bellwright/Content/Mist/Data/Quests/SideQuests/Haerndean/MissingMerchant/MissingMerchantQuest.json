@@ -1,0 +1,181 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MissingMerchantQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MissingMerchantQuest_C'Default__MissingMerchantQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MissingMerchantQuest_C",
+    "Name": "Default__MissingMerchantQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest.MissingMerchantQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_FindMerchantCart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_FindMerchantCart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_CheckCart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_CheckCart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_TalkToCraftsman_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_TalkToCraftsman.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_DeliverBook_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_DeliverBook.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "684BDBD3442452E627E8B9B264CAC3DF",
+        "SourceString": "The Book Case",
+        "LocalizedString": "The Book Case"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "FA1D971842414BA338F3E1ACF641BB4D",
+        "SourceString": "{QuestGiver} ordered book delivery but the cart with the book never made it to the village. I wonder what happened to it.",
+        "LocalizedString": "{QuestGiver} ordered book delivery but the cart with the book never made it to the village. I wonder what happened to it."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "02DA7C464DB228423A3DAFBE2F7F852B",
+          "SourceString": "You're looking worried, has something happened?",
+          "LocalizedString": "You're looking worried, has something happened?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 300,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 75,
+            "MaxQuantity": 75
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanBookMerchantNPCTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanBookMerchantNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

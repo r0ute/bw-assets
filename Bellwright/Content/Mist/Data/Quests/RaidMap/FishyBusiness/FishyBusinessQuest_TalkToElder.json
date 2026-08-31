@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishyBusinessQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishyBusinessQuest_TalkToElder_C'Default__FishyBusinessQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishyBusinessQuest_TalkToElder_C",
+    "Name": "Default__FishyBusinessQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToElder.FishyBusinessQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FishyBusinessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_SelectWinner"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2FC5B9D1426EE835E24F7C9B2EAA7E7B",
+        "SourceString": "The elder ultimately agreed with my decision and as a thank you he gave me a reward for helping settle this dispute.",
+        "LocalizedString": "The elder ultimately agreed with my decision and as a thank you he gave me a reward for helping settle this dispute."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest.FishyBusinessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

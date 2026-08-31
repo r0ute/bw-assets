@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestWolvesBring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesBring",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestWolvesBring_C'Default__MainQuestWolvesBring_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesBring.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestWolvesBring_C",
+    "Name": "Default__MainQuestWolvesBring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesBring.MainQuestWolvesBring_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesBring",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Pelt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "EntryPriority": 1,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0DCD41CE44500601FE96908F5C3EAFE5",
+          "SourceString": "Regarding the wolves...",
+          "LocalizedString": "Regarding the wolves..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestWolvesTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesTalk.0"
+        },
+        "TalkEntryPoint": "BringWolfPelts_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F541172842F98FEDD10AC79B11EAFFE0",
+        "SourceString": "Hunter and hunted.",
+        "LocalizedString": "Hunter and hunted."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E0F51D01496BACA63E2678AE4A6FCE4F",
+        "SourceString": "Bring pelts as proof.",
+        "LocalizedString": "Bring pelts as proof."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves.MainQuestWolves_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

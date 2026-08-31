@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HaerndeanLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HaerndeanLiberatedQuest_TalkToElder_C'Default__HaerndeanLiberatedQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HaerndeanLiberatedQuest_TalkToElder_C",
+    "Name": "Default__HaerndeanLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest_TalkToElder.HaerndeanLiberatedQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest_TalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "945398E54C9667541BF609935B795D0F",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4F81FC1541B4CB79254776871CC2E039",
+          "SourceString": "We did it...",
+          "LocalizedString": "We did it..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLiberatedQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest_Talk.0"
+        },
+        "TalkEntryPoint": "VillageLiberated_InProgress",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "4CF24CCB415F2D1136DCE1AE1ED99726",
+        "SourceString": "Break free: Haerndean",
+        "LocalizedString": "Break free: Haerndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AB60C22E4AD9015A6912EC8FE2D99DFA",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/SuccessfullLiberation/HaerndeanLiberatedQuest.HaerndeanLiberatedQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

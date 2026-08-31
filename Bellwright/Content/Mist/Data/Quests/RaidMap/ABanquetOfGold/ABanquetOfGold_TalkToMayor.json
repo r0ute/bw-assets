@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "ABanquetOfGold_TalkToMayor_C",
+    "Name": "Default__ABanquetOfGold_TalkToMayor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.ABanquetOfGold_TalkToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuestTalk.1"
+        },
+        "TalkEntryPoint": "TalkToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5BFF04E143C2EF26759EE6A6115A5CF8",
+        "SourceString": "I told Mayor Montverde about the famine and the poor innkeeper’s plea. He brushed off my concerns, claiming his hands are tied under the Viceroy’s orders. Still, he told me to speak with Alexander Solazar, the Tavern Keeper in the rich quarters of town, the one managing the banquet preparations.",
+        "LocalizedString": "I told Mayor Montverde about the famine and the poor innkeeper’s plea. He brushed off my concerns, claiming his hands are tied under the Viceroy’s orders. Still, he told me to speak with Alexander Solazar, the Tavern Keeper in the rich quarters of town, the one managing the banquet preparations."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest.ABanquetOfGoldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ABanquetOfGold_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABanquetOfGold_TalkToMayor_C:ExecuteUbergraph_ABanquetOfGold_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABanquetOfGold_TalkToMayor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.3"
+      },
+      {
+        "ObjectName": "Function'ABanquetOfGold_TalkToMayor_C:ExecuteUbergraph_ABanquetOfGold_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABanquetOfGold_TalkToMayor": {
+        "ObjectName": "Function'ABanquetOfGold_TalkToMayor_C:ExecuteUbergraph_ABanquetOfGold_TalkToMayor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ABanquetOfGold_TalkToMayor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABanquetOfGold_TalkToMayor_C'Default__ABanquetOfGold_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABanquetOfGold_TalkToMayor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGold_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGold_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGold_TalkToMayor.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

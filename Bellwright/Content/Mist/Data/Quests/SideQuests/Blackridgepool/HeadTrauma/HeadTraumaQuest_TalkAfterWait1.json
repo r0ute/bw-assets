@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeadTraumaQuest_TalkAfterWait1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterWait1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeadTraumaQuest_TalkAfterWait1_C'Default__HeadTraumaQuest_TalkAfterWait1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterWait1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeadTraumaQuest_TalkAfterWait1_C",
+    "Name": "Default__HeadTraumaQuest_TalkAfterWait1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterWait1.HeadTraumaQuest_TalkAfterWait1_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterWait1",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMerchantTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8A3024124A7EC1E650F9AABF66563E2A",
+          "SourceString": "Any news about your friend?",
+          "LocalizedString": "Any news about your friend?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HeadTraumaQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Marlin Fulke, the next day",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1452E063431F2FC952E6B19CEF5B74A2",
+        "SourceString": "Marlin asked me to go to Aleks Amanita to help with the cure of his friend. I should go talk to him as soon as possible.",
+        "LocalizedString": "Marlin asked me to go to Aleks Amanita to help with the cure of his friend. I should go talk to him as soon as possible."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMerchantTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest.HeadTraumaQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

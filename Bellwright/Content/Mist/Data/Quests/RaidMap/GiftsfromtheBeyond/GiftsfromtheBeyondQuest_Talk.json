@@ -1,0 +1,1139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GiftsfromtheBeyondQuest_Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:ExecuteUbergraph_GiftsfromtheBeyondQuest_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuestTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:QuestAvailable'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.2"
+      },
+      {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:TalktoElder'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.4"
+      },
+      {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:TalktoViktor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.5"
+      },
+      {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:ReporttoLysara'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.3"
+      },
+      {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:ExecuteUbergraph_GiftsfromtheBeyondQuest_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Quit",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Quit",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Give Crown",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Give Crown",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GiftsfromtheBeyondQuest_Talk": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:ExecuteUbergraph_GiftsfromtheBeyondQuest_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.1"
+      },
+      "ReporttoLysara": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:ReporttoLysara'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.3"
+      },
+      "TalktoViktor": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:TalktoViktor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.5"
+      },
+      "TalktoElder": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:TalktoElder'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.4"
+      },
+      "QuestAvailable": {
+        "ObjectName": "Function'GiftsfromtheBeyondQuest_Talk_C:QuestAvailable'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.2"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GiftsfromtheBeyondQuest_Talk_C'Default__GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GiftsfromtheBeyondQuest_Talk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_TalkHasKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_4",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice3_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice3Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_5",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_6",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_7",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_8",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_7",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_8",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_9",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_10",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_9",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_11",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_12",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_13",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice3_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice3Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_10",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_11",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_14",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_12",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_15",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_16",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_17",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice4_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice4Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_13",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_18",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_19",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_7",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_20",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_14",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice3_Exec_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice3Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_15",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_21",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_22",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_8",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_16",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_23",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice3_Exec_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice3Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_17",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_24",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_25",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice1Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_18",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_19",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_9",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_20",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_10",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_21",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "QuestAvailable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReporttoLysara",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalktoElder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalktoViktor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GiftsfromtheBeyondQuest_Talk_C",
+    "Name": "Default__GiftsfromtheBeyondQuest_Talk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.GiftsfromtheBeyondQuest_Talk_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Quit": [
+        {
+          "Type": "EMistTalkDescriptorType::Quit",
+          "Amount": 0.0,
+          "Faction": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "Village": "",
+          "CustomText": "Duel"
+        }
+      ],
+      "DisabledMistQuestDebugValidations": 31
+    }
+  }
+]

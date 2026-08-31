@@ -1,0 +1,150 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringSmallBackpackAndHerbsPhysicianQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysicianQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringSmallBackpackAndHerbsPhysicianQuest_C'Default__BringSmallBackpackAndHerbsPhysicianQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysicianQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringSmallBackpackAndHerbsPhysicianQuest_C",
+    "Name": "Default__BringSmallBackpackAndHerbsPhysicianQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysicianQuest.BringSmallBackpackAndHerbsPhysicianQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysicianQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringSmallBackpackAndHerbsPhysician_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysician_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "9EEB30C14987E44357ADD58023504513",
+        "SourceString": "Natural Remedies",
+        "LocalizedString": "Natural Remedies"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "B1E4752840036E4FEB852DAF633081AC",
+        "SourceString": "The village’s physician asked me for some herbs and weirdly enough - a backpack for storage purposes. Horndean’s supplies are running really low lately.",
+        "LocalizedString": "The village’s physician asked me for some herbs and weirdly enough - a backpack for storage purposes. Horndean’s supplies are running really low lately."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6E3590E9401D1A5B771C7ABF0B230C85",
+          "SourceString": "The Physician's Herbal Collection",
+          "LocalizedString": "The Physician's Herbal Collection"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringSmallBackpackAndHerbsPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ThePhysicianHerbCollection/BringSmallBackpackAndHerbsPhysician_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "RenownReward": 200,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 200.0,
+            "MaxQuantityMultiplier": 200.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 3.0,
+            "MaxQuantityMultiplier": 3.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'AdvancedStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/AdvancedStews.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest.MysteriousIllnessQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

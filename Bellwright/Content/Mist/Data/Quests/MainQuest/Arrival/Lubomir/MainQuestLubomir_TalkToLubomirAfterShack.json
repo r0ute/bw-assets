@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLubomir_TalkToLubomirAfterShack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomirAfterShack",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLubomir_TalkToLubomirAfterShack_C'Default__MainQuestLubomir_TalkToLubomirAfterShack_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomirAfterShack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLubomir_TalkToLubomirAfterShack_C",
+    "Name": "Default__MainQuestLubomir_TalkToLubomirAfterShack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomirAfterShack.MainQuestLubomir_TalkToLubomirAfterShack_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomirAfterShack",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "5C6A902C44F933E208155F9A6AA35980",
+        "SourceString": "Speak with Lubomir about the progress you’ve made.",
+        "LocalizedString": "Speak with Lubomir about the progress you’ve made."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLubomirAfterShack"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "00C3D1B349A7000ACD3E66A50F46BA68",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6C6A3F2045F6BC6BB3ECC3869A07EAD5",
+        "SourceString": "Talk with {Npc}",
+        "LocalizedString": "Talk with {Npc}"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

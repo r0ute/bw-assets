@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultPart3Quest_UseDeadBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_UseDeadBody",
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultPart3Quest_UseDeadBody_C'Default__CultPart3Quest_UseDeadBody_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_UseDeadBody.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultPart3Quest_UseDeadBody_C",
+    "Name": "Default__CultPart3Quest_UseDeadBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_UseDeadBody.CultPart3Quest_UseDeadBody_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_UseDeadBody",
+    "Properties": {
+      "Description": {
+        "Namespace": "",
+        "Key": "1817DD594E7A3796DB2408B4C888E11E",
+        "SourceString": "Check the dead body",
+        "LocalizedString": "Check the dead body"
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Resercher DeadBody Idle"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Resercher DeadBody Idle"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CultResearcher_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultResearcher_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3_Quest.CultPart3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLessonTheyTaughtQuest_KillWarden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_KillWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.2"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.3"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_KillWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLessonTheyTaughtQuest_KillWarden": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_KillWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_KillWarden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLessonTheyTaughtQuest_KillWarden_C'Default__TheLessonTheyTaughtQuest_KillWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLessonTheyTaughtQuest_KillWarden",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_KillWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_KillWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_KillWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLessonTheyTaughtQuest_KillWarden_C",
+    "Name": "Default__TheLessonTheyTaughtQuest_KillWarden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden.TheLessonTheyTaughtQuest_KillWarden_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_KillWarden",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'MirkoIlvesNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/MirkoIlvesNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MirkoIlves_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/MirkoIlves_NpcTalk.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B6A7665C4CC6BF7A7BC871A8F42C4E99",
+        "SourceString": "Kill the warden",
+        "LocalizedString": "Kill the warden"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "87F6B6FA43A04E74BE45A791A836CDE3",
+        "SourceString": "Kill the warden",
+        "LocalizedString": "Kill the warden"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B64DB15042788F2455896CB084B26256",
+        "SourceString": "I refused his deal. He died knowing the Halmayans won this round.",
+        "LocalizedString": "I refused his deal. He died knowing the Halmayans won this round."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest.TheLessonTheyTaughtQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

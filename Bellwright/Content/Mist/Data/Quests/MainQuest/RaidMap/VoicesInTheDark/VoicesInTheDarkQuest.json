@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VoicesInTheDarkQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_C:ExecuteUbergraph_VoicesInTheDarkQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.2"
+      },
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_C:ExecuteUbergraph_VoicesInTheDarkQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VoicesInTheDarkQuest": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_C:ExecuteUbergraph_VoicesInTheDarkQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.1"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VoicesInTheDarkQuest_C'Default__VoicesInTheDarkQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VoicesInTheDarkQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VoicesInTheDarkQuest_C",
+    "Name": "Default__VoicesInTheDarkQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.VoicesInTheDarkQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToLyra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToCarlos_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToMayor_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToMayor.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bManualSubtaskControl": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "BD6EC9AF461C950B6C06B59DD99DF8EC",
+        "SourceString": "Voices in the Dark",
+        "LocalizedString": "Voices in the Dark"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest.TheChainsAreBrokenQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest.NotAllWhoWaitQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "bRequireAnyCompletedQuest": true,
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/HalmayansTroops.HalmayansTroops",
+          "SubPathString": ""
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarlosCisneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisneNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

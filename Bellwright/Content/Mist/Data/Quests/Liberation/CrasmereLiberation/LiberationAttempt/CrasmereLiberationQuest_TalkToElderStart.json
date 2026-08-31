@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderStart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereLiberationQuest_TalkToElderStart_C'Default__CrasmereLiberationQuest_TalkToElderStart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderStart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereLiberationQuest_TalkToElderStart_C",
+    "Name": "Default__CrasmereLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderStart.CrasmereLiberationQuest_TalkToElderStart_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderStart",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "858F1DCC45D5665E09E5E7BB9156FD5A",
+          "SourceString": "I heard you were looking for me...",
+          "LocalizedString": "I heard you were looking for me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "StartLiberation"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "E171034644AFD87BEEE3C38906AD5F4E",
+        "SourceString": "Time has come: Crasmere",
+        "LocalizedString": "Time has come: Crasmere"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5D8370614320FC631F8A7CABFAE45E17",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2A1B067D466F1802FF6840948A9C7BA1",
+        "SourceString": "A transformative moment had arrived. No longer just an observer, I was now the embodiment of Haerndean's resistance - their chosen leader, tasked with breaking the chains of oppression that had bound them for too long.",
+        "LocalizedString": "A transformative moment had arrived. No longer just an observer, I was now the embodiment of Haerndean's resistance - their chosen leader, tasked with breaking the chains of oppression that had bound them for too long."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest.CrasmereLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

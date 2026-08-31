@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorGuildPart2Quest_ClearCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorGuildPart2Quest_ClearCamp",
+    "SuperStruct": {
+      "ObjectName": "Class'MistStartingBanditQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorGuildPart2Quest_ClearCamp_C'Default__WarriorGuildPart2Quest_ClearCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorGuildPart2Quest_ClearCamp.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorGuildPart2Quest_ClearCamp_C",
+    "Name": "Default__WarriorGuildPart2Quest_ClearCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorGuildPart2Quest_ClearCamp.WarriorGuildPart2Quest_ClearCamp_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorGuildPart2Quest_ClearCamp",
+    "Properties": {
+      "CampTag": "WarriorGuild2_BanditCamp",
+      "ClearTaskDescription": {
+        "Namespace": "",
+        "Key": "31EAB9D84775EE254BCEE1A28B61E09A",
+        "SourceString": "Clear the Swamp Bandit's Camp and report back to the Warriors Guild",
+        "LocalizedString": "Clear the Swamp Bandit's Camp and report back to the Warriors Guild"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1F8DB89F4B085C12869816B5C1A358D6",
+        "SourceString": "I finished clearing out the camp, perhaps this will prove my worth and they'll finally accept me.",
+        "LocalizedString": "I finished clearing out the camp, perhaps this will prove my worth and they'll finally accept me."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6D62CFBE4E2A22A28046F281142A119B",
+          "SourceString": "About those bandits...",
+          "LocalizedString": "About those bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "WolvesIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild2_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuild2_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild2_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuild2_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.WarriorsGuildPart2_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

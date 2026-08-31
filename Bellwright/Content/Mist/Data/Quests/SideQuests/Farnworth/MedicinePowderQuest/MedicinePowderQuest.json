@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicinePowderQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicinePowderQuest_C'Default__MedicinePowderQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicinePowderQuest_C",
+    "Name": "Default__MedicinePowderQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest.MedicinePowderQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_BringTusks_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest_BringTusks.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2950F7D643C8BB08DFBCB9961C6B02FB",
+        "SourceString": "A Tall Tusk",
+        "LocalizedString": "A Tall Tusk"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D88E2F544AC9E1F0FB5BEF8E180251A6",
+        "SourceString": "Get tusks needed for powder",
+        "LocalizedString": "Get tusks needed for powder"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EA5DE28042DEC77E4F3D6A9CC05E97BF",
+        "SourceString": "{QuestGiver} husband fell ill. She asked me to collect boar’s tusk for this traditional medicine that she wants to prepare.",
+        "LocalizedString": "{QuestGiver} husband fell ill. She asked me to collect boar’s tusk for this traditional medicine that she wants to prepare."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "DFE667C44097066AF5F509877928EB56",
+          "SourceString": "Helping with strange request.",
+          "LocalizedString": "Helping with strange request."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "bEnsureAtLeastOneTableRunning": true,
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BoarTrophyItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/BoarTrophyItem.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

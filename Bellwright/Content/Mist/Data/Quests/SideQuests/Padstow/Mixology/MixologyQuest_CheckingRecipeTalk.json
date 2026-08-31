@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MixologyQuest_CheckingRecipeTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_CheckingRecipeTalk",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MixologyQuest_CheckingRecipeTalk_C'Default__MixologyQuest_CheckingRecipeTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_CheckingRecipeTalk.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MixologyQuest_CheckingRecipeTalk_C",
+    "Name": "Default__MixologyQuest_CheckingRecipeTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_CheckingRecipeTalk.MixologyQuest_CheckingRecipeTalk_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_CheckingRecipeTalk",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "45FD94ED43219A11853339845D77B977",
+        "SourceString": "Talk to {Npc} again",
+        "LocalizedString": "Talk to {Npc} again"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MixologyQuest_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_QuestTalk.0"
+        },
+        "TalkEntryPoint": "CheckingRecipe_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "497F7AEF49D55C82EBAE76AFF977ACAD",
+        "SourceString": "Talk to Herbalist again",
+        "LocalizedString": "Talk to Herbalist again"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F71A21494C644F15267629A0D41DA0AA",
+        "SourceString": "Talk to {Npc} again",
+        "LocalizedString": "Talk to {Npc} again"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A29070D24E7DF623341B6D8C23801314",
+        "SourceString": "After checking the recipe, Aleks told me that he needed some additional ingredients, and also a flask to hold the batch.",
+        "LocalizedString": "After checking the recipe, Aleks told me that he needed some additional ingredients, and also a flask to hold the batch."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest.MixologyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

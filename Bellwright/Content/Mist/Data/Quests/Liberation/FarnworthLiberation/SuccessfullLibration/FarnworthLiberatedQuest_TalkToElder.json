@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FarnworthLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FarnworthLiberatedQuest_TalkToElder_C'Default__FarnworthLiberatedQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FarnworthLiberatedQuest_TalkToElder_C",
+    "Name": "Default__FarnworthLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest_TalkToElder.FarnworthLiberatedQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest_TalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "3CA648E040A809259A5A9698B7B5055B",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A1F86F3B462D94B638B298843A51BF57",
+          "SourceString": "We did it...",
+          "LocalizedString": "We did it..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthLiberatedQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest_Talk.0"
+        },
+        "TalkEntryPoint": "VillageLiberated_InProgress",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5080CE6242A7C570F419C2B39FD240F8",
+        "SourceString": "Break free: Farnworth",
+        "LocalizedString": "Break free: Farnworth"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AE7393E94E49890F97E68D96A6B27BC0",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/FarnworthLiberation/SuccessfullLibration/FarnworthLiberatedQuest.FarnworthLiberatedQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

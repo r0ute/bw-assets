@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishingTournamentFinalQuest_TalkTONPC_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentFinal/FishingTournamentFinalQuest_TalkTONPC",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishingTournamentFinalQuest_TalkTONPC_C'Default__FishingTournamentFinalQuest_TalkTONPC_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentFinal/FishingTournamentFinalQuest_TalkTONPC.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishingTournamentFinalQuest_TalkTONPC_C",
+    "Name": "Default__FishingTournamentFinalQuest_TalkTONPC_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentFinal/FishingTournamentFinalQuest_TalkTONPC.FishingTournamentFinalQuest_TalkTONPC_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentFinal/FishingTournamentFinalQuest_TalkTONPC",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4B8F0358467AA9B0A49CA3947CF42658",
+          "SourceString": "About the fishing tournament…",
+          "LocalizedString": "About the fishing tournament…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FishingTournamentFinalQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentFinal/FishingTournamentFinalQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "7F0B6EC144BB7992F7ABEA83A1901A60",
+        "SourceString": "Fishing Tournament - Final",
+        "LocalizedString": "Fishing Tournament - Final"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8ABC470540789FACD2EFCDAB78281BC6",
+        "SourceString": "I won a fishing tournament, I mastered my skills, I wonder if next year it will look the same for me. I wonder if I can join another Tournament outside of the Lowlands and Highlands…",
+        "LocalizedString": "I won a fishing tournament, I mastered my skills, I wonder if next year it will look the same for me. I wonder if I can join another Tournament outside of the Lowlands and Highlands…"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 500,
+      "RenownReward": 350,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'FishTrophys_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/FishTrophys.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'GoldenClawfinTrophy_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/GoldenClawfinTrophy.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 500,
+            "MaxQuantity": 500
+          }
+        ]
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

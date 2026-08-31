@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FalseOathsQuest_RaiseMilitia_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'FalseOathsQuest_RaiseMilitia_C:ExecuteUbergraph_FalseOathsQuest_RaiseMilitia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistMobilizeMilitiaQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FalseOathsQuest_RaiseMilitia_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.3"
+      },
+      {
+        "ObjectName": "Function'FalseOathsQuest_RaiseMilitia_C:ExecuteUbergraph_FalseOathsQuest_RaiseMilitia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FalseOathsQuest_RaiseMilitia": {
+        "ObjectName": "Function'FalseOathsQuest_RaiseMilitia_C:ExecuteUbergraph_FalseOathsQuest_RaiseMilitia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'FalseOathsQuest_RaiseMilitia_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FalseOathsQuest_RaiseMilitia_C'Default__FalseOathsQuest_RaiseMilitia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FalseOathsQuest_RaiseMilitia_C",
+    "Name": "Default__FalseOathsQuest_RaiseMilitia_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.FalseOathsQuest_RaiseMilitia_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SettlementName": "Rustshore",
+      "Title": {
+        "Namespace": "",
+        "Key": "24F3004F48D60AB96DD87684F82A00F6",
+        "SourceString": "Raise a squad of Halmayans",
+        "LocalizedString": "Raise a squad of Halmayans"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E42AF45B4BB443F3B2D27FAAB9FC8768",
+        "SourceString": "Raise a squad of Halmayans",
+        "LocalizedString": "Raise a squad of Halmayans"
+      },
+      "bShowMarkerOnMap": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest.FalseOathsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FalseOathsQuest_RaiseMilitia",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_RaiseMilitia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_RaiseMilitia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_RaiseMilitia.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

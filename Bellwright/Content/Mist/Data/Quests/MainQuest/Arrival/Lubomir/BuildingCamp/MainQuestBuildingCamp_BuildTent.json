@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBuildingCamp_BuildTent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildTent",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBuildingCamp_BuildTent_C'Default__MainQuestBuildingCamp_BuildTent_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildTent.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBuildingCamp_BuildTent_C",
+    "Name": "Default__MainQuestBuildingCamp_BuildTent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildTent.MainQuestBuildingCamp_BuildTent_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildTent",
+    "Properties": {
+      "BuildTaskDescription": {
+        "Namespace": "",
+        "Key": "52B11CBE4E4EF03235371FB8946D3A3E",
+        "SourceString": "Construct a {Structure} to provide Lubomir with shelter.",
+        "LocalizedString": "Construct a {Structure} to provide Lubomir with shelter."
+      },
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/TownBuilding/HousingTent.HousingTent_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "BuildingTentFinished_InProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp.MainQuestBuildingCamp_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

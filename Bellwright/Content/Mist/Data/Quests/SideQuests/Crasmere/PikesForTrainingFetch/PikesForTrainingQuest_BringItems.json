@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PikesForTrainingQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PikesForTrainingQuest_BringItems_C'Default__PikesForTrainingQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PikesForTrainingQuest_BringItems_C",
+    "Name": "Default__PikesForTrainingQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_BringItems.PikesForTrainingQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BastardSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/BastardSword.1"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "PartialCompletionPossibleTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "DAE2094D4332D6E3D4831995BE72616C",
+          "SourceString": "I brought some of the swords you requested.",
+          "LocalizedString": "I brought some of the swords you requested."
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "94CEA4AE4F3BBE821ED026A96D65A41A",
+        "SourceString": "I brought the swords that Elder Lucien asked for. This will help with training more villagers to fight and defend Crasmere from outside threats.",
+        "LocalizedString": "I brought the swords that Elder Lucien asked for. This will help with training more villagers to fight and defend Crasmere from outside threats."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C7EAF1FF4704D7199FCCF4AA26ABFC82",
+          "SourceString": "Regarding the swords…",
+          "LocalizedString": "Regarding the swords…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PikesForTrainingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "PikesForTraining_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PikesForTrainingFetch/PikesForTrainingQuest.PikesForTrainingQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

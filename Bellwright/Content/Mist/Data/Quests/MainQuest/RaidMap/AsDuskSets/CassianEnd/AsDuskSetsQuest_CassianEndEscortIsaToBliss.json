@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_CassianEndEscortIsaToBliss_C",
+    "Name": "Default__AsDuskSetsQuest_CassianEndEscortIsaToBliss_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'OpportunistBliss_CassianPoi_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/OpportunistBliss_CassianPoi.0"
+      },
+      "MaxDistanceToPlayer": 10000.0,
+      "CompletionDistanceFromTargetToNpc": 5000.0,
+      "AssignToASpecificSettlement": "Opportunist's Bliss",
+      "Title": {
+        "Namespace": "",
+        "Key": "6B98019542371C86BFA43ABE1AF582CF",
+        "SourceString": "Escort Isa to Opportunist's Bliss and talk to her after",
+        "LocalizedString": "Escort Isa to Opportunist's Bliss and talk to her after"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5C8A4B5143524DED28B5AB947A306584",
+        "SourceString": "Escort Isa to Opportunist's Bliss and talk to her after",
+        "LocalizedString": "Escort Isa to Opportunist's Bliss and talk to her after"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "85B57C544F939E84B638629F402519AB",
+        "SourceString": "Isa wanted nothing but to return to Edoardo. I escorted her back to the Cassian HQ. She believes in their love, even with the danger.",
+        "LocalizedString": "Isa wanted nothing but to return to Edoardo. I escorted her back to the Cassian HQ. She believes in their love, even with the danger."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "CassianEnd_IsaEscort_InProgress"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_CassianEndEscortIsaToBliss_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndEscortIsaToBliss'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.3"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.4"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndEscortIsaToBliss'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AsDuskSetsQuest_CassianEndEscortIsaToBliss": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndEscortIsaToBliss'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'Default__AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AsDuskSetsQuest_CassianEndEscortIsaToBliss",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_CassianEndEscortIsaToBliss_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndEscortIsaToBliss.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

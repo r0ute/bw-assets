@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProtectionGearforBlacksmithQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmithQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProtectionGearforBlacksmithQuest_C'Default__ProtectionGearforBlacksmithQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmithQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProtectionGearforBlacksmithQuest_C",
+    "Name": "Default__ProtectionGearforBlacksmithQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmithQuest.ProtectionGearforBlacksmithQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmithQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProtectionGearforBlacksmith_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmith_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "0595057648E4C9A6DC918D843038E6D4",
+        "SourceString": "Protection Gear",
+        "LocalizedString": "Protection Gear"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "3690859B486FB708978AEAA4CD3EF381",
+        "SourceString": "Finton Mallet had his protection gear stolen, and asked me for help in getting the new ones. I agreed to help. Safety first!",
+        "LocalizedString": "Finton Mallet had his protection gear stolen, and asked me for help in getting the new ones. I agreed to help. Safety first!"
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D56FCB3C4ECEAF5209791FBAC4D8430F",
+          "SourceString": "Protection Gear",
+          "LocalizedString": "Protection Gear"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProtectionGearforBlacksmith_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/ProtectionGear/ProtectionGearforBlacksmith_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 300,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 300.0,
+            "MaxQuantityMultiplier": 300.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook3'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook3.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest.Embers_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

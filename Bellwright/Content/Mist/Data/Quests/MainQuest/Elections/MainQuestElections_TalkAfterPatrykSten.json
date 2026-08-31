@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestElections_TalkAfterPatrykSten_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAfterPatrykSten",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestElections_TalkAfterPatrykSten_C'Default__MainQuestElections_TalkAfterPatrykSten_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAfterPatrykSten.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestElections_TalkAfterPatrykSten_C",
+    "Name": "Default__MainQuestElections_TalkAfterPatrykSten_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAfterPatrykSten.MainQuestElections_TalkAfterPatrykSten_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAfterPatrykSten",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "8D53DF914C8DBF8E742B42B274023575",
+        "SourceString": "Talk to Patryk Sten - new Bradford Elder",
+        "LocalizedString": "Talk to Patryk Sten - new Bradford Elder"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestElections_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_Talk.0"
+        },
+        "TalkEntryPoint": "TalkAfterPatrykSten_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "07624E2D4EAA573A85076A9210D1F7E9",
+        "SourceString": "Voting, Truth and Power",
+        "LocalizedString": "Voting, Truth and Power"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D49445BB4193D3EB1CC23AB1A598B267",
+        "SourceString": "Talk to Patryk Sten - new Bradford Elder",
+        "LocalizedString": "Talk to Patryk Sten - new Bradford Elder"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

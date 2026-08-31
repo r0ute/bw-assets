@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TripSafetyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetyQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TripSafetyQuest_C'Default__TripSafetyQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetyQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TripSafetyQuest_C",
+    "Name": "Default__TripSafetyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetyQuest.TripSafetyQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetyQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TripSafetQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CEE502524E7EEA90C8CE80BF9BF78233",
+        "SourceString": "One Eye Open",
+        "LocalizedString": "One Eye Open"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "6C0D573241F62ECE56E2A59534A88C1A",
+        "SourceString": "{QuestGiver} needs Reinforced gambesons and chainmail helmets for the safety of the “trip” she is organizing. I agree, I like to support a good cause.",
+        "LocalizedString": "{QuestGiver} needs Reinforced gambesons and chainmail helmets for the safety of the “trip” she is organizing. I agree, I like to support a good cause."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F8A0B1464BB07DFD190AF2A34095B4D8",
+          "SourceString": "Trip Safety",
+          "LocalizedString": "Trip Safety"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TripSafetyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TripSafetyFetch/TripSafetyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvalible",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 400,
+      "RenownReward": 250,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'AdvancedStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/AdvancedStews.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 500.0,
+            "MaxQuantityMultiplier": 500.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 3.0,
+            "MaxQuantityMultiplier": 3.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook3'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook3.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Bakery'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Bakery.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_Chain1.MainQuestBurningStove_Chain1_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereKlaraWinterburn_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereKlaraWinterburn_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereKlaraWinterburn_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereKlaraWinterburn_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

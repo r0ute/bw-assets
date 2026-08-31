@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PoisonQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PoisonQuest_C'Default__PoisonQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PoisonQuest_C",
+    "Name": "Default__PoisonQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest.PoisonQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PoisonQuest_BringShovel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BringShovel.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PoisonQuest_TalkToElderOptional_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToElderOptional.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PoisonQuest_TalkToBrigand_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToBrigand.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PoisonQuest_KillBrigand_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_KillBrigand.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PoisonQuest_BackToAleks_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BackToAleks.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "FF6DF9FC425E31C4E2CC5E9655D47518",
+        "SourceString": "Poison",
+        "LocalizedString": "Poison"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "C1A4948141267944096F1FAD29F9C02B",
+        "SourceString": "Aleks Amanita is in a tricky situation after killing a Brigand, allegedly by accident. If I don’t handle this situation correctly, there’ll be more bodies to deal with than just the Brigand.",
+        "LocalizedString": "Aleks Amanita is in a tricky situation after killing a Brigand, allegedly by accident. If I don’t handle this situation correctly, there’ll be more bodies to deal with than just the Brigand."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "741CAC5441CCFDBEA857E4908FF5494F",
+          "SourceString": "Poision Quest",
+          "LocalizedString": "Poision Quest"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvalible",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "60F5801340A6F84AF339FBA77EDFB7B9",
+          "SourceString": "About this whole dead Brigands situation.",
+          "LocalizedString": "About this whole dead Brigands situation."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_Talk.0"
+        },
+        "TalkEntryPoint": "AleksIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 300,
+      "RenownReward": 350,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest.MixologyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/PhysicianRequest/SpearAndIronBludegonForPhysicianQuest.SpearAndIronBludegonForPhysicianQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

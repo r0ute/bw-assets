@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildQuest_C'Default__WarriorsGuildQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildQuest_C",
+    "Name": "Default__WarriorsGuildQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest.WarriorsGuildQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildQuest_Duel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest_Duel.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "5FAE3D114E1337FB9E9EF0905D2C5733",
+        "SourceString": "Warrior's Guild part 1",
+        "LocalizedString": "Warrior's Guild part 1"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F436C38444CD1B9528EB398E277863AB",
+        "SourceString": "I decided that I would participate in a challenge from the Warriors Guild in the Lowlands. I will show them what I've got.",
+        "LocalizedString": "I decided that I would participate in a challenge from the Warriors Guild in the Lowlands. I will show them what I've got."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "32533A5F42D23FD0922EDCB992C20A2D",
+          "SourceString": "tesafasf",
+          "LocalizedString": "tesafasf"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Duel_Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildDuelist_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WarriorsGuild/WarriorsGuildDuelist_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildDuelistNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildDuelistNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildDuelistNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildDuelistNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

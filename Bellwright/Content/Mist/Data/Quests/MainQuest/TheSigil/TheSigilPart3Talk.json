@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart3Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheSigilPart3Talk_C:ExecuteUbergraph_TheSigilPart3Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheSigilPart3Talk_C:AmeliaQuestAvailable'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.1"
+      },
+      {
+        "ObjectName": "Function'TheSigilPart3Talk_C:TalkToPaul'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.3"
+      },
+      {
+        "ObjectName": "Function'TheSigilPart3Talk_C:ExecuteUbergraph_TheSigilPart3Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheSigilPart3Talk": {
+        "ObjectName": "Function'TheSigilPart3Talk_C:ExecuteUbergraph_TheSigilPart3Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.2"
+      },
+      "TalkToPaul": {
+        "ObjectName": "Function'TheSigilPart3Talk_C:TalkToPaul'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.3"
+      },
+      "AmeliaQuestAvailable": {
+        "ObjectName": "Function'TheSigilPart3Talk_C:AmeliaQuestAvailable'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.1"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart3Talk_C'Default__TheSigilPart3Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AmeliaQuestAvailable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheSigilPart3Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheSigilPart3Talk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheSigilPart3Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice3_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice3Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_4",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_5",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_6",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice4_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice4Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkToPaul",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheSigilPart3Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheSigilPart3Talk_C",
+    "Name": "Default__TheSigilPart3Talk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.TheSigilPart3Talk_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

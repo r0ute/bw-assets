@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestElections_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestElections_TalkToAmelie_C'Default__MainQuestElections_TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestElections_TalkToAmelie_C",
+    "Name": "Default__MainQuestElections_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkToAmelie.MainQuestElections_TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkToAmelie",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "B04CDB3245087C33681617A9C9CE8540",
+        "SourceString": "{Npc} is looking for you. Talk to her.",
+        "LocalizedString": "{Npc} is looking for you. Talk to her."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestElections_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAmelia_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "457DDA9D4ECF8F35E16921B84BD6436D",
+        "SourceString": "Voting, Truth and Power",
+        "LocalizedString": "Voting, Truth and Power"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EA964FE64644266FFBCA6DA356F71999",
+        "SourceString": "{Npc} is looking for you. Talk to her.",
+        "LocalizedString": "{Npc} is looking for you. Talk to her."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B74606614FE93728789F30BD3DF7010A",
+        "SourceString": "Amelie told me about an election happening in Bradford. I need to make my way there. This can prove to be an opportunity to make a difference.",
+        "LocalizedString": "Amelie told me about an election happening in Bradford. I need to make my way there. This can prove to be an opportunity to make a difference."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

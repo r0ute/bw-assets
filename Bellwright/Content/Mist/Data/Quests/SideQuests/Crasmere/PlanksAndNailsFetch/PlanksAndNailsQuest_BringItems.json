@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PlanksAndNailsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PlanksAndNailsQuest_BringItems_C'Default__PlanksAndNailsQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PlanksAndNailsQuest_BringItems_C",
+    "Name": "Default__PlanksAndNailsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest_BringItems.PlanksAndNailsQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Nails_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Nails.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'HardPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3632D38747503C858D02C78881B32601",
+        "SourceString": "I delivered the nails and planks that Elder asked of me to improve their docks in order to boost their fishing.",
+        "LocalizedString": "I delivered the nails and planks that Elder asked of me to improve their docks in order to boost their fishing."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1CBBD28B401E92488C033FB95BEADD15",
+          "SourceString": "About those planks and nails…",
+          "LocalizedString": "About those planks and nails…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PlanksAndNailsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "PlanksAndNails_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest.PlanksAndNailsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

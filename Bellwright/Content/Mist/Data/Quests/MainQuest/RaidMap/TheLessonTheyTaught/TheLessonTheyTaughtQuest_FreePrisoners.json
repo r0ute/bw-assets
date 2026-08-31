@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLessonTheyTaughtQuest_FreePrisoners_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_FreePrisoners'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.2"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.3"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_FreePrisoners'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLessonTheyTaughtQuest_FreePrisoners": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_FreePrisoners'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_FreePrisoners_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLessonTheyTaughtQuest_FreePrisoners_C'Default__TheLessonTheyTaughtQuest_FreePrisoners_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLessonTheyTaughtQuest_FreePrisoners",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_FreePrisoners_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_FreePrisoners_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_FreePrisoners_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLessonTheyTaughtQuest_FreePrisoners_C",
+    "Name": "Default__TheLessonTheyTaughtQuest_FreePrisoners_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners.TheLessonTheyTaughtQuest_FreePrisoners_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_FreePrisoners",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FalsgarSlave1_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/FalsgarSlave1_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_Talk.0"
+        },
+        "TalkEntryPoint": "FreeThePrisoner_1"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D39DB3274C546951A40428A17639C61F",
+        "SourceString": "Talk to Prisoners.",
+        "LocalizedString": "Talk to Prisoners."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "77B29DB143A08B584986D6A954010A36",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FalsgarSlave1_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/FalsgarSlave1_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest.TheLessonTheyTaughtQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

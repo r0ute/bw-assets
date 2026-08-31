@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_MeetStrangeMan_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_MeetStrangeMan",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_MeetStrangeMan_C'Default__WhereTheLostLayQuest_MeetStrangeMan_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_MeetStrangeMan.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_MeetStrangeMan_C",
+    "Name": "Default__WhereTheLostLayQuest_MeetStrangeMan_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_MeetStrangeMan.WhereTheLostLayQuest_MeetStrangeMan_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_MeetStrangeMan",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "198C1B9F42FDA0114740E1A01171E1F4",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A05EF319494FB450446E5B92D2889604",
+          "SourceString": "Who are you?",
+          "LocalizedString": "Who are you?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "MeetStrangeMan",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "8332BECC468B011EB055A1825BC9E77C",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "28BE5F94410D32AC5D82BE94C3F9E7C1",
+        "SourceString": "I tried to speak with the stranger who is walking near the tree. He just keeps ignoring me.",
+        "LocalizedString": "I tried to speak with the stranger who is walking near the tree. He just keeps ignoring me."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

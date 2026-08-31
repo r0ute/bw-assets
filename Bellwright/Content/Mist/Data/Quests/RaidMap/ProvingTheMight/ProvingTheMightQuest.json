@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProvingTheMightQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProvingTheMightQuest_C'Default__ProvingTheMightQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProvingTheMightQuest_C",
+    "Name": "Default__ProvingTheMightQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest.ProvingTheMightQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_DuelVicente_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_DuelAlano_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelAlano.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_TalkToKasimir_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_TalkToKasimir.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "8AFB6DBD4F18CF5D0BBCAF969741A2C1",
+        "SourceString": "Proving the Might",
+        "LocalizedString": "Proving the Might"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "05D3F4CE4009BDF685A8D5A39323C22D",
+        "SourceString": "Falsgar Knight-Commander Kasimir Krause asked me to evaluate his new recruits in a fight. Training them feels counterproductive, but maybe a good beating will change their minds about joining. Also, I need the gold.",
+        "LocalizedString": "Falsgar Knight-Commander Kasimir Krause asked me to evaluate his new recruits in a fight. Training them feels counterproductive, but maybe a good beating will change their minds about joining. Also, I need the gold."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 50,
+      "RenownReward": 100,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'KasimirKrauseNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KasimirKrauseNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'KasimirKrauseNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KasimirKrauseNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'VicenteVerdeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/VicenteVerdeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'AlanoOrdazNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/AlanoOrdazNpcTemplate.1"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

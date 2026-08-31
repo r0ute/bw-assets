@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LanternsofHope_ClearBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_ClearBandits",
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillPatrolsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LanternsofHope_ClearBandits_C'Default__LanternsofHope_ClearBandits_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_ClearBandits.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LanternsofHope_ClearBandits_C",
+    "Name": "Default__LanternsofHope_ClearBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_ClearBandits.LanternsofHope_ClearBandits_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_ClearBandits",
+    "Properties": {
+      "SettlementName": "Farnworth",
+      "ThreatLevelToBeAvailable": 0.0,
+      "Description": {
+        "Namespace": "",
+        "Key": "CEC4DF6B41710F13FAC162A617DAF669",
+        "SourceString": "Hunt bandit patrols",
+        "LocalizedString": "Hunt bandit patrols"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A3C2755D4900DB5E65A72382CB0CA95A",
+        "SourceString": "I have defeated the bandit patrols that were terrorizing the people of Farnworth. Hopefully they can enjoy a moment of peace. I need to return to Elder Viktor Yaxley and tell him the good news.",
+        "LocalizedString": "I have defeated the bandit patrols that were terrorizing the people of Farnworth. Hopefully they can enjoy a moment of peace. I need to return to Elder Viktor Yaxley and tell him the good news."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest.LanternsofHopeQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

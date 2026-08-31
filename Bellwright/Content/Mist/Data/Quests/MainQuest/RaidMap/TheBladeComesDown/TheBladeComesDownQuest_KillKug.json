@@ -1,0 +1,163 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_KillKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:ExecuteUbergraph_TheBladeComesDownQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.2"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.3"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:ExecuteUbergraph_TheBladeComesDownQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheBladeComesDownQuest_KillKug": {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:ExecuteUbergraph_TheBladeComesDownQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheBladeComesDownQuest_KillKug_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_KillKug_C'Default__TheBladeComesDownQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheBladeComesDownQuest_KillKug",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheBladeComesDownQuest_KillKug_C",
+    "Name": "Default__TheBladeComesDownQuest_KillKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug.TheBladeComesDownQuest_KillKug_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_KillKug",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "BA98DE3A45A7F3AA3F48CA812E625CB3",
+        "SourceString": "Kill Kug",
+        "LocalizedString": "Kill Kug"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "30E3E5FE473E4A6C779C59B6CD81042D",
+        "SourceString": "Kill Kug",
+        "LocalizedString": "Kill Kug"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "AA0FB013496645B87BB9BF90C8C12628",
+        "SourceString": "In the end, there was no more talk, only steel. Kug fought like a cornered wolf, but his reign ended here, in blood. He had forged chains into a crown, but I shattered both.",
+        "LocalizedString": "In the end, there was no more talk, only steel. Kug fought like a cornered wolf, but his reign ended here, in blood. He had forged chains into a crown, but I shattered both."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

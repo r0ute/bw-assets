@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart4_Quest_BacktoElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_BacktoElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart4_Quest_BacktoElder_C'Default__SirMedivalPart4_Quest_BacktoElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_BacktoElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart4_Quest_BacktoElder_C",
+    "Name": "Default__SirMedivalPart4_Quest_BacktoElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_BacktoElder.SirMedivalPart4_Quest_BacktoElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_BacktoElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_QuestTalk.0"
+        },
+        "TalkEntryPoint": "BackToElder"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "3D16807C4BCED263CCFAF1BC7773047E",
+        "SourceString": "Think On Your Sins",
+        "LocalizedString": "Think On Your Sins"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8A6A8FC74797B48326FC40BD0B588760",
+        "SourceString": "After defeating the knight, I came back to the Elder to explain what happened.",
+        "LocalizedString": "After defeating the knight, I came back to the Elder to explain what happened."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest.SirMedivalPart4_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

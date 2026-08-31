@@ -1,0 +1,288 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLongRoadQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLongRoadQuest_C:ExecuteUbergraph_TheLongRoadQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLongRoadQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.2"
+      },
+      {
+        "ObjectName": "Function'TheLongRoadQuest_C:ExecuteUbergraph_TheLongRoadQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLongRoadQuest": {
+        "ObjectName": "Function'TheLongRoadQuest_C:ExecuteUbergraph_TheLongRoadQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.1"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'TheLongRoadQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLongRoadQuest_C'Default__TheLongRoadQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLongRoadQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLongRoadQuest_C",
+    "Name": "Default__TheLongRoadQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.TheLongRoadQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_FindCrate_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_FindCrate.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_KillBenito_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_KillBenito.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_ReturnWine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ReturnWine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TakeCrate_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TakeCrate.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToBenito_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToBenito.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToEryk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToPapa_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_ComeToPapa_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ComeToPapa.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bManualSubtaskControl": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "09CA2D4A4FCE64304367438A1E83B52C",
+        "SourceString": "The Long Road",
+        "LocalizedString": "The Long Road"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0ED9F43241BF3AFE2AA2B7968D4AED57",
+        "SourceString": "Eryk wants my help to deliver him a crate of wine from Sol Winery. We’re gonna meet there. I think he does not appreciate my company on the road.",
+        "LocalizedString": "Eryk wants my help to deliver him a crate of wine from Sol Winery. We’re gonna meet there. I think he does not appreciate my company on the road."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "65DC519541399AA15DE499B8769F5984",
+        "SourceString": "Eryk wants my help to deliver him a crate of wine from Sol Winery. We’re gonna meet there. I think he does not appreciate my company on the road.",
+        "LocalizedString": "Eryk wants my help to deliver him a crate of wine from Sol Winery. We’re gonna meet there. I think he does not appreciate my company on the road."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 150,
+      "RenownReward": 100,
+      "LoyaltyReward": {
+        "Value": 50.0
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PapaFigosNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/SolsWinery/PapaFigosNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

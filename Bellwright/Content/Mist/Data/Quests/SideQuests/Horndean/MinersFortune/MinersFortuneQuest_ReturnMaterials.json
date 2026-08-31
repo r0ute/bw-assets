@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MinersFortuneQuest_ReturnMaterials_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnMaterials",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MinersFortuneQuest_ReturnMaterials_C'Default__MinersFortuneQuest_ReturnMaterials_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnMaterials.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MinersFortuneQuest_ReturnMaterials_C",
+    "Name": "Default__MinersFortuneQuest_ReturnMaterials_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnMaterials.MinersFortuneQuest_ReturnMaterials_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnMaterials",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'HardPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Nails_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Nails.0"
+          },
+          "MinAmount": 10,
+          "MaxAmount": 10,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Granite_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Granite.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "36D5922A413CECDCB537579E5446F264",
+          "SourceString": "About the materials.",
+          "LocalizedString": "About the materials."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReturnMaterials"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2088B7934307E90C7EC271956D19F30F",
+        "SourceString": "I returned to Elder Philip Mott with the materials he requested. He was relieved and grateful, thanking me for my hard work. He asked me to recruit at least two villagers to assist with the rebuilding efforts.",
+        "LocalizedString": "I returned to Elder Philip Mott with the materials he requested. He was relieved and grateful, thanking me for my hard work. He asked me to recruit at least two villagers to assist with the rebuilding efforts."
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest.MinersFortuneQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

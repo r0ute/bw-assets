@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FortifyingQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FortifyingQuest_C'Default__FortifyingQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FortifyingQuest_C",
+    "Name": "Default__FortifyingQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest.FortifyingQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_Buildlookout_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_Buildlookout.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_TalktoSohrvey_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_TalktoSohrvey.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_KillPatrol_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_KillPatrol.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_BackToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_BackToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "4AC194524290BD3BE1FFE7B77512A2E5",
+        "SourceString": "Fortifying",
+        "LocalizedString": "Fortifying"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "6F23C10F4C11200DBCFA4A959C5FB401",
+        "SourceString": "I spoke with the elder. He shared with me how worried they are regarding recent bandit attacks on villages nearby. He asked me to build a lookout to help scout the area near the village, and recruit a villager to man the tower. They also asked me to scout the regions nearby for bandit patrols and defeat them.",
+        "LocalizedString": "I spoke with the elder. He shared with me how worried they are regarding recent bandit attacks on villages nearby. He asked me to build a lookout to help scout the area near the village, and recruit a villager to man the tower. They also asked me to scout the regions nearby for bandit patrols and defeat them."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "19F91C5F41CB9E370054D59FFEA7A895",
+          "SourceString": "How has everything been since the liberation?",
+          "LocalizedString": "How has everything been since the liberation?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 250,
+      "VillageProsperityReward": 300,
+      "VillageConstructionPointsReward": 5,
+      "RenownReward": 300,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SohrveyLance_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/SohrveyLance_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HorndeanVillageProfile.HorndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

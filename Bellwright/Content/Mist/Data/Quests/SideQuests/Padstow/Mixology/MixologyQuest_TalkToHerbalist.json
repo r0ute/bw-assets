@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MixologyQuest_TalkToHerbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_TalkToHerbalist",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MixologyQuest_TalkToHerbalist_C'Default__MixologyQuest_TalkToHerbalist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_TalkToHerbalist.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MixologyQuest_TalkToHerbalist_C",
+    "Name": "Default__MixologyQuest_TalkToHerbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_TalkToHerbalist.MixologyQuest_TalkToHerbalist_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_TalkToHerbalist",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MixologyQuest_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_QuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToHerbalist_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "DDFF925640C190CC2D01C3878895DFC0",
+        "SourceString": "Find the Herbalist",
+        "LocalizedString": "Find the Herbalist"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8844A46F496A7821E64D0E8E1DE25113",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FEBD7E514BFB599E5D77678942EF929E",
+        "SourceString": "I found the herbalist and delivered the batch of Solstice Delirium. Now, I need to wait as he examines the recipe.",
+        "LocalizedString": "I found the herbalist and delivered the batch of Solstice Delirium. Now, I need to wait as he examines the recipe."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest.MixologyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

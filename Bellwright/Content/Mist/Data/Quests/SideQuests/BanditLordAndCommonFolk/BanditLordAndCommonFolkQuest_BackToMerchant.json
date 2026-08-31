@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_BackToMerchant_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_BackToMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_BackToMerchant.BanditLordAndCommonFolkQuest_BackToMerchant_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_BackToMerchant",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_MerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_MerchantNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_Merchant_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Merchant_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "BackToMerchant"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A69653EF4547469F9483A28047A9410B",
+        "SourceString": "The merchant is safe. I just hope that none of his shady friends visit the Crossroads Tavern.",
+        "LocalizedString": "The merchant is safe. I just hope that none of his shady friends visit the Crossroads Tavern."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_MerchantNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_MerchantNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_Merchant_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Merchant_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_BackToMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_BackToMerchant",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_BackToMerchant_C'Default__BanditLordAndCommonFolkQuest_BackToMerchant_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_BackToMerchant.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

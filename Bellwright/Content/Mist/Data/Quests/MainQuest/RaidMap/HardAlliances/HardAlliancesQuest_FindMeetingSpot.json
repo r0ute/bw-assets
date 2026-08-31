@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardAlliancesQuest_FindMeetingSpot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'HardAlliancesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardAlliancesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'HardAlliancesQuest_FindMeetingSpot_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.2"
+      },
+      {
+        "ObjectName": "Function'HardAlliancesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardAlliancesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cassandra",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_HardAlliancesQuest_FindMeetingSpot": {
+        "ObjectName": "Function'HardAlliancesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardAlliancesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'HardAlliancesQuest_FindMeetingSpot_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardAlliancesQuest_FindMeetingSpot_C'Default__HardAlliancesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_HardAlliancesQuest_FindMeetingSpot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HardAlliancesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HardAlliancesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HardAlliancesQuest_FindMeetingSpot_C",
+    "Name": "Default__HardAlliancesQuest_FindMeetingSpot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot.HardAlliancesQuest_FindMeetingSpot_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_FindMeetingSpot",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cassandra": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        },
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/HardAlliances/HardAlliancesMeetingSpot_QuestPoi.HardAlliancesMeetingSpot_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C5EE649B4F8C64E5276342AE98C8515D",
+        "SourceString": "Go to the meeting spot with Cassandra",
+        "LocalizedString": "Go to the meeting spot with Cassandra"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1E526F95431024FB0F129CB7C583CCFB",
+        "SourceString": "Go to the meeting spot with Cassandra",
+        "LocalizedString": "Go to the meeting spot with Cassandra"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest.HardAlliancesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

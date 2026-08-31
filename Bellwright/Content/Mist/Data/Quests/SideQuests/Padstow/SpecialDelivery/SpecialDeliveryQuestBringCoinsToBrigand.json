@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SpecialDeliveryQuestBringCoinsToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestBringCoinsToBrigand",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SpecialDeliveryQuestBringCoinsToBrigand_C'Default__SpecialDeliveryQuestBringCoinsToBrigand_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestBringCoinsToBrigand.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SpecialDeliveryQuestBringCoinsToBrigand_C",
+    "Name": "Default__SpecialDeliveryQuestBringCoinsToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestBringCoinsToBrigand.SpecialDeliveryQuestBringCoinsToBrigand_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestBringCoinsToBrigand",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+          },
+          "MinAmount": 100,
+          "MaxAmount": 100,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueBrigandTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/PadstowUniqueBrigandTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "911A14314AE0C8124D218F95A1A2477C",
+          "SourceString": "You look worried, is there anything I can help you with?",
+          "LocalizedString": "You look worried, is there anything I can help you with?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SpecialDeliveryQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringCoinsToBrigand_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4999837544A5E745578439BC28576F57",
+        "SourceString": "The brigand was relentless, I had to pay him to leave us alone.",
+        "LocalizedString": "The brigand was relentless, I had to pay him to leave us alone."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest.SpecialDeliveryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

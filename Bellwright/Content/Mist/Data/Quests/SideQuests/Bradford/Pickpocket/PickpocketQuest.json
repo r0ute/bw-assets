@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PickpocketQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PickpocketQuest_C'Default__PickpocketQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PickpocketQuest_C",
+    "Name": "Default__PickpocketQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest.PickpocketQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest_BringItem.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BAF1B45742FA35BD502274A68AC1FF85",
+        "SourceString": "A Father's Message",
+        "LocalizedString": "A Father's Message"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "01AF88324F3FE0FC19DE3DA219791282",
+        "SourceString": "Deliver the letter to Lucy Lane in Farnworth.",
+        "LocalizedString": "Deliver the letter to Lucy Lane in Farnworth."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "576B08AA44C663CC50124F96F432B8AA",
+        "SourceString": "A nice old man asked me to deliver the letter to his daughter living in Farnworth, which seems like an easy coin. I’m sure nothing bad will happen.",
+        "LocalizedString": "A nice old man asked me to deliver the letter to his daughter living in Farnworth, which seems like an easy coin. I’m sure nothing bad will happen."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Available"
+      },
+      "RenownReward": 100,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordPickpocketer_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordPickpocketer.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordPickpocketer_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordPickpocketer.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthPickpocketerDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthPickpocketerDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

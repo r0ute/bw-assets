@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildHalmareShoreQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildHalmareShoreQuest_C'Default__WarriorsGuildHalmareShoreQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildHalmareShoreQuest_C",
+    "Name": "Default__WarriorsGuildHalmareShoreQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest.WarriorsGuildHalmareShoreQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuest_TravelToHalmareIsles_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_TravelToHalmareIsles.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D9EE2A054C6494B92EEEB78EA3D581BA",
+        "SourceString": "Warriors Guild - Halmare Shore",
+        "LocalizedString": "Warriors Guild - Halmare Shore"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "63BA289B477BA1D13641D2ABA6E351A4",
+        "SourceString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared.",
+        "LocalizedString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "1AF92CCA4402EBFF1F881FAECB77082C",
+        "SourceString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared.",
+        "LocalizedString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0D0D5BB845C99D6C4BA64F993F5B2601",
+          "SourceString": "Do you have any tasks for me?",
+          "LocalizedString": "Do you have any tasks for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest.WarriorsGuildQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.WarriorsGuildPart2_Quest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest.WarriorsGuild3_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WarriorsGuild/WarriorsGuild_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WarriorsGuild/WarriorsGuild_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

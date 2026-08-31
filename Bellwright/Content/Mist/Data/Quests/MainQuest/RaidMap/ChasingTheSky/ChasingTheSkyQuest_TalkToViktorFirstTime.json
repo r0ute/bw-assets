@@ -1,0 +1,231 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_TalkToViktorFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorFirstTime_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorFirstTime_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cecilio",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorFirstTime": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorFirstTime_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_TalkToViktorFirstTime_C'Default__ChasingTheSkyQuest_TalkToViktorFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_TalkToViktorFirstTime_C",
+    "Name": "Default__ChasingTheSkyQuest_TalkToViktorFirstTime_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.ChasingTheSkyQuest_TalkToViktorFirstTime_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cecilio": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaezNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaezNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToViktorFirstTime"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaezNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaezNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorFirstTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_TalkToViktorFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_TalkToViktorFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorFirstTime.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultPart3Quest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Wait1Day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultPart3Quest_Wait1Day_C'Default__CultPart3Quest_Wait1Day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Wait1Day.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultPart3Quest_Wait1Day_C",
+    "Name": "Default__CultPart3Quest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Wait1Day.CultPart3Quest_Wait1Day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Wait1Day",
+    "Properties": {
+      "WaitDays": 1,
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "ResearcherWait1Day"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultResearcher_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultResearcher_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3_Quest.CultPart3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

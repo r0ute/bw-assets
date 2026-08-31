@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "AToastToWarArgumentState",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarArgumentState",
+    "Properties": {
+      "Guid": "F1AF2866-440D68D8-3820CAAF-09DEED27"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "SpeakerFaction_3_546BE19A46F6B2F07E4B85BFA11CAB75",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'AToastToWarArgumentFactions'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarArgumentFactions.0"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "InsultedFactions_13_4471ECA448C571A7EA78EA96FBF510B6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "ByteProperty",
+          "Name": "InsultedFactions_13_4471ECA448C571A7EA78EA96FBF510B6",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "UserDefinedEnum'AToastToWarArgumentFactions'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarArgumentFactions.0"
+          }
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "InsultTag_11_84468150474F085BD6A91EB07DA07700",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'AToastToWarArgumentTags'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarArgumentTags.0"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "SpeakerFaction_3_546BE19A46F6B2F07E4B85BFA11CAB75": "AToastToWarArgumentFactions::NewEnumerator0",
+      "InsultedFactions_13_4471ECA448C571A7EA78EA96FBF510B6": [],
+      "InsultTag_11_84468150474F085BD6A91EB07DA07700": "AToastToWarArgumentTags::NewEnumerator6"
+    }
+  }
+]

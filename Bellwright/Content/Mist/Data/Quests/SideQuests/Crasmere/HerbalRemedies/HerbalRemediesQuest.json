@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HerbalRemediesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HerbalRemediesQuest_C'Default__HerbalRemediesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HerbalRemediesQuest_C",
+    "Name": "Default__HerbalRemediesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest.HerbalRemediesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HerbalRemediesQuest_BuildStation_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest_BuildStation.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HerbalRemediesQuest_BringHerbs_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest_BringHerbs.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "918CB1C946ADB15A363366B4067C5F24",
+        "SourceString": "Herbal Remedies",
+        "LocalizedString": "Herbal Remedies"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D413122A42234A5E794E3980B26113B0",
+        "SourceString": "A mysterious illness has begun to spread through the village, and the herbalist is overwhelmed. The village healer asked me to better their herbal production capabilities by creating herb gardens and a drying rack. My efforts could provide much-needed remedies to combat the illness.",
+        "LocalizedString": "A mysterious illness has begun to spread through the village, and the herbalist is overwhelmed. The village healer asked me to better their herbal production capabilities by creating herb gardens and a drying rack. My efforts could provide much-needed remedies to combat the illness."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HerbalRemediesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 50,
+      "VillageTrustReward": 100,
+      "VillageProsperityReward": 200,
+      "RenownReward": 180,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'AdvancedStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/AdvancedStews.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 200.0,
+            "MaxQuantityMultiplier": 200.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 2.0,
+            "MaxQuantityMultiplier": 2.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook3'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook3.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 0.5,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/CrasmereVillageProfile.CrasmereVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Protector"
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereAshaRitaHealerNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Crasmere/CrasmereAshaRitaHealerNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereHealer_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereHealer_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereAshaRitaHealerNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Crasmere/CrasmereAshaRitaHealerNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereHealer_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereHealer_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/CrasmereVillageProfile.CrasmereVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishyBusinessQuest_AskToCookFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_AskToCookFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishyBusinessQuest_AskToCookFish_C'Default__FishyBusinessQuest_AskToCookFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_AskToCookFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishyBusinessQuest_AskToCookFish_C",
+    "Name": "Default__FishyBusinessQuest_AskToCookFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_AskToCookFish.FishyBusinessQuest_AskToCookFish_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_AskToCookFish",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Snakefish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/RaidMap/Snakefish.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BeardedMullet_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/RaidMap/BeardedMullet.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'JeffreyKlok_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/JeffreyKlok_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "BC5DA7D5485D6FC2E444B38E0F08BD62",
+          "SourceString": "I am in need of your cooking skills.",
+          "LocalizedString": "I am in need of your cooking skills."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FishyBusinessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuestTalk.0"
+        },
+        "TalkEntryPoint": "AskToCookFish"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "40544BCD42868B0AD913D88C429F72CF",
+        "SourceString": "I had a meal prepared with both Gavin and Berta’s fishes. Now I am better prepared to make a decision.",
+        "LocalizedString": "I had a meal prepared with both Gavin and Berta’s fishes. Now I am better prepared to make a decision."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'GrilledFish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SmokedFish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertaPradoFishMerchant_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/BertaPradoFishMerchant_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest.FishyBusinessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

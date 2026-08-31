@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart1TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart1TalkToAmelie_C'Default__TheSigilPart1TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSigilPart1TalkToAmelie_C",
+    "Name": "Default__TheSigilPart1TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1TalkToAmelie.TheSigilPart1TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1TalkToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSigilPart1Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1Talk.0"
+        },
+        "TalkEntryPoint": "AmeliaQuestAvailable"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5561F6344E2F825F7A6CD6AAB9F46477",
+        "SourceString": "The Sigil: Haerndean",
+        "LocalizedString": "The Sigil: Haerndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "69E26AAC42AF524B996DF792F52993C4",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C4B2A51445DD3CD0D19E598EDB17951F",
+        "SourceString": "Amelie mentioned that Oscar might have some answers regarding the sigil. I need to talk to him.",
+        "LocalizedString": "Amelie mentioned that Oscar might have some answers regarding the sigil. I need to talk to him."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart1.TheSigilPart1_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

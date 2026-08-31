@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_ReportToDarekFinal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReportToDarekFinal",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_ReportToDarekFinal_C'Default__ChasingTheSkyQuest_ReportToDarekFinal_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReportToDarekFinal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_ReportToDarekFinal_C",
+    "Name": "Default__ChasingTheSkyQuest_ReportToDarekFinal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReportToDarekFinal.ChasingTheSkyQuest_ReportToDarekFinal_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReportToDarekFinal",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "B49ACC6149C3066B26E985BAB889F569",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TheEnd_TalkToDarek"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5643ACC24B35B791EEEB78A6B3F14A1E",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

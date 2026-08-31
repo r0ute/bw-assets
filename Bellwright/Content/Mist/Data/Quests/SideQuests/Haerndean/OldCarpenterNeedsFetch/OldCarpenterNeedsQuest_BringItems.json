@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OldCarpenterNeedsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OldCarpenterNeedsQuest_BringItems_C'Default__OldCarpenterNeedsQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OldCarpenterNeedsQuest_BringItems_C",
+    "Name": "Default__OldCarpenterNeedsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest_BringItems.OldCarpenterNeedsQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SimpleCord_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.0"
+          },
+          "MinAmount": 4,
+          "MaxAmount": 4,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'PieceCookedMeat_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/PieceCookedMeat.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SoftLog_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanCarpenterTalk.0"
+        }
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "49F7847F437F9608B2AA27BFD75A9543",
+        "SourceString": "I gathered everything for Dalibor. He was grateful, though a bit forgetful about his wife’s request. And after giving me a reward for my troubles, he set off to fix his door.",
+        "LocalizedString": "I gathered everything for Dalibor. He was grateful, though a bit forgetful about his wife’s request. And after giving me a reward for my troubles, he set off to fix his door."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A5E459C94ACFB31E9A4315A8CAB5D2A0",
+          "SourceString": "Regarding the stuff you asked…",
+          "LocalizedString": "Regarding the stuff you asked…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'OldCarpenterNeedsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringItems_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanCarpenterTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/OldCarpenterNeedsFetch/OldCarpenterNeedsQuest.OldCarpenterNeedsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

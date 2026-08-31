@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ByOrderAndBloodQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToCassandra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ByOrderAndBloodQuest_TalkToCassandra_C'Default__ByOrderAndBloodQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToCassandra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ByOrderAndBloodQuest_TalkToCassandra_C",
+    "Name": "Default__ByOrderAndBloodQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToCassandra.ByOrderAndBloodQuest_TalkToCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToCassandra",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_Talk.0"
+        },
+        "TalkEntryPoint": "SpeakWithCassandra"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F5D9E4CA4DC78A3A9B2B44A7EC2BB4F4",
+        "SourceString": "I confronted Cassandra Kim. She knew why I was there and was ready to die fighting. Her pride is unshakable, and she’d rather fall than surrender. No matter what I said, the only way this could end was with blades drawn.",
+        "LocalizedString": "I confronted Cassandra Kim. She knew why I was there and was ready to die fighting. Her pride is unshakable, and she’d rather fall than surrender. No matter what I said, the only way this could end was with blades drawn."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.ByOrderAndBloodQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

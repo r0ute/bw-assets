@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultPart3Quest_BringItemToOscarEnd_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_BringItemToOscarEnd",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultPart3Quest_BringItemToOscarEnd_C'Default__CultPart3Quest_BringItemToOscarEnd_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_BringItemToOscarEnd.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultPart3Quest_BringItemToOscarEnd_C",
+    "Name": "Default__CultPart3Quest_BringItemToOscarEnd_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_BringItemToOscarEnd.CultPart3Quest_BringItemToOscarEnd_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_BringItemToOscarEnd",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Cult3_CultNote_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/Cult3_CultNote.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "BackToOscar"
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3_Quest.CultPart3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

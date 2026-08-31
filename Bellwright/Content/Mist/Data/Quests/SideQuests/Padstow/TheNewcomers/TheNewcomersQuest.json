@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheNewcomersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheNewcomersQuest_C'Default__TheNewcomersQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheNewcomersQuest_C",
+    "Name": "Default__TheNewcomersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest.TheNewcomersQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_BuildHouse_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BuildHouse.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_BringSmokedMeat_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BringSmokedMeat.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "148E79274D13546B2E0DC9ABAC21E5EF",
+        "SourceString": "The Newcomer's",
+        "LocalizedString": "The Newcomer's"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7BCD3A9E49C5378AA8F2A8A3B444BAF5",
+        "SourceString": "Edmund explained that he and Marla moved to Padstow after hearing about its liberation. They lost everything in the conflict and needed a fresh start.",
+        "LocalizedString": "Edmund explained that he and Marla moved to Padstow after hearing about its liberation. They lost everything in the conflict and needed a fresh start."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E037FB6749849FFFA05CAF9096B6A221",
+        "SourceString": "Edmund thanked me for everything I did to help them settle in.",
+        "LocalizedString": "Edmund thanked me for everything I did to help them settle in."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 100,
+      "VillageProsperityReward": 200,
+      "RenownReward": 200,
+      "bHiddenInGame": true,
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/PadstowVillageProfile.PadstowVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Protector"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersEdmund_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersEdmund_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheNewcomersEdmund_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersEdmund_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/PadstowVillageProfile.PadstowVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

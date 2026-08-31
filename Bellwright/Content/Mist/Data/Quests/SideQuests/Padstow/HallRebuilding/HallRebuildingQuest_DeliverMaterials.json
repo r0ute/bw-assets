@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HallRebuildingQuest_DeliverMaterials_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_DeliverMaterials",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HallRebuildingQuest_DeliverMaterials_C'Default__HallRebuildingQuest_DeliverMaterials_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_DeliverMaterials.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HallRebuildingQuest_DeliverMaterials_C",
+    "Name": "Default__HallRebuildingQuest_DeliverMaterials_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_DeliverMaterials.HallRebuildingQuest_DeliverMaterials_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_DeliverMaterials",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Rope_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": true
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Hide_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": true
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SoftLog_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "PartialCompletionPossibleTalk": {
+        "Icon": "EMistTalkIcon::MainQuest",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DBFA0EE5415721CE846B2BB25E683325",
+        "SourceString": "I delivered the items needed to rebuild the village hall. Hopefully this will breathe a new life to Padstow.",
+        "LocalizedString": "I delivered the items needed to rebuild the village hall. Hopefully this will breathe a new life to Padstow."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C037EFCA4C7EFE8FEE8FBE8A7B49EE92",
+          "SourceString": "Regarding the task you gave me...",
+          "LocalizedString": "Regarding the task you gave me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HallRebuildingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "HallRebuilding_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": true,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest.HallRebuildingQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

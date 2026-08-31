@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "BlackridgepoolAncientLegacyQuest_C",
+    "Name": "Default__BlackridgepoolAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest.BlackridgepoolAncientLegacyQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolAncientLegacyQuest_Examine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_Examine.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolAncientLegacyQuest_TalkToOscar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_TalkToOscar.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BD9C571B475AAE28732DF4934B10112D",
+        "SourceString": "Ancient Legacy - Blackridgepool",
+        "LocalizedString": "Ancient Legacy - Blackridgepool"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CA03FD79410D80A66BA2DC85C049A712",
+        "SourceString": "Ancient Legacy - Blackridgepool",
+        "LocalizedString": "Ancient Legacy - Blackridgepool"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 170,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'VeylnorShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/VeylnorShrine.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "AchievementOnFinishing": {
+        "ID": "FINISH_SHRINE_QUEST"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackridgepoolAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackridgepoolAncientLegacyQuest_C'Default__BlackridgepoolAncientLegacyQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

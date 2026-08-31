@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SunsetQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'SunsetQuest_TalkToCassandra_C:ExecuteUbergraph_SunsetQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SunsetQuest_TalkToCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.2"
+      },
+      {
+        "ObjectName": "Function'SunsetQuest_TalkToCassandra_C:ExecuteUbergraph_SunsetQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cassandra",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SunsetQuest_TalkToCassandra": {
+        "ObjectName": "Function'SunsetQuest_TalkToCassandra_C:ExecuteUbergraph_SunsetQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'SunsetQuest_TalkToCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SunsetQuest_TalkToCassandra_C'Default__SunsetQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SunsetQuest_TalkToCassandra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetStaticPoi_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistStaticPoi'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsOpportunist_Bliss_Cassian_Poi",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OpportunistBliss_CassianPoi_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/OpportunistBliss_CassianPoi.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SunsetQuest_TalkToCassandra_C",
+    "Name": "Default__SunsetQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra.SunsetQuest_TalkToCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_TalkToCassandra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cassandra": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SunsetQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToCassandra"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A84603224A2A529FC33FA38CAE65582D",
+        "SourceString": "Sol Winery was turned into a slaughterhouse. Someone snitched about Cassandra’s plan and killed all the Sol’s goons.I need to check what is happening inside the town. The mayor could be in danger.",
+        "LocalizedString": "Sol Winery was turned into a slaughterhouse. Someone snitched about Cassandra’s plan and killed all the Sol’s goons.I need to check what is happening inside the town. The mayor could be in danger."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

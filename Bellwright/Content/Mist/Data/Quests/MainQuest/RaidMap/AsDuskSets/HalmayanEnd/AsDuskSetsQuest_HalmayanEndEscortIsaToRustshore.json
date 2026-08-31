@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C",
+    "Name": "Default__AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'RustshoreVillage_HalmayanPoi_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/RustshoreVillage_HalmayanPoi.0"
+      },
+      "MaxDistanceToPlayer": 10000.0,
+      "CompletionDistanceFromTargetToNpc": 5000.0,
+      "AssignToASpecificSettlement": "Rustshore",
+      "Title": {
+        "Namespace": "",
+        "Key": "9FE23EC844CB070674FF74A388302946",
+        "SourceString": "Escort Isa back to Rustshore and talk to her after",
+        "LocalizedString": "Escort Isa back to Rustshore and talk to her after"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "774E0174485FEB9AF432FA89E64FD6AD",
+        "SourceString": "Escort Isa back to Rustshore and talk to her after",
+        "LocalizedString": "Escort Isa back to Rustshore and talk to her after"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "79771B0D489D92D63D0EDC85D52D35EE",
+        "SourceString": "Isa resented me the whole way back, swearing she’d run to Edoardo at the first chance. Still, she’s safe, for now.",
+        "LocalizedString": "Isa resented me the whole way back, swearing she’d run to Edoardo at the first chance. Still, she’s safe, for now."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "HalmayanEnd_EscortIsa"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:ExecuteUbergraph_AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.3"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.4"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:ExecuteUbergraph_AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore": {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:ExecuteUbergraph_AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'Default__AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndEscortIsaToRustshore.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

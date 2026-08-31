@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WalkingThePlankQuest_ReportToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ReportToCassandra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WalkingThePlankQuest_ReportToCassandra_C'Default__WalkingThePlankQuest_ReportToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ReportToCassandra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WalkingThePlankQuest_ReportToCassandra_C",
+    "Name": "Default__WalkingThePlankQuest_ReportToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ReportToCassandra.WalkingThePlankQuest_ReportToCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ReportToCassandra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D24B9349482EB850E844F9A89F808DFC",
+        "SourceString": "Speak to {Npc}",
+        "LocalizedString": "Speak to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReportBackToCassandra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "87BD4E86450C7C345EC60E82F65DF3BB",
+        "SourceString": "Speak to {Npc}",
+        "LocalizedString": "Speak to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2A6C85744453B1A2923FD2AE0E1872B8",
+        "SourceString": "Cassandra is proud of me for dealing with what was left from the Halmayan resistance, Halmare is now a place free from faction conflicts. Montverde will gladly hear about it.",
+        "LocalizedString": "Cassandra is proud of me for dealing with what was left from the Halmayan resistance, Halmare is now a place free from faction conflicts. Montverde will gladly hear about it."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.WalkingThePlankQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

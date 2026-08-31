@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart1Quest_ElderRequest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_ElderRequest",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart1Quest_ElderRequest_C'Default__GoldenScalesPart1Quest_ElderRequest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_ElderRequest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart1Quest_ElderRequest_C",
+    "Name": "Default__GoldenScalesPart1Quest_ElderRequest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_ElderRequest.GoldenScalesPart1Quest_ElderRequest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_ElderRequest",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoastedMushroom_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "62289C87485CE3AF45F2609106FA67C3",
+          "SourceString": "About the roasted mushroom you wanted…",
+          "LocalizedString": "About the roasted mushroom you wanted…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart1Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_Talk.0"
+        },
+        "TalkEntryPoint": "ElderRequest_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A6C51D6842EC18B849F8C5AF290A61B2",
+        "SourceString": "The Padstow’s Elder gave me a sample of the legendary bait in exchange for roasted mushroom. Time to give it to Paul.",
+        "LocalizedString": "The Padstow’s Elder gave me a sample of the legendary bait in exchange for roasted mushroom. Time to give it to Paul."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 150,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BagWithBites_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BagWithBites.1"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OldTomesQuest_TalkToSebastian_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'OldTomesQuest_TalkToSebastian_01_C:ExecuteUbergraph_OldTomesQuest_TalkToSebastian_01'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'OldTomesQuest_TalkToSebastian_01_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.2"
+      },
+      {
+        "ObjectName": "Function'OldTomesQuest_TalkToSebastian_01_C:ExecuteUbergraph_OldTomesQuest_TalkToSebastian_01'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_OldTomesQuest_TalkToSebastian_01": {
+        "ObjectName": "Function'OldTomesQuest_TalkToSebastian_01_C:ExecuteUbergraph_OldTomesQuest_TalkToSebastian_01'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'OldTomesQuest_TalkToSebastian_01_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OldTomesQuest_TalkToSebastian_01_C'Default__OldTomesQuest_TalkToSebastian_01_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_OldTomesQuest_TalkToSebastian_01",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_TalkToSebastian_01_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_TalkToSebastian_01_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "OldTomesQuest_TalkToSebastian_01_C",
+    "Name": "Default__OldTomesQuest_TalkToSebastian_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.OldTomesQuest_TalkToSebastian_01_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'OldTomesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToSebastian"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "341C230F4FFA56E8E134DF9BB228C306",
+        "SourceString": "Someone locked us in here. I need to find another way out, or we are doomed.",
+        "LocalizedString": "Someone locked us in here. I need to find another way out, or we are doomed."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.OldTomesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

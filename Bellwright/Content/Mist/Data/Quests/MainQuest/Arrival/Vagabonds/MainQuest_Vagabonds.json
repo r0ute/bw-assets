@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_Vagabonds_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_Vagabonds_C'Default__MainQuest_Vagabonds_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_Vagabonds_C",
+    "Name": "Default__MainQuest_Vagabonds_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.MainQuest_Vagabonds_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_TalkToLubomir_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomir.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_PracticeFight_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_PracticeFight.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_TalkToLubomirAfterDuel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomirAfterDuel.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_KillVagabonds_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_KillVagabonds.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_ReturnToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_ReturnToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "DA7E0F804206FD7701F8A6938EA9D1B0",
+        "SourceString": "Vagabonds",
+        "LocalizedString": "Vagabonds"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F71DA08A45C19F58AE7AFBBF622047F0",
+        "SourceString": "After setting up camp with Lubomir, I returned to Amelie to know how I can better settle in the Lowlands. She mentioned that the Elder has been dealing with an affront from some Bandits. I’ll go speak with the Elder and understand the situation better.",
+        "LocalizedString": "After setting up camp with Lubomir, I returned to Amelie to know how I can better settle in the Lowlands. She mentioned that the Elder has been dealing with an affront from some Bandits. I’ll go speak with the Elder and understand the situation better."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "VillageTrustReward": 150,
+      "RenownReward": 150,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.Arrival"
+      }
+    }
+  }
+]

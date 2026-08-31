@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SignsofProsperity_Quest_Build_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Build",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SignsofProsperity_Quest_Build_C'Default__SignsofProsperity_Quest_Build_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Build.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SignsofProsperity_Quest_Build_C",
+    "Name": "Default__SignsofProsperity_Quest_Build_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Build.SignsofProsperity_Quest_Build_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Build",
+    "Properties": {
+      "BuildTaskDescription": {
+        "Namespace": "",
+        "Key": "EF2E427645138BC4AB93BCA2382D4BE2",
+        "SourceString": "Build {Structure} and return to {QuestGiver}",
+        "LocalizedString": "Build {Structure} and return to {QuestGiver}"
+      },
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/TownBuilding/FastTravelSign.FastTravelSign_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "3F12D1E6420AC78CECEDC582639DB8D2",
+        "SourceString": "Signs of Prosperity",
+        "LocalizedString": "Signs of Prosperity"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4003D130443A2A562A9C73B060A64170",
+        "SourceString": "Build {Structure} and return to {QuestGiver}",
+        "LocalizedString": "Build {Structure} and return to {QuestGiver}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "130A83454359F4544CFFC6AFE6F3F46B",
+        "SourceString": "Ketyl Simmond convinced me to lend a hand in bolstering Hearndean's visibility to outsiders by constructing travel signs at key locations. The idea was that these signs would guide more travelers to our village, potentially revitalizing local businesses that have been missing out on new customers. The promise of a reward and the chance to contribute positively to the community's welfare nudged me into action.",
+        "LocalizedString": "Ketyl Simmond convinced me to lend a hand in bolstering Hearndean's visibility to outsiders by constructing travel signs at key locations. The idea was that these signs would guide more travelers to our village, potentially revitalizing local businesses that have been missing out on new customers. The promise of a reward and the chance to contribute positively to the community's welfare nudged me into action."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2133E829436B6CADD1CCE79ABB3EAC0D",
+        "SourceString": "Finished building the travel signs. Hopefully this will increase the number of visitors to Padstow.",
+        "LocalizedString": "Finished building the travel signs. Hopefully this will increase the number of visitors to Padstow."
+      },
+      "AskForNewQuestTalk": {
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "16B79A7345455AA93DA9E5A6BF1A75BD",
+          "SourceString": "About those travel signs…",
+          "LocalizedString": "About those travel signs…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SignsofProsperity_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "SignsofProsperity_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest.SignsofProsperity_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderComplete",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowLiberationQuest_TalkToElderComplete_C'Default__PadstowLiberationQuest_TalkToElderComplete_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderComplete.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowLiberationQuest_TalkToElderComplete_C",
+    "Name": "Default__PadstowLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderComplete.PadstowLiberationQuest_TalkToElderComplete_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderComplete",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D7A969254E11F4D68CED67AC6996A78B",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6209F52B4D2A42296895658211583CD3",
+          "SourceString": "What a fight...",
+          "LocalizedString": "What a fight..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CompleteLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "BD1201AB42292664B25C2DB20FCD0889",
+        "SourceString": "Time has come: Padstow",
+        "LocalizedString": "Time has come: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B833B4C447BF1A976D5139BB379D11F8",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DFBD29184D383E34365C53B1E3A580BC",
+        "SourceString": "With Ashbourne's tyranny finally behind us, the people of Padstow can rest easy tonight. The weight of oppression has lifted, and as dawn breaks tomorrow, it will herald a new era of freedom and hope for the village.",
+        "LocalizedString": "With Ashbourne's tyranny finally behind us, the people of Padstow can rest easy tonight. The weight of oppression has lifted, and as dawn breaks tomorrow, it will herald a new era of freedom and hope for the village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest.PadstowLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

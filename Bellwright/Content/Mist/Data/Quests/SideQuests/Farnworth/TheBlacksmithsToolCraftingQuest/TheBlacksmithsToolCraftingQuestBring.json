@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBlacksmithsToolCraftingQuestBring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuestBring",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBlacksmithsToolCraftingQuestBring_C'Default__TheBlacksmithsToolCraftingQuestBring_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuestBring.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheBlacksmithsToolCraftingQuestBring_C",
+    "Name": "Default__TheBlacksmithsToolCraftingQuestBring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuestBring.TheBlacksmithsToolCraftingQuestBring_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuestBring",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Strap_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1CAAAB924DFCC998DF3FD190D1AE7D82",
+          "SourceString": "Regarding what you asked for…",
+          "LocalizedString": "Regarding what you asked for…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheBlacksmithsToolCraftingQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringTools_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "E7D5C50F4B41154D7D2B4D96411A8D71",
+        "SourceString": "Bring tools for {QuestGiver}",
+        "LocalizedString": "Bring tools for {QuestGiver}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "064D52074C2C87D2657B39B19EC2E7C3",
+        "SourceString": "I crafted the tools that Tomas asked for, thankfully, they were up to his standards.",
+        "LocalizedString": "I crafted the tools that Tomas asked for, thankfully, they were up to his standards."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuest.TheBlacksmithsToolCraftingQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_TalkToOscar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowAncientLegacyQuest_TalkToOscar_C'Default__PadstowAncientLegacyQuest_TalkToOscar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_TalkToOscar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowAncientLegacyQuest_TalkToOscar_C",
+    "Name": "Default__PadstowAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_TalkToOscar.PadstowAncientLegacyQuest_TalkToOscar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_TalkToOscar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "F71C8B1A4E23B473BB3C69AAA1396901",
+        "SourceString": "Return to {Npc} and tell him shrine that you've discovered near Padstow.",
+        "LocalizedString": "Return to {Npc} and tell him shrine that you've discovered near Padstow."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "396521D64CAC4BD66D9E8E9ACB87C1C1",
+          "SourceString": "Regarding the shrine next to Padstow...",
+          "LocalizedString": "Regarding the shrine next to Padstow..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowAncientLegacyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToOscar_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D67C5EC2485CC9CB7C6BCAA6CC3454BA",
+        "SourceString": "Oscar says that uncovering these shrines is helping paint a better picture of the beliefs of our ancestors. I need to continue.",
+        "LocalizedString": "Oscar says that uncovering these shrines is helping paint a better picture of the beliefs of our ancestors. I need to continue."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest.PadstowAncientLegacyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

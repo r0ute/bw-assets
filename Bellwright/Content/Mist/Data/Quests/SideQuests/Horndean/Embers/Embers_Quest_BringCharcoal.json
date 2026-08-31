@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Embers_Quest_BringCharcoal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest_BringCharcoal",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Embers_Quest_BringCharcoal_C'Default__Embers_Quest_BringCharcoal_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest_BringCharcoal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Embers_Quest_BringCharcoal_C",
+    "Name": "Default__Embers_Quest_BringCharcoal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest_BringCharcoal.Embers_Quest_BringCharcoal_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest_BringCharcoal",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Charcoal_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "17E7A27141BFFFAA922368A18463C41D",
+        "SourceString": "I brought the charcoal that Finton needed to continue his work, but he really needs to take better care of his hands.",
+        "LocalizedString": "I brought the charcoal that Finton needed to continue his work, but he really needs to take better care of his hands."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "71AD092D4292325F99B5C7A8DC88836C",
+          "SourceString": "About those charcoals...",
+          "LocalizedString": "About those charcoals..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'Embers_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Embers_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/Embers/Embers_Quest.Embers_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

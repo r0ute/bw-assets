@@ -1,0 +1,442 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheGlassTurnsTheGainFallsPart2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.3"
+      },
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.2"
+      },
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Sebastian",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cassandra",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.2"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheGlassTurnsTheGainFallsPart2_C'Default__TheGlassTurnsTheGainFallsPart2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheGlassTurnsTheGainFallsPart2_C",
+    "Name": "Default__TheGlassTurnsTheGainFallsPart2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.TheGlassTurnsTheGainFallsPart2_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Sebastian": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Cassandra": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        },
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_TalkToCassandra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToCassandra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_ReachKugsChamber_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_ReachKugsChamber.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_KillBodyguard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_KillBodyguard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_EnterChamber_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_EnterChamber.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_TalkToKug_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToKug.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_KillKug_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_KillKug.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_TalkToMayor_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToMayor.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_PlantAFlag_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_PlantAFlag.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_TalkToCassandraAfter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToCassandraAfter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bManualSubtaskControl": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "08DD706F483B68CF26A9DAB920B46F1A",
+        "SourceString": "The Glass Turns, The Gain Falls Part 2",
+        "LocalizedString": "The Glass Turns, The Gain Falls Part 2"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8D3CDE7D48B0B2F8F7765BB89271B625",
+        "SourceString": "The time has come to get rid of Kug. With the help of the Cassians we are going to attack the city head on and overthrow the queen's puppet.",
+        "LocalizedString": "The time has come to get rid of Kug. With the help of the Cassians we are going to attack the city head on and overthrow the queen's puppet."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "6C62100A4D0EB050363E5685063E50F0",
+        "SourceString": "The time has come to get rid of Kug. With the help of the Cassians we are going to attack the city head on and overthrow the queen's puppet.",
+        "LocalizedString": "The time has come to get rid of Kug. With the help of the Cassians we are going to attack the city head on and overthrow the queen's puppet."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0D0D5BB845C99D6C4BA64F993F5B2601",
+          "SourceString": "Do you have any tasks for me?",
+          "LocalizedString": "Do you have any tasks for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RenownReward": 120,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1.TheGlassTurnsTheGainFallsPart1_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/Cassians.Cassians",
+          "SubPathString": ""
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

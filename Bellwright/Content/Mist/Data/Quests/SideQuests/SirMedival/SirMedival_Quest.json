@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedival_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedival_Quest_C'Default__SirMedival_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedival_Quest_C",
+    "Name": "Default__SirMedival_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest.SirMedival_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalQuest_KillBandits_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_KillBandits.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalQuest_TalkToSir_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_TalkToSir.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "9B724F0049E90F893F5491B1B614E035",
+        "SourceString": "The Wandering Knight Part 1",
+        "LocalizedString": "The Wandering Knight Part 1"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "06CA736E428CEB7E4F9FF787A224E07D",
+        "SourceString": "I’ve met a former knight of Queen Osenne on the road, and surprisingly, he doesn't want to kill me. He would be a great asset to my cause, so I'll try to convince him to join.",
+        "LocalizedString": "I’ve met a former knight of Queen Osenne on the road, and surprisingly, he doesn't want to kill me. He would be a great asset to my cause, so I'll try to convince him to join."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 100,
+      "RenownReward": 400,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

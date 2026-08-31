@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ClosureQuest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest_Wait1Day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ClosureQuest_Wait1Day_C'Default__ClosureQuest_Wait1Day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest_Wait1Day.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClosureQuest_Wait1Day_C",
+    "Name": "Default__ClosureQuest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest_Wait1Day.ClosureQuest_Wait1Day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest_Wait1Day",
+    "Properties": {
+      "WaitDays": 1,
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "429BAAE747A2B6A8021D79A1D25FDB29",
+        "SourceString": "It's time for Lyanna's wake, I should head there.",
+        "LocalizedString": "It's time for Lyanna's wake, I should head there."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ClosureQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Tomas Ferry - Player Returns Next Day"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosureQuest.ClosureQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

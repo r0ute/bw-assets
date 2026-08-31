@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_InterceptShipment_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_InterceptShipment_C:ExecuteUbergraph_ChasingTheSkyQuest_InterceptShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_InterceptShipment_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_InterceptShipment_C:ExecuteUbergraph_ChasingTheSkyQuest_InterceptShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_InterceptShipment": {
+        "ObjectName": "Function'ChasingTheSkyQuest_InterceptShipment_C:ExecuteUbergraph_ChasingTheSkyQuest_InterceptShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_InterceptShipment_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_InterceptShipment_C'Default__ChasingTheSkyQuest_InterceptShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_InterceptShipment_C",
+    "Name": "Default__ChasingTheSkyQuest_InterceptShipment_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.ChasingTheSkyQuest_InterceptShipment_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/ChasingTheSky/ChasingTheSkyQuest_Shipment.ChasingTheSkyQuest_Shipment_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "799C39B94BB47FFA6A9B1D9D02273DCA",
+        "SourceString": "Intercept the shipment",
+        "LocalizedString": "Intercept the shipment"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "475FC9364D2464DA660FDF91217D7EE2",
+        "SourceString": "Intercept the shipment",
+        "LocalizedString": "Intercept the shipment"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "405C00614DA3AB82E1876AA5C2A7F129",
+        "SourceString": "I reached Nauroh, but the smugglers were waiting. They attacked on sight; this wasn’t just a delivery. It was a trap.",
+        "LocalizedString": "I reached Nauroh, but the smugglers were waiting. They attacked on sight; this wasn’t just a delivery. It was a trap."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_InterceptShipment",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_InterceptShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_InterceptShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_InterceptShipment.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BaneOfTyrantsQuest_Hidden_C",
+    "Name": "Default__BaneOfTyrantsQuest_Hidden_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.BaneOfTyrantsQuest_Hidden_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RequiresCompletedQuestsToComplete": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest.ThroughTheCastleDoorsQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "840C49F74B83DC01EB3AF493E9C6D7F6",
+        "SourceString": "Bane of Tyrants",
+        "LocalizedString": "Bane of Tyrants"
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.BaneOfTyrantsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BaneOfTyrantsQuest_Hidden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_Hidden_C:ExecuteUbergraph_BaneOfTyrantsQuest_Hidden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistHiddenQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_Hidden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.3"
+      },
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_Hidden_C:ExecuteUbergraph_BaneOfTyrantsQuest_Hidden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BaneOfTyrantsQuest_Hidden": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_Hidden_C:ExecuteUbergraph_BaneOfTyrantsQuest_Hidden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_Hidden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BaneOfTyrantsQuest_Hidden_C'Default__BaneOfTyrantsQuest_Hidden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BaneOfTyrantsQuest_Hidden",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_Hidden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_Hidden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

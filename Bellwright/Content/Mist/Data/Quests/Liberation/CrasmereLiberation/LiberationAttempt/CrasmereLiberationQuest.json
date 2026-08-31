@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereLiberationQuest_C'Default__CrasmereLiberationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereLiberationQuest_C",
+    "Name": "Default__CrasmereLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest.CrasmereLiberationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_TalkToElderStart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderStart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_BuildWatchtower_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_BuildWatchtower.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_KillGarrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_KillGarrison.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_TalkToElderComplete_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderComplete.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "5E7BA1074C2C2F6DB7061991C04FBEAA",
+        "SourceString": "Time has come: Crasmere",
+        "LocalizedString": "Time has come: Crasmere"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5B9E6E1B4C0A55585671348A55903FDE",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "63B9B733490DD3DA5BDA8BA44EF36526",
+        "SourceString": "The chains of oppression have been broken in Crasmere, allowing its people to enjoy a peaceful night at last. As we welcome the dawn, it promises to usher in an era of liberty and self-determination for all.",
+        "LocalizedString": "The chains of oppression have been broken in Crasmere, allowing its people to enjoy a peaceful night at last. As we welcome the dawn, it promises to usher in an era of liberty and self-determination for all."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RenownReward": 10000,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Crasmere Liberation"
+      }
+    }
+  }
+]

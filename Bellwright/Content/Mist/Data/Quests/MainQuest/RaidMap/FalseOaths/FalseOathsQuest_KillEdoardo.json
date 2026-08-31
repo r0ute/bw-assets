@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FalseOathsQuest_KillEdoardo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'FalseOathsQuest_KillEdoardo_C:ExecuteUbergraph_FalseOathsQuest_KillEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FalseOathsQuest_KillEdoardo_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.3"
+      },
+      {
+        "ObjectName": "Function'FalseOathsQuest_KillEdoardo_C:ExecuteUbergraph_FalseOathsQuest_KillEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FalseOathsQuest_KillEdoardo": {
+        "ObjectName": "Function'FalseOathsQuest_KillEdoardo_C:ExecuteUbergraph_FalseOathsQuest_KillEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'FalseOathsQuest_KillEdoardo_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FalseOathsQuest_KillEdoardo_C'Default__FalseOathsQuest_KillEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FalseOathsQuest_KillEdoardo_C",
+    "Name": "Default__FalseOathsQuest_KillEdoardo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.FalseOathsQuest_KillEdoardo_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'EdoardoPretoNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/EdoardoPretoNpcTemplate.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "516BE3CD4C6B39025EF024B15618E1EA",
+        "SourceString": "Kill Edoardo",
+        "LocalizedString": "Kill Edoardo"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "76B3BB2A4580DDB65E34BA8B51D62D0E",
+        "SourceString": "Kill Edoardo",
+        "LocalizedString": "Kill Edoardo"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5A565D564B6A62B3E394FFA25A289173",
+        "SourceString": "I struck him down, no more lies, no more treachery. Betrayer’s life ended here, on the deck of a ship that never left the docks.",
+        "LocalizedString": "I struck him down, no more lies, no more treachery. Betrayer’s life ended here, on the deck of a ship that never left the docks."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FalseOathsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuestTalk.0"
+        },
+        "TalkEntryPoint": "BackToDarek"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest.FalseOathsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FalseOathsQuest_KillEdoardo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_KillEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_KillEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_KillEdoardo.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

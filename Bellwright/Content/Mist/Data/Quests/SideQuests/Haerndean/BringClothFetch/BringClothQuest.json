@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringClothQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringClothQuest_C'Default__BringClothQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringClothQuest_C",
+    "Name": "Default__BringClothQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest.BringClothQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringClothQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "765651C54A3EAD1B7DF69BA85E47FD7A",
+        "SourceString": "Merchant in Need",
+        "LocalizedString": "Merchant in Need"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "5307AC7642384DF8E762409E7F51B2CC",
+        "SourceString": "Another day, another example of Brigands being only a liability for the Lowlands. I need to help {QuestGiver} with these rugged shirts.",
+        "LocalizedString": "Another day, another example of Brigands being only a liability for the Lowlands. I need to help {QuestGiver} with these rugged shirts."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F9B101B6419CB4671FA8E6889F139708",
+          "SourceString": "Bring cloth.",
+          "LocalizedString": "Bring cloth."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringClothQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 175,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/WeaverMemorialFetch/WeaverMemorialQuest.WeaverMemorialQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HorndeanAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HorndeanAncientLegacyQuest_C'Default__HorndeanAncientLegacyQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HorndeanAncientLegacyQuest_C",
+    "Name": "Default__HorndeanAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest.HorndeanAncientLegacyQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanAncientLegacyQuest_Examine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_Examine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanAncientLegacyQuest_TalkToOscar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_TalkToOscar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E97FC86E4614DA4C7631F29C926153AB",
+        "SourceString": "Ancient Legacy - Horndean",
+        "LocalizedString": "Ancient Legacy - Horndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "373E768841376B8D757096B084444711",
+        "SourceString": "Ancient Legacy - Horndean",
+        "LocalizedString": "Ancient Legacy - Horndean"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'MorvathisShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/MorvathisShrine.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 3,
+            "MaxQuantity": 3
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "AchievementOnFinishing": {
+        "ID": "FINISH_SHRINE_QUEST"
+      }
+    }
+  }
+]

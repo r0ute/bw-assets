@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProblemWithWolvesQuest_FindHerbs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_FindHerbs",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProblemWithWolvesQuest_FindHerbs_C'Default__ProblemWithWolvesQuest_FindHerbs_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_FindHerbs.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProblemWithWolvesQuest_FindHerbs_C",
+    "Name": "Default__ProblemWithWolvesQuest_FindHerbs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_FindHerbs.ProblemWithWolvesQuest_FindHerbs_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_FindHerbs",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Sage_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6DF52F114F2F0EB60E5F87A374AA2A1B",
+          "SourceString": "About those herbs for the sick cow…",
+          "LocalizedString": "About those herbs for the sick cow…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverHerbsToHerbalist_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A738B8EA47F63C10A20DF1B7E66A6D04",
+        "SourceString": "I brought the ingredients that Aleks asked for. Hopefully this can help heal the cow.",
+        "LocalizedString": "I brought the ingredients that Aleks asked for. Hopefully this can help heal the cow."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PotionFromHerbalist_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/PotionFromHerbalist.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasteroftheOceanQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_BringFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasteroftheOceanQuest_BringFish_C'Default__MasteroftheOceanQuest_BringFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_BringFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasteroftheOceanQuest_BringFish_C",
+    "Name": "Default__MasteroftheOceanQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_BringFish.MasteroftheOceanQuest_BringFish_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_BringFish",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'EbonEel_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/EbonEel.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheOcean_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOcean_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheOceanQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_Talk.0"
+        },
+        "TalkEntryPoint": "MasterRiverInProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E94215DD4C39A229E476CAB205721388",
+        "SourceString": "That was way harder than I expected. The Ebon Eel is basically a living rope coated in oil. But I got one! Now to bring it back before it decides to escape.",
+        "LocalizedString": "That was way harder than I expected. The Ebon Eel is basically a living rope coated in oil. But I got one! Now to bring it back before it decides to escape."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest.MasteroftheOceanQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheOneAboveAllQuest_TalkToCassandraLyraDead_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToCassandraLyraDead",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheOneAboveAllQuest_TalkToCassandraLyraDead_C'Default__TheOneAboveAllQuest_TalkToCassandraLyraDead_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToCassandraLyraDead.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheOneAboveAllQuest_TalkToCassandraLyraDead_C",
+    "Name": "Default__TheOneAboveAllQuest_TalkToCassandraLyraDead_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToCassandraLyraDead.TheOneAboveAllQuest_TalkToCassandraLyraDead_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToCassandraLyraDead",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "8A60B5D44CED25B85DA0D5B4325BA5E3",
+        "SourceString": "Report back to {Npc}",
+        "LocalizedString": "Report back to {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToCassandraAfter"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "FA97514549B86DC81250CE9C04A976E1",
+        "SourceString": "Report back to {Npc}",
+        "LocalizedString": "Report back to {Npc}"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest.TheOneAboveAllQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

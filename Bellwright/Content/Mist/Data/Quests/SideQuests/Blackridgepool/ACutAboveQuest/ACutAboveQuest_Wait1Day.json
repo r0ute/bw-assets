@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "ACutAboveQuest_Wait1Day_C",
+    "Name": "Default__ACutAboveQuest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Wait1Day.ACutAboveQuest_Wait1Day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Wait1Day",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "AFA9558842FEAEB2E1DA1190670E4FAE",
+        "SourceString": "Wait until tomorrow and come back to Blacksmith.",
+        "LocalizedString": "Wait until tomorrow and come back to Blacksmith."
+      },
+      "WaitDays": 1,
+      "Description": {
+        "Namespace": "",
+        "Key": "EF5BFC4A4D64138A63B351BCCCA015B5",
+        "SourceString": "Wait until tomorrow and come back to Blacksmith.",
+        "LocalizedString": "Wait until tomorrow and come back to Blacksmith."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A3BCE0164C2FDCD4A4224CB5585365CC",
+        "SourceString": "He should be done by now, I should check on him.",
+        "LocalizedString": "He should be done by now, I should check on him."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "NPC Blacksmith next morning"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "91DA51DA4297E6EFB63A6CA5238B4A58",
+          "SourceString": "Are the tools ready?",
+          "LocalizedString": "Are the tools ready?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "NPC Blacksmith next morning",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest.ACutAboveQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACutAboveQuest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Wait1Day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACutAboveQuest_Wait1Day_C'Default__ACutAboveQuest_Wait1Day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Wait1Day.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

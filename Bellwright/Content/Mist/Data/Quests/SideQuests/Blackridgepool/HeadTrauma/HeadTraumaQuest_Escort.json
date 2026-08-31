@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeadTraumaQuest_Escort_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Escort",
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeadTraumaQuest_Escort_C'Default__HeadTraumaQuest_Escort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Escort.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeadTraumaQuest_Escort_C",
+    "Name": "Default__HeadTraumaQuest_Escort_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Escort.HeadTraumaQuest_Escort_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Escort",
+    "Properties": {
+      "AcceptedActorTag": "HeadTraumaEscortPoint",
+      "MaxDistanceToPlayer": 10000.0,
+      "CompletionDistanceFromTargetToNpc": 5000.0,
+      "bMakeVillagerOfClosestVillageAfterComplete": true,
+      "Description": {
+        "Namespace": "",
+        "Key": "8C53B4AB45843EF8EDFDD38CF305DE02",
+        "SourceString": "Escort the mad warrior to the village.",
+        "LocalizedString": "Escort the mad warrior to the village."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8C22538C43656A3F8C58B4B32C212550",
+        "SourceString": "I escorted the Mad Warrior back to the village, I hope thar Matin will be able to help him.",
+        "LocalizedString": "I escorted the Mad Warrior back to the village, I hope thar Matin will be able to help him."
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HeadTraumaQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Marlin Fulke's Idle 2"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MadWarrior_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/MadWarrior_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest.HeadTraumaQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

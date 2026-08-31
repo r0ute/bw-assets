@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MixologyQuest_DeliverBooze_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_DeliverBooze",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MixologyQuest_DeliverBooze_C'Default__MixologyQuest_DeliverBooze_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_DeliverBooze.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MixologyQuest_DeliverBooze_C",
+    "Name": "Default__MixologyQuest_DeliverBooze_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_DeliverBooze.MixologyQuest_DeliverBooze_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_DeliverBooze",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SolsticeSecretBooze_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/SolsticeSecretBooze.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MixologyQuest_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest_QuestTalk.0"
+        },
+        "TalkEntryPoint": "DeliverBooze_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "1344B9BA48BF2496548BDA90229B2F91",
+        "SourceString": "Deliver Solstice Delirium",
+        "LocalizedString": "Deliver Solstice Delirium"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "522388EF40A59926FA51018525D1EAD2",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "91357B814BAA6F356A9F4A9C2F158D64",
+        "SourceString": "I delivered the concotion to Cyrus who was ready to sample it. Luckily, he rewarded me before starting to drink.",
+        "LocalizedString": "I delivered the concotion to Cyrus who was ready to sample it. Luckily, he rewarded me before starting to drink."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 150,
+      "RenownReward": 250,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Mixology/MixologyQuest.MixologyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

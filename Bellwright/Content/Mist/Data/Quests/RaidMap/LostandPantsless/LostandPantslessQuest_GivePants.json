@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostandPantslessQuest_GivePants_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuest_GivePants",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostandPantslessQuest_GivePants_C'Default__LostandPantslessQuest_GivePants_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuest_GivePants.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostandPantslessQuest_GivePants_C",
+    "Name": "Default__LostandPantslessQuest_GivePants_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuest_GivePants.LostandPantslessQuest_GivePants_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuest_GivePants",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostandPantslessPants_QuestItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/LostandPantsless/LostandPantslessPants_QuestItem.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AbelKawialiNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/AbelKawialiNPCTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "14D72C3442D14FC1479C17A640879A19",
+          "SourceString": "About your little problem...",
+          "LocalizedString": "About your little problem..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostandPantslessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuestTalk.0"
+        },
+        "TalkEntryPoint": "AbelTruth"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D8E944E64F229E092C275F800D0A8837",
+        "SourceString": "Tell Abel the truth of what happened and give him his pants.",
+        "LocalizedString": "Tell Abel the truth of what happened and give him his pants."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A048FBB343483D8913777B860F0097BF",
+        "SourceString": "It’s solved. I just hope that Maria will be left alone.",
+        "LocalizedString": "It’s solved. I just hope that Maria will be left alone."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest.LostAndPantslessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

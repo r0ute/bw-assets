@@ -1,0 +1,218 @@
+[
+  {
+    "Type": "BaneOfTyrantsQuest_C",
+    "Name": "Default__BaneOfTyrantsQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.BaneOfTyrantsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_TalkToKug_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_TalkToKug.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_DuelKug_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_KillKug_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_Hidden.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bManualSubtaskControl": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "2858A9BA4BDDF36422C187B3D38E3266",
+        "SourceString": "Bane of Tyrants",
+        "LocalizedString": "Bane of Tyrants"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D556C1354875B27C4D52A680A5C4F20F",
+        "SourceString": "Halmayans, Cassians… I don’t need any of them. Trying to get their help would be only an unnecessary setback. Better to kill Kug by myself and take their resources for my own later.",
+        "LocalizedString": "Halmayans, Cassians… I don’t need any of them. Trying to get their help would be only an unnecessary setback. Better to kill Kug by myself and take their resources for my own later."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "E9E7489145A2F12F9441138C787076D2",
+        "SourceString": "Halmayans, Cassians… I don’t need any of them. Trying to get their help would be only an unnecessary setback. Better to kill Kug by myself and take their resources for my own later.",
+        "LocalizedString": "Halmayans, Cassians… I don’t need any of them. Trying to get their help would be only an unnecessary setback. Better to kill Kug by myself and take their resources for my own later."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest.ThroughTheCastleDoorsQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BaneOfTyrantsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_C:ExecuteUbergraph_BaneOfTyrantsQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.3"
+      },
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_C:ExecuteUbergraph_BaneOfTyrantsQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BaneOfTyrantsQuest": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_C:ExecuteUbergraph_BaneOfTyrantsQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.2"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BaneOfTyrantsQuest_C'Default__BaneOfTyrantsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BaneOfTyrantsQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

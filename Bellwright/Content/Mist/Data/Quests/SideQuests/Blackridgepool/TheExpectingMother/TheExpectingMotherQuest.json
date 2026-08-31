@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheExpectingMotherQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheExpectingMotherQuest_C'Default__TheExpectingMotherQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheExpectingMotherQuest_C",
+    "Name": "Default__TheExpectingMotherQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest.TheExpectingMotherQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestBringRawHide_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestBringRawHide.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestWaitUntillTomorrow_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestWaitUntillTomorrow.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuest_FindPoi_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest_FindPoi.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuest_UseLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest_UseLetter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalkToElder2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuest_UseLetter2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest_UseLetter2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "F5546DA74EC798742ABEECB7F1669608",
+        "SourceString": "The Expecting Mother",
+        "LocalizedString": "The Expecting Mother"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "1258089D48C8CED962E223A66A0C7871",
+        "SourceString": "The expecting mother asked me to help her. She wants some rawhide to make a warm quilt. I decided to help her, though there is something quite unusual about her…",
+        "LocalizedString": "The expecting mother asked me to help her. She wants some rawhide to make a warm quilt. I decided to help her, though there is something quite unusual about her…"
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7E28085143739346BD279AA8B004C671",
+          "SourceString": "Helping expecting mother…",
+          "LocalizedString": "Helping expecting mother…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 100,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolExpectingMotherTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolExpectingMotherTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolExpectingMotherTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolExpectingMotherTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ExpectingMotherNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Blackridgepool/ExpectingMotherNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

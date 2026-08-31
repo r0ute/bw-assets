@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestDifferentOutcome_TalkToAnsel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAnsel",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestDifferentOutcome_TalkToAnsel_C'Default__MainQuestDifferentOutcome_TalkToAnsel_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAnsel.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestDifferentOutcome_TalkToAnsel_C",
+    "Name": "Default__MainQuestDifferentOutcome_TalkToAnsel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAnsel.MainQuestDifferentOutcome_TalkToAnsel_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAnsel",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordUniqueWeaverTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordUniqueWeaverTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestDifferentOutcome_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAnsel_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5C195DEA441D04ED12D6FA8DF47A0C86",
+        "SourceString": "Ansel revealed to me that there was someone taking bet on the winner of the election and that Hans seemed the clear winner. Something suspicious happened.",
+        "LocalizedString": "Ansel revealed to me that there was someone taking bet on the winner of the election and that Hans seemed the clear winner. Something suspicious happened."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome.MainQuestDifferentOutcome_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

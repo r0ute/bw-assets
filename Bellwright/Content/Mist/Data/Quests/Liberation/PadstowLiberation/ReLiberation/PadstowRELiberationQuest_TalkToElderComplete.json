@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowRELiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderComplete",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowRELiberationQuest_TalkToElderComplete_C'Default__PadstowRELiberationQuest_TalkToElderComplete_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderComplete.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowRELiberationQuest_TalkToElderComplete_C",
+    "Name": "Default__PadstowRELiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderComplete.PadstowRELiberationQuest_TalkToElderComplete_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderComplete",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "B3508F784CAD572EEBCE75A393319B65",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9EEF9BF64BB882CF4CE2BEAE715280CB",
+          "SourceString": "This time we beat them...",
+          "LocalizedString": "This time we beat them..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CompleteLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "0C807AB040A84AD271D3F68F75581D65",
+        "SourceString": "Another try: Padstow",
+        "LocalizedString": "Another try: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "86C18B2342D4881ECBFFAC84B83F6E2B",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest.PadstowRELiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

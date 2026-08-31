@@ -1,0 +1,271 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_TalkToDarioAfterCave_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:ExecuteUbergraph_BlueSkyQuest_TalkToDarioAfterCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.4"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:ExecuteUbergraph_BlueSkyQuest_TalkToDarioAfterCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_TalkToDarioAfterCave": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:ExecuteUbergraph_BlueSkyQuest_TalkToDarioAfterCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToDarioAfterCave_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_TalkToDarioAfterCave_C'Default__BlueSkyQuest_TalkToDarioAfterCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_TalkToDarioAfterCave_C",
+    "Name": "Default__BlueSkyQuest_TalkToDarioAfterCave_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.BlueSkyQuest_TalkToDarioAfterCave_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToDarioAfterEscortingBaltasar"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_TalkToDarioAfterCave",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_TalkToDarioAfterCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_TalkToDarioAfterCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_TalkToDarioAfterCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToDarioAfterCave.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

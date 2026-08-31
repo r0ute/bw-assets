@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FortifyingQuest_BackToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_BackToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FortifyingQuest_BackToElder_C'Default__FortifyingQuest_BackToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_BackToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FortifyingQuest_BackToElder_C",
+    "Name": "Default__FortifyingQuest_BackToElder_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_BackToElder.FortifyingQuest_BackToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_BackToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "86B6FA1E40F51977482A33843873E72B",
+          "SourceString": "About what you asked…",
+          "LocalizedString": "About what you asked…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FortifyingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Elder Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "AD7729104A776DBFC3A4A3B436FE35E8",
+        "SourceString": "Elder Phillip Mott was pleased to hear that the villager agreed to man the lookout. He also praised my efforts in eliminating the bandit patrols, grateful for the village’s newfound safety.",
+        "LocalizedString": "Elder Phillip Mott was pleased to hear that the villager agreed to man the lookout. He also praised my efforts in eliminating the bandit patrols, grateful for the village’s newfound safety."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/Fortifying/FortifyingQuest.FortifyingQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LanternsofHopeQuest_ReturnElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_ReturnElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LanternsofHopeQuest_ReturnElder_C'Default__LanternsofHopeQuest_ReturnElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_ReturnElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LanternsofHopeQuest_ReturnElder_C",
+    "Name": "Default__LanternsofHopeQuest_ReturnElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_ReturnElder.LanternsofHopeQuest_ReturnElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_ReturnElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "DAD59FC746BA53FB7EA58B96BCA07AFE",
+        "SourceString": "Return to {Npc}",
+        "LocalizedString": "Return to {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LanternsofHopeQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BacktoElder"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "78FF608F48FFE2B6EE06CCA6E598AE79",
+        "SourceString": "Return to {Npc}",
+        "LocalizedString": "Return to {Npc}"
+      },
+      "bCanBeDiscarded": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest.LanternsofHopeQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

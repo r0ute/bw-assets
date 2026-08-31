@@ -1,0 +1,315 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_CassianEndTalkToViktor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:ExecuteUbergraph_ChasingTheSkyQuest_CassianEndTalkToViktor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.4"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:ExecuteUbergraph_ChasingTheSkyQuest_CassianEndTalkToViktor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cecilio",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_CassianEndTalkToViktor": {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:ExecuteUbergraph_ChasingTheSkyQuest_CassianEndTalkToViktor'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_CassianEndTalkToViktor_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_CassianEndTalkToViktor_C'Default__ChasingTheSkyQuest_CassianEndTalkToViktor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_CassianEndTalkToViktor_C",
+    "Name": "Default__ChasingTheSkyQuest_CassianEndTalkToViktor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.ChasingTheSkyQuest_CassianEndTalkToViktor_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cecilio": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaezNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaezNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CassianEnd_TalkToViktor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D7113B8C4CD285D62627BF88BAC43176",
+        "SourceString": "I relayed back to Viktor about my conversation with Baltasar. My decision will surely affect my reputation with the Halmayans.",
+        "LocalizedString": "I relayed back to Viktor about my conversation with Baltasar. My decision will surely affect my reputation with the Halmayans."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaezNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaezNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_CassianEndTalkToViktor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_CassianEndTalkToViktor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_CassianEndTalkToViktor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_CassianEndTalkToViktor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/CassianEnd/ChasingTheSkyQuest_CassianEndTalkToViktor.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

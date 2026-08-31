@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FalseOathsQuest_BackToDarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_BackToDarek",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FalseOathsQuest_BackToDarek_C'Default__FalseOathsQuest_BackToDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_BackToDarek.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FalseOathsQuest_BackToDarek_C",
+    "Name": "Default__FalseOathsQuest_BackToDarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_BackToDarek.FalseOathsQuest_BackToDarek_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_BackToDarek",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FalseOathsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuestTalk.0"
+        },
+        "TalkEntryPoint": "BackToDarek"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BC480B5F4CEC4C816D09F8BAC832213F",
+        "SourceString": "Justice served, vengeance claimed. With the traitor gone and the Falsgar scattered, Lyra now waits at Cragkeep. Next comes Kug.",
+        "LocalizedString": "Justice served, vengeance claimed. With the traitor gone and the Falsgar scattered, Lyra now waits at Cragkeep. Next comes Kug."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest.FalseOathsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

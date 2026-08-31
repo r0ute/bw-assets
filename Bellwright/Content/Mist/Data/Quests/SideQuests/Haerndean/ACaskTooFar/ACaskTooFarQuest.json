@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "ACaskTooFarQuest_C",
+    "Name": "Default__ACaskTooFarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest.ACaskTooFarQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_TalkToMerchant_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToMerchant.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": true,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_TalkToFarmer_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToFarmer.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": true,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_BringItems.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C0D7920640E2ADAF362FBD8C66ADA8FE",
+        "SourceString": "A Cask Too Far",
+        "LocalizedString": "A Cask Too Far"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "837BB5BF45A2AB1E554B178A100C06B8",
+        "SourceString": "The innkeeper explained that the tavern has run out of ale, leaving Haerndean on edge. Without grain or honey, brewing is impossible, and the villagers are feeling the strain. Worse, the brigands, the village’s so-called guards, are growing impatient. If I don’t gather the ingredients soon, by crafting or trading, they might take their frustrations out on the locals.",
+        "LocalizedString": "The innkeeper explained that the tavern has run out of ale, leaving Haerndean on edge. Without grain or honey, brewing is impossible, and the villagers are feeling the strain. Worse, the brigands, the village’s so-called guards, are growing impatient. If I don’t gather the ingredients soon, by crafting or trading, they might take their frustrations out on the locals."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "30D13E614A1E3E246BE781B0A4809691",
+        "SourceString": "The innkeeper explained that the tavern has run out of ale, leaving Haerndean on edge. Without grain or honey, brewing is impossible, and the villagers are feeling the strain. Worse, the brigands, the village’s so-called guards, are growing impatient. If I don’t gather the ingredients soon, by crafting or trading, they might take their frustrations out on the locals.",
+        "LocalizedString": "The innkeeper explained that the tavern has run out of ale, leaving Haerndean on edge. Without grain or honey, brewing is impossible, and the villagers are feeling the strain. Worse, the brigands, the village’s so-called guards, are growing impatient. If I don’t gather the ingredients soon, by crafting or trading, they might take their frustrations out on the locals."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9869A5324A151E284067D4A5B13D27ED",
+          "SourceString": "Is there anything I can help you with?",
+          "LocalizedString": "Is there anything I can help you with?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 150,
+      "VillageTrustReward": 200,
+      "RenownReward": 100,
+      "bCanBeDiscarded": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheFieldQuest.ThiefinTheFieldQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertInnkeeperNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertInnkeeperNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanInnkeeperTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanInnkeeperTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertInnkeeperNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertInnkeeperNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanInnkeeperTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanInnkeeperTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertInnkeeperNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertInnkeeperNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACaskTooFarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACaskTooFarQuest_C'Default__ACaskTooFarQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

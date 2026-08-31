@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBuildingCamp_BuildCampfire_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildCampfire",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBuildingCamp_BuildCampfire_C'Default__MainQuestBuildingCamp_BuildCampfire_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildCampfire.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBuildingCamp_BuildCampfire_C",
+    "Name": "Default__MainQuestBuildingCamp_BuildCampfire_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildCampfire.MainQuestBuildingCamp_BuildCampfire_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildCampfire",
+    "Properties": {
+      "BuildTaskDescription": {
+        "Namespace": "",
+        "Key": "5FFE9BEE40BFA8ED7AE9AD9BF8F55C7E",
+        "SourceString": "Place a {Structure} to cook basic food.",
+        "LocalizedString": "Place a {Structure} to cook basic food."
+      },
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/TownBuilding/Campfire.Campfire_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C7E7CCD14908A4B6AC2FB8993E5BF3C0",
+        "SourceString": "This campfire should be enough to provide warmth and cook meals. Now we need to make a Research Desk so Lubomir can show me how to craft Basic Traps.",
+        "LocalizedString": "This campfire should be enough to provide warmth and cook meals. Now we need to make a Research Desk so Lubomir can show me how to craft Basic Traps."
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "BuildingTentFinished_InProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp.MainQuestBuildingCamp_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

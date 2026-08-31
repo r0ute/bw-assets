@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheChainsAreBrokenQuest_KillGuards_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_KillGuards_C:ExecuteUbergraph_TheChainsAreBrokenQuest_KillGuards'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_KillGuards_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.2"
+      },
+      {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_KillGuards_C:ExecuteUbergraph_TheChainsAreBrokenQuest_KillGuards'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheChainsAreBrokenQuest_KillGuards": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_KillGuards_C:ExecuteUbergraph_TheChainsAreBrokenQuest_KillGuards'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_KillGuards_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheChainsAreBrokenQuest_KillGuards_C'Default__TheChainsAreBrokenQuest_KillGuards_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheChainsAreBrokenQuest_KillGuards",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_KillGuards_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestInProgress_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_KillGuards_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheChainsAreBrokenQuest_KillGuards_C",
+    "Name": "Default__TheChainsAreBrokenQuest_KillGuards_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards.TheChainsAreBrokenQuest_KillGuards_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_KillGuards",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenFalsgarGuardsNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/TheChainsAreBroken/TheChainsAreBrokenFalsgarGuardsNpcTemplate.0"
+        },
+        "AmountMinMax": {
+          "Max": 3
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "38CE5BB649424C8F2DEE319A12CA8AE5",
+        "SourceString": "Kill the prison guards",
+        "LocalizedString": "Kill the prison guards"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B499E1FA40275BE6729235B033A3230C",
+        "SourceString": "Kill the prison guards",
+        "LocalizedString": "Kill the prison guards"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "212DF9804AD515904BE85CA47C196906",
+        "SourceString": "The prison guards lay dead, Derek was right, even when Falsgar are busy, this place is dangerous.",
+        "LocalizedString": "The prison guards lay dead, Derek was right, even when Falsgar are busy, this place is dangerous."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest.TheChainsAreBrokenQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

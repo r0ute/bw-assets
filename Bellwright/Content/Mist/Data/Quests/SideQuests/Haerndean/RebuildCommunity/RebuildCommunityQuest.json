@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RebuildCommunityQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RebuildCommunityQuest_C'Default__RebuildCommunityQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RebuildCommunityQuest_C",
+    "Name": "Default__RebuildCommunityQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest.RebuildCommunityQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_WoodcutterStation_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_WoodcutterStation.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_BuildHouse_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_BuildHouse.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_BuildLaundry_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_BuildLaundry.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_HerbalistStation_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_HerbalistStation.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_HerbGarden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_HerbGarden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RebuildCommunity_ReturnElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunity_ReturnElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "B7CCE97B4657A37F61C94A94C126126A",
+        "SourceString": "Rebuild Community",
+        "LocalizedString": "Rebuild Community"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EE1A0F8647388B194BD53583D923B0B2",
+        "SourceString": "Elder Dobron explained how Haerndean is rapidly growing, however it’s struggling to accommodate newcomers. He asked for my help in building essential structures to help the village. I have my work cut out for me.",
+        "LocalizedString": "Elder Dobron explained how Haerndean is rapidly growing, however it’s struggling to accommodate newcomers. He asked for my help in building essential structures to help the village. I have my work cut out for me."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4A607F1E43EFC09022739A9EF1D90FF4",
+          "SourceString": "Anything I could help with, Elder?",
+          "LocalizedString": "Anything I could help with, Elder?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RebuildCommunityQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "TalkEntryPoint": "NPC Chicken Farmer Idle"
+      },
+      "MoneyReward": 200,
+      "VillageProsperityReward": 400,
+      "VillageConstructionPointsReward": 5,
+      "RenownReward": 200,
+      "bCanBeDiscarded": false,
+      "bHiddenInGame": true,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest.ACaskTooFarQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HaerndeanVillageProfile.HaerndeanVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Protector"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HaerndeanVillageProfile.HaerndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GiftsfromtheBeyondQuest_ReturntoLysara_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ReturntoLysara",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GiftsfromtheBeyondQuest_ReturntoLysara_C'Default__GiftsfromtheBeyondQuest_ReturntoLysara_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ReturntoLysara.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GiftsfromtheBeyondQuest_ReturntoLysara_C",
+    "Name": "Default__GiftsfromtheBeyondQuest_ReturntoLysara_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ReturntoLysara.GiftsfromtheBeyondQuest_ReturntoLysara_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ReturntoLysara",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_GraveBottle_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/GiftsfromtheBeyondQuest_GraveBottle.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReporttoLysara"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "46DF9092405820920F94B1885FAC89D1",
+        "SourceString": "Lysara listened carefully. I told her about the shrine and Viktor’s denial. She said she’d prayed to Sorwynn before, for peace, for a dream of her husband. Maybe the god answered. Maybe not. She thanked me anyway, gave me a small reward, and asked that if I ever return to the shrine, I thank Sorwynn for her. She seemed at peace, for now.",
+        "LocalizedString": "Lysara listened carefully. I told her about the shrine and Viktor’s denial. She said she’d prayed to Sorwynn before, for peace, for a dream of her husband. Maybe the god answered. Maybe not. She thanked me anyway, gave me a small reward, and asked that if I ever return to the shrine, I thank Sorwynn for her. She seemed at peace, for now."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest.GiftsfromtheBeyondQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

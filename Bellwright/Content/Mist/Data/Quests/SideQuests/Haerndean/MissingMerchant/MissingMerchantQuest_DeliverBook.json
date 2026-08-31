@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MissingMerchantQuest_DeliverBook_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_DeliverBook",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MissingMerchantQuest_DeliverBook_C'Default__MissingMerchantQuest_DeliverBook_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_DeliverBook.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MissingMerchantQuest_DeliverBook_C",
+    "Name": "Default__MissingMerchantQuest_DeliverBook_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_DeliverBook.MissingMerchantQuest_DeliverBook_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_DeliverBook",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BooksforMerchant_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BooksforMerchant.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanBookMerchantNPCTemplate.0"
+        }
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6A719C4F4B4D8E36D40FCDAA5B211171",
+        "SourceString": "Oscar was pleased to finally receive his books. I received my reward, though I couldn’t shake the feeling something more was hidden in the hermit's story.",
+        "LocalizedString": "Oscar was pleased to finally receive his books. I received my reward, though I couldn’t shake the feeling something more was hidden in the hermit's story."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3C9B71ED477E2D8707C07288FA319BE2",
+          "SourceString": "About the merchant…",
+          "LocalizedString": "About the merchant…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverBooks_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest.MissingMerchantQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

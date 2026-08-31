@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestDifferentOutcome_FirstTalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_FirstTalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestDifferentOutcome_FirstTalkToAmelie_C'Default__MainQuestDifferentOutcome_FirstTalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_FirstTalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestDifferentOutcome_FirstTalkToAmelie_C",
+    "Name": "Default__MainQuestDifferentOutcome_FirstTalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_FirstTalkToAmelie.MainQuestDifferentOutcome_FirstTalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_FirstTalkToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestDifferentOutcome_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_Talk.0"
+        },
+        "TalkEntryPoint": "FirstTalkToAmelie_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D1C2C99D47FAA6A3F731BFB581902058",
+        "SourceString": "A Different Outcome",
+        "LocalizedString": "A Different Outcome"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E9E15D5D49891F8238CB78AF92D6B78C",
+        "SourceString": "Amelie shared with me her suspicions around the Bradford election. We must head there to investigate.",
+        "LocalizedString": "Amelie shared with me her suspicions around the Bradford election. We must head there to investigate."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome.MainQuestDifferentOutcome_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

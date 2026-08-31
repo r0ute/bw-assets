@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_SearchingForAnswers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_SearchingForAnswers_C'Default__MainQuest_SearchingForAnswers_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_SearchingForAnswers_C",
+    "Name": "Default__MainQuest_SearchingForAnswers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers.MainQuest_SearchingForAnswers_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "4D1C6A924337F7596F76EBBB31936A99",
+        "SourceString": "Speak with the village Elder about the Sigil you found.",
+        "LocalizedString": "Speak with the village Elder about the Sigil you found."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_SearchingForAnswers_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers_Talk.0"
+        },
+        "TalkEntryPoint": "Elder_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C691C63F4CEA45229ED4B995BBBD668A",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7FAB66E644111B7B3E20D0BB960652A1",
+        "SourceString": "Speak with the village Elder about the Sigil you found.",
+        "LocalizedString": "Speak with the village Elder about the Sigil you found."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DA7CE6644DD6AEC4E94E89BAE1569E3F",
+        "SourceString": "The village elder seems cautious around strangers, claiming to have had too many problems. The Elder asked for my help with dealing with a former resident of the village who has been causing trouble.",
+        "LocalizedString": "The village elder seems cautious around strangers, claiming to have had too many problems. The Elder asked for my help with dealing with a former resident of the village who has been causing trouble."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.MainQuest_Arrival_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

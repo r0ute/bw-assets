@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillGarrisonQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.2"
+      },
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2_CaptureCragkeep": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'Default__TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart2_CaptureCragkeep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C",
+    "Name": "Default__TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep.TheGlassTurnsTheGainFallsPart2_CaptureCragkeep_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_CaptureCragkeep",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SettlementName": "Cragkeep",
+      "bRequireBell": false,
+      "SecondDescription": {
+        "Namespace": "",
+        "Key": "D6BF697A49DFD1E22C65C58054FA769A",
+        "SourceString": "Capture Cragkeep",
+        "LocalizedString": "Capture Cragkeep"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6EDF427D432C1DCF09BA3D86C8D31237",
+        "SourceString": "Capture Cragkeep",
+        "LocalizedString": "Capture Cragkeep"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.TheGlassTurnsTheGainFallsPart2_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

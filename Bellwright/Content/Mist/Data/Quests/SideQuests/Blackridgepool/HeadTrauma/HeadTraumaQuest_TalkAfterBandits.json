@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeadTraumaQuest_TalkAfterBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterBandits",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeadTraumaQuest_TalkAfterBandits_C'Default__HeadTraumaQuest_TalkAfterBandits_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterBandits.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeadTraumaQuest_TalkAfterBandits_C",
+    "Name": "Default__HeadTraumaQuest_TalkAfterBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterBandits.HeadTraumaQuest_TalkAfterBandits_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_TalkAfterBandits",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMerchantTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HeadTraumaQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Marlin_Fulke_Idle"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "04316B8343CCC0E32F6AF4BED917AE49",
+        "SourceString": "The path is clear of bandits and Marlin’s caravans can travel. Marlin was thankful for my help.",
+        "LocalizedString": "The path is clear of bandits and Marlin’s caravans can travel. Marlin was thankful for my help."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolCarpenterTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest.HeadTraumaQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart2Quest_TalkToFishermanAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFishermanAfter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart2Quest_TalkToFishermanAfter_C'Default__GoldenScalesPart2Quest_TalkToFishermanAfter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFishermanAfter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart2Quest_TalkToFishermanAfter_C",
+    "Name": "Default__GoldenScalesPart2Quest_TalkToFishermanAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFishermanAfter.GoldenScalesPart2Quest_TalkToFishermanAfter_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFishermanAfter",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToFishermanAfter_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C4D3539A4449D099841515AE619FA92B",
+        "SourceString": "I agreed to help Paul with finding this legendary fisherman’s stash. I wonder if it's really all that valuable.",
+        "LocalizedString": "I agreed to help Paul with finding this legendary fisherman’s stash. I wonder if it's really all that valuable."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest.GoldenScalesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RoderickCollierNpcTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:ExecuteUbergraph_RoderickCollierNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.3"
+      },
+      {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:DefaultChoiceSelection'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.1"
+      },
+      {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:ExecuteUbergraph_RoderickCollierNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Quit",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Quit",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_RoderickCollierNpcTalk": {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:ExecuteUbergraph_RoderickCollierNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.2"
+      },
+      "DefaultChoiceSelection": {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:DefaultChoiceSelection'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.1"
+      },
+      "TalkEntry": {
+        "ObjectName": "Function'RoderickCollierNpcTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.3"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RoderickCollierNpcTalk_C'Default__RoderickCollierNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "DefaultChoiceSelection",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_RoderickCollierNpcTalk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_4",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_5",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice4_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice4Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_6",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_7",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_8",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistTalkChoice_9",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "Class'MistTalkChoice'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice2_Exec_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice2Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_7",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkEntry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate:TalkEntry'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "RoderickCollierNpcTalk_C",
+    "Name": "Default__RoderickCollierNpcTalk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.RoderickCollierNpcTalk_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Quit": [
+        {
+          "Type": "EMistTalkDescriptorType::Quit",
+          "Amount": 0.0,
+          "Faction": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "Village": "",
+          "CustomText": ""
+        }
+      ],
+      "AvailableQuests": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.0"
+        }
+      ]
+    }
+  }
+]

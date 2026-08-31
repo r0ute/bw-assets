@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DiggingDeeperQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DiggingDeeperQuest_C'Default__DiggingDeeperQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DiggingDeeperQuest_C",
+    "Name": "Default__DiggingDeeperQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest.DiggingDeeperQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'DiggingDeeperQuest_Bring_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest_Bring.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "1E4E86724CEABADAF1A97188C9F019A2",
+        "SourceString": "Digging Deeper",
+        "LocalizedString": "Digging Deeper"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "48FEE7B246E92C7E3A8A3FAE3E18791A",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "78564D5E425B9771F4795190354AC9A7",
+        "SourceString": "{QuestGiver} asked me to bring him shovels and hoes, his backorders are piling up. There’s also some family drama in the background. Should I get involved in it?",
+        "LocalizedString": "{QuestGiver} asked me to bring him shovels and hoes, his backorders are piling up. There’s also some family drama in the background. Should I get involved in it?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "01254A0A43AEC48BF9150EBE78F2C8A3",
+          "SourceString": "You look tired today, want me to help with something?",
+          "LocalizedString": "You look tired today, want me to help with something?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'DiggingDeeperQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/DiggingDeeper/DiggingDeeperQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 150,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+            },
+            "MinQuantity": 5,
+            "MaxQuantity": 5
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'GarlicSeeds_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/PlantSeeds/GarlicSeeds.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 120,
+            "MaxQuantity": 120
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueBlacksmithNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueBlacksmithNPCTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowUniqueBlacksmithNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueBlacksmithNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

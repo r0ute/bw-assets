@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HelpInjuredWorkersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HelpInjuredWorkersQuest_C'Default__HelpInjuredWorkersQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HelpInjuredWorkersQuest_C",
+    "Name": "Default__HelpInjuredWorkersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest.HelpInjuredWorkersQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HelpInjuredWorkersQuest_BringBandage_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringBandage.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HelpInjuredWorkersQuest_BringCloths_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringCloths.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BFC807874E40EC04A6121E983D83BF09",
+        "SourceString": "A Healing Touch",
+        "LocalizedString": "A Healing Touch"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "DA3E36A1459AA30AD646C98ACCC4528C",
+        "SourceString": "{QuestGiver} told me about the injured miners and asked me to bring him some bandages due to shortages. I decided to help them.",
+        "LocalizedString": "{QuestGiver} told me about the injured miners and asked me to bring him some bandages due to shortages. I decided to help them."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "74EE4DED46E84E4CED776B92C1711F58",
+          "SourceString": "I see you're in trouble.",
+          "LocalizedString": "I see you're in trouble."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HelpInjuredWorkersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1408BF834AD16FC00FB21484E1574942",
+          "SourceString": "About the bandages…",
+          "LocalizedString": "About the bandages…"
+        }
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "RenownReward": 300,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 3.0,
+            "MaxQuantityMultiplier": 3.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook3'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook3.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

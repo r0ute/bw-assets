@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowLiberatedQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowLiberatedQuest_C'Default__PadstowLiberatedQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowLiberatedQuest_C",
+    "Name": "Default__PadstowLiberatedQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest.PadstowLiberatedQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowLiberatedQuest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "8F8741C9463691CC168FC4908FFDAF10",
+        "SourceString": "Break free: Padstow",
+        "LocalizedString": "Break free: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DA3AD12B47AC6EDB2CE84EB0844B4329",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowLiberatedQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/SuccessfullLiberation/PadstowLiberatedQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.Padstow Liberation"
+      }
+    }
+  }
+]

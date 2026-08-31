@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MagnumOpusQuest_TalkToKostra1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToKostra1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MagnumOpusQuest_TalkToKostra1_C'Default__MagnumOpusQuest_TalkToKostra1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToKostra1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MagnumOpusQuest_TalkToKostra1_C",
+    "Name": "Default__MagnumOpusQuest_TalkToKostra1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToKostra1.MagnumOpusQuest_TalkToKostra1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToKostra1",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "E8D4850448EC19E31617D7BC8DFB12BC",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "60E8EB3C47E31AD7854CC2A72039A3F3",
+          "SourceString": "That hermit up on the hill, do you know him?",
+          "LocalizedString": "That hermit up on the hill, do you know him?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToKostra"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B59E877745E726172552168E031B8335",
+        "SourceString": "Marti, the tavern keeper, says Adan used to turn everything into poetry, even ale. After the Duke incident, people shunned him. Now he’s rewriting reality because the real one was too cruel.",
+        "LocalizedString": "Marti, the tavern keeper, says Adan used to turn everything into poetry, even ale. After the Duke incident, people shunned him. Now he’s rewriting reality because the real one was too cruel."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest.MagnumOpusQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

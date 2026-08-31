@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart2Quest_BringRod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringRod",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart2Quest_BringRod_C'Default__GoldenScalesPart2Quest_BringRod_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringRod.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart2Quest_BringRod_C",
+    "Name": "Default__GoldenScalesPart2Quest_BringRod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringRod.GoldenScalesPart2Quest_BringRod_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringRod",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'FishingRoadParts_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FishingRoadParts.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "BringRodToFisherman_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "62B9CD07415F5845E33D41834DFF2464",
+        "SourceString": "I delivered the rod to Paul, he is most appreciative for my trouble. I wish him happy fishing.",
+        "LocalizedString": "I delivered the rod to Paul, he is most appreciative for my trouble. I wish him happy fishing."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest.GoldenScalesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

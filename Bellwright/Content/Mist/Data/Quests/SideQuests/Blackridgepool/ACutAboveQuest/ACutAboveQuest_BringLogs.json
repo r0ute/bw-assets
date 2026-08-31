@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "ACutAboveQuest_BringLogs_C",
+    "Name": "Default__ACutAboveQuest_BringLogs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringLogs.ACutAboveQuest_BringLogs_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringLogs",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SoftLog_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "Horndean NPC Blacksmith"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "89A53B664015E0A71B7AAC8DD147F95B",
+        "SourceString": "I brought the logs back to the blacksmith, but the task isn't done yet. Now he wants me to go get glue that was stolen by bandits.",
+        "LocalizedString": "I brought the logs back to the blacksmith, but the task isn't done yet. Now he wants me to go get glue that was stolen by bandits."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "Horndean NPC Blacksmith Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "726519174E95D748A3F02ABD404A2550",
+          "SourceString": "About the logs...",
+          "LocalizedString": "About the logs..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "Horndean NPC Blacksmith Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest.ACutAboveQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACutAboveQuest_BringLogs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringLogs",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACutAboveQuest_BringLogs_C'Default__ACutAboveQuest_BringLogs_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringLogs.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

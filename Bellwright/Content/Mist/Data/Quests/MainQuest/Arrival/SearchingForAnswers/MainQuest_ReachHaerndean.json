@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_ReachHaerndean_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_ReachHaerndean",
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_ReachHaerndean_C'Default__MainQuest_ReachHaerndean_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_ReachHaerndean.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_ReachHaerndean_C",
+    "Name": "Default__MainQuest_ReachHaerndean_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_ReachHaerndean.MainQuest_ReachHaerndean_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_ReachHaerndean",
+    "Properties": {
+      "AcceptedSettlementName": "Brigand Introduction",
+      "Title": {
+        "Namespace": "",
+        "Key": "9278A3094972D5BAE89D7FADE778EB34",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0BDDAAC2441F71BC7E75A6BD18BB7627",
+        "SourceString": "Head down the road to the nearest village.",
+        "LocalizedString": "Head down the road to the nearest village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.MainQuest_Arrival_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

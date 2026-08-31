@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishingTournamentQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishingTournamentQuest_C'Default__FishingTournamentQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishingTournamentQuest_C",
+    "Name": "Default__FishingTournamentQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest.FishingTournamentQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FishingTournamentQuest_FindOcean_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest_FindOcean.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FishingTournamentQuest_FindRiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest_FindRiver.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FishingTournamentQuest_FindSwamp_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/FishingTournamentQuest_FindSwamp.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "8A23167643A279328005B1BCB4802B6C",
+        "SourceString": "Fishing Tournament",
+        "LocalizedString": "Fishing Tournament"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "AE8699ED4C8745959F9E43AE4C69DC9A",
+        "SourceString": "Paul gave me a list of fishing masters to find. In this list, I have all their names and the usual places where I can find them.The first one, the Master of the Rivers, should be located near Farnworth village, on the same side of the river, close to the bridge. The Master of Swamps is usually seen fishing west of Padstow in the marsh, but he switches his location often. The last one I need to find is on the coast of Crasmere.",
+        "LocalizedString": "Paul gave me a list of fishing masters to find. In this list, I have all their names and the usual places where I can find them.The first one, the Master of the Rivers, should be located near Farnworth village, on the same side of the river, close to the bridge. The Master of Swamps is usually seen fishing west of Padstow in the marsh, but he switches his location often. The last one I need to find is on the coast of Crasmere."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "DD50A8EA4189450CF07B6BAE413942B1",
+          "SourceString": "I would like to try fishing myself.",
+          "LocalizedString": "I would like to try fishing myself."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigFishQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "bShowMarkerOnMap": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic"
+    }
+  }
+]

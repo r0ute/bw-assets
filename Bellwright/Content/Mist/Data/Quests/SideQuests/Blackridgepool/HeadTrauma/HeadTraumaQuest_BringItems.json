@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HeadTraumaQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_BringItems",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HeadTraumaQuest_BringItems_C'Default__HeadTraumaQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HeadTraumaQuest_BringItems_C",
+    "Name": "Default__HeadTraumaQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_BringItems.HeadTraumaQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_BringItems",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'IronHammer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Tools/T1/IronHammer.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Hemp_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Hemp.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BFC0896D47550EB35A86FA8B5A63A9E5",
+        "SourceString": "I gathered the herbs and tools Aleks needed to treat Josh. With everything in place, the healer can now begin his work.",
+        "LocalizedString": "I gathered the herbs and tools Aleks needed to treat Josh. With everything in place, the healer can now begin his work."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "BE0836414348FA9D07BFC4B4AE0C3181",
+          "SourceString": "About the hammer and herbs you asked for...",
+          "LocalizedString": "About the hammer and herbs you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HeadTraumaQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Aleks Amanita Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/HeadTrauma/HeadTraumaQuest.HeadTraumaQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

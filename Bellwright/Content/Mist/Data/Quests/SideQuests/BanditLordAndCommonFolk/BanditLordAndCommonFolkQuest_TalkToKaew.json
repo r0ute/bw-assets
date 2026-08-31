@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_TalkToKaew_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_TalkToKaew_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToKaew.BanditLordAndCommonFolkQuest_TalkToKaew_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToKaew",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "66F5FBD04B95A9021AF7A784BEE39025",
+        "SourceString": "Recruit {Npc} for the merchant",
+        "LocalizedString": "Recruit {Npc} for the merchant"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Kaew_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Kaew_NpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Kaew_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Kaew_NpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToKaew"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D418231A4A68305953970FB715B1E5D3",
+        "SourceString": "Recruit {Npc} for the merchant",
+        "LocalizedString": "Recruit {Npc} for the merchant"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "65613E5F4050814B624BECB1E4615A1F",
+        "SourceString": "I chose Nam Kaew to protect Pete and the tavern… Now I think I might try to recruit Arnol to work for me. I will check with Pete tomorrow to see if he’s satisfied with Nam.",
+        "LocalizedString": "I chose Nam Kaew to protect Pete and the tavern… Now I think I might try to recruit Arnol to work for me. I will check with Pete tomorrow to see if he’s satisfied with Nam."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Kaew_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Kaew_NpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Kaew_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Kaew_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_TalkToKaew_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToKaew",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_TalkToKaew_C'Default__BanditLordAndCommonFolkQuest_TalkToKaew_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToKaew.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

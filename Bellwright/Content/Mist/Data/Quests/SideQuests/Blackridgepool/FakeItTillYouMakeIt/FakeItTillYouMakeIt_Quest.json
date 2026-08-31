@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FakeItTillYouMakeIt_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FakeItTillYouMakeIt_Quest_C'Default__FakeItTillYouMakeIt_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FakeItTillYouMakeIt_Quest_C",
+    "Name": "Default__FakeItTillYouMakeIt_Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_Quest.FakeItTillYouMakeIt_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FakeItTillYouMakeIt_BringPelt_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_BringPelt.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "DDE5207B4ED43EFFD4FD32A5DB9E5875",
+        "SourceString": "Fake it till you make it",
+        "LocalizedString": "Fake it till you make it"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "D51F08FE4B21D8F023ED5A9C77409B19",
+        "SourceString": "A man who can barely put sentences together wants me to help him become a hunter. Considering how difficult it is for him to speak, I doubt he can even hold a bow the right way, but that's not my problem. The village elder should keep a closer eye on him.",
+        "LocalizedString": "A man who can barely put sentences together wants me to help him become a hunter. Considering how difficult it is for him to speak, I doubt he can even hold a bow the right way, but that's not my problem. The village elder should keep a closer eye on him."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0B9D913645F393C403DCE7A8BD52835A",
+          "SourceString": "Fake it quest",
+          "LocalizedString": "Fake it quest"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FakeItTillYouMakeIt_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FakeItTillYouMakeIt/FakeItTillYouMakeIt_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolArnoldDixonTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolArnoldDixonTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolArnoldDixonTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolArnoldDixonTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

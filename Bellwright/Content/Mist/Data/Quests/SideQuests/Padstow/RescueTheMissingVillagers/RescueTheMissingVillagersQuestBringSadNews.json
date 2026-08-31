@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RescueTheMissingVillagersQuestBringSadNews_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestBringSadNews",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RescueTheMissingVillagersQuestBringSadNews_C'Default__RescueTheMissingVillagersQuestBringSadNews_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestBringSadNews.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RescueTheMissingVillagersQuestBringSadNews_C",
+    "Name": "Default__RescueTheMissingVillagersQuestBringSadNews_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestBringSadNews.RescueTheMissingVillagersQuestBringSadNews_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestBringSadNews",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowQuestWomanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowQuestWomanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "229F59854C3A18648278EBABB8403DD7",
+          "SourceString": "About your husband…",
+          "LocalizedString": "About your husband…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringNews_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9F62A8574BBF5092DDB0619514E81ED5",
+        "SourceString": "I had to tell the woman the devastating news about his brother-in-law and husband. I hope one day she will recover from this sad ocurrence.",
+        "LocalizedString": "I had to tell the woman the devastating news about his brother-in-law and husband. I hope one day she will recover from this sad ocurrence."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuest.RescueTheMissingVillagersQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

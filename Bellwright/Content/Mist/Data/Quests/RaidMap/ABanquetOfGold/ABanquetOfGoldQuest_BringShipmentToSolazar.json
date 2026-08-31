@@ -1,0 +1,180 @@
+[
+  {
+    "Type": "ABanquetOfGoldQuest_BringShipmentToSolazar_C",
+    "Name": "Default__ABanquetOfGoldQuest_BringShipmentToSolazar_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.ABanquetOfGoldQuest_BringShipmentToSolazar_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_Shipment_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/ABanquetOfGoldQuest_Shipment.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'AlexanderSolazarNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/AlexanderSolazarNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AlexanderSolazar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/AlexanderSolazar_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuestTalk.1"
+        },
+        "TalkEntryPoint": "BringToSolazar"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5DBA2140405408401BE17D880929AE9C",
+        "SourceString": "Take the shipment to the Alexander Solazar Innkeeper.",
+        "LocalizedString": "Take the shipment to the Alexander Solazar Innkeeper."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4BC484814D10D843A6E9FE9858FA9540",
+        "SourceString": "I returned the shipment safely to the Alexander Solazar. He praised my reliability, promising that the “right people” would remember my name.",
+        "LocalizedString": "I returned the shipment safely to the Alexander Solazar. He praised my reliability, promising that the “right people” would remember my name."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'AlexanderSolazarNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/AlexanderSolazarNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AlexanderSolazar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/AlexanderSolazar_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest.ABanquetOfGoldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ABanquetOfGoldQuest_BringShipmentToSolazar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSolazar_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSolazar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSolazar_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.3"
+      },
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSolazar_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSolazar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSolazar": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSolazar_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSolazar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSolazar_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABanquetOfGoldQuest_BringShipmentToSolazar_C'Default__ABanquetOfGoldQuest_BringShipmentToSolazar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSolazar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_BringShipmentToSolazar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_BringShipmentToSolazar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSolazar.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

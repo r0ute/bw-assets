@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OnGreatCruiseQuest_ReportToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_ReportToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OnGreatCruiseQuest_ReportToAmelie_C'Default__OnGreatCruiseQuest_ReportToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_ReportToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OnGreatCruiseQuest_ReportToAmelie_C",
+    "Name": "Default__OnGreatCruiseQuest_ReportToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_ReportToAmelie.OnGreatCruiseQuest_ReportToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_ReportToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3925950D48EB5357564020B1A803F873",
+          "SourceString": "I’ve met with Loxley, the map to the Kug’s island is ours now.",
+          "LocalizedString": "I’ve met with Loxley, the map to the Kug’s island is ours now."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReportBackToAmelie"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest.OnGreatCruiseQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

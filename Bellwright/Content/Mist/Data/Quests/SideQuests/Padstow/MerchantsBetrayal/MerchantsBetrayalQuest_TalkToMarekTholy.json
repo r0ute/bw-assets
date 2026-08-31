@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MerchantsBetrayalQuest_TalkToMarekTholy_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest_TalkToMarekTholy",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MerchantsBetrayalQuest_TalkToMarekTholy_C'Default__MerchantsBetrayalQuest_TalkToMarekTholy_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest_TalkToMarekTholy.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MerchantsBetrayalQuest_TalkToMarekTholy_C",
+    "Name": "Default__MerchantsBetrayalQuest_TalkToMarekTholy_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest_TalkToMarekTholy.MerchantsBetrayalQuest_TalkToMarekTholy_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest_TalkToMarekTholy",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5C4EAB1B451FA4C519E1109C4EB0EADF",
+          "SourceString": "I’m looking into Charles Reinold. Have you noticed anything strange about his prices?",
+          "LocalizedString": "I’m looking into Charles Reinold. Have you noticed anything strange about his prices?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MerchantsBetrayalQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TALK WITH MAREK",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F500195D49B052937D121BB0A3DE57E1",
+        "SourceString": "Marek Tholy, a regular customer of Charles’s shop, confirmed that he’s noticed rising prices. He mentioned that Charles often labels regular books as “special editions” to justify the higher costs. Marek also recalled a suspicious incident where Charles claimed a book was sold out, even though Marek had seen it on the shelf the day before.",
+        "LocalizedString": "Marek Tholy, a regular customer of Charles’s shop, confirmed that he’s noticed rising prices. He mentioned that Charles often labels regular books as “special editions” to justify the higher costs. Marek also recalled a suspicious incident where Charles claimed a book was sold out, even though Marek had seen it on the shelf the day before."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/MerchantsBetrayal/MerchantsBetrayalQuest.MerchantsBetrayalQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

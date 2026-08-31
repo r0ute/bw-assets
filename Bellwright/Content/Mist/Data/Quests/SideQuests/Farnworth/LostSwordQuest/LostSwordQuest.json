@@ -1,0 +1,230 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostSwordQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostSwordQuest_C'Default__LostSwordQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostSwordQuest_C",
+    "Name": "Default__LostSwordQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest.LostSwordQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordFindSwordQuest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordFindSwordQuest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordPickUpQuest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordPickUpQuest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordBringTheSwordQuest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordBringTheSwordQuest_Blacksmith_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest_Blacksmith.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordQuest_BringOre_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest_BringOre.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSword_Quest_Wait1Day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_Quest_Wait1Day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSword_BringFakeSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_BringFakeSword.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSwordBringFixedSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringFixedSword.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CFDBECB34C67E67327DE039EEB9FD16A",
+        "SourceString": "Lost and Found",
+        "LocalizedString": "Lost and Found"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "02BB5DFE48B0622B4B40CBB19B766580",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "A34E29534B9A02E8A2A950B55C0FC2D5",
+        "SourceString": "{QuestGiver} asked me to retrieve the heirloom sword that belonged to his wife. He lost it during a wolf attack.",
+        "LocalizedString": "{QuestGiver} asked me to retrieve the heirloom sword that belonged to his wife. He lost it during a wolf attack."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1E5FAAFB4DE6E09AE350349FDE715982",
+          "SourceString": "Helping with finding his lost sword.",
+          "LocalizedString": "Helping with finding his lost sword."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostSwordQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 300,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 200.0,
+            "MaxQuantityMultiplier": 200.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest.DiplomaticMissionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

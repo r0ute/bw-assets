@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "ACutAboveQuest_BringGlue_C",
+    "Name": "Default__ACutAboveQuest_BringGlue_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringGlue.ACutAboveQuest_BringGlue_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringGlue",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'ACutAboveGlue_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/ACutAboveGlue.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6E61B18547F124C4B465889F1D0A52BF",
+          "SourceString": "About the glue...",
+          "LocalizedString": "About the glue..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "Blacksmith second quest idle"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EC0744DA4A365B00953C29B24BC02F02",
+        "SourceString": "Retrive the special glue from the bandits",
+        "LocalizedString": "Retrive the special glue from the bandits"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0D6D15994B176C025D1328B2176F35EA",
+        "SourceString": "Now the blacksmith has everything he needs to finishe the job. I should be back tomorrow when everything is done.",
+        "LocalizedString": "Now the blacksmith has everything he needs to finishe the job. I should be back tomorrow when everything is done."
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest.ACutAboveQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACutAboveQuest_BringGlue_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringGlue",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACutAboveQuest_BringGlue_C'Default__ACutAboveQuest_BringGlue_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_BringGlue.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

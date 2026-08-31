@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MagnumOpusQuest_TalkToLysara1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToLysara1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MagnumOpusQuest_TalkToLysara1_C'Default__MagnumOpusQuest_TalkToLysara1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToLysara1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MagnumOpusQuest_TalkToLysara1_C",
+    "Name": "Default__MagnumOpusQuest_TalkToLysara1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToLysara1.MagnumOpusQuest_TalkToLysara1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToLysara1",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "20F94C824D9A2587241F71A18A3C9468",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LysaraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LysaraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "00B7780F48A637ED131E70946621256B",
+          "SourceString": "Do you know the hermit that lives over that hill?",
+          "LocalizedString": "Do you know the hermit that lives over that hill?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLysara"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5A5EBF4B42021110125ED193C97F9A5F",
+        "SourceString": "Lysara, the baker, remembers Adan as a harmless eccentric until he botched a noble’s marriage contract, turning it into a pirate’s love letter.",
+        "LocalizedString": "Lysara, the baker, remembers Adan as a harmless eccentric until he botched a noble’s marriage contract, turning it into a pirate’s love letter."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LysaraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LysaraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LysaraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LysaraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest.MagnumOpusQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_FindCaveEntrance_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:ExecuteUbergraph_BlueSkyQuest_FindCaveEntrance'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.4"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:ExecuteUbergraph_BlueSkyQuest_FindCaveEntrance'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_FindCaveEntrance": {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:ExecuteUbergraph_BlueSkyQuest_FindCaveEntrance'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_FindCaveEntrance_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_FindCaveEntrance_C'Default__BlueSkyQuest_FindCaveEntrance_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_FindCaveEntrance_C",
+    "Name": "Default__BlueSkyQuest_FindCaveEntrance_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.BlueSkyQuest_FindCaveEntrance_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Description": {
+        "Namespace": "",
+        "Key": "7886FA454594552EDD67A0AD53B690FD",
+        "SourceString": "Find a way to open the hidden entrance",
+        "LocalizedString": "Find a way to open the hidden entrance"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BE46CEBF48D7BE3156F77B9B6146F65C",
+        "SourceString": "Contraption opened the entry to the hideout. I hope that the alchemist will be willing to cooperate with the Cassians.",
+        "LocalizedString": "Contraption opened the entry to the hideout. I hope that the alchemist will be willing to cooperate with the Cassians."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "LookingforEntranceCecilioBaezInProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_FindCaveEntrance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_FindCaveEntrance_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_FindCaveEntrance_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_FindCaveEntrance_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_FindCaveEntrance.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

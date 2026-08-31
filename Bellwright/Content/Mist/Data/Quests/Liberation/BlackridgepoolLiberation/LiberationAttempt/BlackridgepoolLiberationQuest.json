@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlackridgepoolLiberationQuest_C",
+    "Name": "Default__BlackridgepoolLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest.BlackridgepoolLiberationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolLiberationQuest_TalkToElderStart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderStart.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolLiberationQuest_BuildWatchtower_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_BuildWatchtower.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolLiberationQuest_KillGarrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_KillGarrison.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolLiberationQuest_TalkToElderComplete_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderComplete.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "7083E2754AB5B1E03247679687255467",
+        "SourceString": "Time has come: Blackridgepool",
+        "LocalizedString": "Time has come: Blackridgepool"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6202E76E4BDE606B2E4468831551DB4E",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0A9D471B42F0D260E0AFCDBBB8EA6E61",
+        "SourceString": "With the oppressive shadow of Lord Ashbourne finally lifted, Blackridgepool can embrace a night of tranquility. As the stars shine above, we look forward to a new dawn that symbolizes our hard-won freedom and resilience.",
+        "LocalizedString": "With the oppressive shadow of Lord Ashbourne finally lifted, Blackridgepool can embrace a night of tranquility. As the stars shine above, we look forward to a new dawn that symbolizes our hard-won freedom and resilience."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RenownReward": 5000,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Blackridgepool Liberation"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackridgepoolLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackridgepoolLiberationQuest_C'Default__BlackridgepoolLiberationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

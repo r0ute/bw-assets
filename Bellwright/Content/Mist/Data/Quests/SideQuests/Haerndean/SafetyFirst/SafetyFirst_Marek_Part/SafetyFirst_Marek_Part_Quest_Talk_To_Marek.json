@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk_To_Marek",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C'Default__SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk_To_Marek.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C",
+    "Name": "Default__SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk_To_Marek.SafetyFirst_Marek_Part_Quest_Talk_To_Marek_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk_To_Marek",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2D8EA5D146BA46F0CE729D986895397E",
+          "SourceString": "Teodor Hewe sent me to check on the caravan parts.",
+          "LocalizedString": "Teodor Hewe sent me to check on the caravan parts."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafetyFirst_Marek_Part_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Avalible",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "67803E99485BF3DCA0EFF1B5B55118FE",
+        "SourceString": "In order to get the parts that Teodor needs, I need to help Marek first.",
+        "LocalizedString": "In order to get the parts that Teodor needs, I need to help Marek first."
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest.SafetyFirst_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

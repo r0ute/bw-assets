@@ -1,0 +1,180 @@
+[
+  {
+    "Type": "ABanquetOfGoldQuest_BringShipmentToSalMaia_C",
+    "Name": "Default__ABanquetOfGoldQuest_BringShipmentToSalMaia_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.ABanquetOfGoldQuest_BringShipmentToSalMaia_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_Shipment_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/ABanquetOfGoldQuest_Shipment.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SalMaiaNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SalMaiaNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SalMaia_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SalMaia_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuestTalk.1"
+        },
+        "TalkEntryPoint": "BringToMaia"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FF8E97FE49ADC1B859F606B2D66940F4",
+        "SourceString": "Take the shipment to the Sal Maia Innkeeper.",
+        "LocalizedString": "Take the shipment to the Sal Maia Innkeeper."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "65C45783408B6D0159976FA731A6E9E7",
+        "SourceString": "I brought the shipment to the Sal Maia. Their eyes filled with tears at the sight of it. For the first time in months, the people here will eat more than scraps. I know word will spread, Cragkeep will remember what I’ve done, for better or worse.",
+        "LocalizedString": "I brought the shipment to the Sal Maia. Their eyes filled with tears at the sight of it. For the first time in months, the people here will eat more than scraps. I know word will spread, Cragkeep will remember what I’ve done, for better or worse."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SalMaiaNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SalMaiaNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SalMaia_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SalMaia_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest.ABanquetOfGoldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ABanquetOfGoldQuest_BringShipmentToSalMaia_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSalMaia_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSalMaia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSalMaia_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.3"
+      },
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSalMaia_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSalMaia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSalMaia": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSalMaia_C:ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSalMaia'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_BringShipmentToSalMaia_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABanquetOfGoldQuest_BringShipmentToSalMaia_C'Default__ABanquetOfGoldQuest_BringShipmentToSalMaia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABanquetOfGoldQuest_BringShipmentToSalMaia",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_BringShipmentToSalMaia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_BringShipmentToSalMaia_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_BringShipmentToSalMaia.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

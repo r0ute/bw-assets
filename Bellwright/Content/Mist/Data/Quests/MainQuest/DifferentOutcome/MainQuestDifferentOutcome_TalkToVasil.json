@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestDifferentOutcome_TalkToVasil_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToVasil",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestDifferentOutcome_TalkToVasil_C'Default__MainQuestDifferentOutcome_TalkToVasil_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToVasil.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestDifferentOutcome_TalkToVasil_C",
+    "Name": "Default__MainQuestDifferentOutcome_TalkToVasil_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToVasil.MainQuestDifferentOutcome_TalkToVasil_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToVasil",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordUniqueCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordUniqueCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestDifferentOutcome_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToVasil_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "052ACBE942633F9B97883B8EB176E010",
+        "SourceString": "Vasil mentioned how he voted for Hans, feeling that his vote didn't matter.",
+        "LocalizedString": "Vasil mentioned how he voted for Hans, feeling that his vote didn't matter."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome.MainQuestDifferentOutcome_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

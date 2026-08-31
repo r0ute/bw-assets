@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowRELiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowRELiberationQuest_C'Default__PadstowRELiberationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowRELiberationQuest_C",
+    "Name": "Default__PadstowRELiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest.PadstowRELiberationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_WaitFewDays_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_WaitFewDays.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_TalkToElderStart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderStart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_KillGarrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_KillGarrison.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_BuildWatchtower_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_BuildWatchtower.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_TalkToElderComplete_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_TalkToElderComplete.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "098010FF41A71971BE35958C9230F6B1",
+        "SourceString": "Another try: Padstow",
+        "LocalizedString": "Another try: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "93062A61402753128652139CB5A25BEB",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowRELiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/ReLiberation/PadstowRELiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

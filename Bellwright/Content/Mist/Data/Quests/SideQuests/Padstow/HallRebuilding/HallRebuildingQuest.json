@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HallRebuildingQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HallRebuildingQuest_C'Default__HallRebuildingQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HallRebuildingQuest_C",
+    "Name": "Default__HallRebuildingQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest.HallRebuildingQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HallRebuildingQuest_DeliverMaterials_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_DeliverMaterials.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "FBF63BA149982E05E93A299EAF11B412",
+        "SourceString": "The Restoration",
+        "LocalizedString": "The Restoration"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2D629CC8460AA9217524C4AC43DCFFB2",
+        "SourceString": "Get materials needed to rebuild Padstow Village Hall",
+        "LocalizedString": "Get materials needed to rebuild Padstow Village Hall"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "D2E41E9D407747626AD09EB11EED900C",
+        "SourceString": "I agreed to partake in helping the {QuestGiver} to rebuild the Village Hall. If this idea were successful Padstow’s people would be more eager to stand against Ashbourne and his people.",
+        "LocalizedString": "I agreed to partake in helping the {QuestGiver} to rebuild the Village Hall. If this idea were successful Padstow’s people would be more eager to stand against Ashbourne and his people."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "84BA62B34BCC1B00D4C325B361FC02C7",
+          "SourceString": "The houses here could use some renovation.",
+          "LocalizedString": "The houses here could use some renovation."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HallRebuildingQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HallRebuilding/HallRebuildingQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

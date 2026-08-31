@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PickpocketQuest_Part2_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PickpocketQuest_Part2_TalkToElder_C'Default__PickpocketQuest_Part2_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PickpocketQuest_Part2_TalkToElder_C",
+    "Name": "Default__PickpocketQuest_Part2_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToElder.PickpocketQuest_Part2_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ELDER PATRYK STEN"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2477893844622B245BE34699380DBD3F",
+        "SourceString": "The elder told me that man was a pickpocket! I am missing some gold! This man can not roam free, he must pay for his crimes.",
+        "LocalizedString": "The elder told me that man was a pickpocket! I am missing some gold! This man can not roam free, he must pay for his crimes."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2.PickpocketQuest_Part2_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

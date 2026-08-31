@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CarpenterDoughterInTroubleQuest_MeetCarpenter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_MeetCarpenter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CarpenterDoughterInTroubleQuest_MeetCarpenter_C'Default__CarpenterDoughterInTroubleQuest_MeetCarpenter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_MeetCarpenter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CarpenterDoughterInTroubleQuest_MeetCarpenter_C",
+    "Name": "Default__CarpenterDoughterInTroubleQuest_MeetCarpenter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_MeetCarpenter.CarpenterDoughterInTroubleQuest_MeetCarpenter_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_MeetCarpenter",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C37BE11D419A0D5EA7652C9C7D318215",
+        "SourceString": "Visit Carpenter again",
+        "LocalizedString": "Visit Carpenter again"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7317D0D5451970026CE9009712AA4F55",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1C46D32844D401C35DDAEA802465AE77",
+        "SourceString": "The man asked for my aid in finding his daughter. He said she was kidnapped by bandits. I must find her.",
+        "LocalizedString": "The man asked for my aid in finding his daughter. He said she was kidnapped by bandits. I must find her."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest.CarpenterDoughterInTroubleQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_TalkToViktorAfterEscort_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorAfterEscort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.4"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorAfterEscort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorAfterEscort": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorAfterEscort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_TalkToViktorAfterEscort_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_TalkToViktorAfterEscort_C'Default__ChasingTheSkyQuest_TalkToViktorAfterEscort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_TalkToViktorAfterEscort_C",
+    "Name": "Default__ChasingTheSkyQuest_TalkToViktorAfterEscort_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.ChasingTheSkyQuest_TalkToViktorAfterEscort_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToViktorAfterEscort"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_TalkToViktorAfterEscort",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_TalkToViktorAfterEscort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_TalkToViktorAfterEscort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_TalkToViktorAfterEscort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_TalkToViktorAfterEscort.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

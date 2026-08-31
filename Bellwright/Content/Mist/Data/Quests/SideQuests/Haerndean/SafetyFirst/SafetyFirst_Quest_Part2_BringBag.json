@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafetyFirst_Quest_Part2_BringBag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Part2_BringBag",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafetyFirst_Quest_Part2_BringBag_C'Default__SafetyFirst_Quest_Part2_BringBag_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Part2_BringBag.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafetyFirst_Quest_Part2_BringBag_C",
+    "Name": "Default__SafetyFirst_Quest_Part2_BringBag_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Part2_BringBag.SafetyFirst_Quest_Part2_BringBag_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Part2_BringBag",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SafetyFirst_TradersBag_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/SafetyFirst_TradersBag.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertBlacksmithNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertBlacksmithNPCTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5D624F7840ABC6D7BCCA16B4DD5EBFA5",
+          "SourceString": "About meeting with this trader…",
+          "LocalizedString": "About meeting with this trader…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafetyFirst_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "SafityFirst_ThirdQuest_In_Progress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E282A32643BBE53542555DA481971956",
+        "SourceString": "I delivered the bag from the trader to Teodor, helping people across Karvenia is helping me build my influence and moving me closer to the answers I seek.",
+        "LocalizedString": "I delivered the bag from the trader to Teodor, helping people across Karvenia is helping me build my influence and moving me closer to the answers I seek."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertBlacksmithNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertBlacksmithNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest.SafetyFirst_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

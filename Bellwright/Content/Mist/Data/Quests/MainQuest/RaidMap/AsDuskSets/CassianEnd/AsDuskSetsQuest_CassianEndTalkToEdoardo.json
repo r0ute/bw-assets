@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_CassianEndTalkToEdoardo_C",
+    "Name": "Default__AsDuskSetsQuest_CassianEndTalkToEdoardo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.AsDuskSetsQuest_CassianEndTalkToEdoardo_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "67992CCB419F55FE4D19A2AA8CFDE5CD",
+        "SourceString": "Talk with {Npc}",
+        "LocalizedString": "Talk with {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'EdoardoPretoNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/EdoardoPretoNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "CassianEnd_TalkToEdoardo"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "AB7584A6470523539AE429A8A8BC53FE",
+        "SourceString": "Talk with {Npc}",
+        "LocalizedString": "Talk with {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3899F7B347DD53BE4429329FBA0CD4F2",
+        "SourceString": "Edoardo rewarded me for bringing her back. I can already feel the Halmayans’ anger over my choice.",
+        "LocalizedString": "Edoardo rewarded me for bringing her back. I can already feel the Halmayans’ anger over my choice."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'EdoardoPretoNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/EdoardoPretoNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_CassianEndTalkToEdoardo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndTalkToEdoardo_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndTalkToEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndTalkToEdoardo_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.3"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndTalkToEdoardo_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndTalkToEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AsDuskSetsQuest_CassianEndTalkToEdoardo": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndTalkToEdoardo_C:ExecuteUbergraph_AsDuskSetsQuest_CassianEndTalkToEdoardo'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AsDuskSetsQuest_CassianEndTalkToEdoardo_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_CassianEndTalkToEdoardo_C'Default__AsDuskSetsQuest_CassianEndTalkToEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AsDuskSetsQuest_CassianEndTalkToEdoardo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_CassianEndTalkToEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_CassianEndTalkToEdoardo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/CassianEnd/AsDuskSetsQuest_CassianEndTalkToEdoardo.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

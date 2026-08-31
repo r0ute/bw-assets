@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuild3_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuild3_Quest_C'Default__WarriorsGuild3_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuild3_Quest_C",
+    "Name": "Default__WarriorsGuild3_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest.WarriorsGuild3_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_TalkToBrigand_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_TalkToBrigand.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_KillBrigand_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_KillBrigand.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_BackToGuild_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_BackToGuild.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "1BFC707B47F1A138675CA6BEAA81F8F4",
+        "SourceString": "Warrior's Guild part 3",
+        "LocalizedString": "Warrior's Guild part 3"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "C7AB903E4606609463F87E8B232A3B5D",
+        "SourceString": "It’s time for your final challenge before becoming a full-fledged member of the Warrior’s Guild! Surely, the strongest branch of the guild are all very serious warriors.",
+        "LocalizedString": "It’s time for your final challenge before becoming a full-fledged member of the Warrior’s Guild! Surely, the strongest branch of the guild are all very serious warriors."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "15E8877E4BFE286AAFA65FB88BF09F0D",
+          "SourceString": "warriors guild3 quest",
+          "LocalizedString": "warriors guild3 quest"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 300,
+      "RenownReward": 300,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.WarriorsGuildPart2_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

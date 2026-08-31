@@ -1,0 +1,207 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicineForElderQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicineForElderQuest_C'Default__MedicineForElderQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicineForElderQuest_C",
+    "Name": "Default__MedicineForElderQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest.MedicineForElderQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_TalkToHerbalist_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_TalkToHerbalist.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_BringIngredients_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringIngredients.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_BringCureToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringCureToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C593DDD74D7D73F922C597AA1C50346C",
+        "SourceString": "Do No Harm",
+        "LocalizedString": "Do No Harm"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0F2C12644E1121813A52E2A7669724DA",
+        "SourceString": "Medicine for Elder",
+        "LocalizedString": "Medicine for Elder"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "080CD91D48BF31D31A93529E667B2622",
+        "SourceString": "Elder Dobbins has fallen gravely ill and asked me to seek help from Aleks Amanita - the herbalist. Helping him will surely earn me the trust and respect of the village.",
+        "LocalizedString": "Elder Dobbins has fallen gravely ill and asked me to seek help from Aleks Amanita - the herbalist. Helping him will surely earn me the trust and respect of the village."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7FFE8DF0417053B5DBA1A883E192911D",
+          "SourceString": "You look quite bad today. How do you feel?",
+          "LocalizedString": "You look quite bad today. How do you feel?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2200E6994B447A828C28749E91260D8C",
+          "SourceString": "Regarding the cure…",
+          "LocalizedString": "Regarding the cure…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringCureToElder_QuestComplete",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "RenownReward": 150,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 3.0,
+            "MaxQuantityMultiplier": 3.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicStews.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheVillageHarvest/BringWoodPlanksAndLeathertoElderDobbinsQuest.BringWoodPlanksAndLeathertoElderDobbinsQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

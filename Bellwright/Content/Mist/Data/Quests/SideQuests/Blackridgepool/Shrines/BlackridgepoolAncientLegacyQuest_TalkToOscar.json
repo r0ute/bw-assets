@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlackridgepoolAncientLegacyQuest_TalkToOscar_C",
+    "Name": "Default__BlackridgepoolAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_TalkToOscar.BlackridgepoolAncientLegacyQuest_TalkToOscar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_TalkToOscar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "215F10E846F80E04C3C40D9D0FCD47D7",
+        "SourceString": "Return to {Npc} and tell him shrine that you've discovered near the Blackridgepool.",
+        "LocalizedString": "Return to {Npc} and tell him shrine that you've discovered near the Blackridgepool."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CA855CB547AE3A06793381B07CCC3173",
+          "SourceString": "Regarding the shrine next to the Blackridgepool...",
+          "LocalizedString": "Regarding the shrine next to the Blackridgepool..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolAncientLegacyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToOscar_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "006F3B7B482683DA0782BC8C2C37BF06",
+        "SourceString": "Ancient Legacy - Blackridgepool.",
+        "LocalizedString": "Ancient Legacy - Blackridgepool."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4CF9D1514E4110412FB821A0A9DFA989",
+        "SourceString": "Oscar seemed intringued that people from the past had advanced religious beliefs. I must carry on.",
+        "LocalizedString": "Oscar seemed intringued that people from the past had advanced religious beliefs. I must carry on."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest.BlackridgepoolAncientLegacyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackridgepoolAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_TalkToOscar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackridgepoolAncientLegacyQuest_TalkToOscar_C'Default__BlackridgepoolAncientLegacyQuest_TalkToOscar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest_TalkToOscar.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

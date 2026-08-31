@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_ClearCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:ExecuteUbergraph_BlueSkyQuest_ClearCamp'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillGarrisonQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.4"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:ExecuteUbergraph_BlueSkyQuest_ClearCamp'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_ClearCamp": {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:ExecuteUbergraph_BlueSkyQuest_ClearCamp'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_ClearCamp_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_ClearCamp_C'Default__BlueSkyQuest_ClearCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_ClearCamp_C",
+    "Name": "Default__BlueSkyQuest_ClearCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.BlueSkyQuest_ClearCamp_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SettlementName": "Blue Sky Smuggler's Camp",
+      "bRequireBell": false,
+      "SecondDescription": {
+        "Namespace": "",
+        "Key": "A2A50A6E4F0438EE7FB2BEB9F46F65FA",
+        "SourceString": "Clear the Smuggler's Camp",
+        "LocalizedString": "Clear the Smuggler's Camp"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6921731B4B6B1711F8E3E48B7AF1B281",
+        "SourceString": "Clear the Smuggler's Camp",
+        "LocalizedString": "Clear the Smuggler's Camp"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D11EAF494DEF5707698D1CA3CFF8F530",
+        "SourceString": "Clear the Smuggler's Camp",
+        "LocalizedString": "Clear the Smuggler's Camp"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_ClearCamp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_ClearCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_ClearCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_ClearCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_ClearCamp.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

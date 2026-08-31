@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThievesofHarthbay_BringLoot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_BringLoot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThievesofHarthbay_BringLoot_C'Default__ThievesofHarthbay_BringLoot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_BringLoot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThievesofHarthbay_BringLoot_C",
+    "Name": "Default__ThievesofHarthbay_BringLoot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_BringLoot.ThievesofHarthbay_BringLoot_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_BringLoot",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'StolenGoodsThievesofHarthbay_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/StolenGoodsThievesofHarthbay.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ZakarLeontis_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HarthbayVillage/ZakarLeontis_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1A83FCAA44FB80B20ED71F81A2645E5C",
+          "SourceString": "About the loot...",
+          "LocalizedString": "About the loot..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThievesofHarthbayTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbayTalk.0"
+        },
+        "TalkEntryPoint": "TalktoZakar_Inprogress"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ZakarLeontis_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HarthbayVillage/ZakarLeontis_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbayQuest.ThievesofHarthbayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

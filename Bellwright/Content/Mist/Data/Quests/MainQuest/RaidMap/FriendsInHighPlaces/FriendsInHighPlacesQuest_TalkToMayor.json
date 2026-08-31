@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FriendsInHighPlacesQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuest_TalkToMayor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FriendsInHighPlacesQuest_TalkToMayor_C'Default__FriendsInHighPlacesQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuest_TalkToMayor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FriendsInHighPlacesQuest_TalkToMayor_C",
+    "Name": "Default__FriendsInHighPlacesQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuest_TalkToMayor.FriendsInHighPlacesQuest_TalkToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuest_TalkToMayor",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "28B80462497E56D1F55EBFBFF638C382",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FriendsInHighPlacesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E69E947A47B5FE8B6CEECBAC6508E331",
+        "SourceString": "I’ve made a new ally, or enemy? The Mayor of Cragkeep, Sebastian Montverde. He knows just about everything happening in the Halmare Isles… including my rebellion. If I want to take down Kug, I’ll need an alliance. I could try to gather forces on my own, but time is running out. Decisions, decisions…",
+        "LocalizedString": "I’ve made a new ally, or enemy? The Mayor of Cragkeep, Sebastian Montverde. He knows just about everything happening in the Halmare Isles… including my rebellion. If I want to take down Kug, I’ll need an alliance. I could try to gather forces on my own, but time is running out. Decisions, decisions…"
+      },
+      "RenownReward": 300,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiske_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiske_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FriendsInHighPlaces/FriendsInHighPlacesQuest.FriendsInHighPlacesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThroughTheCastleDoorsQuest_TalkToGuard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest_TalkToGuard",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThroughTheCastleDoorsQuest_TalkToGuard_C'Default__ThroughTheCastleDoorsQuest_TalkToGuard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest_TalkToGuard.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThroughTheCastleDoorsQuest_TalkToGuard_C",
+    "Name": "Default__ThroughTheCastleDoorsQuest_TalkToGuard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest_TalkToGuard.ThroughTheCastleDoorsQuest_TalkToGuard_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest_TalkToGuard",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D8F318F54D0721BDF92B80B667304C01",
+        "SourceString": "Speak with the Guard to let you in the Viceroy's chambers.",
+        "LocalizedString": "Speak with the Guard to let you in the Viceroy's chambers."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'KugsBodyguardNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KugsBodyguardNpcTemplate.0"
+        }
+      },
+      "bFailOnNpcTurningHostile": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "E8431D134E16A01519F627BE87BDD180",
+        "SourceString": "Speak with the Guard to let you in the Viceroy's chambers.",
+        "LocalizedString": "Speak with the Guard to let you in the Viceroy's chambers."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'KugsBodyguardNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KugsBodyguardNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest.ThroughTheCastleDoorsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

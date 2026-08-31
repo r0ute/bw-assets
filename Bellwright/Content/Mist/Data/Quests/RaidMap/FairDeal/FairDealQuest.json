@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FairDealQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FairDealQuest_C'Default__FairDealQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FairDealQuest_C",
+    "Name": "Default__FairDealQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest.FairDealQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_TalkToGuillermo_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_TalkToGuillermo.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_TalkToBaltasar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_TalkToBaltasar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_EscortGuillermo_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_EscortGuillermo.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_TalkToGuillermo2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_TalkToGuillermo2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_KillGuillermo_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_KillGuillermo.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_TalkToDesiderio_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_TalkToDesiderio.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_TalkToIsandro_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_TalkToIsandro.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_KillIsandro_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_KillIsandro.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDealQuest_BringItemToEryk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_BringItemToEryk.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "EE381A0542D8FB3E6727279CFA4A5455",
+        "SourceString": "Fair Deal",
+        "LocalizedString": "Fair Deal"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "B810B8EF4E27A9BA00E35AA324A8ED1B",
+        "SourceString": "Eryk wants me to get the important package for Kug from one of the Cragkeep nobles called Isandro Mancebo, to get inside the mansion I should get the password or trinket that will allow me to get pass the guards. Both things I can get from this main bodyguard, Guillermo Cal, I can find in Soveryn’s Cup.From what Eryk told me this thing sounds very personal to him.",
+        "LocalizedString": "Eryk wants me to get the important package for Kug from one of the Cragkeep nobles called Isandro Mancebo, to get inside the mansion I should get the password or trinket that will allow me to get pass the guards. Both things I can get from this main bodyguard, Guillermo Cal, I can find in Soveryn’s Cup.From what Eryk told me this thing sounds very personal to him."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FairDealQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 70,
+      "RenownReward": 150,
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest.ShipmentFullOfSurprisesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiske_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiske_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiske_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiske_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DesiderioCanizalesNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/FairDeal/DesiderioCanizalesNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SunsetQuest_KillAttackers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'SunsetQuest_KillAttackers_C:ExecuteUbergraph_SunsetQuest_KillAttackers'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SunsetQuest_KillAttackers_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.2"
+      },
+      {
+        "ObjectName": "Function'SunsetQuest_KillAttackers_C:ExecuteUbergraph_SunsetQuest_KillAttackers'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SunsetQuest_KillAttackers": {
+        "ObjectName": "Function'SunsetQuest_KillAttackers_C:ExecuteUbergraph_SunsetQuest_KillAttackers'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'SunsetQuest_KillAttackers_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SunsetQuest_KillAttackers_C'Default__SunsetQuest_KillAttackers_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SunsetQuest_KillAttackers",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_KillAttackers_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_KillAttackers_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SunsetQuest_KillAttackers_C",
+    "Name": "Default__SunsetQuest_KillAttackers_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers.SunsetQuest_KillAttackers_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_KillAttackers",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SunsetFalsgarAttackedNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Sunset/SunsetFalsgarAttackedNpcTemplate.0"
+        },
+        "AmountMinMax": {
+          "Min": 5,
+          "Max": 5
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "90718837426589D0822E918ECF37201B",
+        "SourceString": "Kill the Falsgar outside",
+        "LocalizedString": "Kill the Falsgar outside"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4A7E4795411033E6588054BADC4B1EDD",
+        "SourceString": "Kill the Falsgar outside",
+        "LocalizedString": "Kill the Falsgar outside"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

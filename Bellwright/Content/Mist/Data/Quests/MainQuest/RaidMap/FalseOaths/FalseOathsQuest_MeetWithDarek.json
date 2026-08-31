@@ -1,0 +1,214 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FalseOathsQuest_MeetWithDarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'FalseOathsQuest_MeetWithDarek_C:ExecuteUbergraph_FalseOathsQuest_MeetWithDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FalseOathsQuest_MeetWithDarek_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.3"
+      },
+      {
+        "ObjectName": "Function'FalseOathsQuest_MeetWithDarek_C:ExecuteUbergraph_FalseOathsQuest_MeetWithDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FalseOathsQuest_MeetWithDarek": {
+        "ObjectName": "Function'FalseOathsQuest_MeetWithDarek_C:ExecuteUbergraph_FalseOathsQuest_MeetWithDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'FalseOathsQuest_MeetWithDarek_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FalseOathsQuest_MeetWithDarek_C'Default__FalseOathsQuest_MeetWithDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FalseOathsQuest_MeetWithDarek_C",
+    "Name": "Default__FalseOathsQuest_MeetWithDarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.FalseOathsQuest_MeetWithDarek_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FalseOathsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuestTalk.0"
+        },
+        "TalkEntryPoint": "MeeWithDarek"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8D18293B408DED3B59862F9CC683AA30",
+        "SourceString": "Darek was waiting outside Redhold. He warned me the garrison is strong—two dozen soldiers or more. Redhold must fall before I can reach him.",
+        "LocalizedString": "Darek was waiting outside Redhold. He warned me the garrison is strong—two dozen soldiers or more. Redhold must fall before I can reach him."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest.FalseOathsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FalseOathsQuest_MeetWithDarek",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_MeetWithDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementOccupyingFaction_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm",
+        "PropertyClass": {
+          "ObjectName": "Class'MistFaction'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FactionNameEquals_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FalseOathsQuest_MeetWithDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/FalseOaths/FalseOathsQuest_MeetWithDarek.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

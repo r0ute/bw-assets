@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "BanditBountiesQuest_C",
+    "Name": "Default__BanditBountiesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest.BanditBountiesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditBountiesQuest_BanditsPatrols_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest_BanditsPatrols.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditBounties_ReturnElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBounties_ReturnElder.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "A3D292844E268F39319F37B372BCABDB",
+        "SourceString": "Bandit Bounties",
+        "LocalizedString": "Bandit Bounties"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "B9573DD44D02D74B3F644B819F4040E1",
+        "SourceString": "Elder Dobron Yorklyn told me of a pressing bandit problem plaguing the roads near Haerndean. He's tasked me with eliminating two bandit groups that have been terrorizing travelers. I’ll scout the roads leading to Haerndean, where the bandits have been most active. Once I've dealt with the two groups, I have to report back to Elder Dobron.",
+        "LocalizedString": "Elder Dobron Yorklyn told me of a pressing bandit problem plaguing the roads near Haerndean. He's tasked me with eliminating two bandit groups that have been terrorizing travelers. I’ll scout the roads leading to Haerndean, where the bandits have been most active. Once I've dealt with the two groups, I have to report back to Elder Dobron."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "451FAFD648AA0DC464D46FAA85EB96F6",
+          "SourceString": "How has everything been since the liberation?",
+          "LocalizedString": "How has everything been since the liberation?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditBountiesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 50,
+      "VillageProsperityReward": 200,
+      "RenownReward": 250,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HaerndeanVillageProfile.HaerndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditBountiesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditBountiesQuest_C'Default__BanditBountiesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BanditBounties/BanditBountiesQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

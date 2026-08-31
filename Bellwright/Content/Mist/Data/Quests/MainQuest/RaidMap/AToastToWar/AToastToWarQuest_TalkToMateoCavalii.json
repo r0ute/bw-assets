@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "AToastToWarQuest_TalkToMateoCavalii_C",
+    "Name": "Default__AToastToWarQuest_TalkToMateoCavalii_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToMateoCavalii.AToastToWarQuest_TalkToMateoCavalii_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToMateoCavalii",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "558F8CE94310F15FC79042BE56BB80B1",
+        "SourceString": "Tell {Npc} that there are no more fights in his tavern.",
+        "LocalizedString": "Tell {Npc} that there are no more fights in his tavern."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9367F8CC4D11B14E239C7E8DE3A0CEDE",
+          "SourceString": "About the people who were causing trouble in your tavern…",
+          "LocalizedString": "About the people who were causing trouble in your tavern…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "MateoCavalii_QuestInProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "4FEDB1034804B09E7A181A8F8BD37FDB",
+        "SourceString": "Tell {Npc} that there are no more fights in his tavern.",
+        "LocalizedString": "Tell {Npc} that there are no more fights in his tavern."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "103B94F747886A76942203B1D3D45768",
+        "SourceString": "I should speak with Mateo and inform him of the progress I’ve made.",
+        "LocalizedString": "I should speak with Mateo and inform him of the progress I’ve made."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "71349D6E40B6AD9D50ED0095C1AB2774",
+        "SourceString": "It looks like there’s some internal conflict these people are dealing with. I should take a closer look into that.",
+        "LocalizedString": "It looks like there’s some internal conflict these people are dealing with. I should take a closer look into that."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.AToastToWarQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AToastToWarQuest_TalkToMateoCavalii_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToMateoCavalii",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AToastToWarQuest_TalkToMateoCavalii_C'Default__AToastToWarQuest_TalkToMateoCavalii_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToMateoCavalii.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

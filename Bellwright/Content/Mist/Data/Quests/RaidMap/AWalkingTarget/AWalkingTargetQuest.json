@@ -1,0 +1,224 @@
+[
+  {
+    "Type": "AWalkingTargetQuest_C",
+    "Name": "Default__AWalkingTargetQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest.AWalkingTargetQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_TalkToPeres_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPeres.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_TalkToLozar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToLozar.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_FindValde_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_FindValde.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_TalkToValde_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToValde.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_KillDain_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_KillDain.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_BringTheProof_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_BringTheProof.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AWalkingTarget_TalkToPetrides_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPetrides.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "696D52BA4CDBCBDBFA102B9D9500E588",
+        "SourceString": "A Walking Target",
+        "LocalizedString": "A Walking Target"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "466108024313A196450F47AFDBA17753",
+        "SourceString": "Marcos Petrides, a Falsgar captain, accused a deserter named Dain of abandoning his post and stealing important documents. He offered me gold to hunt him down and return his ring as proof.",
+        "LocalizedString": "Marcos Petrides, a Falsgar captain, accused a deserter named Dain of abandoning his post and stealing important documents. He offered me gold to hunt him down and return his ring as proof."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "17A6253B45E3455DFDB8AFA06C8C1202",
+        "SourceString": "Marcos Petrides, a Falsgar captain, accused a deserter named Dain of abandoning his post and stealing important documents. He offered me gold to hunt him down and return his ring as proof.",
+        "LocalizedString": "Marcos Petrides, a Falsgar captain, accused a deserter named Dain of abandoning his post and stealing important documents. He offered me gold to hunt him down and return his ring as proof."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0D0D5BB845C99D6C4BA64F993F5B2601",
+          "SourceString": "Do you have any tasks for me?",
+          "LocalizedString": "Do you have any tasks for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AWalkingTargetQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuestTalk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MarcosPetrides_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/MarcosPetrides_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MarcosPetrides_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/MarcosPetrides_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ValonPeres_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/ValonPeres_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RaulLozar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/RaulLozar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MarcosPetridesNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/MarcosPetridesNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AWalkingTargetQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AWalkingTargetQuest_C'Default__AWalkingTargetQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

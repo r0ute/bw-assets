@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/HalmayanEnd/NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C'Default__NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/HalmayanEnd/NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C",
+    "Name": "Default__NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/HalmayanEnd/NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape.NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/HalmayanEnd/NotAllWhoWaitQuest_HalmayanEndTalkToLyraAfterEscape",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "HalmayansEnd_TalkToLyraAfterEscape"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0D7FB381436F814651BFBFBBE3D2CE32",
+        "SourceString": "I returned to Lyra and told her the Mayor was safe and the Cassians weakened. She praised my efforts and warned me that Kug would not remain idle. Our cause grows stronger, but the fight is far from over.",
+        "LocalizedString": "I returned to Lyra and told her the Mayor was safe and the Cassians weakened. She praised my efforts and warned me that Kug would not remain idle. Our cause grows stronger, but the fight is far from over."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest.NotAllWhoWaitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

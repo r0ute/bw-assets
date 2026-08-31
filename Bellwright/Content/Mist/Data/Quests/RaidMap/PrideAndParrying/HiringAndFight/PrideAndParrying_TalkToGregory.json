@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PrideAndParrying_TalkToGregory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/HiringAndFight/PrideAndParrying_TalkToGregory",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PrideAndParrying_TalkToGregory_C'Default__PrideAndParrying_TalkToGregory_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/HiringAndFight/PrideAndParrying_TalkToGregory.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PrideAndParrying_TalkToGregory_C",
+    "Name": "Default__PrideAndParrying_TalkToGregory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/HiringAndFight/PrideAndParrying_TalkToGregory.PrideAndParrying_TalkToGregory_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/HiringAndFight/PrideAndParrying_TalkToGregory",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7C91904D4F1468C7C49217BBEC65B85A",
+          "SourceString": "Can I help you somehow?",
+          "LocalizedString": "Can I help you somehow?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PrideAndParryingQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/PrideAndParryingQuestTalk.0"
+        },
+        "TalkEntryPoint": "Hiring_Available",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/HiringAndFight/PrideAndParrying_HiringQuest.PrideAndParrying_HiringQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

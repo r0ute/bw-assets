@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProblemWithWolvesQuest_ReturnToFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnToFarmer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProblemWithWolvesQuest_ReturnToFarmer_C'Default__ProblemWithWolvesQuest_ReturnToFarmer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnToFarmer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProblemWithWolvesQuest_ReturnToFarmer_C",
+    "Name": "Default__ProblemWithWolvesQuest_ReturnToFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnToFarmer.ProblemWithWolvesQuest_ReturnToFarmer_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnToFarmer",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "AskIfMedicineHelped_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "2065D77E40729B85EE91AFBF9359C146",
+        "SourceString": "Check if the medicine helped",
+        "LocalizedString": "Check if the medicine helped"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6AC912AD49C1D8827E0190AB28692885",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "039E8CEC40EA945B876B1CAAF6398039",
+        "SourceString": "The farmer asked for my help taking care of the wolves that have been threatening the lifestock.",
+        "LocalizedString": "The farmer asked for my help taking care of the wolves that have been threatening the lifestock."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

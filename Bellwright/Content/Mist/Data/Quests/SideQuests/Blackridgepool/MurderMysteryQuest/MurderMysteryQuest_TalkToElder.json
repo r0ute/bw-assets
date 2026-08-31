@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MurderMysteryQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MurderMysteryQuest_TalkToElder_C'Default__MurderMysteryQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MurderMysteryQuest_TalkToElder_C",
+    "Name": "Default__MurderMysteryQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElder.MurderMysteryQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MurderMysteryQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FC2EE7624C9407EC50918C88C23E5A34",
+        "SourceString": "The elder advised me to go talk to three people that live nearby, perhaps they could help uncover this mystery.",
+        "LocalizedString": "The elder advised me to go talk to three people that live nearby, perhaps they could help uncover this mystery."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest.MurderMysteryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

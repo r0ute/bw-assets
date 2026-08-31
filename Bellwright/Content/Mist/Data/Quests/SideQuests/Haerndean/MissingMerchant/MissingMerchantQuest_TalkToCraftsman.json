@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MissingMerchantQuest_TalkToCraftsman_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_TalkToCraftsman",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MissingMerchantQuest_TalkToCraftsman_C'Default__MissingMerchantQuest_TalkToCraftsman_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_TalkToCraftsman.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MissingMerchantQuest_TalkToCraftsman_C",
+    "Name": "Default__MissingMerchantQuest_TalkToCraftsman_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_TalkToCraftsman.MissingMerchantQuest_TalkToCraftsman_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_TalkToCraftsman",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "0D65C09C470B22D46C33859AB348AE84",
+        "SourceString": "Talk to the {Npc} living nearby.",
+        "LocalizedString": "Talk to the {Npc} living nearby."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MissingMerchantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToCraftsman_InProgress"
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2424E34D44AC5BC3F3D9D38CBE7DDB4A",
+        "SourceString": "Talk to the {Npc} living nearby.",
+        "LocalizedString": "Talk to the {Npc} living nearby."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "74064E27450D5ABA57717D9A15633904",
+        "SourceString": "I managed to squeeze the truth out of that slippery craftsman. Turns out the Brigands had dragged the merchant away, leaving his cart abandoned. After some bargaining, he handed over the books he swiped. Now to return these to their rightful owner.",
+        "LocalizedString": "I managed to squeeze the truth out of that slippery craftsman. Turns out the Brigands had dragged the merchant away, leaving his cart abandoned. After some bargaining, he handed over the books he swiped. Now to return these to their rightful owner."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BooksforMerchant_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BooksforMerchant.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/MissingMerchant/MissingMerchantQuest.MissingMerchantQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

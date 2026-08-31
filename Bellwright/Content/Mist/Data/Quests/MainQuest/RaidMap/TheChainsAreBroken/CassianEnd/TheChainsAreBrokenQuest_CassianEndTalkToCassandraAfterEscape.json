@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/CassianEnd/TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C'Default__TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/CassianEnd/TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C",
+    "Name": "Default__TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/CassianEnd/TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape.TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/CassianEnd/TheChainsAreBrokenQuest_CassianEndTalkToCassandraAfterEscape",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CassiansEnd_TalkToCassandraAfterEscape"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest.TheChainsAreBrokenQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

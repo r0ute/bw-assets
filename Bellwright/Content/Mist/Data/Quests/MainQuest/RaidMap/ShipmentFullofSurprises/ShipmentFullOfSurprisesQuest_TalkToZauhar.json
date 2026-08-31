@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShipmentFullOfSurprisesQuest_TalkToZauhar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToZauhar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShipmentFullOfSurprisesQuest_TalkToZauhar_C'Default__ShipmentFullOfSurprisesQuest_TalkToZauhar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToZauhar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ShipmentFullOfSurprisesQuest_TalkToZauhar_C",
+    "Name": "Default__ShipmentFullOfSurprisesQuest_TalkToZauhar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToZauhar.ShipmentFullOfSurprisesQuest_TalkToZauhar_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToZauhar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "40ED3ED345883E33AFE1A59B95D70722",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "B8C8887C4AEED073A46D94A96C1573CF",
+          "SourceString": "Emiliano sent me, and I dealt with the Cassian on the ship.",
+          "LocalizedString": "Emiliano sent me, and I dealt with the Cassian on the ship."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToZauhar"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest.ShipmentFullOfSurprisesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

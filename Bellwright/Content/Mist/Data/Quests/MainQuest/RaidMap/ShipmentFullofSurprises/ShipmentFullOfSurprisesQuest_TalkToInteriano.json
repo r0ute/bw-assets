@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShipmentFullOfSurprisesQuest_TalkToInteriano_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_TalkToInteriano'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.2"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.3"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_TalkToInteriano'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_TalkToInteriano": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_TalkToInteriano'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_TalkToInteriano_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShipmentFullOfSurprisesQuest_TalkToInteriano_C'Default__ShipmentFullOfSurprisesQuest_TalkToInteriano_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_TalkToInteriano",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_TalkToInteriano_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_TalkToInteriano_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_TalkToInteriano_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ShipmentFullOfSurprisesQuest_TalkToInteriano_C",
+    "Name": "Default__ShipmentFullOfSurprisesQuest_TalkToInteriano_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano.ShipmentFullOfSurprisesQuest_TalkToInteriano_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_TalkToInteriano",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D446458E4B04D84D15625B8018294FAF",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'EmilianoInteriano_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/EmilianoInteriano_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToEmiliano"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "92C552DB4332E7DABF21C1922ADAF0B5",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'EmilianoInteriano_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/EmilianoInteriano_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest.ShipmentFullOfSurprisesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

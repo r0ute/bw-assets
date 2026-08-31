@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FunAndGamesQuest_BringGarrickLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_BringGarrickLetter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FunAndGamesQuest_BringGarrickLetter_C'Default__FunAndGamesQuest_BringGarrickLetter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_BringGarrickLetter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FunAndGamesQuest_BringGarrickLetter_C",
+    "Name": "Default__FunAndGamesQuest_BringGarrickLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_BringGarrickLetter.FunAndGamesQuest_BringGarrickLetter_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_BringGarrickLetter",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGames_GarrickLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FunAndGames_GarrickLetter.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringGarrickLetter"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5B45BC024BBFC6E5CE01C5B52CD44DA6",
+        "SourceString": "I brought the letter back to Gareth, he told me that the salt eye is an old code name for the Beaconhold Lighthouse, which is very near to where the Cassians are settled. With nothing left to do for now, he gave me my reward.",
+        "LocalizedString": "I brought the letter back to Gareth, he told me that the salt eye is an old code name for the Beaconhold Lighthouse, which is very near to where the Cassians are settled. With nothing left to do for now, he gave me my reward."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest.FunAndGamesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

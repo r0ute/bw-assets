@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultQuest_BringItemToTollgor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToTollgor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultQuest_BringItemToTollgor_C'Default__CultQuest_BringItemToTollgor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToTollgor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultQuest_BringItemToTollgor_C",
+    "Name": "Default__CultQuest_BringItemToTollgor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToTollgor.CultQuest_BringItemToTollgor_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToTollgor",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultBook_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/CultBook.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D0557A7643552536CA052783954A55DC",
+        "SourceString": "Igor was very agitated at the sight of the book, refused to speak with me. This has lead no where. Perhaps there's moe clues in the site that I missed the first time.",
+        "LocalizedString": "Igor was very agitated at the sight of the book, refused to speak with me. This has lead no where. Perhaps there's moe clues in the site that I missed the first time."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Igor Fulke"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest.CultQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

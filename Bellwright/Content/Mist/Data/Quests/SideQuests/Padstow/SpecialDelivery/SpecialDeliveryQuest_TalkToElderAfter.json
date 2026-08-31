@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SpecialDeliveryQuest_TalkToElderAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest_TalkToElderAfter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SpecialDeliveryQuest_TalkToElderAfter_C'Default__SpecialDeliveryQuest_TalkToElderAfter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest_TalkToElderAfter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SpecialDeliveryQuest_TalkToElderAfter_C",
+    "Name": "Default__SpecialDeliveryQuest_TalkToElderAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest_TalkToElderAfter.SpecialDeliveryQuest_TalkToElderAfter_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest_TalkToElderAfter",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "EC0CCC1346A606EE827930977F6CCE35",
+        "SourceString": "Return to the {Npc}",
+        "LocalizedString": "Return to the {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SpecialDeliveryQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "571814B3461A9F64344E69B269E3B6B9",
+        "SourceString": "Return to the {Npc}",
+        "LocalizedString": "Return to the {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "831F1511467326830AE34081EA2C2B18",
+        "SourceString": "The Elder was thankful for my help. These brigands are bullies that step in everyone's throat without mercy.",
+        "LocalizedString": "The Elder was thankful for my help. These brigands are bullies that step in everyone's throat without mercy."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/SpecialDelivery/SpecialDeliveryQuest.SpecialDeliveryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SunsetQuest_FindOldPort_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'SunsetQuest_FindOldPort_C:ExecuteUbergraph_SunsetQuest_FindOldPort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SunsetQuest_FindOldPort_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.2"
+      },
+      {
+        "ObjectName": "Function'SunsetQuest_FindOldPort_C:ExecuteUbergraph_SunsetQuest_FindOldPort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cassandra",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SunsetQuest_FindOldPort": {
+        "ObjectName": "Function'SunsetQuest_FindOldPort_C:ExecuteUbergraph_SunsetQuest_FindOldPort'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'SunsetQuest_FindOldPort_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SunsetQuest_FindOldPort_C'Default__SunsetQuest_FindOldPort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SunsetQuest_FindOldPort",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_FindOldPort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_FindOldPort_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SunsetQuest_FindOldPort_C",
+    "Name": "Default__SunsetQuest_FindOldPort_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort.SunsetQuest_FindOldPort_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_FindOldPort",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cassandra": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/SorwynnCup_NeutralPoi.SorwynnCup_NeutralPoi_C",
+        "SubPathString": ""
+      },
+      "DisplayTypeText": {
+        "Namespace": "",
+        "Key": "C9AE35CD41BA374D324E398FFA584691",
+        "SourceString": "The Sorwynn's Cup",
+        "LocalizedString": "The Sorwynn's Cup"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5A37BD3A4C91783CF4D90F86630FC679",
+        "SourceString": "Reach The Sorwynn's Cup",
+        "LocalizedString": "Reach The Sorwynn's Cup"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "929F48924C3315E9FE6208A2C0310F6E",
+        "SourceString": "Reach The Sorwynn's Cup",
+        "LocalizedString": "Reach The Sorwynn's Cup"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestWolves_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestWolves_C'Default__MainQuestWolves_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestWolves_C",
+    "Name": "Default__MainQuestWolves_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves.MainQuestWolves_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestWolvesFind_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesFind.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestWolvesKill_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesKill.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestWolvesBring_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesBring.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "043C285F40AE2C7857225EBDBEDEF703",
+        "SourceString": "Hunter and Hunted",
+        "LocalizedString": "Hunter and Hunted"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F8AAEA67431AF71324FF45A3FB88B635",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "95C32AAA49F5DB63485DA19F24286980",
+        "SourceString": "With Lubomir staying at my camp now, Haerndean finds itself without a hunter which is causing a growing problem with wolves attacking their cattle. Elder Dobron asked for my help in killing the wolves and to bring him their pelts as proof. Despite my reservations and the clear increase in danger, I agreed to hunt the wolves.",
+        "LocalizedString": "With Lubomir staying at my camp now, Haerndean finds itself without a hunter which is causing a growing problem with wolves attacking their cattle. Elder Dobron asked for my help in killing the wolves and to bring him their pelts as proof. Despite my reservations and the clear increase in danger, I agreed to hunt the wolves."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "86DB38984279A0A164457DAC96AAD889",
+        "SourceString": "The Elder rewarded me for culling the wolfpack, one step at a time, I will earn the trust of the Haerndean village.",
+        "LocalizedString": "The Elder rewarded me for culling the wolfpack, one step at a time, I will earn the trust of the Haerndean village."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A81432974C739A9FDDA3F7857463ABE8",
+          "SourceString": "I would like to help Haerndean.",
+          "LocalizedString": "I would like to help Haerndean."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestWolvesTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolvesTalk.0"
+        },
+        "TalkEntryPoint": "WolvesQuest_AvailableAfterDecline",
+        "Icon": "EMistTalkIcon::MainQuest",
+        "OverrideChoiceEntryPoint": "WolvesQuest_AvailableAgain"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 150,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.MainQuest_Vagabonds_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

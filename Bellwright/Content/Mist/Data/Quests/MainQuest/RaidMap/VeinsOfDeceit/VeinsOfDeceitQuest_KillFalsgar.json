@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VeinsOfDeceitQuest_KillFalsgar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_KillFalsgar_C:ExecuteUbergraph_VeinsOfDeceitQuest_KillFalsgar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_KillFalsgar_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.2"
+      },
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_KillFalsgar_C:ExecuteUbergraph_VeinsOfDeceitQuest_KillFalsgar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VeinsOfDeceitQuest_KillFalsgar": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_KillFalsgar_C:ExecuteUbergraph_VeinsOfDeceitQuest_KillFalsgar'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_KillFalsgar_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VeinsOfDeceitQuest_KillFalsgar_C'Default__VeinsOfDeceitQuest_KillFalsgar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VeinsOfDeceitQuest_KillFalsgar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_KillFalsgar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_KillFalsgar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VeinsOfDeceitQuest_KillFalsgar_C",
+    "Name": "Default__VeinsOfDeceitQuest_KillFalsgar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar.VeinsOfDeceitQuest_KillFalsgar_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_KillFalsgar",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SunsetFalsgarAttackedNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Sunset/SunsetFalsgarAttackedNpcTemplate.0"
+        },
+        "AmountMinMax": {
+          "Min": 5,
+          "Max": 5
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D54E1F294A7FB1B28705DE90D9DF69A4",
+        "SourceString": "Defend yourself from the Falsgar",
+        "LocalizedString": "Defend yourself from the Falsgar"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "33FF296145C072DB303EF5A3C92096A4",
+        "SourceString": "Defend yourself from the Falsgar",
+        "LocalizedString": "Defend yourself from the Falsgar"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "24A8DB804FB02A2E82FB3CB3EA556491",
+        "SourceString": "I tried to reach the Mayor, but before I could, the Falsgar struck. Kug’s soldiers stormed the tavern. There was no time to think, only to fight. The Falsgar came hard and fast. I cut down their soldiers and barely survived the clash. In the chaos, the Mayor was seized and taken.",
+        "LocalizedString": "I tried to reach the Mayor, but before I could, the Falsgar struck. Kug’s soldiers stormed the tavern. There was no time to think, only to fight. The Falsgar came hard and fast. I cut down their soldiers and barely survived the clash. In the chaos, the Mayor was seized and taken."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "LyraDuringAttack"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest.VeinsOfDeceitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

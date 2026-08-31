@@ -1,0 +1,196 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WinningHogCassiansQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WinningHogCassiansQuest_C'Default__WinningHogCassiansQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WinningHogCassiansQuest_C",
+    "Name": "Default__WinningHogCassiansQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest.WinningHogCassiansQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuest_TalkToGranko_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest_TalkToGranko.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuest_EscortGranko_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest_EscortGranko.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuest_TalkToBartek_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest_TalkToBartek.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuest_Wait1Day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest_Wait1Day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuest_TalkToBartekAfterRace_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest_TalkToBartekAfterRace.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "B276A17A418CAA6622B9BCADD5BDD94F",
+        "SourceString": "Winning Hog",
+        "LocalizedString": "Winning Hog"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "209818F94C5174573C1AD78BEBA4A2D1",
+        "SourceString": "Bartek, the Cassian, told me about a new pig race happening soon. It’s a big deal around here. They hired a foreign trainer to put those pigs into shape, and so, my job is to escort him back here safely. Can’t let anything happen to their pig trainer prodigy.",
+        "LocalizedString": "Bartek, the Cassian, told me about a new pig race happening soon. It’s a big deal around here. They hired a foreign trainer to put those pigs into shape, and so, my job is to escort him back here safely. Can’t let anything happen to their pig trainer prodigy."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C208D6964E2EBE499FC317A7BF28F589",
+          "SourceString": "Hello, I'm looking for a job. Have something by any chance?",
+          "LocalizedString": "Hello, I'm looking for a job. Have something by any chance?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WinningHogCassiansQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest.MeetingCassiansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest.WinningHogHalmayansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BartekGundar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundar_Talk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BartekGundar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundar_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GrankoVelesNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/GrankoVelesNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

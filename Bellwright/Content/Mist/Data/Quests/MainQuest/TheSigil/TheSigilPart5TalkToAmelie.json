@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart5TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart5TalkToAmelie_C'Default__TheSigilPart5TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSigilPart5TalkToAmelie_C",
+    "Name": "Default__TheSigilPart5TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5TalkToAmelie.TheSigilPart5TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5TalkToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSigilPart5Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5Talk.0"
+        },
+        "TalkEntryPoint": "AmeliaQuestAvailable"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "450AE100438ABD6F043ECCA76AC6010A",
+        "SourceString": "Sigil Clue: Blackridgepool",
+        "LocalizedString": "Sigil Clue: Blackridgepool"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "87033BB746F826091A1C0BBD645C7041",
+        "SourceString": "Amelie relayed to me a message from Aleks, the herbalist, apparently Elder Marcel's health has taken a turn for the worse. I need to see how I can help.",
+        "LocalizedString": "Amelie relayed to me a message from Aleks, the herbalist, apparently Elder Marcel's health has taken a turn for the worse. I need to see how I can help."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart5.TheSigilPart5_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

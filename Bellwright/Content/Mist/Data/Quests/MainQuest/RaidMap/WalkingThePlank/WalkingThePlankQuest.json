@@ -1,0 +1,247 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WalkingThePlankQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'WalkingThePlankQuest_C:ExecuteUbergraph_WalkingThePlankQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WalkingThePlankQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.2"
+      },
+      {
+        "ObjectName": "Function'WalkingThePlankQuest_C:ExecuteUbergraph_WalkingThePlankQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WalkingThePlankQuest": {
+        "ObjectName": "Function'WalkingThePlankQuest_C:ExecuteUbergraph_WalkingThePlankQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'WalkingThePlankQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WalkingThePlankQuest_C'Default__WalkingThePlankQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WalkingThePlankQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasWorldTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WalkingThePlankQuest_C",
+    "Name": "Default__WalkingThePlankQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest.WalkingThePlankQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_TalkToCassandraFirstTime_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_TalkToCassandraFirstTime.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_ClearOutRustshore_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ClearOutRustshore.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_KillLyra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_KillLyra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_ReportToCassandra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_ReportToCassandra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WalkingThePlankQuest_TalkToViceroy_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/WalkingThePlank/WalkingThePlankQuest_TalkToViceroy.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "41752403447727F6EE4E519A336690AB",
+        "SourceString": "Walking the Plank",
+        "LocalizedString": "Walking the Plank"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "A057BEB340BE4375B3B5BBBAC5D517E2",
+        "SourceString": "After killing Kug, there is only one thing to do to have uncompromised peace - getting rid of Lyra, the Halmayan leader, without her, their remnants will scatter.",
+        "LocalizedString": "After killing Kug, there is only one thing to do to have uncompromised peace - getting rid of Lyra, the Halmayan leader, without her, their remnants will scatter."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 500,
+      "RenownReward": 1000,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'Distillery_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Distillery.0"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.TheGlassTurnsTheGainFallsPart2_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.ByOrderAndBloodQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/Cassians.Cassians",
+          "SubPathString": ""
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

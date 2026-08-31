@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TruthInTheBloodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TruthInTheBloodQuest_C'Default__TruthInTheBloodQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TruthInTheBloodQuest_C",
+    "Name": "Default__TruthInTheBloodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest.TruthInTheBloodQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "E68AA612403FA00A820E368BDE130509",
+          "SourceString": "I need to talk to you.",
+          "LocalizedString": "I need to talk to you."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TruthInTheBloodQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ConvergeOption",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F7DDE9C0470175D78A5DDD847763F385",
+        "SourceString": "Truth in the Blood",
+        "LocalizedString": "Truth in the Blood"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "47BAFC674CF918F99CC647ADE97F072F",
+        "SourceString": "I talked with Lyra to learn more about Kug and his family, after all, she’s his cousin.",
+        "LocalizedString": "I talked with Lyra to learn more about Kug and his family, after all, she’s his cousin."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TruthInTheBloodQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TruthInTheBlood/TruthInTheBloodQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RenownReward": 100,
+      "LoyaltyReward": {
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "bIsPermanent": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.OldTomesQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/HalmayansTroops.HalmayansTroops",
+          "SubPathString": ""
+        }
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

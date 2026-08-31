@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WintersReserveQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WintersReserveQuest_C'Default__WintersReserveQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WintersReserveQuest_C",
+    "Name": "Default__WintersReserveQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest.WintersReserveQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WintersReserveQuest_Build_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_Build.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WintersReserveQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C0E3FABA4611475F2EDE21AFF9FDFAC5",
+        "SourceString": "Winter’s Reserve",
+        "LocalizedString": "Winter’s Reserve"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "632E0927438C1FB79487CF81374C2259",
+        "SourceString": "Cressida Stone told me how the village has suffered in past winters and the need for a place to organize and preserve their supplies. She asked for my help in building it and gathering resources, specifically a boar carcass, to kickstart their stockpile.",
+        "LocalizedString": "Cressida Stone told me how the village has suffered in past winters and the need for a place to organize and preserve their supplies. She asked for my help in building it and gathering resources, specifically a boar carcass, to kickstart their stockpile."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "78702571475FF76453E689BA90C327DF",
+          "SourceString": "What’s on your mind? You look lost in thought.",
+          "LocalizedString": "What’s on your mind? You look lost in thought."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WintersReserveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/WintersReserve/WintersReserveQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 175,
+      "VillageProsperityReward": 150,
+      "VillageConstructionPointsReward": 3,
+      "RenownReward": 150,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CryMeARiver_Quest.CryMeARiver_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CressidaStone_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CressidaStone_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CressidaStone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CressidaStone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CressidaStoneNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/CryMeARiver/CressidaStoneNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CressidaStone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CressidaStone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HorndeanVillageProfile.HorndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

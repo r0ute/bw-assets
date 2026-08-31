@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_ReachAlchemistChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_ReachAlchemistChamber_C:ExecuteUbergraph_ChasingTheSkyQuest_ReachAlchemistChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_ReachAlchemistChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_ReachAlchemistChamber_C:ExecuteUbergraph_ChasingTheSkyQuest_ReachAlchemistChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_ReachAlchemistChamber": {
+        "ObjectName": "Function'ChasingTheSkyQuest_ReachAlchemistChamber_C:ExecuteUbergraph_ChasingTheSkyQuest_ReachAlchemistChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_ReachAlchemistChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_ReachAlchemistChamber_C'Default__ChasingTheSkyQuest_ReachAlchemistChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_ReachAlchemistChamber_C",
+    "Name": "Default__ChasingTheSkyQuest_ReachAlchemistChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.ChasingTheSkyQuest_ReachAlchemistChamber_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/BlueSky/Bluesky_CaveTest.Bluesky_CaveTest_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5C131DA040F9E816DE709083759F1348",
+        "SourceString": "Make your way through the cave to the Alchemist",
+        "LocalizedString": "Make your way through the cave to the Alchemist"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5B0C5E324337886EA0F357A8ED29EB1D",
+        "SourceString": "Make your way through the cave to the Alchemist",
+        "LocalizedString": "Make your way through the cave to the Alchemist"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4AC0391844E64613BA0B588C4D7C9AED",
+        "SourceString": "I’ve found my way to the alchemist, but it looks like there are guards, maybe I can convince them to step aside.",
+        "LocalizedString": "I’ve found my way to the alchemist, but it looks like there are guards, maybe I can convince them to step aside."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_ReachAlchemistChamber",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_ReachAlchemistChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_ReachAlchemistChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_ReachAlchemistChamber.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

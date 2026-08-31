@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:ExecuteUbergraph_ChasingTheSkyQuest_HalmayanEndTalkToCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.4"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.3"
+      },
+      {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:ExecuteUbergraph_ChasingTheSkyQuest_HalmayanEndTalkToCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ChasingTheSkyQuest_HalmayanEndTalkToCecilio": {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:ExecuteUbergraph_ChasingTheSkyQuest_HalmayanEndTalkToCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.3"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.4"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'Default__ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C",
+    "Name": "Default__ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Alchemist/HalmayanEnd_TalkToCecilio"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E992D03B4D0600F89BAEBBB957A31C0C",
+        "SourceString": "Cecilio was still waiting for me outside. My decision certainly made an impression on the Cassians that they won’t forget so quickly.",
+        "LocalizedString": "Cecilio was still waiting for me outside. My decision certainly made an impression on the Cassians that they won’t forget so quickly."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/ChasingTheSkyQuest.ChasingTheSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ChasingTheSkyQuest_HalmayanEndTalkToCecilio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ChasingTheSkyQuest_HalmayanEndTalkToCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ChasingTheSky/HalmayanEnd/ChasingTheSkyQuest_HalmayanEndTalkToCecilio.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

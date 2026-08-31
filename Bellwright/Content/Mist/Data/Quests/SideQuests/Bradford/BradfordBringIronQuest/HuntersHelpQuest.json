@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HuntersHelpQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HuntersHelpQuest_C'Default__HuntersHelpQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HuntersHelpQuest_C",
+    "Name": "Default__HuntersHelpQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest.HuntersHelpQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HuntersHelpQuest_Bring_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Bring.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "6442697A4D10FEC9B8995289F3BC9E35",
+        "SourceString": "Hunter's Help",
+        "LocalizedString": "Hunter's Help"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "30A1A45541AD62DCC6464C8B33300D58",
+        "SourceString": "Provide some copper for Bradford hunters, so they can craft arrowheads.",
+        "LocalizedString": "Provide some copper for Bradford hunters, so they can craft arrowheads."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "196C66B9438FD7EDC23B2E97BE61B19C",
+        "SourceString": "Ashbourne's moves during the election has crippled the iron supplies of Bradford. Without the copper they are quite literally defenseless. Helping them could save lives.",
+        "LocalizedString": "Ashbourne's moves during the election has crippled the iron supplies of Bradford. Without the copper they are quite literally defenseless. Helping them could save lives."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8EC8A10F4DB15BDCA394188C86E43435",
+          "SourceString": "Helping with restocking copper supplies.",
+          "LocalizedString": "Helping with restocking copper supplies."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HuntersHelpQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 140,
+            "MaxQuantity": 140
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'RawHide_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.0"
+            },
+            "MinQuantity": 5,
+            "MaxQuantity": 5
+          }
+        ]
+      },
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

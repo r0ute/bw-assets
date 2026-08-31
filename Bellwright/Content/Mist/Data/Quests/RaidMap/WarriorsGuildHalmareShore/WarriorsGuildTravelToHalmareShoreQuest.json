@@ -1,0 +1,273 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildTravelToHalmareShoreQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildTravelToHalmareShoreQuest_C'Default__WarriorsGuildTravelToHalmareShoreQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildTravelToHalmareShoreQuest_C",
+    "Name": "Default__WarriorsGuildTravelToHalmareShoreQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest.WarriorsGuildTravelToHalmareShoreQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuest_CathalDuel1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_CathalDuel1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuest_BertramDuel1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BertramDuel1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuest_LeonardDuel1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_LeonardDuel1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuildHalmareShoreQuest_BackToRyder1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BackToRyder1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "90DB4AC34E8AD45F994A6BB17D8D3A1B",
+        "SourceString": "Warriors Guild part 4",
+        "LocalizedString": "Warriors Guild part 4"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C5C5A4F342FB9E82DE1B61AD86E805C0",
+        "SourceString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared.",
+        "LocalizedString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "0F785DA44FC0CA9FF3E72C9DF82E1B78",
+        "SourceString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared.",
+        "LocalizedString": "On the island, there is a branch of the Warriors Guild, and I was presented with the opportunity to prove myself again. The islanders are hardened opponents, so I’d better be prepared."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0D0D5BB845C99D6C4BA64F993F5B2601",
+          "SourceString": "Do you have any tasks for me?",
+          "LocalizedString": "Do you have any tasks for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToRyder"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest.WarriorsGuildQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.WarriorsGuildPart2_Quest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest.WarriorsGuild3_Quest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest.WarriorsGuildHalmareShoreQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'RyderEasoneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasoneNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'RyderEasoneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasoneNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CathalDoyleiNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoyleiNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CathalDoylei_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoylei_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosgNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosgNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenberggNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenberggNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RyderEasone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/RyderEasone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheChainsAreBrokenQuest_FindTheWayOut_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_FindTheWayOut_C:ExecuteUbergraph_TheChainsAreBrokenQuest_FindTheWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_FindTheWayOut_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.2"
+      },
+      {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_FindTheWayOut_C:ExecuteUbergraph_TheChainsAreBrokenQuest_FindTheWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Darek",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Eryk",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheChainsAreBrokenQuest_FindTheWayOut": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_FindTheWayOut_C:ExecuteUbergraph_TheChainsAreBrokenQuest_FindTheWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheChainsAreBrokenQuest_FindTheWayOut_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheChainsAreBrokenQuest_FindTheWayOut_C'Default__TheChainsAreBrokenQuest_FindTheWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheChainsAreBrokenQuest_FindTheWayOut",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_FindTheWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_FindTheWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheChainsAreBrokenQuest_FindTheWayOut_C",
+    "Name": "Default__TheChainsAreBrokenQuest_FindTheWayOut_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut.TheChainsAreBrokenQuest_FindTheWayOut_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_FindTheWayOut",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Darek": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Eryk": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+        }
+      },
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'TheChainsAreBroken_WayOut_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/Quest/TheChainsAreBroken/TheChainsAreBroken_WayOut.0"
+      },
+      "MaxDistanceToPlayer": 10000.0,
+      "CompletionDistanceFromTargetToNpc": 5000.0,
+      "AssignToASpecificSettlement": "A Way Out",
+      "Title": {
+        "Namespace": "",
+        "Key": "7BDA310F40B4102215EB2F8AB8243E2B",
+        "SourceString": "Escape from prison.",
+        "LocalizedString": "Escape from prison."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D6A9BBF643D19F3306C86888E3109AD9",
+        "SourceString": "Escape from prison.",
+        "LocalizedString": "Escape from prison."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheChainsAreBrokenQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToMayorFirstTime"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheChainsAreBroken/TheChainsAreBrokenQuest.TheChainsAreBrokenQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

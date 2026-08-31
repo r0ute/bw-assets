@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheMusesHelpQuest_TalkToLydiaBakal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToLydiaBakal",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheMusesHelpQuest_TalkToLydiaBakal_C'Default__TheMusesHelpQuest_TalkToLydiaBakal_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToLydiaBakal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheMusesHelpQuest_TalkToLydiaBakal_C",
+    "Name": "Default__TheMusesHelpQuest_TalkToLydiaBakal_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToLydiaBakal.TheMusesHelpQuest_TalkToLydiaBakal_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToLydiaBakal",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D354AE534D6B37206DDB858978B72FDF",
+        "SourceString": "Talk with muse - {Npc}",
+        "LocalizedString": "Talk with muse - {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LydiaBakalNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/LydiaBakalNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLydiaBakal"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "41C163C64C237A51DF19F3A813F0E9D9",
+        "SourceString": "Talk with muse - {Npc}",
+        "LocalizedString": "Talk with muse - {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6BE2CF404D86540624191694A815AF33",
+        "SourceString": "Lydia was all sharp grins and sharper wit. She boasted about inspiring other bards and spun a creepy tale about some Silent Cave.",
+        "LocalizedString": "Lydia was all sharp grins and sharper wit. She boasted about inspiring other bards and spun a creepy tale about some Silent Cave."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LydiaBakalNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/LydiaBakalNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LydiaBakalNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/LydiaBakalNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

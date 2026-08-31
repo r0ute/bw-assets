@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheOneWhoLeftItAllBehindQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest_TalkToMayor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheOneWhoLeftItAllBehindQuest_TalkToMayor_C'Default__TheOneWhoLeftItAllBehindQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest_TalkToMayor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheOneWhoLeftItAllBehindQuest_TalkToMayor_C",
+    "Name": "Default__TheOneWhoLeftItAllBehindQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest_TalkToMayor.TheOneWhoLeftItAllBehindQuest_TalkToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest_TalkToMayor",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheOneWhoLeftItAllBehindQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5ADC3E554B06E880AC4A8C8B3A9C3F1C",
+        "SourceString": "The Mayor has discovered something that could help us remove Kug Berthold without severe court consequences. I must accompany him to the Archives in the Library basement as both protection and witness. I’ll meet him there in a few hours.",
+        "LocalizedString": "The Mayor has discovered something that could help us remove Kug Berthold without severe court consequences. I must accompany him to the Archives in the Library basement as both protection and witness. I’ll meet him there in a few hours."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest.TheOneWhoLeftItAllBehindQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

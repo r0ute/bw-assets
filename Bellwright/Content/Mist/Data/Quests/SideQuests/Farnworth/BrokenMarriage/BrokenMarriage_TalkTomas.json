@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BrokenMarriage_TalkTomas_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriage_TalkTomas",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BrokenMarriage_TalkTomas_C'Default__BrokenMarriage_TalkTomas_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriage_TalkTomas.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BrokenMarriage_TalkTomas_C",
+    "Name": "Default__BrokenMarriage_TalkTomas_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriage_TalkTomas.BrokenMarriage_TalkTomas_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriage_TalkTomas",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkTomas"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "EBD9E4E7465D14F74EE28BAA8063C1CF",
+        "SourceString": "Tomas claimed she didn’t understand his dreams or his work. I suggested some resolutions that could help the couple. He seemed willing to consider these options but was clearly frustrated with the situation.",
+        "LocalizedString": "Tomas claimed she didn’t understand his dreams or his work. I suggested some resolutions that could help the couple. He seemed willing to consider these options but was clearly frustrated with the situation."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest.BrokenMarriageQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

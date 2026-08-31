@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "ABanquetOfGoldQuest_LocateShipment_C",
+    "Name": "Default__ABanquetOfGoldQuest_LocateShipment_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.ABanquetOfGoldQuest_LocateShipment_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/ABanquetOfGold/ABanquetOfGoldQuestPoi.ABanquetOfGoldQuestPoi_C",
+        "SubPathString": ""
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3D3411AC427791279E25449B25992EEB",
+        "SourceString": "Locate the Kug’s shipment.",
+        "LocalizedString": "Locate the Kug’s shipment."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8575D06042468DFA63D9E990F1CE6365",
+        "SourceString": "I found the shipment down by the Cragkeep port. Enough to feed a hundred starving families for weeks. Standing there, I couldn’t ignore the contrast between the empty bowls of the poor and the gluttony of the nobles.",
+        "LocalizedString": "I found the shipment down by the Cragkeep port. Enough to feed a hundred starving families for weeks. Standing there, I couldn’t ignore the contrast between the empty bowls of the poor and the gluttony of the nobles."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest.ABanquetOfGoldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ABanquetOfGoldQuest_LocateShipment_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_LocateShipment_C:ExecuteUbergraph_ABanquetOfGoldQuest_LocateShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_LocateShipment_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.3"
+      },
+      {
+        "ObjectName": "Function'ABanquetOfGoldQuest_LocateShipment_C:ExecuteUbergraph_ABanquetOfGoldQuest_LocateShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABanquetOfGoldQuest_LocateShipment": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_LocateShipment_C:ExecuteUbergraph_ABanquetOfGoldQuest_LocateShipment'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ABanquetOfGoldQuest_LocateShipment_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABanquetOfGoldQuest_LocateShipment_C'Default__ABanquetOfGoldQuest_LocateShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABanquetOfGoldQuest_LocateShipment",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_LocateShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuest_LocateShipment_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_LocateShipment.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

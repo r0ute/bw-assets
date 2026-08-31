@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardWineGodQuest_InteractWineShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardWineGodQuest_InteractWineShrine_C:ExecuteUbergraph_PiousRewardWineGodQuest_InteractWineShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardWineGodQuest_InteractWineShrine_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardWineGodQuest_InteractWineShrine_C:ExecuteUbergraph_PiousRewardWineGodQuest_InteractWineShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardWineGodQuest_InteractWineShrine": {
+        "ObjectName": "Function'PiousRewardWineGodQuest_InteractWineShrine_C:ExecuteUbergraph_PiousRewardWineGodQuest_InteractWineShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'PiousRewardWineGodQuest_InteractWineShrine_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardWineGodQuest_InteractWineShrine_C'Default__PiousRewardWineGodQuest_InteractWineShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardWineGodQuest_InteractWineShrine",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardWineGodQuest_InteractWineShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardWineGodQuest_InteractWineShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardWineGodQuest_InteractWineShrine_C",
+    "Name": "Default__PiousRewardWineGodQuest_InteractWineShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.PiousRewardWineGodQuest_InteractWineShrine_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Title": {
+        "Namespace": "",
+        "Key": "AC992DEB43FACCCF5740B686FBC6E49F",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1633A7AA42C21D271821E3946D3C397A",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5E7534CD467B86024055948A96CF1431",
+        "SourceString": "I found a shrine, the inscription says that it refers to the god of drunkenness.",
+        "LocalizedString": "I found a shrine, the inscription says that it refers to the god of drunkenness."
+      },
+      "bCanBeDiscarded": false,
+      "bShowMarkerOnMap": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

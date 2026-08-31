@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_EnterChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheBladeComesDownQuest_EnterChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_EnterChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_EnterChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.2"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_EnterChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_EnterChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheBladeComesDownQuest_EnterChamber": {
+        "ObjectName": "Function'TheBladeComesDownQuest_EnterChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_EnterChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheBladeComesDownQuest_EnterChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_EnterChamber_C'Default__TheBladeComesDownQuest_EnterChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheBladeComesDownQuest_EnterChamber",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_EnterChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_EnterChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheBladeComesDownQuest_EnterChamber_C",
+    "Name": "Default__TheBladeComesDownQuest_EnterChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber.TheBladeComesDownQuest_EnterChamber_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_EnterChamber",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/TheBladeComesDown/KugsChamberInterior_QuestPoi.KugsChamberInterior_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "DisplayTypeText": {
+        "Namespace": "",
+        "Key": "4738B034468540BEE0CD55816A30FE52",
+        "SourceString": "Kug's Chamber",
+        "LocalizedString": "Kug's Chamber"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "91830A9440020452FBCF61A9D35740FF",
+        "SourceString": "Find a way into the chamber",
+        "LocalizedString": "Find a way into the chamber"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E6C8F6504F185CF0A7874287B2C97349",
+        "SourceString": "Find a way into the chamber",
+        "LocalizedString": "Find a way into the chamber"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

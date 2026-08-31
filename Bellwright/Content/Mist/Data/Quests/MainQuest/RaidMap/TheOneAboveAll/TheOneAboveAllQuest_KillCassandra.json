@@ -1,0 +1,270 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheOneAboveAllQuest_KillCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:ExecuteUbergraph_TheOneAboveAllQuest_KillCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.2"
+      },
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.3"
+      },
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.4"
+      },
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:ExecuteUbergraph_TheOneAboveAllQuest_KillCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheOneAboveAllQuest_KillCassandra": {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:ExecuteUbergraph_TheOneAboveAllQuest_KillCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.1"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.4"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheOneAboveAllQuest_KillCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheOneAboveAllQuest_KillCassandra_C'Default__TheOneAboveAllQuest_KillCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheOneAboveAllQuest_KillCassandra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_KillCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_KillCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_KillCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_KillCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheOneAboveAllQuest_KillCassandra_C",
+    "Name": "Default__TheOneAboveAllQuest_KillCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra.TheOneAboveAllQuest_KillCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_KillCassandra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+        }
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E273A6234DF1477D85216CB449B059F2",
+        "SourceString": "Deal with Cassandra",
+        "LocalizedString": "Deal with Cassandra"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C308781249D788A8D1B7AB85D3A485F9",
+        "SourceString": "Cassandra is slain. Her Cassians will now scatter, unorganized, they won’t be a threat bigger than some road bandits. Time to report this victory to viceroy Montverde.",
+        "LocalizedString": "Cassandra is slain. Her Cassians will now scatter, unorganized, they won’t be a threat bigger than some road bandits. Time to report this victory to viceroy Montverde."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToCassandra"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest.TheOneAboveAllQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HorndeanLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderStart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HorndeanLiberationQuest_TalkToElderStart_C'Default__HorndeanLiberationQuest_TalkToElderStart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderStart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HorndeanLiberationQuest_TalkToElderStart_C",
+    "Name": "Default__HorndeanLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderStart.HorndeanLiberationQuest_TalkToElderStart_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderStart",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1EC3808E4E270D8B32ED9EAE08C8DAAC",
+          "SourceString": "I heard you were looking for me...",
+          "LocalizedString": "I heard you were looking for me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "StartLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F91795A049726EBDD48D5EAE3C732F13",
+        "SourceString": "Time has come: Horndean",
+        "LocalizedString": "Time has come: Horndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "34D41E88459DE1FBE6E3D284AA635E22",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BDD0BDFF49275784FBC3BEBD09193828",
+        "SourceString": "The villagers' hope resonated within me like a war drum, steady and relentless. I understood now that my journey was never truly my own - it was a path carved by the collective spirit of a people yearning to breathe free.",
+        "LocalizedString": "The villagers' hope resonated within me like a war drum, steady and relentless. I understood now that my journey was never truly my own - it was a path carved by the collective spirit of a people yearning to breathe free."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest.HorndeanLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

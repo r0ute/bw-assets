@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProvingTheMightQuest_TalkToKasimir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_TalkToKasimir",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProvingTheMightQuest_TalkToKasimir_C'Default__ProvingTheMightQuest_TalkToKasimir_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_TalkToKasimir.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProvingTheMightQuest_TalkToKasimir_C",
+    "Name": "Default__ProvingTheMightQuest_TalkToKasimir_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_TalkToKasimir.ProvingTheMightQuest_TalkToKasimir_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_TalkToKasimir",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'KasimirKrauseNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KasimirKrauseNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToKasimir"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'KasimirKrauseNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/KasimirKrauseNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest.ProvingTheMightQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

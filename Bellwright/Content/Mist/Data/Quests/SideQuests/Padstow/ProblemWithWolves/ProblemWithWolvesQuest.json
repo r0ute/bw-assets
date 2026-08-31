@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProblemWithWolvesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProblemWithWolvesQuest_C'Default__ProblemWithWolvesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProblemWithWolvesQuest_C",
+    "Name": "Default__ProblemWithWolvesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_AskHerbalistForHelp_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_AskHerbalistForHelp.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_FindHerbs_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_FindHerbs.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_BringThePotion_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_BringThePotion.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_WaitUntilTomorrow_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_WaitUntilTomorrow.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_ReturnToFarmer_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnToFarmer.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_KillWolves_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_KillWolves.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_ReturnAfterKilling_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_ReturnAfterKilling.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BEC9C9644D6D5448FD07409D0F0FEC08",
+        "SourceString": "Wolves' Den",
+        "LocalizedString": "Wolves' Den"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "941097B041F9D946088CBD8FEC32284C",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EC9C793446621FEFC63ACFBB4AC6C516",
+        "SourceString": "{QuestGiver} asked me to bring him medicine for wound infection because one of his cows was bitten by wolves. I need to find Herbalist, it shouldn't be that hard.",
+        "LocalizedString": "{QuestGiver} asked me to bring him medicine for wound infection because one of his cows was bitten by wolves. I need to find Herbalist, it shouldn't be that hard."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C8BAEC61404826CBB1958ABA0F58D515",
+          "SourceString": "I see your in trouble…",
+          "LocalizedString": "I see your in trouble…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 250,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 180,
+            "MaxQuantity": 180
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'RabbitTrapItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/RabbitTrapItem.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

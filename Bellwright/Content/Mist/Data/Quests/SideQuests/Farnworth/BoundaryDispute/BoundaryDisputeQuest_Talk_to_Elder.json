@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BoundaryDisputeQuest_Talk_to_Elder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Elder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BoundaryDisputeQuest_Talk_to_Elder_C'Default__BoundaryDisputeQuest_Talk_to_Elder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Elder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoundaryDisputeQuest_Talk_to_Elder_C",
+    "Name": "Default__BoundaryDisputeQuest_Talk_to_Elder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Elder.BoundaryDisputeQuest_Talk_to_Elder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Elder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "4FF6BF6848C86E7D49A470A2E68E870A",
+        "SourceString": "Talk to the {Npc} about the suspicious spices",
+        "LocalizedString": "Talk to the {Npc} about the suspicious spices"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BD_TalkToElder_Optional"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C79D00234A04EA355270929C20ACC912",
+        "SourceString": "The Elder was suspicious of Anna's intentions with the spices. This is out of my hands now.",
+        "LocalizedString": "The Elder was suspicious of Anna's intentions with the spices. This is out of my hands now."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest.BoundaryDisputeQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

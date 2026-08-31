@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BradfordLiberatedQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/SuccessfullLibration/BradfordLiberatedQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BradfordLiberatedQuest_C'Default__BradfordLiberatedQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/SuccessfullLibration/BradfordLiberatedQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BradfordLiberatedQuest_C",
+    "Name": "Default__BradfordLiberatedQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/BradfordLiberation/SuccessfullLibration/BradfordLiberatedQuest.BradfordLiberatedQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/SuccessfullLibration/BradfordLiberatedQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordLiberatedQuest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/SuccessfullLibration/BradfordLiberatedQuest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D17A2E764B50005E8DB1EEB44D2A3C19",
+        "SourceString": "Break free: Bradford",
+        "LocalizedString": "Break free: Bradford"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.Bradford Liberation"
+      }
+    }
+  }
+]

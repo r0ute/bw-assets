@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BlackridgepoolLiberationQuest_TalkToElderComplete_C",
+    "Name": "Default__BlackridgepoolLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderComplete.BlackridgepoolLiberationQuest_TalkToElderComplete_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderComplete",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "035D55C84407717E7126739E0194FF6D",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7913EE4C4B6365E7981A50ADABB38CB3",
+          "SourceString": "What a fight...",
+          "LocalizedString": "What a fight..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_Talk.1"
+        },
+        "TalkEntryPoint": "CompleteLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "E6238F66492A06BEE4C721A9E848F7C9",
+        "SourceString": "Time has come: Blackridgepool",
+        "LocalizedString": "Time has come: Blackridgepool"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A728BFEE4EC88A08C2390E9368E301ED",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest.BlackridgepoolLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackridgepoolLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderComplete",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackridgepoolLiberationQuest_TalkToElderComplete_C'Default__BlackridgepoolLiberationQuest_TalkToElderComplete_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BlackridgepoolLiberation/LiberationAttempt/BlackridgepoolLiberationQuest_TalkToElderComplete.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

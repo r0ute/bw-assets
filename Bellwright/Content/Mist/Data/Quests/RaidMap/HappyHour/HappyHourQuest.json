@@ -1,0 +1,266 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HappyHourQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HappyHourQuest_C'Default__HappyHourQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HappyHourQuest_C",
+    "Name": "Default__HappyHourQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest.HappyHourQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_TalkToCragkeepTavern_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToCragkeepTavern.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_TalkToSorwynTavern_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToSorwynTavern.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_TalkToRustshoreTavern_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToRustshoreTavern.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCarlos_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCarlos2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_KillCarlos_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_KillCarlos.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCecilio_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCecilio.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BDBF2B0B43C9F7C438E38F8E6B38C8B8",
+        "SourceString": "Happy Hour",
+        "LocalizedString": "Happy Hour"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "4C3069904F9461E0D0C104B78D591804",
+        "SourceString": "Cecilio wants a list of menus from the different taverns around Halmare. I’m curious if he is just that lazy or this is part of something bigger.",
+        "LocalizedString": "Cecilio wants a list of menus from the different taverns around Halmare. I’m curious if he is just that lazy or this is part of something bigger."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HappyHourQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "54FFCAF141B81CC2E3383E949806D5A2",
+          "SourceString": "About the list…",
+          "LocalizedString": "About the list…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HappyHourQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuestTalk.0"
+        },
+        "TalkEntryPoint": "Cecilio End",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 400,
+      "RenownReward": 200,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 400,
+            "MaxIterations": 400,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'DollsTearAlcohol'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/DollsTearAlcohol.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ]
+      },
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest.MeetingCassiansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SalMaia_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SalMaia_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'JeffreyKlok_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/JeffreyKlok_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

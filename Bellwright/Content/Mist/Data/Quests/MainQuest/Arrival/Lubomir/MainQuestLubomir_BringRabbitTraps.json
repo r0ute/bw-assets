@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLubomir_BringRabbitTraps_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BringRabbitTraps",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLubomir_BringRabbitTraps_C'Default__MainQuestLubomir_BringRabbitTraps_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BringRabbitTraps.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLubomir_BringRabbitTraps_C",
+    "Name": "Default__MainQuestLubomir_BringRabbitTraps_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BringRabbitTraps.MainQuestLubomir_BringRabbitTraps_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_BringRabbitTraps",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RabbitTrapItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/RabbitTrapItem.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "BringRabbitPelts_InProgress"
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "48429D804AA88A611100F5870DFF0A65",
+        "SourceString": "Bring 2 small traps to the Elder, as a gift from Lubomir.",
+        "LocalizedString": "Bring 2 small traps to the Elder, as a gift from Lubomir."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EF2F8B5146E285F861F6969C18722E2A",
+        "SourceString": "Now I need to take traps to Dobron and inform him that Lubomir agreed to move away from the village.",
+        "LocalizedString": "Now I need to take traps to Dobron and inform him that Lubomir agreed to move away from the village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PickpocketQuest_Part2_TalkToPickPocket_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToPickPocket",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PickpocketQuest_Part2_TalkToPickPocket_C'Default__PickpocketQuest_Part2_TalkToPickPocket_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToPickPocket.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PickpocketQuest_Part2_TalkToPickPocket_C",
+    "Name": "Default__PickpocketQuest_Part2_TalkToPickPocket_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToPickPocket.PickpocketQuest_Part2_TalkToPickPocket_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToPickPocket",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordPickpocketerHidden_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordPickpocketerHidden.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DANNICK LANE Found"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9E5E232F4C1E41D1F2C9109E1E2F5173",
+        "SourceString": "I confronted the thief that stole my hard earned coin. He won't make that same mistake again.",
+        "LocalizedString": "I confronted the thief that stole my hard earned coin. He won't make that same mistake again."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordPickpocketerHidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordPickpocketerHidden.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2.PickpocketQuest_Part2_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

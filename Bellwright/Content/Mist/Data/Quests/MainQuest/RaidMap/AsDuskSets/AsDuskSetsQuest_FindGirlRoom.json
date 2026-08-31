@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_FindGirlRoom_C",
+    "Name": "Default__AsDuskSetsQuest_FindGirlRoom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.AsDuskSetsQuest_FindGirlRoom_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/AsDuskSets/AsDuskSets_GirlRoom.AsDuskSets_GirlRoom_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "A573E18D4088A3B994233B81A5A712E0",
+        "SourceString": "Find the girl’s tent",
+        "LocalizedString": "Find the girl’s tent"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "852B0CC84C942B8F2667969A38AFA07A",
+        "SourceString": "Find the girl’s tent",
+        "LocalizedString": "Find the girl’s tent"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "82D70D804305AC40A8EE7BB7EC55B910",
+        "SourceString": "I found Isa’s tent, but it was empty. No tracks, no sign of a fight. I need to search carefully for anything she might have left behind.",
+        "LocalizedString": "I found Isa’s tent, but it was empty. No tracks, no sign of a fight. I need to search carefully for anything she might have left behind."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_FindGirlRoom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AsDuskSetsQuest_FindGirlRoom_C:ExecuteUbergraph_AsDuskSetsQuest_FindGirlRoom'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_FindGirlRoom_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.3"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_FindGirlRoom_C:ExecuteUbergraph_AsDuskSetsQuest_FindGirlRoom'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AsDuskSetsQuest_FindGirlRoom": {
+        "ObjectName": "Function'AsDuskSetsQuest_FindGirlRoom_C:ExecuteUbergraph_AsDuskSetsQuest_FindGirlRoom'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AsDuskSetsQuest_FindGirlRoom_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_FindGirlRoom_C'Default__AsDuskSetsQuest_FindGirlRoom_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AsDuskSetsQuest_FindGirlRoom",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_FindGirlRoom_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_FindGirlRoom_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_FindGirlRoom.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

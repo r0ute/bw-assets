@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MeetingTheHalmayansQuest_VisitRustshore_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_VisitRustshore_C:ExecuteUbergraph_MeetingTheHalmayansQuest_VisitRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_VisitRustshore_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.2"
+      },
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_VisitRustshore_C:ExecuteUbergraph_MeetingTheHalmayansQuest_VisitRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MeetingTheHalmayansQuest_VisitRustshore": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_VisitRustshore_C:ExecuteUbergraph_MeetingTheHalmayansQuest_VisitRustshore'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_VisitRustshore_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MeetingTheHalmayansQuest_VisitRustshore_C'Default__MeetingTheHalmayansQuest_VisitRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MeetingTheHalmayansQuest_VisitRustshore",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_VisitRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_VisitRustshore_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MeetingTheHalmayansQuest_VisitRustshore_C",
+    "Name": "Default__MeetingTheHalmayansQuest_VisitRustshore_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore.MeetingTheHalmayansQuest_VisitRustshore_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_VisitRustshore",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/RustshoreVillage_HalmayanPoi.RustshoreVillage_HalmayanPoi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "CB313F154700EF06C281E9836510B784",
+        "SourceString": "Meeting the Halmayans",
+        "LocalizedString": "Meeting the Halmayans"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CE4F1F84475FB5A27641948F6A721A30",
+        "SourceString": "Reach Rustshore",
+        "LocalizedString": "Reach Rustshore"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "CBA09E4E4FC3DFAABE174EA328E6FF58",
+        "SourceString": "After meeting Dario at the tavern, he said to see him at Rustshore village because he’d have some work for me.",
+        "LocalizedString": "After meeting Dario at the tavern, he said to see him at Rustshore village because he’d have some work for me."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ExBanditQuest_TalkToAndrea_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAndrea",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ExBanditQuest_TalkToAndrea_C'Default__ExBanditQuest_TalkToAndrea_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAndrea.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ExBanditQuest_TalkToAndrea_C",
+    "Name": "Default__ExBanditQuest_TalkToAndrea_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAndrea.ExBanditQuest_TalkToAndrea_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAndrea",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanWeaverTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanWeaverTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAndrea_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "16CE05AB4E3B7B7356B61ABA10BBF701",
+        "SourceString": "Andrea also has seen this ghost, as she called, in the forest nearby the village.",
+        "LocalizedString": "Andrea also has seen this ghost, as she called, in the forest nearby the village."
+      },
+      "VillageTrustReward": 15,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

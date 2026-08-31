@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThePrizePig_ReturnMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_ReturnMerchant",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThePrizePig_ReturnMerchant_C'Default__ThePrizePig_ReturnMerchant_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_ReturnMerchant.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThePrizePig_ReturnMerchant_C",
+    "Name": "Default__ThePrizePig_ReturnMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_ReturnMerchant.ThePrizePig_ReturnMerchant_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_ReturnMerchant",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FamilyFarmAnimalMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/FamilyFarmAnimalMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThePrizePig_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_Talk.0"
+        },
+        "TalkEntryPoint": "ReturnMerchant"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A8732DB04D86058A14AC3FAF803F7103",
+        "SourceString": "I have shared with Ferdnand how the negotiations went, and, on top of the cut from the deal, he has offered me a pig for my settlement. If only it could help with finding truffles.",
+        "LocalizedString": "I have shared with Ferdnand how the negotiations went, and, on top of the cut from the deal, he has offered me a pig for my settlement. If only it could help with finding truffles."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FamilyFarmAnimalMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/FamilyFarmAnimalMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest.ThePrizePigQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

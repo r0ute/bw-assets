@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "JoyandAleQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "JoyandAleQuest_C'Default__JoyandAleQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "JoyandAleQuest_C",
+    "Name": "Default__JoyandAleQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest.JoyandAleQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JoyandAleQuest_DrinkingStation_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest_DrinkingStation.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JoyandAleQuest_CommunityGambling_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest_CommunityGambling.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JoyandAleQuest_ReturnInnkeeper_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest_ReturnInnkeeper.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "0903DD844C53DB9EE212F1B6CE8BBC2A",
+        "SourceString": "Joy and Ale",
+        "LocalizedString": "Joy and Ale"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "0FE7ACEF4840D063F5236B96A867B1B5",
+        "SourceString": "I spoke with the Innkeeper. He’s got big dreams for Haerndean - wants to turn it into a place to unwind and have fun after everything they’ve been through. He asked me to help build a drinking station and a gambling hall. I’m not sure about the gambling part, but I guess a little fun won’t hurt.",
+        "LocalizedString": "I spoke with the Innkeeper. He’s got big dreams for Haerndean - wants to turn it into a place to unwind and have fun after everything they’ve been through. He asked me to help build a drinking station and a gambling hall. I’m not sure about the gambling part, but I guess a little fun won’t hurt."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "15EF54174FA7A2FBE01AC693EAA739EF",
+          "SourceString": "Heard you wanted to speak with me?",
+          "LocalizedString": "Heard you wanted to speak with me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'JoyandAleQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/JoyandAle/JoyandAleQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "TalkEntryPoint": "NPC Chicken Farmer Idle"
+      },
+      "MoneyReward": 150,
+      "VillageProsperityReward": 150,
+      "VillageConstructionPointsReward": 2,
+      "RenownReward": 100,
+      "bCanBeDiscarded": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/RebuildCommunity/RebuildCommunityQuest.RebuildCommunityQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HaerndeanVillageProfile.HaerndeanVillageProfile",
+          "SubPathString": ""
+        }
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertInnkeeperNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertInnkeeperNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanInnkeeperTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanInnkeeperTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertInnkeeperNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertInnkeeperNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanInnkeeperTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanInnkeeperTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HaerndeanVillageProfile.HaerndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

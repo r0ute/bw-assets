@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafeRoadsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafeRoadsQuest_C'Default__SafeRoadsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafeRoadsQuest_C",
+    "Name": "Default__SafeRoadsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest.SafeRoadsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SafeRoadsQuest_KillPatrols_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_KillPatrols.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SafeRoadsQuest_BackToQuestGiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_BackToQuestGiver.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E91C0C9F47E250DC9CFFE883D8E01DFB",
+        "SourceString": "Safe Roads",
+        "LocalizedString": "Safe Roads"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "142C308E489C9BBD5866A9BF4BEAB768",
+        "SourceString": "The Bradford merchant asked for my help. Apparently, a bandit patrol had been terrorizing the trade routes, stealing his goods and scaring off his customers. The merchant promised a handsome reward if I could deal with the bandits.",
+        "LocalizedString": "The Bradford merchant asked for my help. Apparently, a bandit patrol had been terrorizing the trade routes, stealing his goods and scaring off his customers. The merchant promised a handsome reward if I could deal with the bandits."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1B8513DE4F8336720B76EA97025E9B64",
+          "SourceString": "Do you have any job for me?",
+          "LocalizedString": "Do you have any job for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafeRoadsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Available",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 100,
+      "VillageProsperityReward": 200,
+      "RenownReward": 300,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest.GatheringTheFaithful_Quest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_Hidden.SafeRoadsQuest_Hidden_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordMerchant_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordMerchant_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordMerchant_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordMerchant_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/BradfordVillageProfile.BradfordVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

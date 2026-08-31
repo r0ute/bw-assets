@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildHalmareShoreQuest_BertramDuel1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BertramDuel1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildHalmareShoreQuest_BertramDuel1_C'Default__WarriorsGuildHalmareShoreQuest_BertramDuel1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BertramDuel1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildHalmareShoreQuest_BertramDuel1_C",
+    "Name": "Default__WarriorsGuildHalmareShoreQuest_BertramDuel1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BertramDuel1.WarriorsGuildHalmareShoreQuest_BertramDuel1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_BertramDuel1",
+    "Properties": {
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertramGroosgNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosgNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+        }
+      },
+      "NpcToFightTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelBertram"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "439CC4F44148DE18AD5718AB34DAB5C8",
+        "SourceString": "Win a fight duel Bertram Groosg.",
+        "LocalizedString": "Win a fight duel Bertram Groosg."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Duel",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CCC5C5CF45C235C537C8FA8A748F28A5",
+          "SourceString": "I want to challenge you to a duel.",
+          "LocalizedString": "I want to challenge you to a duel."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelBertram",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosgNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosgNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertramGroosg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BertramGroosg_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest.WarriorsGuildTravelToHalmareShoreQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheFeudingFamiliesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheFeudingFamiliesQuest_C'Default__TheFeudingFamiliesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheFeudingFamiliesQuest_C",
+    "Name": "Default__TheFeudingFamiliesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest.TheFeudingFamiliesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToVillager1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToVillager1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToVillager2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToVillager2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToNorton_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToNorton.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToElderAnsgarSelby_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderAnsgarSelby.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToElderPhilipMott_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderPhilipMott.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFeudingFamiliesQuest_TalkToElderAnsgarSelbyIdle_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderAnsgarSelbyIdle.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C84E20AF46830FFC2A51629660C8B792",
+        "SourceString": "The Feuding Families",
+        "LocalizedString": "The Feuding Families"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "4B75ECCD4F6A8B24F93142A553F92B98",
+        "SourceString": "The story of the boar's attack continues. Now Marek Tholy wants my help in discovering who was behind all of this.",
+        "LocalizedString": "The story of the boar's attack continues. Now Marek Tholy wants my help in discovering who was behind all of this."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4E158B274C4E4D38E4F8C2868A89BC3F",
+          "SourceString": "The Feuding Families Quest",
+          "LocalizedString": "The Feuding Families Quest"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFeudingFamilies_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamilies_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest.TheCraftsmansLostToolsQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest.HorndeanLiberationQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowBooksMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowBooksMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowWeaverTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowWeaverTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

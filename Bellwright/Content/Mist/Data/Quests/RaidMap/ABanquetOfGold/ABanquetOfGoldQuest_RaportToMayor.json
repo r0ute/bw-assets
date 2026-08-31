@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "ABanquetOfGoldQuest_RaportToMayor_C",
+    "Name": "Default__ABanquetOfGoldQuest_RaportToMayor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_RaportToMayor.ABanquetOfGoldQuest_RaportToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_RaportToMayor",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "AB5BC5794D56E946ED6402B01D5919E7",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ABanquetOfGoldQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuestTalk.1"
+        },
+        "TalkEntryPoint": "ReportToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1D94B23C4E53C59021AFB7BF72576E56",
+        "SourceString": "Mayor Montverde warned that Zlyto’s winds shift easily for those who climb too fast. Perhaps he’s right, but in Cragkeep, survival often outweighs conscience.",
+        "LocalizedString": "Mayor Montverde warned that Zlyto’s winds shift easily for those who climb too fast. Perhaps he’s right, but in Cragkeep, survival often outweighs conscience."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest.ABanquetOfGoldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ABanquetOfGoldQuest_RaportToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_RaportToMayor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABanquetOfGoldQuest_RaportToMayor_C'Default__ABanquetOfGoldQuest_RaportToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ABanquetOfGold/ABanquetOfGoldQuest_RaportToMayor.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

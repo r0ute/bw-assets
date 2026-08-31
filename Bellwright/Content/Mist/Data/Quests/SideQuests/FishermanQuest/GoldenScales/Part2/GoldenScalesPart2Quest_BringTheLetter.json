@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart2Quest_BringTheLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringTheLetter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart2Quest_BringTheLetter_C'Default__GoldenScalesPart2Quest_BringTheLetter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringTheLetter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart2Quest_BringTheLetter_C",
+    "Name": "Default__GoldenScalesPart2Quest_BringTheLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringTheLetter.GoldenScalesPart2Quest_BringTheLetter_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_BringTheLetter",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'FIshermanLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FIshermanLetter.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "BringLetterToOscar_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FA2E3D9E4A54EA9B8B0B57930C6E9BE8",
+        "SourceString": "Oscar wants 50 gold for the translation of the letter. I hope he is not ripping me off.",
+        "LocalizedString": "Oscar wants 50 gold for the translation of the letter. I hope he is not ripping me off."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest.GoldenScalesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

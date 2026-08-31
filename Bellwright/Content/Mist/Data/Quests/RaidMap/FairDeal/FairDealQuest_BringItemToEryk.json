@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FairDealQuest_BringItemToEryk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_BringItemToEryk",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FairDealQuest_BringItemToEryk_C'Default__FairDealQuest_BringItemToEryk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_BringItemToEryk.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FairDealQuest_BringItemToEryk_C",
+    "Name": "Default__FairDealQuest_BringItemToEryk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_BringItemToEryk.FairDealQuest_BringItemToEryk_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_BringItemToEryk",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'FairDeal_Package_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FairDeal/FairDeal_Package.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiske_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiske_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FairDealQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuestTalk.0"
+        },
+        "TalkEntryPoint": "Eryk Fiske Idle"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest.FairDealQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

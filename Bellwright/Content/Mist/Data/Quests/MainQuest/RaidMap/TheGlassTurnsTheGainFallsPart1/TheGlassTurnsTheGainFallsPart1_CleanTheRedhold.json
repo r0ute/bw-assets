@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart1_CleanTheRedhold'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillGarrisonQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.2"
+      },
+      {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart1_CleanTheRedhold'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart1_CleanTheRedhold": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C:ExecuteUbergraph_TheGlassTurnsTheGainFallsPart1_CleanTheRedhold'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C'Default__TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheGlassTurnsTheGainFallsPart1_CleanTheRedhold",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C",
+    "Name": "Default__TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold.TheGlassTurnsTheGainFallsPart1_CleanTheRedhold_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1_CleanTheRedhold",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SettlementName": "Redhold",
+      "bRequireBell": false,
+      "SecondDescription": {
+        "Namespace": "",
+        "Key": "645FEC7F4745B1273929C4B7CC2B7197",
+        "SourceString": "Clear the Redhold from Falsgar",
+        "LocalizedString": "Clear the Redhold from Falsgar"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "952F1AD040837927BDB5ABA9903A8982",
+        "SourceString": "Clear the Redhold from Falsgar.",
+        "LocalizedString": "Clear the Redhold from Falsgar."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3843C28F42B4E47173BF61BFBCD89D05",
+        "SourceString": "Clear the Redhold from Falsgar",
+        "LocalizedString": "Clear the Redhold from Falsgar"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "871FF1A248FBB51691C14E9ABB427263",
+        "SourceString": "Redhold was cleared with one swift strike, we need to press the advantage, it's time for the Cragkeep’s bay.",
+        "LocalizedString": "Redhold was cleared with one swift strike, we need to press the advantage, it's time for the Cragkeep’s bay."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart1/TheGlassTurnsTheGainFallsPart1.TheGlassTurnsTheGainFallsPart1_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardTrucesQuest_FindMeetingSpot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'HardTrucesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardTrucesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'HardTrucesQuest_FindMeetingSpot_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.2"
+      },
+      {
+        "ObjectName": "Function'HardTrucesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardTrucesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Lyra",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_HardTrucesQuest_FindMeetingSpot": {
+        "ObjectName": "Function'HardTrucesQuest_FindMeetingSpot_C:ExecuteUbergraph_HardTrucesQuest_FindMeetingSpot'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'HardTrucesQuest_FindMeetingSpot_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardTrucesQuest_FindMeetingSpot_C'Default__HardTrucesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_HardTrucesQuest_FindMeetingSpot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_FindMeetingSpot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HardTrucesQuest_FindMeetingSpot_C",
+    "Name": "Default__HardTrucesQuest_FindMeetingSpot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot.HardTrucesQuest_FindMeetingSpot_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_FindMeetingSpot",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Lyra": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/HardAlliances/HardAlliancesMeetingSpot_QuestPoi.HardAlliancesMeetingSpot_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "0D95DF2B4F69427A236346BC842B10B9",
+        "SourceString": "Hard Truces",
+        "LocalizedString": "Hard Truces"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A6351E724F7B1ED823A8ACACB38425FE",
+        "SourceString": "Go to the meeting spot with Lyra",
+        "LocalizedString": "Go to the meeting spot with Lyra"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E321EE34452DB357BA170992596A30DE",
+        "SourceString": "We arrived near the Cassian camp. This is an important moment that could define the lives of the people on this island. The Mayor is too important to leave in Kug’s hands.",
+        "LocalizedString": "We arrived near the Cassian camp. This is an important moment that could define the lives of the people on this island. The Mayor is too important to leave in Kug’s hands."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKimNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKimNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest.HardTrucesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

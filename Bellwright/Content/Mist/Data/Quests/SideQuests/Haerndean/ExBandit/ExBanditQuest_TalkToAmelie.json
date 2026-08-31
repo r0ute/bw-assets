@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ExBanditQuest_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ExBanditQuest_TalkToAmelie_C'Default__ExBanditQuest_TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ExBanditQuest_TalkToAmelie_C",
+    "Name": "Default__ExBanditQuest_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAmelie.ExBanditQuest_TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAmelie_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "80D416364223614C397EBC9A5D46EB6F",
+        "SourceString": "Amelie didn't see anything regarding the mysterious figure, but encouraged me to continue helping the people in the village in order to build my relationship with them.",
+        "LocalizedString": "Amelie didn't see anything regarding the mysterious figure, but encouraged me to continue helping the people in the village in order to build my relationship with them."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

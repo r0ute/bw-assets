@@ -1,0 +1,214 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostAndPantslessQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostAndPantslessQuest_C'Default__LostAndPantslessQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostAndPantslessQuest_C",
+    "Name": "Default__LostAndPantslessQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest.LostAndPantslessQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_TellWife_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_TellWife.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_FindPOI_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_FindPOI.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_InteractScarf_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_InteractScarf.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_BringScarf_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_BringScarf.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_FindMaria_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_FindMaria.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_TalkToMaria_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_TalkToMaria.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostAndPantslessQuest_UseChest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_UseChest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostandPantslessQuest_GivePants_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuest_GivePants.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "EA18F51849BCB18F03D29FA152FF4275",
+        "SourceString": "Lost and Pants-less",
+        "LocalizedString": "Lost and Pants-less"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "72B91F874B65B58A914F289457DBA079",
+        "SourceString": "Abel told me I should check the gutter area where he woke up this morning. Maybe I’ll find something that will help me find his pants.",
+        "LocalizedString": "Abel told me I should check the gutter area where he woke up this morning. Maybe I’ll find something that will help me find his pants."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostandPantslessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 350,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 500,
+            "MaxQuantity": 500
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AbelKawialiNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/AbelKawialiNPCTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AbelKawialiNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/AbelKawialiNPCTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DaniKawialiNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/DaniKawialiNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MariaMocheiraNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/MariaMocheiraNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

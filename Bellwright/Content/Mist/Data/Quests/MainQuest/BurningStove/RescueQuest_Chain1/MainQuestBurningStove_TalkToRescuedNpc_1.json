@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBurningStove_TalkToRescuedNpc_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_TalkToRescuedNpc_1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBurningStove_TalkToRescuedNpc_1_C'Default__MainQuestBurningStove_TalkToRescuedNpc_1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_TalkToRescuedNpc_1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBurningStove_TalkToRescuedNpc_1_C",
+    "Name": "Default__MainQuestBurningStove_TalkToRescuedNpc_1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_TalkToRescuedNpc_1.MainQuestBurningStove_TalkToRescuedNpc_1_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_TalkToRescuedNpc_1",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7EBD1411472001FA3343C3BF34E059B6",
+        "SourceString": "Speak to {Npc}",
+        "LocalizedString": "Speak to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerEldricBoltonNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/NPCTalks/PrisonerEldricBoltonNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBurningStove_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/MainQuestBurningStove_Talk.0"
+        },
+        "TalkEntryPoint": "RescueQuest_TalkToRescuedNPC"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5E2365964C805CC1858260A1A5647B0E",
+        "SourceString": "Burning Stove: Part 1",
+        "LocalizedString": "Burning Stove: Part 1"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "24482747410B50DA9A824E9E103E9275",
+        "SourceString": "The freed prisoner told me to seek out Klara Winterburn if I want to find out more about the group that’s fighting back against Ashbourne.",
+        "LocalizedString": "The freed prisoner told me to seek out Klara Winterburn if I want to find out more about the group that’s fighting back against Ashbourne."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrisonerEldricBoltonNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/NPCTalks/PrisonerEldricBoltonNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_Chain1.MainQuestBurningStove_Chain1_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

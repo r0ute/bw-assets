@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HarassmentBanditTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'HarassmentBanditTalk_C:ExecuteUbergraph_HarassmentBanditTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'HarassmentBanditTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.2"
+      },
+      {
+        "ObjectName": "Function'HarassmentBanditTalk_C:ExecuteUbergraph_HarassmentBanditTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_HarassmentBanditTalk": {
+        "ObjectName": "Function'HarassmentBanditTalk_C:ExecuteUbergraph_HarassmentBanditTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.1"
+      },
+      "TalkEntry": {
+        "ObjectName": "Function'HarassmentBanditTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.2"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HarassmentBanditTalk_C'Default__HarassmentBanditTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_HarassmentBanditTalk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HarassmentBanditTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkEntry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HarassmentBanditTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate:TalkEntry'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "HarassmentBanditTalk_C",
+    "Name": "Default__HarassmentBanditTalk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.HarassmentBanditTalk_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

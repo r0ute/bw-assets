@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardTrucesQuest_NegotiateWithCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_NegotiateWithCassandra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardTrucesQuest_NegotiateWithCassandra_C'Default__HardTrucesQuest_NegotiateWithCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_NegotiateWithCassandra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardTrucesQuest_NegotiateWithCassandra_C",
+    "Name": "Default__HardTrucesQuest_NegotiateWithCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_NegotiateWithCassandra.HardTrucesQuest_NegotiateWithCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_NegotiateWithCassandra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7CDE42794327EADE08C53390F76B5432",
+        "SourceString": "Negotiate with {Npc}.",
+        "LocalizedString": "Negotiate with {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "NegotiateWithCassandra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "30C31EAC40228A1829AAF0A49AE71C31",
+        "SourceString": "Negotiate with {Npc}.",
+        "LocalizedString": "Negotiate with {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2D2540BE43A4E9ED7433C7BD6418172D",
+        "SourceString": "The Cassians want a truce, a joint effort to strike at Kug’s prison. I pressed her on trust, on motives, on what becomes of the Mayor once he’s free. They want Kug weakened more than they want us dead.",
+        "LocalizedString": "The Cassians want a truce, a joint effort to strike at Kug’s prison. I pressed her on trust, on motives, on what becomes of the Mayor once he’s free. They want Kug weakened more than they want us dead."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest.HardTrucesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

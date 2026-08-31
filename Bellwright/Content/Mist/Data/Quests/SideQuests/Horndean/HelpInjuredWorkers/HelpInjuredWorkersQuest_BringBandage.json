@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HelpInjuredWorkersQuest_BringBandage_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringBandage",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HelpInjuredWorkersQuest_BringBandage_C'Default__HelpInjuredWorkersQuest_BringBandage_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringBandage.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HelpInjuredWorkersQuest_BringBandage_C",
+    "Name": "Default__HelpInjuredWorkersQuest_BringBandage_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringBandage.HelpInjuredWorkersQuest_BringBandage_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringBandage",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Bandage_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Healing/Bandage.1"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "BAAEC3324E9AC4179E12E1839DF91DE0",
+          "SourceString": "Regarding the task you gave me...",
+          "LocalizedString": "Regarding the task you gave me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HelpInjuredWorkersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringBandage_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0BB9A0C240E0A69A98969DBE979321A7",
+        "SourceString": "I brought the bandages to Horndean's healer to help with the injured workers. Now, she also needs me to bring cloth. I should be back once I have everything.",
+        "LocalizedString": "I brought the bandages to Horndean's healer to help with the injured workers. Now, she also needs me to bring cloth. I should be back once I have everything."
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "15F9D97A4B58EA295F9161BF417F6C8C",
+          "SourceString": "About the bandages…",
+          "LocalizedString": "About the bandages…"
+        }
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest.HelpInjuredWorkersQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

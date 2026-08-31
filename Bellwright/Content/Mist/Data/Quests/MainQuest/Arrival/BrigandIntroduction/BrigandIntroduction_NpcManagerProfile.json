@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "MistNpcManagerProfile",
+    "Name": "BrigandIntroduction_NpcManagerProfile",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistNpcManagerProfile'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_NpcManagerProfile",
+    "Properties": {
+      "SpawnedNPCSettings": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrigandGuardNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/BrigandGuardNPCTemplate.0"
+          },
+          "NpcSpawningTemplate": null,
+          "bMakeSettlementResident": true,
+          "Role": "EMistTownNpcRole::SettlementGuard",
+          "DefenceMode": "EMistNpcDefenceMode::SelfDefence",
+          "Amount": {
+            "Min": 1,
+            "Max": 1
+          },
+          "bCanBeIncreased": false,
+          "bUseVoiceSetPool": true,
+          "SpawnTag": "NpcSpawn",
+          "bRespawns": false,
+          "bStopRespawningAfterKilledByPlayer": true,
+          "RespawnDelay": 300.0,
+          "bTravelAwayOnManagerDestroy": false,
+          "TraderProfileClass": null,
+          "TalkClassOverride": null,
+          "CustomTalkingDistance": false,
+          "TalkDistance": 220.0,
+          "Tag": "PT_NpcManager_8EB8BD2E4ED4C147E98C79B1FE0DE303"
+        }
+      ],
+      "bCalculateHousing": false
+    }
+  }
+]

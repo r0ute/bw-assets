@@ -1,0 +1,329 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_EscortBaltasarCave_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:ExecuteUbergraph_BlueSkyQuest_EscortBaltasarCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.4"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:ExecuteUbergraph_BlueSkyQuest_EscortBaltasarCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Baltasar",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_EscortBaltasarCave": {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:ExecuteUbergraph_BlueSkyQuest_EscortBaltasarCave'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.4"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_EscortBaltasarCave_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_EscortBaltasarCave_C'Default__BlueSkyQuest_EscortBaltasarCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_EscortBaltasarCave_C",
+    "Name": "Default__BlueSkyQuest_EscortBaltasarCave_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.BlueSkyQuest_EscortBaltasarCave_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Baltasar": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BaltasarBlancoNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlancoNpcTemplate.1"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'BlueSky_CaveEntrance_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/Quest/BlueSky/BlueSky_CaveEntrance.0"
+      },
+      "MaxDistanceToPlayer": 10000.0,
+      "CompletionDistanceFromTargetToNpc": 5000.0,
+      "RoleAfterEscort": "EMistTownNpcRole::SettlementGuard",
+      "Description": {
+        "Namespace": "",
+        "Key": "C2E3D04C4CA23EAC624CA084A1A8F1FA",
+        "SourceString": "Escort Baltasar Blanco out of the cave",
+        "LocalizedString": "Escort Baltasar Blanco out of the cave"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4FF4A61345733CEEB82200899E93541E",
+        "SourceString": "I need to decide what to do with the alchemist. Outside the cave there is Cecilio and Dario arguing. I’d better listen to what they have to say.",
+        "LocalizedString": "I need to decide what to do with the alchemist. Outside the cave there is Cecilio and Dario arguing. I’d better listen to what they have to say."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "EscortBaltasarInProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BaltasarBlanco_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlanco_NpcTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaltasarBlancoNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlancoNpcTemplate.1"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BaltasarBlanco_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlanco_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_EscortBaltasarCave",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_EscortBaltasarCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_EscortBaltasarCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_EscortBaltasarCave_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_EscortBaltasarCave.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

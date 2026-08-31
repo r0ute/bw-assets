@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FavoredSupplyQuest_TalkToRonald_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest_TalkToRonald",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FavoredSupplyQuest_TalkToRonald_C'Default__FavoredSupplyQuest_TalkToRonald_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest_TalkToRonald.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FavoredSupplyQuest_TalkToRonald_C",
+    "Name": "Default__FavoredSupplyQuest_TalkToRonald_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest_TalkToRonald.FavoredSupplyQuest_TalkToRonald_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest_TalkToRonald",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "981555304AD0CFEAF7C82A9FBA19B5B6",
+        "SourceString": "Check with {Npc}",
+        "LocalizedString": "Check with {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HalmayanFactionMerchant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/HalmayanFactionMerchant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FavoredSupplyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToRoland"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6929D1D2434828FEA38D018AE48E0F0C",
+        "SourceString": "Roland is selling spears and other items in exchange for Doll’s Tears. I should check with him again to replenish my supplies once I gather more dolls.",
+        "LocalizedString": "Roland is selling spears and other items in exchange for Doll’s Tears. I should check with him again to replenish my supplies once I gather more dolls."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Halmayans/FavoredSupplyQuest.FavoredSupplyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

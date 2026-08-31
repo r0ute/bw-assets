@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasteroftheOceanQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasteroftheOceanQuest_C'Default__MasteroftheOceanQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasteroftheOceanQuest_C",
+    "Name": "Default__MasteroftheOceanQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest.MasteroftheOceanQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheOceanQuest_TalkToNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_TalkToNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheOceanQuest_BringFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_BringFish.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "6654EEEC45AA61E4266ECBA8D92FC881",
+        "SourceString": "Fishing Tournament - Master of the Ocean",
+        "LocalizedString": "Fishing Tournament - Master of the Ocean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CA9875FA43B6942B55415AA8F9E4B41C",
+        "SourceString": "If I want to master ocean or sea fishing, I need to find Alice Shoreman. They say she knows everything about fishing in saltwater. Hopefully, she’s not as weird as the last fishing master I met.",
+        "LocalizedString": "If I want to master ocean or sea fishing, I need to find Alice Shoreman. They say she knows everything about fishing in saltwater. Hopefully, she’s not as weird as the last fishing master I met."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "27A050854ADC4260D320769BE066617F",
+        "SourceString": "I handed over the eel. Now, it's time to find another master.",
+        "LocalizedString": "I handed over the eel. Now, it's time to find another master."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "01F64E954A4DCE574D1265B5A1EB7E28",
+          "SourceString": "Are you Alice Shoreman? I’m looking for a fishing master…",
+          "LocalizedString": "Are you Alice Shoreman? I’m looking for a fishing master…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheOceanQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOceanQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 150,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SilverBroadfinTrophy_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/SilverBroadfinTrophy.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 100,
+            "MaxQuantity": 100
+          }
+        ]
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.BigFishQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheOcean_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOcean_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheOcean_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheOcean/MasteroftheOcean_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StoppingTheHarassmentQuest_KillBully_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_KillBully",
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StoppingTheHarassmentQuest_KillBully_C'Default__StoppingTheHarassmentQuest_KillBully_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_KillBully.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StoppingTheHarassmentQuest_KillBully_C",
+    "Name": "Default__StoppingTheHarassmentQuest_KillBully_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_KillBully.StoppingTheHarassmentQuest_KillBully_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_KillBully",
+    "Properties": {
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BullyBandit_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BullyBandit_NpcTemplate.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "37FD6AC4465035EBCB2C24897EABC880",
+        "SourceString": "Kill the bandit",
+        "LocalizedString": "Kill the bandit"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0179CB86497086C0578A5A89863CD29E",
+        "SourceString": "Kill the bandit",
+        "LocalizedString": "Kill the bandit"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2C8D166E41EAF99AAFEAFFB6CD0B26EF",
+        "SourceString": "At least now he would bother Rudy anymore.",
+        "LocalizedString": "At least now he would bother Rudy anymore."
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C2C60BF941E1205145BB4CAC66113025",
+          "SourceString": "About the man harassing you...",
+          "LocalizedString": "About the man harassing you..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'StoppingTheHarassmentTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentTalk.0"
+        },
+        "TalkEntryPoint": "BackToQuestgiver",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRudyTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowRudyTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest.StoppingTheHarassmentQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

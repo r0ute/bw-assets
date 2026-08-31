@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestDifferentOutcome_TalkToHelga_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToHelga",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestDifferentOutcome_TalkToHelga_C'Default__MainQuestDifferentOutcome_TalkToHelga_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToHelga.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestDifferentOutcome_TalkToHelga_C",
+    "Name": "Default__MainQuestDifferentOutcome_TalkToHelga_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToHelga.MainQuestDifferentOutcome_TalkToHelga_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToHelga",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestDifferentOutcome_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHelga_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6A62610240B619180626E8B5DCB56516",
+        "SourceString": "After speaking with Helga, she shared that her vote went to Hans.",
+        "LocalizedString": "After speaking with Helga, she shared that her vote went to Hans."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome.MainQuestDifferentOutcome_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

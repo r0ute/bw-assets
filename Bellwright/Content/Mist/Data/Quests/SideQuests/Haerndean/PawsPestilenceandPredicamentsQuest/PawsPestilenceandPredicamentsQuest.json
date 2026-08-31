@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PawsPestilenceandPredicamentsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PawsPestilenceandPredicamentsQuest_C'Default__PawsPestilenceandPredicamentsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PawsPestilenceandPredicamentsQuest_C",
+    "Name": "Default__PawsPestilenceandPredicamentsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest.PawsPestilenceandPredicamentsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_Wait1Day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_Wait1Day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_ReturnNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_ReturnNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "1442F6054CABE5483697B5A64E504C5A",
+        "SourceString": "Paws, Pestilence and Predicaments",
+        "LocalizedString": "Paws, Pestilence and Predicaments"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "2F1926A3454BDF32D4C97FB6FE2F29AF",
+        "SourceString": "Eliza explained their predicament: a mischievous cat has moved into their home, and while it’s a great hunter, their husband has fallen ill with a terrible fever and sneezing. She believes the cat is a curse from the gods and asked for my help to gather garlic and flax to brew a concoction to ease their husband's symptoms.",
+        "LocalizedString": "Eliza explained their predicament: a mischievous cat has moved into their home, and while it’s a great hunter, their husband has fallen ill with a terrible fever and sneezing. She believes the cat is a curse from the gods and asked for my help to gather garlic and flax to brew a concoction to ease their husband's symptoms."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0607219444219659BDAF9586C63BA340",
+          "SourceString": "Is there any work for me?",
+          "LocalizedString": "Is there any work for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 75,
+      "VillageTrustReward": 50,
+      "RenownReward": 50,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.FowlPlayQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanElizaGreenberggNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanElizaGreenberggTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanElizaGreenberggNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanElizaGreenberggTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

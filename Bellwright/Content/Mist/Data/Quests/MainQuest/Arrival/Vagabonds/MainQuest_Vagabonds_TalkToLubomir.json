@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_Vagabonds_TalkToLubomir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomir",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_Vagabonds_TalkToLubomir_C'Default__MainQuest_Vagabonds_TalkToLubomir_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomir.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_Vagabonds_TalkToLubomir_C",
+    "Name": "Default__MainQuest_Vagabonds_TalkToLubomir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomir.MainQuest_Vagabonds_TalkToLubomir_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_TalkToLubomir",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "C1D9BD6D468B2B2ACBFF5AB5FB75CAFA",
+        "SourceString": "Ask Lubomir for help in getting rid of the bandits.",
+        "LocalizedString": "Ask Lubomir for help in getting rid of the bandits."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6D9FCEFF462A617BC42B869C7172EE29",
+          "SourceString": "Elder asked me to get rid of bandits near Haerndean. Can you help me?",
+          "LocalizedString": "Elder asked me to get rid of bandits near Haerndean. Can you help me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_Talk.0"
+        },
+        "TalkEntryPoint": "Lubomir_DuelTalk"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "82F0A11640F131D99D5F969AAB6AABA8",
+        "SourceString": "Ask Lubomir for help in getting rid of the bandits.",
+        "LocalizedString": "Ask Lubomir for help in getting rid of the bandits."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "57B496284CC0DB37A8925798A7E6363B",
+        "SourceString": "Lubomir, although eager to help, needs me to first prove myself to him. Although I’ve already shown him I’m not a novice.",
+        "LocalizedString": "Lubomir, although eager to help, needs me to first prove myself to him. Although I’ve already shown him I’m not a novice."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.MainQuest_Vagabonds_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

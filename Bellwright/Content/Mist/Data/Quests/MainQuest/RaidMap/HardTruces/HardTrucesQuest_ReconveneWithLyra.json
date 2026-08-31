@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardTrucesQuest_ReconveneWithLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_ReconveneWithLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardTrucesQuest_ReconveneWithLyra_C'Default__HardTrucesQuest_ReconveneWithLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_ReconveneWithLyra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardTrucesQuest_ReconveneWithLyra_C",
+    "Name": "Default__HardTrucesQuest_ReconveneWithLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_ReconveneWithLyra.HardTrucesQuest_ReconveneWithLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_ReconveneWithLyra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "BB09AC0F4A75DC56B8C137B8A5277311",
+        "SourceString": "Reconvene with {Npc}.",
+        "LocalizedString": "Reconvene with {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReconveneWithLyra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "DB483183482836B94B79B4960C933FD3",
+        "SourceString": "Reconvene with {Npc}.",
+        "LocalizedString": "Reconvene with {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "68BD8DAE4592892A034E5F9A689BB24B",
+        "SourceString": "I returned to Lyra with Cassandra’s offer. She hates the idea of standing beside Cassians, but admits we have little choice if we want the Mayor alive. She thanked me for handling the talks and promised we’d prepare for betrayal even as we strike together.",
+        "LocalizedString": "I returned to Lyra with Cassandra’s offer. She hates the idea of standing beside Cassians, but admits we have little choice if we want the Mayor alive. She thanked me for handling the talks and promised we’d prepare for betrayal even as we strike together."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest.HardTrucesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

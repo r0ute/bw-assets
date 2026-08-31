@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_FailEndTalkToLyra_C",
+    "Name": "Default__AsDuskSetsQuest_FailEndTalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.AsDuskSetsQuest_FailEndTalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "FailEnd_TalkToLyra"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_FailEndTalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AsDuskSetsQuest_FailEndTalkToLyra_C:ExecuteUbergraph_AsDuskSetsQuest_FailEndTalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_FailEndTalkToLyra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.3"
+      },
+      {
+        "ObjectName": "Function'AsDuskSetsQuest_FailEndTalkToLyra_C:ExecuteUbergraph_AsDuskSetsQuest_FailEndTalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AsDuskSetsQuest_FailEndTalkToLyra": {
+        "ObjectName": "Function'AsDuskSetsQuest_FailEndTalkToLyra_C:ExecuteUbergraph_AsDuskSetsQuest_FailEndTalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AsDuskSetsQuest_FailEndTalkToLyra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_FailEndTalkToLyra_C'Default__AsDuskSetsQuest_FailEndTalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AsDuskSetsQuest_FailEndTalkToLyra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_FailEndTalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_FailEndTalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/FailEnd/AsDuskSetsQuest_FailEndTalkToLyra.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

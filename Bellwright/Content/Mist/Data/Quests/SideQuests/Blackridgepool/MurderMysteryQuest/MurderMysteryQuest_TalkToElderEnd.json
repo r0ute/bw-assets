@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MurderMysteryQuest_TalkToElderEnd_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElderEnd",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MurderMysteryQuest_TalkToElderEnd_C'Default__MurderMysteryQuest_TalkToElderEnd_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElderEnd.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MurderMysteryQuest_TalkToElderEnd_C",
+    "Name": "Default__MurderMysteryQuest_TalkToElderEnd_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElderEnd.MurderMysteryQuest_TalkToElderEnd_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToElderEnd",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'OverseerBook_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/OverseerBook.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MurderMysteryQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToElderEnd_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F2004C7E4C41DFEB05A052AC75C9E7AC",
+        "SourceString": "Examine the body and return to the Elder with what you've found.",
+        "LocalizedString": "Examine the body and return to the Elder with what you've found."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F842ED9543C0A8827DA017961D377D75",
+        "SourceString": "Examine the body and return to the Elder with what you've found.",
+        "LocalizedString": "Examine the body and return to the Elder with what you've found."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "26A6CDF849829C2012F7798B5408BADA",
+        "SourceString": "Examine the body and return to the Elder with what you've found.",
+        "LocalizedString": "Examine the body and return to the Elder with what you've found."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DD4CCB444911AA4CF8581D93E53EAAEA",
+        "SourceString": "It seems there's more to this than meets the eye. I might have uncovered something more sinister going on.",
+        "LocalizedString": "It seems there's more to this than meets the eye. I might have uncovered something more sinister going on."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest.MurderMysteryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

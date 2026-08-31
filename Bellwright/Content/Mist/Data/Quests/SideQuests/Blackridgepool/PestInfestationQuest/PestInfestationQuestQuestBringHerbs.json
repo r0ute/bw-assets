@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PestInfestationQuestQuestBringHerbs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringHerbs",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PestInfestationQuestQuestBringHerbs_C'Default__PestInfestationQuestQuestBringHerbs_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringHerbs.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PestInfestationQuestQuestBringHerbs_C",
+    "Name": "Default__PestInfestationQuestQuestBringHerbs_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringHerbs.PestInfestationQuestQuestBringHerbs_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringHerbs",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Sage_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "50A443A9411845B15D0457A59CBF91A8",
+          "SourceString": "About the herbs you asked for...",
+          "LocalizedString": "About the herbs you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PestInfestationQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestTalk.0"
+        },
+        "TalkEntryPoint": "DeliverHerbsToHerbalist_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "01D2B29E48D28BD92763E5898BCFE11B",
+        "SourceString": "Thankfully the herbalist was efficient in brewing the cure. I need to return to the farmer with the concotion.",
+        "LocalizedString": "Thankfully the herbalist was efficient in brewing the cure. I need to return to the farmer with the concotion."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuest.PestInfestationQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_TalkToCecilioFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToCecilioFirstTime_C:ExecuteUbergraph_BlueSkyQuest_TalkToCecilioFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_TalkToCecilioFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_TalkToCecilioFirstTime_C:ExecuteUbergraph_BlueSkyQuest_TalkToCecilioFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_TalkToCecilioFirstTime": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToCecilioFirstTime_C:ExecuteUbergraph_BlueSkyQuest_TalkToCecilioFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_TalkToCecilioFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_TalkToCecilioFirstTime_C'Default__BlueSkyQuest_TalkToCecilioFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_TalkToCecilioFirstTime_C",
+    "Name": "Default__BlueSkyQuest_TalkToCecilioFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.BlueSkyQuest_TalkToCecilioFirstTime_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalktoCecilioFirstTime"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E5A9070A43266708D0BB48999F40BA56",
+        "SourceString": "Cecilio Baez refused to cooperate until a cold mug of beer would heal his hangover, and of course, I will have to bring it to him.",
+        "LocalizedString": "Cecilio Baez refused to cooperate until a cold mug of beer would heal his hangover, and of course, I will have to bring it to him."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_TalkToCecilioFirstTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_TalkToCecilioFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_TalkToCecilioFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest_TalkToCecilioFirstTime.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

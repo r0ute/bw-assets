@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "AxesForBlacksmithQuest_C",
+    "Name": "Default__AxesForBlacksmithQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest.AxesForBlacksmithQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AxesForBlacksmithQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest_BringItems.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "12F917C04E02DFF81E08D781304067D4",
+        "SourceString": "Arms for the Unknown",
+        "LocalizedString": "Arms for the Unknown"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7DAA9AFB40C5A32B78B40BA69F73011C",
+        "SourceString": "Bring Weapons for {QuestGiver}",
+        "LocalizedString": "Bring Weapons for {QuestGiver}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "366F2A8348E17180BE3CA8BB96BD9A7C",
+        "SourceString": "Teodor received an unusually large order for weapons from a stranger who is paying generously. He can afford to share the payment with me if I help him out. I hope it's not a cover for bandits gearing up.",
+        "LocalizedString": "Teodor received an unusually large order for weapons from a stranger who is paying generously. He can afford to share the payment with me if I help him out. I hope it's not a cover for bandits gearing up."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "AEDC88A548542157D40908A07ACBC4D6",
+          "SourceString": "Axes for Blacksmith",
+          "LocalizedString": "Axes for Blacksmith"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AxesForBlacksmithQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 200,
+            "MaxQuantity": 200
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ARemedyforRemembrance/ARemedyforRemembrance_Quest.ARemedyforRemembrance_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBlacksmithNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBlacksmithNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBlacksmithNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBlacksmithNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AxesForBlacksmithQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AxesForBlacksmithQuest_C'Default__AxesForBlacksmithQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AxesForBlacksmithFetch/AxesForBlacksmithQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

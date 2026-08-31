@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheOneAboveAllQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheOneAboveAllQuest_TalkToLyra_C:ExecuteUbergraph_TheOneAboveAllQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_TalkToLyra_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.2"
+      },
+      {
+        "ObjectName": "Function'TheOneAboveAllQuest_TalkToLyra_C:ExecuteUbergraph_TheOneAboveAllQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheOneAboveAllQuest_TalkToLyra": {
+        "ObjectName": "Function'TheOneAboveAllQuest_TalkToLyra_C:ExecuteUbergraph_TheOneAboveAllQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheOneAboveAllQuest_TalkToLyra_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheOneAboveAllQuest_TalkToLyra_C'Default__TheOneAboveAllQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheOneAboveAllQuest_TalkToLyra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestInProgress_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheOneAboveAllQuest_TalkToLyra_C",
+    "Name": "Default__TheOneAboveAllQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra.TheOneAboveAllQuest_TalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest_TalkToLyra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "8E39462647F5B50B9C8D0B8C3B75D3CC",
+        "SourceString": "Ally with {Npc}",
+        "LocalizedString": "Ally with {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheOneAboveAllQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLyra"
+      },
+      "bFailOnNpcTurningHostile": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "9D6D77724BE8DA6BB86F02B209BFDB59",
+        "SourceString": "Ally with {Npc}",
+        "LocalizedString": "Ally with {Npc}"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneAboveAll/TheOneAboveAllQuest.TheOneAboveAllQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

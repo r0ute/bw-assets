@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_TalkToOscar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereAncientLegacyQuest_TalkToOscar_C'Default__CrasmereAncientLegacyQuest_TalkToOscar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_TalkToOscar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereAncientLegacyQuest_TalkToOscar_C",
+    "Name": "Default__CrasmereAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_TalkToOscar.CrasmereAncientLegacyQuest_TalkToOscar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_TalkToOscar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "770202A7440EF9FC9ED1F4B74B8BAF21",
+        "SourceString": "Talk to {Npc} and tell him about shrine that you've discovered near Crasmere.",
+        "LocalizedString": "Talk to {Npc} and tell him about shrine that you've discovered near Crasmere."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C941ACD14B476AFA8F0D2980A6AF83F7",
+          "SourceString": "Regarding the shrine next to Crasmere...",
+          "LocalizedString": "Regarding the shrine next to Crasmere..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereAncientLegacyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToOscar_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "4BE810174F7C43DB2F843AA7B6D574F8",
+        "SourceString": "Ancient Legacy - Crasmere.",
+        "LocalizedString": "Ancient Legacy - Crasmere."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "AFD4CA4E438EE547F1239F81BA8CA3A3",
+        "SourceString": "Oscar believes that our ancestors also practiced maritime activities, perhaps they were sailors. Makes sense to find such a shine near Crasmere.",
+        "LocalizedString": "Oscar believes that our ancestors also practiced maritime activities, perhaps they were sailors. Makes sense to find such a shine near Crasmere."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest.CrasmereAncientLegacyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

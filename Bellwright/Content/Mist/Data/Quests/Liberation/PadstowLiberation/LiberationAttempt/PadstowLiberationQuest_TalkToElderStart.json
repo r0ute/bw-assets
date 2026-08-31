@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderStart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowLiberationQuest_TalkToElderStart_C'Default__PadstowLiberationQuest_TalkToElderStart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderStart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowLiberationQuest_TalkToElderStart_C",
+    "Name": "Default__PadstowLiberationQuest_TalkToElderStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderStart.PadstowLiberationQuest_TalkToElderStart_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_TalkToElderStart",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F50C2A6F47BDE87848BB3A890B0F4583",
+          "SourceString": "I heard you were looking for me...",
+          "LocalizedString": "I heard you were looking for me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "StartLiberation",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "CC579B124F86846D6343F287629EEB55",
+        "SourceString": "Time has come: Padstow",
+        "LocalizedString": "Time has come: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "23BD5B62448C42627A877187B754F4EE",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DDA86DF742526DEBCD7CE5BE43AAC42A",
+        "SourceString": "The weight of leadership pressed against my shoulders like an invisible armor. Padstow's hopes now rested in my hands, and I understood the magnitude of their trust. Every step forward would be a step towards their liberation.",
+        "LocalizedString": "The weight of leadership pressed against my shoulders like an invisible armor. Padstow's hopes now rested in my hands, and I understood the magnitude of their trust. Every step forward would be a step towards their liberation."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/PadstowLiberation/LiberationAttempt/PadstowLiberationQuest.PadstowLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

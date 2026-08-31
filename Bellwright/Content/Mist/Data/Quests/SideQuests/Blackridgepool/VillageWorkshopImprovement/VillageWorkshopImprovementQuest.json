@@ -1,0 +1,210 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VillageWorkshopImprovementQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VillageWorkshopImprovementQuest_C'Default__VillageWorkshopImprovementQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "VillageWorkshopImprovementQuest_C",
+    "Name": "Default__VillageWorkshopImprovementQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest.VillageWorkshopImprovementQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovementQuest_TalkToFinton_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest_TalkToFinton.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovementQuest_BringGold_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest_BringGold.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovementQuest_Wait1Day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest_Wait1Day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovementQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest_BringItem.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2847AA244A9DFB666B4738AE69FEA071",
+        "SourceString": "Against the Grain",
+        "LocalizedString": "Against the Grain"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B80BC4A44A2CD7BB2ED26290D05EB7BD",
+        "SourceString": "Bring tools from Finton Mallet.",
+        "LocalizedString": "Bring tools from Finton Mallet."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "E3BAE8634D665E30931732AF0E2F31AB",
+        "SourceString": "Paul the Miller is in a tough situation. His mill is broken, so I decided to help him by collecting the materials he needs and tools from Finton Mallet.",
+        "LocalizedString": "Paul the Miller is in a tough situation. His mill is broken, so I decided to help him by collecting the materials he needs and tools from Finton Mallet."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "BDCAD5ED46032EB8D32BF6B4AAE2F7F1",
+          "SourceString": "You're looking nervous. What happened?",
+          "LocalizedString": "You're looking nervous. What happened?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovement_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovement_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Available",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "70F37E354809790D3E3AD3975ED746E5",
+          "SourceString": "About things you need to fix the mill…",
+          "LocalizedString": "About things you need to fix the mill…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VillageWorkshopImprovement_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovement_Talk.0"
+        },
+        "TalkEntryPoint": "PaulMiller_Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 300,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 150.0,
+            "MaxQuantityMultiplier": 150.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicStews.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMillerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMillerTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMillerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMillerTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

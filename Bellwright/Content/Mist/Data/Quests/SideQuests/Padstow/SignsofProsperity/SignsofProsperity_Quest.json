@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SignsofProsperity_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SignsofProsperity_Quest_C'Default__SignsofProsperity_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SignsofProsperity_Quest_C",
+    "Name": "Default__SignsofProsperity_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest.SignsofProsperity_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SignsofProsperity_Quest_Build_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Build.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "7FF80B504ACB217BD7DE7EA3FD22E5A1",
+        "SourceString": "Signs of Prosperity",
+        "LocalizedString": "Signs of Prosperity"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "FE7228E141C217C75871D19B03E9793E",
+        "SourceString": "Ketyl Simmond convinced me to lend a hand in bolstering Hearndean's visibility to outsiders by constructing travel signs at key locations. The idea was that these signs would guide more travelers to our village, potentially revitalizing local businesses that have been missing out on new customers. The promise of a reward and the chance to contribute positively to the community's welfare nudged me into action.",
+        "LocalizedString": "Ketyl Simmond convinced me to lend a hand in bolstering Hearndean's visibility to outsiders by constructing travel signs at key locations. The idea was that these signs would guide more travelers to our village, potentially revitalizing local businesses that have been missing out on new customers. The promise of a reward and the chance to contribute positively to the community's welfare nudged me into action."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9E27BC1346BB128E5886A6A7636D2189",
+          "SourceString": "Signs of Prosperity",
+          "LocalizedString": "Signs of Prosperity"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SignsofProsperity_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/SignsofProsperity/SignsofProsperity_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 50,
+      "RenownReward": 300,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder.MainQuestContinuationTalkToElder_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

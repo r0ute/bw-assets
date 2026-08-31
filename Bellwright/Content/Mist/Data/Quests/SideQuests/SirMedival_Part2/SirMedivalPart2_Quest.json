@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart2_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart2_Quest_C'Default__SirMedivalPart2_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart2_Quest_C",
+    "Name": "Default__SirMedivalPart2_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest.SirMedivalPart2_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_Quest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_Quest_CheckOnMedival_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_CheckOnMedival.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_Quest_FIndSirFriend_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_FIndSirFriend.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_Quest_TalkToSir_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_TalkToSir.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "7CD5D9D64A075151B34A929337F50793",
+        "SourceString": "The Wandering Knight Part 2",
+        "LocalizedString": "The Wandering Knight Part 2"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "56AE0342435331EA8FE68AAFC188BDC7",
+        "SourceString": "The Knight’s friend has been arrested due to Queen’s orders, if I want to make this old veteran join me someday I’d better find this man.",
+        "LocalizedString": "The Knight’s friend has been arrested due to Queen’s orders, if I want to make this old veteran join me someday I’d better find this man."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2F34FCE648B29537C2CE5CA8651A673C",
+          "SourceString": "About your friend.",
+          "LocalizedString": "About your friend."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_QuestTalk.0"
+        },
+        "TalkEntryPoint": "SirMedival2Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "MoneyReward": 100,
+      "RenownReward": 100,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest.SirMedival_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VeinsOfDeceitQuest_TalkToDarekFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_TalkToDarekFirstTime_C:ExecuteUbergraph_VeinsOfDeceitQuest_TalkToDarekFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_TalkToDarekFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.2"
+      },
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_TalkToDarekFirstTime_C:ExecuteUbergraph_VeinsOfDeceitQuest_TalkToDarekFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VeinsOfDeceitQuest_TalkToDarekFirstTime": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_TalkToDarekFirstTime_C:ExecuteUbergraph_VeinsOfDeceitQuest_TalkToDarekFirstTime'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_TalkToDarekFirstTime_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VeinsOfDeceitQuest_TalkToDarekFirstTime_C'Default__VeinsOfDeceitQuest_TalkToDarekFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VeinsOfDeceitQuest_TalkToDarekFirstTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_TalkToDarekFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_1",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_TalkToDarekFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VeinsOfDeceitQuest_TalkToDarekFirstTime_C",
+    "Name": "Default__VeinsOfDeceitQuest_TalkToDarekFirstTime_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime.VeinsOfDeceitQuest_TalkToDarekFirstTime_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_TalkToDarekFirstTime",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DA974B834AFF09788F4AE1B5E65FA8D2",
+        "SourceString": "Darek told me the Halmayans are preparing to strike against Kug, but before that, we need proof that Kug’s kin stand against him. He says Lydia Simic, Kug’s half-sister, has been hiding for years. If she supports our cause, it could break Kug’s image of strength. He asked me to take their newest recruit with me to find her.",
+        "LocalizedString": "Darek told me the Halmayans are preparing to strike against Kug, but before that, we need proof that Kug’s kin stand against him. He says Lydia Simic, Kug’s half-sister, has been hiding for years. If she supports our cause, it could break Kug’s image of strength. He asked me to take their newest recruit with me to find her."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'JaimeFarkas_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/JaimeFarkas_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'JaimeFarkas_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/JaimeFarkas_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest.VeinsOfDeceitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

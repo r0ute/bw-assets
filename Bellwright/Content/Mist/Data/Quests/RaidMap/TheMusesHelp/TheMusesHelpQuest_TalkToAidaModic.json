@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheMusesHelpQuest_TalkToAidaModic_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToAidaModic",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheMusesHelpQuest_TalkToAidaModic_C'Default__TheMusesHelpQuest_TalkToAidaModic_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToAidaModic.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheMusesHelpQuest_TalkToAidaModic_C",
+    "Name": "Default__TheMusesHelpQuest_TalkToAidaModic_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToAidaModic.TheMusesHelpQuest_TalkToAidaModic_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToAidaModic",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "95E609B841BC62786B97A7960B0D494A",
+        "SourceString": "Talk with muse - {Npc}",
+        "LocalizedString": "Talk with muse - {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AidaModicNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/AidaModicNpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToAidaModic"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "E2B5146E4EF517CF23B728ABE1CEA36D",
+        "SourceString": "Talk with muse - {Npc}",
+        "LocalizedString": "Talk with muse - {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "289312384246C012D9C167913565322D",
+        "SourceString": "Aida seemed sweet but fragile. She offered either a touching story about elderly dancers in the rain or a tragic tale about her lost brother.",
+        "LocalizedString": "Aida seemed sweet but fragile. She offered either a touching story about elderly dancers in the rain or a tragic tale about her lost brother."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AidaModicNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/AidaModicNpcTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AidaModicNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/AidaModicNpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheNewcomersQuest_BuildHouse_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BuildHouse",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheNewcomersQuest_BuildHouse_C'Default__TheNewcomersQuest_BuildHouse_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BuildHouse.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheNewcomersQuest_BuildHouse_C",
+    "Name": "Default__TheNewcomersQuest_BuildHouse_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BuildHouse.TheNewcomersQuest_BuildHouse_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BuildHouse",
+    "Properties": {
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/VillageImprovements/VM_VillageHouse.VM_VillageHouse_C",
+        "SubPathString": ""
+      },
+      "bBuildInPlayerSettlement": false,
+      "SettlementName": "Padstow",
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A7C86D3A48BD4CB603690088BE7E03BB",
+        "SourceString": "The house is completed. I need to speak with Edmund to finalize things.",
+        "LocalizedString": "The house is completed. I need to speak with Edmund to finalize things."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "EDMUNDInProgress"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "EDMUNDInProgress"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersEdmund_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersEdmund_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest.TheNewcomersQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

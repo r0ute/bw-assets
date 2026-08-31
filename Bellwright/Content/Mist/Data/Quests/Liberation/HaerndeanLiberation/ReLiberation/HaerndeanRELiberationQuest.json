@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HaerndeanRELiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HaerndeanRELiberationQuest_C'Default__HaerndeanRELiberationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HaerndeanRELiberationQuest_C",
+    "Name": "Default__HaerndeanRELiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest.HaerndeanRELiberationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_WaitFewDays_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_WaitFewDays.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_TalkToElderStart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_TalkToElderStart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_KillGarrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_KillGarrison.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_BuildWatchtower_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_BuildWatchtower.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_TalkToElderComplete_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_TalkToElderComplete.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "0197D8EB4CCCDF6D60301D9519890B4D",
+        "SourceString": "Another try: Haerndean",
+        "LocalizedString": "Another try: Haerndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B4DF5D7C40CA6FDE1E79B982FE2D43F8",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanRELiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HaerndeanLiberation/ReLiberation/HaerndeanRELiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardAlliancesQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_TalkToLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardAlliancesQuest_TalkToLyra_C'Default__HardAlliancesQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_TalkToLyra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardAlliancesQuest_TalkToLyra_C",
+    "Name": "Default__HardAlliancesQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_TalkToLyra.HardAlliancesQuest_TalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_TalkToLyra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "52E3F0084D2C443EF3EC4DB61F826C98",
+        "SourceString": "Speak to {Npc}",
+        "LocalizedString": "Speak to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardAlliancesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CassandraLyraMeeting"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "FEE90AD148EBF5E1EBC3E0BA1D272D96",
+        "SourceString": "Speak to {Npc}",
+        "LocalizedString": "Speak to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4BB5FB8448C6E57815FD16952CD5861A",
+        "SourceString": "The meeting went better than expected. Lyra proposes an assault on Falsgar, and in the meantime, a small group will sneak into the prison to release the mayor while Kug’s forces are distracted. I wonder what Cassandra will think about this plan.",
+        "LocalizedString": "The meeting went better than expected. Lyra proposes an assault on Falsgar, and in the meantime, a small group will sneak into the prison to release the mayor while Kug’s forces are distracted. I wonder what Cassandra will think about this plan."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardAlliancesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CassandraBeforeTalkingToLyra"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardAlliances/HardAlliancesQuest.HardAlliancesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

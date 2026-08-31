@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HomeIsWheretheCoopIsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HomeIsWheretheCoopIsQuest_C'Default__HomeIsWheretheCoopIsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HomeIsWheretheCoopIsQuest_C",
+    "Name": "Default__HomeIsWheretheCoopIsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest.HomeIsWheretheCoopIsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HomeIsWheretheCoopIsQuest_BuildCoop_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BuildCoop.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HomeIsWheretheCoopIsQuest_TalkAfterBuildCoop_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_TalkAfterBuildCoop.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HomeIsWheretheCoopIsQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BringItem.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "53464B1C4D440D29315B1FAA59F48418",
+        "SourceString": "Home Is Where the Coop Is",
+        "LocalizedString": "Home Is Where the Coop Is"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "01468ADA4DB5577AB82795A0702734E1",
+        "SourceString": "I spoke with Mona, and she wants to give me her hen Peckleton but only if I build a chicken coop… it’s rather weird that she wants to give it away.",
+        "LocalizedString": "I spoke with Mona, and she wants to give me her hen Peckleton but only if I build a chicken coop… it’s rather weird that she wants to give it away."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F04A12164D4D9E1928C608925860837D",
+        "SourceString": "Everything is ready, now I need to bring Peckleton home, what am I going to do with such a mischievous hen? Should I find more friends to keep her company?",
+        "LocalizedString": "Everything is ready, now I need to bring Peckleton home, what am I going to do with such a mischievous hen? Should I find more friends to keep her company?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "EB03748244AD5039079B3BB579994CB1",
+          "SourceString": "Can I help you somehow?",
+          "LocalizedString": "Can I help you somehow?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HomeIsWheretheCoopIsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 50,
+      "VillageTrustReward": 150,
+      "RenownReward": 75,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 50,
+            "MaxQuantity": 50
+          }
+        ]
+      },
+      "AnimalRewards": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'PeckletonQuestAnimalTemplate_C'",
+          "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/QuestAnimals/PeckletonQuestAnimalTemplate.0"
+        }
+      ],
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.FowlPlayQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BringClothFetch/BringClothQuest.BringClothQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlay_ChickenFarmerNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_ChickenFarmerNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlay_ChickenFarmerNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_ChickenFarmerNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

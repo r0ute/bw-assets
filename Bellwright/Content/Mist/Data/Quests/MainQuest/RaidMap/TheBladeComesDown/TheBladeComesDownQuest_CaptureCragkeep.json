@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_CaptureCragkeep_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheBladeComesDownQuest_CaptureCragkeep_C:ExecuteUbergraph_TheBladeComesDownQuest_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillGarrisonQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_CaptureCragkeep_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.2"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_CaptureCragkeep_C:ExecuteUbergraph_TheBladeComesDownQuest_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheBladeComesDownQuest_CaptureCragkeep": {
+        "ObjectName": "Function'TheBladeComesDownQuest_CaptureCragkeep_C:ExecuteUbergraph_TheBladeComesDownQuest_CaptureCragkeep'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheBladeComesDownQuest_CaptureCragkeep_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_CaptureCragkeep_C'Default__TheBladeComesDownQuest_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheBladeComesDownQuest_CaptureCragkeep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_CaptureCragkeep_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheBladeComesDownQuest_CaptureCragkeep_C",
+    "Name": "Default__TheBladeComesDownQuest_CaptureCragkeep_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep.TheBladeComesDownQuest_CaptureCragkeep_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_CaptureCragkeep",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SettlementName": "Cragkeep",
+      "bRequireBell": false,
+      "SecondDescription": {
+        "Namespace": "",
+        "Key": "FD0068F74D95D0B3B0EE1BA77C9994BF",
+        "SourceString": "Capture Cragkeep",
+        "LocalizedString": "Capture Cragkeep"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "1852792D4879FB85FD72BAB411DE0593",
+        "SourceString": "Capture Cragkeep",
+        "LocalizedString": "Capture Cragkeep"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

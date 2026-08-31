@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "BaneOfTyrantsQuest_KillKug_C",
+    "Name": "Default__BaneOfTyrantsQuest_KillKug_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.BaneOfTyrantsQuest_KillKug_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "98C6B0C145ECB42E32E1179C00375FB4",
+        "SourceString": "Bane of Tyrants",
+        "LocalizedString": "Bane of Tyrants"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "21753A734C8106EF16E053A0001AD233",
+        "SourceString": "Kill the Viceroy",
+        "LocalizedString": "Kill the Viceroy"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A98EF8B3424671813B314A8867060ABE",
+        "SourceString": "The Tyrant of Halmare lies beneath my feet. The islands are free. I deserve a good night's sleep after this fight.",
+        "LocalizedString": "The Tyrant of Halmare lies beneath my feet. The islands are free. I deserve a good night's sleep after this fight."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.BaneOfTyrantsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BaneOfTyrantsQuest_KillKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.4"
+      },
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.3"
+      },
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BaneOfTyrantsQuest_KillKug": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_KillKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.2"
+      },
+      "OnQuestActivated": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_KillKug_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.4"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BaneOfTyrantsQuest_KillKug_C'Default__BaneOfTyrantsQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BaneOfTyrantsQuest_KillKug",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistPlayer'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CompleteQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DiscardQuest_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestActivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestActivated'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_KillKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_KillKug.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

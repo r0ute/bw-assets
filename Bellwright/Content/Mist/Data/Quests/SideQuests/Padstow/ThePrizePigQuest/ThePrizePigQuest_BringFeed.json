@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThePrizePigQuest_BringFeed_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest_BringFeed",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThePrizePigQuest_BringFeed_C'Default__ThePrizePigQuest_BringFeed_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest_BringFeed.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThePrizePigQuest_BringFeed_C",
+    "Name": "Default__ThePrizePigQuest_BringFeed_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest_BringFeed.ThePrizePigQuest_BringFeed_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest_BringFeed",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoughAnimalFeed_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/RoughAnimalFeed.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FamilyFarmAnimalMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/FamilyFarmAnimalMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0AC4305F4AF704C3534C1E94E83E168B",
+          "SourceString": "About the feed...",
+          "LocalizedString": "About the feed..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThePrizePig_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverFeed"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "944214824EA4FB28045A72B3E85728E6",
+        "SourceString": "I have the feed for Gertrude. This will surely fatten her up and drive up her market value—or just very tasty bacon.",
+        "LocalizedString": "I have the feed for Gertrude. This will surely fatten her up and drive up her market value—or just very tasty bacon."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest.ThePrizePigQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

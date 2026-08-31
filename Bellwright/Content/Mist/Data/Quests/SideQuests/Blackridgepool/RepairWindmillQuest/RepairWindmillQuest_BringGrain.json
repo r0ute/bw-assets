@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RepairWindmillQuest_BringGrain_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringGrain",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RepairWindmillQuest_BringGrain_C'Default__RepairWindmillQuest_BringGrain_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringGrain.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RepairWindmillQuest_BringGrain_C",
+    "Name": "Default__RepairWindmillQuest_BringGrain_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringGrain.RepairWindmillQuest_BringGrain_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringGrain",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Farnworth_Grain_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/WindmillQuest/Farnworth_Grain.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Padstow_Grain_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/WindmillQuest/Padstow_Grain.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMillerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMillerTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RepairWindmillQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Paul_Herry_Miller_Idle"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8EE0A17443C48FD3B64685A0E785DFD3",
+        "SourceString": "I delivered the grain from Farnworth and Padstow to Paul. He asked me to come back tomorrow.",
+        "LocalizedString": "I delivered the grain from Farnworth and Padstow to Paul. He asked me to come back tomorrow."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest.RepairWindmillQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

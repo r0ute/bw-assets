@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicinePowderQuest_BringTusksWife_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusksWife",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicinePowderQuest_BringTusksWife_C'Default__MedicinePowderQuest_BringTusksWife_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusksWife.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicinePowderQuest_BringTusksWife_C",
+    "Name": "Default__MedicinePowderQuest_BringTusksWife_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusksWife.MedicinePowderQuest_BringTusksWife_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusksWife",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoarTusk_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/BoarTusk.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "47F683994353E7865349138F2295CE88",
+        "SourceString": "I brought the woman the tusks she asked for. I hope this helps with the problem.",
+        "LocalizedString": "I brought the woman the tusks she asked for. I hope this helps with the problem."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9B8B1EAB4369742B5ADDA284A200E09E",
+          "SourceString": "Regarding the tusks you asked me to get…",
+          "LocalizedString": "Regarding the tusks you asked me to get…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinePowderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Tusk_back_to_wife"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart.MedicinePowderQuest_DifferentStart_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

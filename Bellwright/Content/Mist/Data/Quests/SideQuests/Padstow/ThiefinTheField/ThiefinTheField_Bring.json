@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThiefinTheField_Bring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheField_Bring",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThiefinTheField_Bring_C'Default__ThiefinTheField_Bring_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheField_Bring.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThiefinTheField_Bring_C",
+    "Name": "Default__ThiefinTheField_Bring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheField_Bring.ThiefinTheField_Bring_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheField_Bring",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Wheat_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/Wheat.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+        }
+      },
+      "PartialCompletionPossibleTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9391194B476A86ED5072B5B90A50B4BD",
+          "SourceString": "About the straw you asked me for…",
+          "LocalizedString": "About the straw you asked me for…"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "3D49B3C842F4439376F590825688E10B",
+        "SourceString": "Thief in The Field",
+        "LocalizedString": "Thief in The Field"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "22AE0EA5408FDD4B17E4809B90904DD9",
+        "SourceString": "Ferdnand asked me to bring him some straw for his cow but there's one big problem. Fields are protected by bandits and I need to be careful to not get caught.",
+        "LocalizedString": "Ferdnand asked me to bring him some straw for his cow but there's one big problem. Fields are protected by bandits and I need to be careful to not get caught."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B96EFE5F4F648CDCF00A4FB54C764CEB",
+        "SourceString": "I brought the straw back to Ferdnand, his cow can have some food again.",
+        "LocalizedString": "I brought the straw back to Ferdnand, his cow can have some food again."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "824D653047DBEBEB56D7A588AD0807CE",
+          "SourceString": "About the straw you asked me for…",
+          "LocalizedString": "About the straw you asked me for…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThiefinTheFieldQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheFieldQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Bring_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThiefinTheField/ThiefinTheFieldQuest.ThiefinTheFieldQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

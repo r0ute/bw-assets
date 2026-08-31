@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HorndeanAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_TalkToOscar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HorndeanAncientLegacyQuest_TalkToOscar_C'Default__HorndeanAncientLegacyQuest_TalkToOscar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_TalkToOscar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HorndeanAncientLegacyQuest_TalkToOscar_C",
+    "Name": "Default__HorndeanAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_TalkToOscar.HorndeanAncientLegacyQuest_TalkToOscar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_TalkToOscar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "934D311D42981938DF3D4390F96BB69D",
+        "SourceString": "Talk to {Npc} and tell him shrine that you've discovered near Horndean.",
+        "LocalizedString": "Talk to {Npc} and tell him shrine that you've discovered near Horndean."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "EE28824A44A50370DD2B4AB6194AD130",
+          "SourceString": "Regarding the shrine next to Horndean...",
+          "LocalizedString": "Regarding the shrine next to Horndean..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanAncientLegacyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToOscar_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "8970DD394C8AF8048E4CC0996DD62F5D",
+        "SourceString": "Ancient Legacy - Horndean.",
+        "LocalizedString": "Ancient Legacy - Horndean."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0180B02A404BAFF23B781F90F2A6FAA2",
+        "SourceString": "Oscar noted how this shrine was quite different than the ones I found before. With each one we uncover a piece of the past.",
+        "LocalizedString": "Oscar noted how this shrine was quite different than the ones I found before. With each one we uncover a piece of the past."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest.HorndeanAncientLegacyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

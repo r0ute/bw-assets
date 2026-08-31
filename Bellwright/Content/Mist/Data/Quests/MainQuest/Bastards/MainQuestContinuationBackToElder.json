@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestContinuationBackToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationBackToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestContinuationBackToElder_C'Default__MainQuestContinuationBackToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationBackToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestContinuationBackToElder_C",
+    "Name": "Default__MainQuestContinuationBackToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationBackToElder.MainQuestContinuationBackToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationBackToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "28C278FB4F131C6E676713A373CD79CF",
+        "SourceString": "Talk to {Npc} and collect the reward",
+        "LocalizedString": "Talk to {Npc} and collect the reward"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToElderAfter_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "53CDB04443524D207D3DD5862C23C713",
+        "SourceString": "Back to {Npc}",
+        "LocalizedString": "Back to {Npc}"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "84CED31A497FBE0F921F9F802AD82055",
+        "SourceString": "Talk to {Npc} and collect the reward",
+        "LocalizedString": "Talk to {Npc} and collect the reward"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "057E34314D930857E031EE937C9D02E1",
+        "SourceString": "Camp is clear, time to collect the reward from the Elder.",
+        "LocalizedString": "Camp is clear, time to collect the reward from the Elder."
+      },
+      "MoneyReward": 50,
+      "VillageTrustReward": 200,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

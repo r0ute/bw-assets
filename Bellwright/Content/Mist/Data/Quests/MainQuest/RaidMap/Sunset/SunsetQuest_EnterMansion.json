@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SunsetQuest_EnterMansion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'SunsetQuest_EnterMansion_C:ExecuteUbergraph_SunsetQuest_EnterMansion'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SunsetQuest_EnterMansion_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.2"
+      },
+      {
+        "ObjectName": "Function'SunsetQuest_EnterMansion_C:ExecuteUbergraph_SunsetQuest_EnterMansion'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SunsetQuest_EnterMansion": {
+        "ObjectName": "Function'SunsetQuest_EnterMansion_C:ExecuteUbergraph_SunsetQuest_EnterMansion'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'SunsetQuest_EnterMansion_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SunsetQuest_EnterMansion_C'Default__SunsetQuest_EnterMansion_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SunsetQuest_EnterMansion",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_EnterMansion_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SunsetQuest_EnterMansion_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SunsetQuest_EnterMansion_C",
+    "Name": "Default__SunsetQuest_EnterMansion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion.SunsetQuest_EnterMansion_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest_EnterMansion",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/Sunset/SunsetMansion_QuestPoi.SunsetMansion_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "064DD35E4EF72A039E11DA8B03D22B61",
+        "SourceString": "Enter the mansion",
+        "LocalizedString": "Enter the mansion"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F253C2F641774FB81545A7A6F85991C0",
+        "SourceString": "Enter the mansion",
+        "LocalizedString": "Enter the mansion"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/Sunset/SunsetQuest.SunsetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

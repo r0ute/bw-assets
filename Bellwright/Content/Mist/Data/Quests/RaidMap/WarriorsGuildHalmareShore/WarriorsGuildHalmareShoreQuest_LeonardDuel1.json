@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildHalmareShoreQuest_LeonardDuel1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_LeonardDuel1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildHalmareShoreQuest_LeonardDuel1_C'Default__WarriorsGuildHalmareShoreQuest_LeonardDuel1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_LeonardDuel1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildHalmareShoreQuest_LeonardDuel1_C",
+    "Name": "Default__WarriorsGuildHalmareShoreQuest_LeonardDuel1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_LeonardDuel1.WarriorsGuildHalmareShoreQuest_LeonardDuel1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_LeonardDuel1",
+    "Properties": {
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeonardGreenberggNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenberggNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+        }
+      },
+      "NpcToFightTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelLeonard"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "990F9F7D4F5490D198821EB4B759B2FF",
+        "SourceString": "Win a fight duel Leonard Greenbergg.",
+        "LocalizedString": "Win a fight duel Leonard Greenbergg."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Duel",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CCC5C5CF45C235C537C8FA8A748F28A5",
+          "SourceString": "I want to challenge you to a duel.",
+          "LocalizedString": "I want to challenge you to a duel."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelLeonard",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenberggNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenberggNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeonardGreenbergg_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeonardGreenbergg_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest.WarriorsGuildTravelToHalmareShoreQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

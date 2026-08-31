@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RepairWindmillQuest_BringBackFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringBackFarmer",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RepairWindmillQuest_BringBackFarmer_C'Default__RepairWindmillQuest_BringBackFarmer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringBackFarmer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RepairWindmillQuest_BringBackFarmer_C",
+    "Name": "Default__RepairWindmillQuest_BringBackFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringBackFarmer.RepairWindmillQuest_BringBackFarmer_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_BringBackFarmer",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Milled_Grain_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/WindmillQuest/Milled_Grain.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolMillerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolMillerTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RepairWindmillQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Paul_NextDay_Idle"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5093C99E475ABC8E551A09B721B0F23E",
+        "SourceString": "Paul was shocked at what happened. He will now take care of the grain.",
+        "LocalizedString": "Paul was shocked at what happened. He will now take care of the grain."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/RepairWindmillQuest/RepairWindmillQuest.RepairWindmillQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestElections_FirstTalkToAnsel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_FirstTalkToAnsel",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestElections_FirstTalkToAnsel_C'Default__MainQuestElections_FirstTalkToAnsel_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_FirstTalkToAnsel.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestElections_FirstTalkToAnsel_C",
+    "Name": "Default__MainQuestElections_FirstTalkToAnsel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_FirstTalkToAnsel.MainQuestElections_FirstTalkToAnsel_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_FirstTalkToAnsel",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordUniqueWeaverTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordUniqueWeaverTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestElections_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_Talk.0"
+        },
+        "TalkEntryPoint": "FirstTalktoMessengerer_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "745BB21C4EF88A414E5101915A2F745B",
+        "SourceString": "Voting, Truth and Power",
+        "LocalizedString": "Voting, Truth and Power"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7277784D480FF8BBF07D3A9FAF7D0E62",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "411BC8D64764418D8E44758C4222FBCB",
+        "SourceString": "Ansel Wilmot says I’m allowed to vote in the Bradford Elder election. I better talk to the candidates and see what they have to offer.",
+        "LocalizedString": "Ansel Wilmot says I’m allowed to vote in the Bradford Elder election. I better talk to the candidates and see what they have to offer."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

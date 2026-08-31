@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafeRoadsQuest_BackToQuestGiver_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_BackToQuestGiver",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafeRoadsQuest_BackToQuestGiver_C'Default__SafeRoadsQuest_BackToQuestGiver_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_BackToQuestGiver.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafeRoadsQuest_BackToQuestGiver_C",
+    "Name": "Default__SafeRoadsQuest_BackToQuestGiver_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_BackToQuestGiver.SafeRoadsQuest_BackToQuestGiver_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_BackToQuestGiver",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordMerchant_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordMerchant_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "118543A94A6A53C661018698AB97AD9C",
+          "SourceString": "About those bandits...",
+          "LocalizedString": "About those bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafeRoadsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BackToQuestGiver",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "7BA18C0241773964B3CC01BDF75508F9",
+        "SourceString": "I returned to the merchant to deliver the news. He was overjoyed to hear that the bandits were no longer a threat. True to his word, he handed over a generous reward.",
+        "LocalizedString": "I returned to the merchant to deliver the news. He was overjoyed to hear that the bandits were no longer a threat. True to his word, he handed over a generous reward."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordMerchant_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordMerchant_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/SafeRoads/SafeRoadsQuest.SafeRoadsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

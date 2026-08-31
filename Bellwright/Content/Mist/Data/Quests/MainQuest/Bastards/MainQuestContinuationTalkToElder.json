@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestContinuationTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestContinuationTalkToElder_C'Default__MainQuestContinuationTalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestContinuationTalkToElder_C",
+    "Name": "Default__MainQuestContinuationTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder.MainQuestContinuationTalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7AA0848F4E03F89A43B4B6B6B58DDBFB",
+        "SourceString": "Talk to Padstow’s Elder",
+        "LocalizedString": "Talk to Padstow’s Elder"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToPadstowElder_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B7B78A8D41C14AE4FC1DA4A8BBD4D005",
+        "SourceString": "A village in need",
+        "LocalizedString": "A village in need"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C8115468421CE2E809F5C09850B4C1AC",
+        "SourceString": "Talk to Padstow’s Elder",
+        "LocalizedString": "Talk to Padstow’s Elder"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F9C866FD4E11CBF6F9CAEEAAF8BB9665",
+        "SourceString": "Amelie told me that Padstow’s Elder is in need of help. I should speak with him.",
+        "LocalizedString": "Amelie told me that Padstow’s Elder is in need of help. I should speak with him."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D766554F4FB47D50369FB58C74C05113",
+        "SourceString": "Elder has given me the task of eliminating a bandit camp near the village. I should go there with some of the hired people. Going alone is a reckless idea.",
+        "LocalizedString": "Elder has given me the task of eliminating a bandit camp near the village. I should go there with some of the hired people. Going alone is a reckless idea."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

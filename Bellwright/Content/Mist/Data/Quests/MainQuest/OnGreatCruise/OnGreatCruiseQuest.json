@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OnGreatCruiseQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OnGreatCruiseQuest_C'Default__OnGreatCruiseQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OnGreatCruiseQuest_C",
+    "Name": "Default__OnGreatCruiseQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest.OnGreatCruiseQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_CheckWithAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_CheckWithAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_MeetGilroyLoxley_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_MeetGilroyLoxley.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_KillLoxley_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_KillLoxley.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_ReportToAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_ReportToAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_BuildDockyard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_BuildDockyard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnGreatCruiseQuest_TravelToHalmareIsles_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/OnGreatCruise/OnGreatCruiseQuest_TravelToHalmareIsles.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "32D6514C4963B7B02526548B4FC663B2",
+        "SourceString": "On a Great Cruise",
+        "LocalizedString": "On a Great Cruise"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "3D08A91042956AEAC7FE2DA88561E9B7",
+        "SourceString": "The dock is finished, which means new opportunities... for me, my people, and the search for my father. I should talk to Amelie and let her know.",
+        "LocalizedString": "The dock is finished, which means new opportunities... for me, my people, and the search for my father. I should talk to Amelie and let her know."
+      },
+      "RenownReward": 10000,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

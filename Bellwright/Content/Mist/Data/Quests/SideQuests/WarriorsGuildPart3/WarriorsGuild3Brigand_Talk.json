@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuild3Brigand_Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'WarriorsGuild3Brigand_Talk_C:ExecuteUbergraph_WarriorsGuild3Brigand_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WarriorsGuild3Brigand_Talk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.2"
+      },
+      {
+        "ObjectName": "Function'WarriorsGuild3Brigand_Talk_C:ExecuteUbergraph_WarriorsGuild3Brigand_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WarriorsGuild3Brigand_Talk": {
+        "ObjectName": "Function'WarriorsGuild3Brigand_Talk_C:ExecuteUbergraph_WarriorsGuild3Brigand_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.1"
+      },
+      "TalkEntry": {
+        "ObjectName": "Function'WarriorsGuild3Brigand_Talk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.2"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuild3Brigand_Talk_C'Default__WarriorsGuild3Brigand_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WarriorsGuild3Brigand_Talk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Brigand_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkEntry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Brigand_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate:TalkEntry'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "WarriorsGuild3Brigand_Talk_C",
+    "Name": "Default__WarriorsGuild3Brigand_Talk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.WarriorsGuild3Brigand_Talk_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

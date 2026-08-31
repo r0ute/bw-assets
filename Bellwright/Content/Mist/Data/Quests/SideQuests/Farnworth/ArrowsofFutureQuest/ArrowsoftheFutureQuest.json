@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "ArrowsoftheFutureQuest_C",
+    "Name": "Default__ArrowsoftheFutureQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest.ArrowsoftheFutureQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ArrowsoftheFutureQuest_BuildArcheryRange_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest_BuildArcheryRange.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ArrowsoftheFutureQuest_TalkEdward_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest_TalkEdward.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ArrowsoftheFutureQuest_ReturnElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest_ReturnElder.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E1391A2F429F5EA0A958E18A95566065",
+        "SourceString": "Arrows of the Future",
+        "LocalizedString": "Arrows of the Future"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "E53729D24439ED30B1270F97F625911D",
+        "SourceString": "I spoke with Elder Viktor, and he asked me to build a new archery range for the village. They have been suffering several attacks recently and they are lacking in skilled archers. He also asked me to convince a skilled archer to train the recruits - I know the right person for the job.",
+        "LocalizedString": "I spoke with Elder Viktor, and he asked me to build a new archery range for the village. They have been suffering several attacks recently and they are lacking in skilled archers. He also asked me to convince a skilled archer to train the recruits - I know the right person for the job."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "86DCC3434049D7B913E88A94122ECF8A",
+          "SourceString": "Anything I could help you with?",
+          "LocalizedString": "Anything I could help you with?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ArrowsoftheFutureQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "VillageProsperityReward": 150,
+      "VillageConstructionPointsReward": 1,
+      "RenownReward": 200,
+      "bCanBeDiscarded": false,
+      "bHiddenInGame": true,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/FarnworthVillageProfile.FarnworthVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Protector"
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/FarnworthVillageProfile.FarnworthVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ArrowsoftheFutureQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ArrowsoftheFutureQuest_C'Default__ArrowsoftheFutureQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/ArrowsofFutureQuest/ArrowsoftheFutureQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

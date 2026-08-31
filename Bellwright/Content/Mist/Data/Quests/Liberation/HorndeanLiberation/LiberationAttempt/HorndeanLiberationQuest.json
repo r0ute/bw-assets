@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HorndeanLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HorndeanLiberationQuest_C'Default__HorndeanLiberationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HorndeanLiberationQuest_C",
+    "Name": "Default__HorndeanLiberationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest.HorndeanLiberationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanLiberationQuest_TalkToElderStart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderStart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanLiberationQuest_BuildWatchtower_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_BuildWatchtower.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanLiberationQuest_KillGarrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_KillGarrison.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanLiberationQuest_TalkToElderComplete_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/Liberation/HorndeanLiberation/LiberationAttempt/HorndeanLiberationQuest_TalkToElderComplete.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "096CB1DD4E8F4080AF45EE9A3063E2E8",
+        "SourceString": "Time has come: Horndean",
+        "LocalizedString": "Time has come: Horndean"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "330BE44D483FCE32651F46B0715892E1",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E21ACEB74B4D5AF7E8FF24969C365094",
+        "SourceString": "With Ashbourne's reign ended, Horndean can now rest without worry. The night is filled with hope, and as morning approaches, it will bring forth a new day dedicated to rebuilding and embracing our hard-earned freedom.",
+        "LocalizedString": "With Ashbourne's reign ended, Horndean can now rest without worry. The night is filled with hope, and as morning approaches, it will bring forth a new day dedicated to rebuilding and embracing our hard-earned freedom."
+      },
+      "RenownReward": 7500,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Horndean Liberation"
+      }
+    }
+  }
+]

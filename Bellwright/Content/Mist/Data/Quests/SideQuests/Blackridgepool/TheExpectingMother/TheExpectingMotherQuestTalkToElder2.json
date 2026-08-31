@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheExpectingMotherQuestTalkToElder2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder2",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheExpectingMotherQuestTalkToElder2_C'Default__TheExpectingMotherQuestTalkToElder2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder2.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheExpectingMotherQuestTalkToElder2_C",
+    "Name": "Default__TheExpectingMotherQuestTalkToElder2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder2.TheExpectingMotherQuestTalkToElder2_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder2",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "08AD7AD341598A1D2329E080CE290928",
+        "SourceString": "Speak to the Elder about the pregnant woman.",
+        "LocalizedString": "Speak to the Elder about the pregnant woman."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8427B4614011280B5B8BBEAC86ED5D16",
+          "SourceString": "I wanted to ask about the pregnant woman from the village. There’s something off about her.",
+          "LocalizedString": "I wanted to ask about the pregnant woman from the village. There’s something off about her."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalk.0"
+        },
+        "TalkEntryPoint": "ElderAfterRawhide",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "9B8F1D6B41E086FECEE77E82F4DA01F6",
+        "SourceString": "Speak to the Elder about the pregnant woman.",
+        "LocalizedString": "Speak to the Elder about the pregnant woman."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BF2F40914FC39161469AAA92A3B98F63",
+        "SourceString": "The Elder tells me that the woman was a fraud, I shouldn't have trusted her so easily.",
+        "LocalizedString": "The Elder tells me that the woman was a fraud, I shouldn't have trusted her so easily."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest.TheExpectingMotherQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

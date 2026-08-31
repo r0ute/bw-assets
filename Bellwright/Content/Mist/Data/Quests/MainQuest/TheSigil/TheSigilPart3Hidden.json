@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart3Hidden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Hidden",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'HiddenQuest_C'",
+      "ObjectPath": "/Game/Mist/Utils/SpawnScenario/MinimalisticVillage/ChainQuest/HiddenQuest.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart3Hidden_C'Default__TheSigilPart3Hidden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Hidden.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSigilPart3Hidden_C",
+    "Name": "Default__TheSigilPart3Hidden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Hidden.TheSigilPart3Hidden_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Hidden",
+    "Template": {
+      "ObjectName": "HiddenQuest_C'Default__HiddenQuest_C'",
+      "ObjectPath": "/Game/Mist/Utils/SpawnScenario/MinimalisticVillage/ChainQuest/HiddenQuest.1"
+    },
+    "Properties": {
+      "RequiresCompletedQuestsToComplete": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevelToComplete": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/PadstowVillageProfile.PadstowVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Friend"
+      },
+      "WaitDays": 0,
+      "WaitHours": 17,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3.TheSigilPart3_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereLiberatedQuest_TalkToElder_C'Default__CrasmereLiberatedQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereLiberatedQuest_TalkToElder_C",
+    "Name": "Default__CrasmereLiberatedQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest_TalkToElder.CrasmereLiberatedQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest_TalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "C8EC51B94F11D9773CFA079D503B27CB",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "592894974ADD951CD6AD1D84A70220C1",
+          "SourceString": "We did it...",
+          "LocalizedString": "We did it..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereLiberatedQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest_Talk.0"
+        },
+        "TalkEntryPoint": "VillageLiberated_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F853B0254A46FC18E382A6A85BD7F33F",
+        "SourceString": "Break free: Crasmere",
+        "LocalizedString": "Break free: Crasmere"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8E5396984416680C04AB6D8AE3D4A1DC",
+        "SourceString": "Talk to {Npc}, leader of the free people in the village.",
+        "LocalizedString": "Talk to {Npc}, leader of the free people in the village."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/SuccessfullLibration/CrasmereLiberatedQuest.CrasmereLiberatedQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

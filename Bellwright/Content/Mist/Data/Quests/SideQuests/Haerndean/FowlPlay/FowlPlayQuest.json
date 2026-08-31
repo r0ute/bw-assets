@@ -1,0 +1,403 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FowlPlayQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'FowlPlayQuest_C:ExecuteUbergraph_FowlPlayQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'FowlPlayQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.3"
+      },
+      {
+        "ObjectName": "Function'FowlPlayQuest_C:ExecuteUbergraph_FowlPlayQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Npc Ref",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_FowlPlayQuest": {
+        "ObjectName": "Function'FowlPlayQuest_C:ExecuteUbergraph_FowlPlayQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'FowlPlayQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FowlPlayQuest_C'Default__FowlPlayQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FowlPlayQuest_C",
+    "Name": "Default__FowlPlayQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.FowlPlayQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Npc Ref": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlayBeggarNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/FowlPlay/FowlPlayBeggarNPCTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TalkToOldLady_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TalkToOldLady.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TalkToELiza_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TalkToELiza.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TalkToTeodor_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TalkToTeodor.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_ChickenHouseInteractable_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_ChickenHouseInteractable.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TrailInteractable1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TrailInteractable1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TrailInteractable2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TrailInteractable2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TrailInteractable3_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TrailInteractable3.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TalkToBeggar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TalkToBeggar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_TalkToFarmer_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_TalkToFarmer.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "BF693EAF40F4915AD5B055A87CADCAC2",
+        "SourceString": "Fowl Play",
+        "LocalizedString": "Fowl Play"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F1ABBACE4ED0CA3DC65F0A9B2F554E55",
+        "SourceString": "The coop is a mess of scattered feathers and overturned straw. The door hangs off its hinges, with deep, jagged scratches along the frame. No blood, no bodies - just a trail of feathers leading into the field. Perhaps I should follow it to find the culprit.",
+        "LocalizedString": "The coop is a mess of scattered feathers and overturned straw. The door hangs off its hinges, with deep, jagged scratches along the frame. No blood, no bodies - just a trail of feathers leading into the field. Perhaps I should follow it to find the culprit."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0607219444219659BDAF9586C63BA340",
+          "SourceString": "Is there any work for me?",
+          "LocalizedString": "Is there any work for me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "NPC Chicken Farmer Idle"
+      },
+      "MoneyReward": 50,
+      "RenownReward": 200,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlay_ChickenFarmerNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_ChickenFarmerNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlayBeggarNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/FowlPlay/FowlPlayBeggarNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlay_ChickenFarmerNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_ChickenFarmerNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlay_MarenLuptonNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_MarenLuptonNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanElizaGreenberggTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBlacksmithNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBlacksmithNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FowlPlay_BeggarNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_BeggarNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_FowlPlayQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetFaction_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm",
+        "PropertyClass": {
+          "ObjectName": "Class'MistFaction'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FactionNameEquals_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'FowlPlayQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlayQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

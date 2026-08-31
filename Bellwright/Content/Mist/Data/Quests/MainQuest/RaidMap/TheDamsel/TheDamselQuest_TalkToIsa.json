@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheDamselQuest_TalkToIsa_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:ExecuteUbergraph_TheDamselQuest_TalkToIsa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.2"
+      },
+      {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.3"
+      },
+      {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:ExecuteUbergraph_TheDamselQuest_TalkToIsa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheDamselQuest_TalkToIsa": {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:ExecuteUbergraph_TheDamselQuest_TalkToIsa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheDamselQuest_TalkToIsa_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheDamselQuest_TalkToIsa_C'Default__TheDamselQuest_TalkToIsa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheDamselQuest_TalkToIsa",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheDamselQuest_TalkToIsa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheDamselQuest_TalkToIsa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheDamselQuest_TalkToIsa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheDamselQuest_TalkToIsa_C",
+    "Name": "Default__TheDamselQuest_TalkToIsa_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa.TheDamselQuest_TalkToIsa_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest_TalkToIsa",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "96B2FFFB41C19866DAED1DBA0DF8D44A",
+        "SourceString": "Rescue {Npc}.",
+        "LocalizedString": "Rescue {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisneNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheDamselQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToIsa"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5809B8504D0B1D919E1E378EF50DFA54",
+        "SourceString": "Rescue {Npc}",
+        "LocalizedString": "Rescue {Npc}"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisneNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'IsaCisneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisneNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IsaCisne_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/IsaCisne_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest.TheDamselQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

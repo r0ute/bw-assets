@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingtheBeastQuest_InquireValon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_InquireValon",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingtheBeastQuest_InquireValon_C'Default__ChasingtheBeastQuest_InquireValon_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_InquireValon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingtheBeastQuest_InquireValon_C",
+    "Name": "Default__ChasingtheBeastQuest_InquireValon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_InquireValon.ChasingtheBeastQuest_InquireValon_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_InquireValon",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ValonPeres_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/ValonPeres_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "921D2BFF4E2CD4FC83CBD0B0F5876761",
+          "SourceString": "Have you encountered a gambito?",
+          "LocalizedString": "Have you encountered a gambito?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingtheBeastQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalktoValonPeres"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "808899A24CDF6137EB5919AAF5364F49",
+        "SourceString": "Inquire about the gambito to Valon Peres.",
+        "LocalizedString": "Inquire about the gambito to Valon Peres."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DEA3C5204B6EE9BFDB7F45A036BDFAC2",
+        "SourceString": "Valon didn’t mince words. He said the gambito doesn’t exist at all: just a Halmayan trick, a trial for new recruits. Some take it as a game, others storm off in anger. He claimed he ignored it when they tried the same on him. At last, the truth seems clear.",
+        "LocalizedString": "Valon didn’t mince words. He said the gambito doesn’t exist at all: just a Halmayan trick, a trial for new recruits. Some take it as a game, others storm off in anger. He claimed he ignored it when they tried the same on him. At last, the truth seems clear."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest.ChasingtheBeastQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

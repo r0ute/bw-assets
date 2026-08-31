@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart1Quest_DeliverBites_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_DeliverBites",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart1Quest_DeliverBites_C'Default__GoldenScalesPart1Quest_DeliverBites_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_DeliverBites.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart1Quest_DeliverBites_C",
+    "Name": "Default__GoldenScalesPart1Quest_DeliverBites_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_DeliverBites.GoldenScalesPart1Quest_DeliverBites_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_DeliverBites",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BagWithBites_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BagWithBites.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "470805B441C6D7AD6EA02BBA0B246D78",
+        "SourceString": "Paul is excited to have a chance in catching the elusive golden trout. Hope he manages to do it.",
+        "LocalizedString": "Paul is excited to have a chance in catching the elusive golden trout. Hope he manages to do it."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart1Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverBites_InProgress"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

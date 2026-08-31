@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MagnumOpusQuest_TalkToHermit1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToHermit1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MagnumOpusQuest_TalkToHermit1_C'Default__MagnumOpusQuest_TalkToHermit1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToHermit1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MagnumOpusQuest_TalkToHermit1_C",
+    "Name": "Default__MagnumOpusQuest_TalkToHermit1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToHermit1.MagnumOpusQuest_TalkToHermit1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToHermit1",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheCrown_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/TheCrown.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'AdanDelmarHerbalistHermitNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/AdanDelmarHerbalistHermitNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuestTalk.0"
+        },
+        "TalkEntryPoint": "ReturnToHermit"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "194A75E4441D4147A4B3C0A61F16BA02",
+        "SourceString": "Adan was ecstatic about the rock and the whispers. The references given by the locals sent him into a frenzy, he thinks they’re proof that his delusions are real. Now he wants me to deliver his manuscript to the Elder, which is simply a scribbled parchment with a rock tied to it.",
+        "LocalizedString": "Adan was ecstatic about the rock and the whispers. The references given by the locals sent him into a frenzy, he thinks they’re proof that his delusions are real. Now he wants me to deliver his manuscript to the Elder, which is simply a scribbled parchment with a rock tied to it."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'AdanDelmarHerbalistHermitNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/AdanDelmarHerbalistHermitNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdanDelmarHerbalistHermitNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/AdanDelmarHerbalistHermitNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest.MagnumOpusQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

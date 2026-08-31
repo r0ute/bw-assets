@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TrustworthyQuest_TalkToSeller_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_TalkToSeller",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TrustworthyQuest_TalkToSeller_C'Default__TrustworthyQuest_TalkToSeller_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_TalkToSeller.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TrustworthyQuest_TalkToSeller_C",
+    "Name": "Default__TrustworthyQuest_TalkToSeller_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_TalkToSeller.TrustworthyQuest_TalkToSeller_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_TalkToSeller",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7AF51FFC4898D5DFF45FB6B1913D384E",
+        "SourceString": "Sell the loot.",
+        "LocalizedString": "Sell the loot."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackMarketTrader_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/BlackMarketTrader_Talk.1"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "48B45E9D4ED964B8F23198B5F9AE3EE2",
+        "SourceString": "I sold the loot to a merchant, I would let myself fooled once again.",
+        "LocalizedString": "I sold the loot to a merchant, I would let myself fooled once again."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TrustworthyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BlackMarketMerchant"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TrustworthyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BlackMarketMerchant"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackMarketTrader_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/BlackMarketTrader_Talk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Trustworthy/TrustworthyQuest.TrustworthyQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

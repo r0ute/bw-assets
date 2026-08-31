@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_TalkToKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToKug",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_TalkToKug_C'Default__TheBladeComesDownQuest_TalkToKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToKug.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheBladeComesDownQuest_TalkToKug_C",
+    "Name": "Default__TheBladeComesDownQuest_TalkToKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToKug.TheBladeComesDownQuest_TalkToKug_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_TalkToKug",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToKug"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "82FACACC4C969B43BDC0EF837EBCA6C3",
+        "SourceString": "Kug was waiting, bitter and unbowed. He hurled my own choices back at me, reminding me of every life taken or spared, every stain on my hands.",
+        "LocalizedString": "Kug was waiting, bitter and unbowed. He hurled my own choices back at me, reminding me of every life taken or spared, every stain on my hands."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

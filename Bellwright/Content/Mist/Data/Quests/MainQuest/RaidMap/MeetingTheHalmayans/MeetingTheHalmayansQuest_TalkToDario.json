@@ -1,0 +1,219 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MeetingTheHalmayansQuest_TalkToDario_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDario'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.2"
+      },
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.3"
+      },
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDario'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDario": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDario'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.3"
+      },
+      "OnQuestActivated": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDario_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MeetingTheHalmayansQuest_TalkToDario_C'Default__MeetingTheHalmayansQuest_TalkToDario_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDario",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDario_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FailQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestActivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDario_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestActivated'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDario_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MeetingTheHalmayansQuest_TalkToDario_C",
+    "Name": "Default__MeetingTheHalmayansQuest_TalkToDario_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario.MeetingTheHalmayansQuest_TalkToDario_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDario",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9B32684C4C36F81B5C15A9863699D109",
+          "SourceString": "We’ve met before.",
+          "LocalizedString": "We’ve met before."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToDario"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5AF5298D4276CAA0E6E0C78935C5307A",
+        "SourceString": "Meeting the Halmayans",
+        "LocalizedString": "Meeting the Halmayans"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B2E552204202EAD75CFF048FA43F6405",
+        "SourceString": "After meeting Dario at the tavern, I made my way to the Halmayan outpost, where their group seems to be stationed. He said to see him near Rustshore village because he’d have some work for me.",
+        "LocalizedString": "After meeting Dario at the tavern, I made my way to the Halmayan outpost, where their group seems to be stationed. He said to see him near Rustshore village because he’d have some work for me."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "75A7752045EAB79BA0C4149BF8077038",
+        "SourceString": "I found Dario Veleno at the outpost. He didn’t seem too impressed with me, whether as a Bellwright or as an outsider. He told me that if I want to be useful, I should speak to Darek Voss, their second-in-command.",
+        "LocalizedString": "I found Dario Veleno at the outpost. He didn’t seem too impressed with me, whether as a Bellwright or as an outsider. He told me that if I want to be useful, I should speak to Darek Voss, their second-in-command."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

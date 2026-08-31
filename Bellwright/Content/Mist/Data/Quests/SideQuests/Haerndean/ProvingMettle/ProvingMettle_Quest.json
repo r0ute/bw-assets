@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProvingMettle_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProvingMettle_Quest_C'Default__ProvingMettle_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProvingMettle_Quest_C",
+    "Name": "Default__ProvingMettle_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest.ProvingMettle_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ProvingMettle_Quest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "0DE54CC3468163536BF6FB9D72224896",
+        "SourceString": "Proving Mettle",
+        "LocalizedString": "Proving Mettle"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F679848642204285E530A890102E2192",
+        "SourceString": "Bring trophies to {QuestGiver}",
+        "LocalizedString": "Bring trophies to {QuestGiver}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "3EB1949D4B8E014AB0C275B819188A08",
+        "SourceString": "Elder Dobron wants to return the village hall to its former greatness. I was given the opportunity to prove my craftsmanship by crafting trophies to decorate it.",
+        "LocalizedString": "Elder Dobron wants to return the village hall to its former greatness. I was given the opportunity to prove my craftsmanship by crafting trophies to decorate it."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "48BC210947CAD551773117BA377E6D2C",
+          "SourceString": "Proving Mettle",
+          "LocalizedString": "Proving Mettle"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProvingMettle_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvalible",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 300,
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'RabbitTrapItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/RabbitTrapItem.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SimpleArrow_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FineStew_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/FineStew.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

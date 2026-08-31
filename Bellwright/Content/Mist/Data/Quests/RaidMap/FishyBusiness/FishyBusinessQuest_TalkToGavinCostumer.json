@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishyBusinessQuest_TalkToGavinCostumer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToGavinCostumer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishyBusinessQuest_TalkToGavinCostumer_C'Default__FishyBusinessQuest_TalkToGavinCostumer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToGavinCostumer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishyBusinessQuest_TalkToGavinCostumer_C",
+    "Name": "Default__FishyBusinessQuest_TalkToGavinCostumer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToGavinCostumer.FishyBusinessQuest_TalkToGavinCostumer_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest_TalkToGavinCostumer",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GavinCostumer_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/GavinCostumer_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FishyBusinessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToGavinCostumer"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6A6D1AE44D535AC4A724CBBF3FB8B61E",
+        "SourceString": "Gavin’s customer spoke very well about his catch, even though it is more expensive it is worth the price.",
+        "LocalizedString": "Gavin’s customer spoke very well about his catch, even though it is more expensive it is worth the price."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FishyBusiness/FishyBusinessQuest.FishyBusinessQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

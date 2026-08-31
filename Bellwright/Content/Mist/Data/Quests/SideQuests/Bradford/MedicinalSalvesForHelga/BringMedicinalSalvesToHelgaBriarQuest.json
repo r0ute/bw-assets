@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringMedicinalSalvesToHelgaBriarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringMedicinalSalvesToHelgaBriarQuest_C'Default__BringMedicinalSalvesToHelgaBriarQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringMedicinalSalvesToHelgaBriarQuest_C",
+    "Name": "Default__BringMedicinalSalvesToHelgaBriarQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest.BringMedicinalSalvesToHelgaBriarQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringMedicinalSalvesToHelgaBriarQuest_Wait1day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_Wait1day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringMedicinalSalvesToHelgaBriar_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriar_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2561AF7147F71705C14FD4A0A560DE25",
+        "SourceString": "Blood and Gored",
+        "LocalizedString": "Blood and Gored"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "2925553F4C65719A98B919AFB0083C29",
+        "SourceString": "After the ordeal that happened with Helga's husband I should check on them and see if he hasn't gotten into trouble again.",
+        "LocalizedString": "After the ordeal that happened with Helga's husband I should check on them and see if he hasn't gotten into trouble again."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 100,
+      "VillageTrustReward": 300,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fur_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.0"
+            },
+            "MinQuantity": 5,
+            "MaxQuantity": 5
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 100,
+            "MaxQuantity": 100
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest.WidowsWrathQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

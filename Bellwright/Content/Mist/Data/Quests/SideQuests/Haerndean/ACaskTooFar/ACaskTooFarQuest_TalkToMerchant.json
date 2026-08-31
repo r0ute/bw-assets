@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "ACaskTooFarQuest_TalkToMerchant_C",
+    "Name": "Default__ACaskTooFarQuest_TalkToMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToMerchant.ACaskTooFarQuest_TalkToMerchant_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToMerchant",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "670349FD4384369AD6E53C8C8662688A",
+        "SourceString": "Buy Honey from {Npc}",
+        "LocalizedString": "Buy Honey from {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'RondaBlossomHerbalistNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/RondaBlossomHerbalistNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C49BAB584CF1AF74C3E832B552671F38",
+          "SourceString": "I’m looking for some honey. Do you have any to sell?",
+          "LocalizedString": "I’m looking for some honey. Do you have any to sell?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToMerchant"
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0502FF35409FF6AE752B0FB1E90B8ED4",
+        "SourceString": "Herbalist near Padstow had some honey to sell. It cost me more than I’d like, but at least I’ve got it now.",
+        "LocalizedString": "Herbalist near Padstow had some honey to sell. It cost me more than I’d like, but at least I’ve got it now."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest.ACaskTooFarQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACaskTooFarQuest_TalkToMerchant_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToMerchant",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACaskTooFarQuest_TalkToMerchant_C'Default__ACaskTooFarQuest_TalkToMerchant_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToMerchant.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

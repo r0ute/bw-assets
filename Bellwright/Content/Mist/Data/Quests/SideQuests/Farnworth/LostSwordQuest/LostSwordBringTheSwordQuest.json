@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostSwordBringTheSwordQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostSwordBringTheSwordQuest_C'Default__LostSwordBringTheSwordQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostSwordBringTheSwordQuest_C",
+    "Name": "Default__LostSwordBringTheSwordQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest.LostSwordBringTheSwordQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/LostSword.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "FAB701814B19A1A76CDE1CBBBC4CB6C1",
+          "SourceString": "About your sword…",
+          "LocalizedString": "About your sword…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostSwordQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringTheLostSword_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "7D13717249F8DF6EB718E895FAB7BDF7",
+        "SourceString": "Bring the sword back to its owner.",
+        "LocalizedString": "Bring the sword back to its owner."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "75FAF2AD4670C46A1D91A18FE470F35B",
+        "SourceString": "I brought the sword back to its rightful owner, however he was dissatisfied with it's state and asked me to bring it to the blacksmith to be repaired.",
+        "LocalizedString": "I brought the sword back to its rightful owner, however he was dissatisfied with it's state and asked me to bring it to the blacksmith to be repaired."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest.LostSwordQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

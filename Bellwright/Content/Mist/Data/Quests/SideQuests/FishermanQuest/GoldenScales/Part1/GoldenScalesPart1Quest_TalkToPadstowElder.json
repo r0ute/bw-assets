@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart1Quest_TalkToPadstowElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_TalkToPadstowElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart1Quest_TalkToPadstowElder_C'Default__GoldenScalesPart1Quest_TalkToPadstowElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_TalkToPadstowElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart1Quest_TalkToPadstowElder_C",
+    "Name": "Default__GoldenScalesPart1Quest_TalkToPadstowElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_TalkToPadstowElder.GoldenScalesPart1Quest_TalkToPadstowElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_TalkToPadstowElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart1Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToPadstowElder_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C1BDCF5C4A792F2CFD4E08BF1BBDAD4E",
+        "SourceString": "The best fisherman",
+        "LocalizedString": "The best fisherman"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EE88AC1B4A8DCD13A822628C4512561D",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1190ADBA4098245736F23B8589BEBFFF",
+        "SourceString": "Elder Ansgar Selby told me that he’d give a sample of the bait in exchange for some smoked meats. Not the worst deal in the world.",
+        "LocalizedString": "Elder Ansgar Selby told me that he’d give a sample of the bait in exchange for some smoked meats. Not the worst deal in the world."
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'MushroomStew_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/MushroomStew.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

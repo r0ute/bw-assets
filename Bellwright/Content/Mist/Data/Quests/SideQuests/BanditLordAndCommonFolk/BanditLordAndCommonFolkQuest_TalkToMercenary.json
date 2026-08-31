@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_TalkToMercenary_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_TalkToMercenary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToMercenary.BanditLordAndCommonFolkQuest_TalkToMercenary_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToMercenary",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToMercenary"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6DE1813447171D63E7A6378AEE588C27",
+        "SourceString": "I spoke with Edward. He’s not available for hire, but he knows two potential candidates. Nam Kaew is less experienced but affordable, and he lives on a nearby farm. Arnol Ingrid, stationed in Bradford, is skilled but farther away. I’ll meet them and decide.",
+        "LocalizedString": "I spoke with Edward. He’s not available for hire, but he knows two potential candidates. Nam Kaew is less experienced but affordable, and he lives on a nearby farm. Arnol Ingrid, stationed in Bradford, is skilled but farther away. I’ll meet them and decide."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Mercenary_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Mercenary_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_TalkToMercenary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToMercenary",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_TalkToMercenary_C'Default__BanditLordAndCommonFolkQuest_TalkToMercenary_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToMercenary.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

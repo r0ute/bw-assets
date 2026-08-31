@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PoisonQuest_BackToAleks_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BackToAleks",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PoisonQuest_BackToAleks_C'Default__PoisonQuest_BackToAleks_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BackToAleks.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PoisonQuest_BackToAleks_C",
+    "Name": "Default__PoisonQuest_BackToAleks_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BackToAleks.PoisonQuest_BackToAleks_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_BackToAleks",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E6525D824B14DA2E239473970F450EC4",
+        "SourceString": "I returned to Aleks to tell him how the brigands will no longer be a problem for him. Luckily, he had a reward ready.",
+        "LocalizedString": "I returned to Aleks to tell him how the brigands will no longer be a problem for him. Luckily, he had a reward ready."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2A9CB80149E5D33998BEF2BCE117356D",
+          "SourceString": "About the Brigands...",
+          "LocalizedString": "About the Brigands..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_Talk.0"
+        },
+        "TalkEntryPoint": "AleksIdle2",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest.PoisonQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

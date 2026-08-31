@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestElections_TalkHansAtwood_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkHansAtwood",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestElections_TalkHansAtwood_C'Default__MainQuestElections_TalkHansAtwood_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkHansAtwood.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestElections_TalkHansAtwood_C",
+    "Name": "Default__MainQuestElections_TalkHansAtwood_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkHansAtwood.MainQuestElections_TalkHansAtwood_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkHansAtwood",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestElections_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_Talk.0"
+        },
+        "TalkEntryPoint": "TalkHansAtwood_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "0341B73A46400D47D594189F7A3BD3CF",
+        "SourceString": "Voting, Truth and Power",
+        "LocalizedString": "Voting, Truth and Power"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "19274A124B0AB612ACDDEB82236E2A88",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4005F8C8414DA6D3C46409A04FE19576",
+        "SourceString": "Hans is the young canditate to the Bradford election. A simple man with big ideals.",
+        "LocalizedString": "Hans is the young canditate to the Bradford election. A simple man with big ideals."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

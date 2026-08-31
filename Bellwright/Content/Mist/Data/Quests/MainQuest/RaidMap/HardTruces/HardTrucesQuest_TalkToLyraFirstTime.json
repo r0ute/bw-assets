@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardTrucesQuest_TalkToLyraFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyraFirstTime",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardTrucesQuest_TalkToLyraFirstTime_C'Default__HardTrucesQuest_TalkToLyraFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyraFirstTime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardTrucesQuest_TalkToLyraFirstTime_C",
+    "Name": "Default__HardTrucesQuest_TalkToLyraFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyraFirstTime.HardTrucesQuest_TalkToLyraFirstTime_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyraFirstTime",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "8846BEB540676E4A50231B8B7BE7C85B",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "E2B98DB1474155DACBE2C9991FBFC86F",
+        "SourceString": "Hard Truces",
+        "LocalizedString": "Hard Truces"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8381899A421025882D1624949C780014",
+        "SourceString": "I found Lyra after the disaster at the gathering. She says the Cassians want our help freeing the Mayor. She doesn’t trust their sudden interest, and neither do I, but she insists we’d be fools not to at least hear them out. I have to be cautious, Cassians come with hidden daggers.",
+        "LocalizedString": "I found Lyra after the disaster at the gathering. She says the Cassians want our help freeing the Mayor. She doesn’t trust their sudden interest, and neither do I, but she insists we’d be fools not to at least hear them out. I have to be cautious, Cassians come with hidden daggers."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest.HardTrucesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

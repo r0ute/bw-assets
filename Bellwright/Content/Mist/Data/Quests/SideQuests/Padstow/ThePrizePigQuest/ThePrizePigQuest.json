@@ -1,0 +1,194 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThePrizePigQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThePrizePigQuest_C'Default__ThePrizePigQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThePrizePigQuest_C",
+    "Name": "Default__ThePrizePigQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest.ThePrizePigQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ThePrizePigQuest_BringFeed_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest_BringFeed.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ThePrizePig_BuildCattlePen_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_BuildCattlePen.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ThePrizePig_NegotiateFarmer_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_NegotiateFarmer.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ThePrizePig_ReturnMerchant_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_ReturnMerchant.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "9AACF50E40814360AFD181810BFEF978",
+        "SourceString": "The Prize Pig",
+        "LocalizedString": "The Prize Pig"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "D26B10E740DCDA4D2F2440B131B66787",
+        "SourceString": "The animal merchant needs help preparing their prized pig for trade with a nearby farmer. The player assists with fattening up the pig and negotiating a good deal with the farmer.",
+        "LocalizedString": "The animal merchant needs help preparing their prized pig for trade with a nearby farmer. The player assists with fattening up the pig and negotiating a good deal with the farmer."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThePrizePig_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 75,
+      "VillageTrustReward": 100,
+      "RenownReward": 120,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 150.0,
+            "MaxQuantityMultiplier": 150.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "AnimalRewards": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'PigTemplate_C'",
+          "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/PigTemplate.0"
+        }
+      ],
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FamilyFarmAnimalMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/FamilyFarmAnimalMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FamilyFarmAnimalMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/FamilyFarmAnimalMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

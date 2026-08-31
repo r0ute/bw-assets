@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheBladeComesDownQuest_ReachKugsChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheBladeComesDownQuest_ReachKugsChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_ReachKugsChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_ReachKugsChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.2"
+      },
+      {
+        "ObjectName": "Function'TheBladeComesDownQuest_ReachKugsChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_ReachKugsChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheBladeComesDownQuest_ReachKugsChamber": {
+        "ObjectName": "Function'TheBladeComesDownQuest_ReachKugsChamber_C:ExecuteUbergraph_TheBladeComesDownQuest_ReachKugsChamber'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheBladeComesDownQuest_ReachKugsChamber_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheBladeComesDownQuest_ReachKugsChamber_C'Default__TheBladeComesDownQuest_ReachKugsChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheBladeComesDownQuest_ReachKugsChamber",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_ReachKugsChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheBladeComesDownQuest_ReachKugsChamber_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheBladeComesDownQuest_ReachKugsChamber_C",
+    "Name": "Default__TheBladeComesDownQuest_ReachKugsChamber_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber.TheBladeComesDownQuest_ReachKugsChamber_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest_ReachKugsChamber",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/TheBladeComesDown/KugsChamber_QuestPoi.KugsChamber_QuestPoi_C",
+        "SubPathString": ""
+      },
+      "DisplayTypeText": {
+        "Namespace": "",
+        "Key": "22E75D5D4D00703B68906F958D62485B",
+        "SourceString": "Kug's Chamber",
+        "LocalizedString": "Kug's Chamber"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "68F25393472CC4BE74130C95E8527545",
+        "SourceString": "Reach Kug's Chamber",
+        "LocalizedString": "Reach Kug's Chamber"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D9141CB74B6F29766F81838BAF443111",
+        "SourceString": "Reach Kug's Chamber",
+        "LocalizedString": "Reach Kug's Chamber"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "27A96DD44AEDBB0D2F2D68AFCEEDDAE4",
+        "SourceString": "We pushed through the empty halls of the castle. Most of Kug’s men were either dead, fled, or too broken to fight. Only the chamber at the heart of the keep remained, sealed and guarded.",
+        "LocalizedString": "We pushed through the empty halls of the castle. Most of Kug’s men were either dead, fled, or too broken to fight. Only the chamber at the heart of the keep remained, sealed and guarded."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

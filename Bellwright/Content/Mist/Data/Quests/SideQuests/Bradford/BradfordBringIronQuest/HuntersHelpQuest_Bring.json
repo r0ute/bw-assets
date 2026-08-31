@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HuntersHelpQuest_Bring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Bring",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HuntersHelpQuest_Bring_C'Default__HuntersHelpQuest_Bring_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Bring.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HuntersHelpQuest_Bring_C",
+    "Name": "Default__HuntersHelpQuest_Bring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Bring.HuntersHelpQuest_Bring_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Bring",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'CopperOre_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/CopperOre.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "55C0332C4E2F8D2B7AAB4C9DC9920ABF",
+        "SourceString": "I have delivered the copper that Elder Sten asked for. Now the town of Bradford can hunt and defend itself from bandits.",
+        "LocalizedString": "I have delivered the copper that Elder Sten asked for. Now the town of Bradford can hunt and defend itself from bandits."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1BDA01AD4A63300F320F67BEC3E6E33C",
+          "SourceString": "About the copper…",
+          "LocalizedString": "About the copper…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HuntersHelpQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringIronOre_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest.HuntersHelpQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

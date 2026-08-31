@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WitchHunt_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHunt_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WitchHunt_Quest_C'Default__WitchHunt_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHunt_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WitchHunt_Quest_C",
+    "Name": "Default__WitchHunt_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHunt_Quest.WitchHunt_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHunt_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestTalk_Elder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestTalk_Elder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestTalk_Garrick_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestTalk_Garrick.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestTalk_Muriel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestTalk_Muriel.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestTalk_Asha_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestTalk_Asha.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestTalk_BackTOElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestTalk_BackTOElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "4FBE310246955F66E2ECCCAC149AF8F8",
+        "SourceString": "Witch Hunt",
+        "LocalizedString": "Witch Hunt"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "916D1E9241538C625E19F79AB202A464",
+        "SourceString": "Asha Rita told me how the villagers have been accusing her of witchcraft and the whispers have been growing with each passing day. She asked for my help talking with the villagers and the elder to sort the situation.",
+        "LocalizedString": "Asha Rita told me how the villagers have been accusing her of witchcraft and the whispers have been growing with each passing day. She asked for my help talking with the villagers and the elder to sort the situation."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "EDA048684CEE6C2F911947B6EC51CE8D",
+          "SourceString": "Can I help you in something?",
+          "LocalizedString": "Can I help you in something?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WitchHuntQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "77827106494A344C82AB148CDC59FA6B",
+          "SourceString": "About your problem...",
+          "LocalizedString": "About your problem..."
+        }
+      },
+      "MoneyReward": 100,
+      "VillageProsperityReward": 150,
+      "RenownReward": 150,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/HerbalRemedies/HerbalRemediesQuest.HerbalRemediesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereHealer_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereHealer_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereHealer_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereHealer_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestGarrick_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestGarrick_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WitchHuntQuestMuriel_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/WitchHunt/WitchHuntQuestMuriel_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/CrasmereVillageProfile.CrasmereVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

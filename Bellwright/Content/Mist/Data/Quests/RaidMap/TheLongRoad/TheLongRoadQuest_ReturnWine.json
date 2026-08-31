@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLongRoadQuest_ReturnWine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ReturnWine",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLongRoadQuest_ReturnWine_C'Default__TheLongRoadQuest_ReturnWine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ReturnWine.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheLongRoadQuest_ReturnWine_C",
+    "Name": "Default__TheLongRoadQuest_ReturnWine_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ReturnWine.TheLongRoadQuest_ReturnWine_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_ReturnWine",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_WineCrate_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/TheLongRoadQuest_WineCrate.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringWine"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "DD3C541F41E035D253990F8D33321BD6",
+        "SourceString": "Bring the wine to {Npc}",
+        "LocalizedString": "Bring the wine to {Npc}"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.TheLongRoadQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

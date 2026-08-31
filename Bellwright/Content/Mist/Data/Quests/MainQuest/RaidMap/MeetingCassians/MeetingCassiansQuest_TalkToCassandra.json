@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MeetingCassiansQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MeetingCassiansQuest_TalkToCassandra_C:ExecuteUbergraph_MeetingCassiansQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MeetingCassiansQuest_TalkToCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.2"
+      },
+      {
+        "ObjectName": "Function'MeetingCassiansQuest_TalkToCassandra_C:ExecuteUbergraph_MeetingCassiansQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MeetingCassiansQuest_TalkToCassandra": {
+        "ObjectName": "Function'MeetingCassiansQuest_TalkToCassandra_C:ExecuteUbergraph_MeetingCassiansQuest_TalkToCassandra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MeetingCassiansQuest_TalkToCassandra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MeetingCassiansQuest_TalkToCassandra_C'Default__MeetingCassiansQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MeetingCassiansQuest_TalkToCassandra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingCassiansQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistPlayer'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CompleteQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingCassiansQuest_TalkToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MeetingCassiansQuest_TalkToCassandra_C",
+    "Name": "Default__MeetingCassiansQuest_TalkToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra.MeetingCassiansQuest_TalkToCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_TalkToCassandra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MeetingCassiansQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToCassandra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "CEB01BDC4DE727F2C1455492A802B5E5",
+        "SourceString": "Meeting Cassians",
+        "LocalizedString": "Meeting Cassians"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest.MeetingCassiansQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

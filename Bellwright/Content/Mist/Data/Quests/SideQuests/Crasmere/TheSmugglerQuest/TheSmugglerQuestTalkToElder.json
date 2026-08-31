@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSmugglerQuestTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSmugglerQuestTalkToElder_C'Default__TheSmugglerQuestTalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSmugglerQuestTalkToElder_C",
+    "Name": "Default__TheSmugglerQuestTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalkToElder.TheSmugglerQuestTalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalkToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSmugglerQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "860CD8FA47CC76995B04EAA68D227E7A",
+        "SourceString": "A new boat",
+        "LocalizedString": "A new boat"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BA76B6984CD693E3D0A355A1E252E1DD",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "7604C4334E0EA61777EF29ACDA3008D8",
+        "SourceString": "The elder seemed relunctant to help but agreed to, in his own way.",
+        "LocalizedString": "The elder seemed relunctant to help but agreed to, in his own way."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSmugglerQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToSmuggler_InProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SmugglerTalk_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/TheSmuggler/SmugglerTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuest.TheSmugglerQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

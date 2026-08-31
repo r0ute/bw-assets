@@ -1,0 +1,251 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HappyHourQuest_SpeakToCarlos_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:ExecuteUbergraph_HappyHourQuest_SpeakToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:TravelToTarget'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.3"
+      },
+      {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.2"
+      },
+      {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:ExecuteUbergraph_HappyHourQuest_SpeakToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_HappyHourQuest_SpeakToCarlos": {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:ExecuteUbergraph_HappyHourQuest_SpeakToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.2"
+      },
+      "TravelToTarget": {
+        "ObjectName": "Function'HappyHourQuest_SpeakToCarlos_C:TravelToTarget'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HappyHourQuest_SpeakToCarlos_C'Default__HappyHourQuest_SpeakToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_HappyHourQuest_SpeakToCarlos",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_1",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_2",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TravelToTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'HappyHourQuest_SpeakToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Npc Ref",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NPC",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HappyHourQuest_SpeakToCarlos_C",
+    "Name": "Default__HappyHourQuest_SpeakToCarlos_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos.HappyHourQuest_SpeakToCarlos_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_SpeakToCarlos",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CarlosFellaNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/HappyHour/CarlosFellaNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HappyHourQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuestTalk.0"
+        },
+        "TalkEntryPoint": "Carlos Falla"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1A0554F94A1B5FF5D5FDCEBD3A3FBED6",
+        "SourceString": "After I asked about the Special Menu in Rustshore, some man wanted to invite me to a place where I could get this menu and even get some drinks for free. What a nice change of pace.",
+        "LocalizedString": "After I asked about the Special Menu in Rustshore, some man wanted to invite me to a place where I could get this menu and even get some drinks for free. What a nice change of pace."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest.HappyHourQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheCraftsmansLostToolsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheCraftsmansLostToolsQuest_C'Default__TheCraftsmansLostToolsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheCraftsmansLostToolsQuest_C",
+    "Name": "Default__TheCraftsmansLostToolsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest.TheCraftsmansLostToolsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheCraftsmansLostToolsQuest_FindTools_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest_FindTools.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheCraftsmansLostToolsQuest_Bring_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest_Bring.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "1E6C4F884BBC00F0F0A3B28BC01F96CD",
+        "SourceString": "The Craftsman's Lost Tools",
+        "LocalizedString": "The Craftsman's Lost Tools"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9D5ED2754EF49D9F808596A24C0CA5D3",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "663F25744722093CC5F6D18FBEC164ED",
+        "SourceString": "Marek asked me to help him find his tools scattered around the area when wild boars attacked his shed at night. Odd, wild boars usually don't come so close to the village. Could they have been baited by someone?",
+        "LocalizedString": "Marek asked me to help him find his tools scattered around the area when wild boars attacked his shed at night. Odd, wild boars usually don't come so close to the village. Could they have been baited by someone?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F43C58044D734770296B3B933BC5911B",
+          "SourceString": "Is something wrong?",
+          "LocalizedString": "Is something wrong?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheCraftsmansLostToolsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheCraftsmansLostTools/TheCraftsmansLostToolsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 100,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 120,
+            "MaxQuantity": 120
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueCarpenterNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueCarpenterNPCTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowUniqueCarpenterNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueCarpenterNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestShackWaitTomorrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackWaitTomorrow",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestShackWaitTomorrow_C'Default__MainQuestShackWaitTomorrow_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackWaitTomorrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestShackWaitTomorrow_C",
+    "Name": "Default__MainQuestShackWaitTomorrow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackWaitTomorrow.MainQuestShackWaitTomorrow_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackWaitTomorrow",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "55EEFAF043A7B03516B7C8B356D77124",
+        "SourceString": "Wait until tomorrow to check with {QuestGiver}.",
+        "LocalizedString": "Wait until tomorrow to check with {QuestGiver}."
+      },
+      "CompleteOnlyAfterACertainHour": true,
+      "CompleteOnlyAfterThisHourOfTheDay": 6,
+      "Title": {
+        "Namespace": "",
+        "Key": "A15C061A4C30EC9E7725F58578B90A78",
+        "SourceString": "Done for the Day",
+        "LocalizedString": "Done for the Day"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D0A6C1E44E95A6FD60FC96914EB5C029",
+        "SourceString": "Wait until tomorrow to check with {QuestGiver}.",
+        "LocalizedString": "Wait until tomorrow to check with {QuestGiver}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6CDF7D4A45A5D2DF8E243CB9551E7D48",
+        "SourceString": "It's time to seek out the elder once more. I needed to discuss my next steps and gather any further insights.",
+        "LocalizedString": "It's time to seek out the elder once more. I needed to discuss my next steps and gather any further insights."
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestShackTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalk.0"
+        },
+        "TalkEntryPoint": "WaitTomorrow_InProgress"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

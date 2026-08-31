@@ -1,0 +1,180 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBloodyPrisoner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBloodyPrisoner_C'Default__MainQuestBloodyPrisoner_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBloodyPrisoner_C",
+    "Name": "Default__MainQuestBloodyPrisoner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner.MainQuestBloodyPrisoner_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_SavePrisoners_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_SavePrisoners.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_TalkToKlara_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkToKlara.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_ClearOutThePrison_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_ClearOutThePrison.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_FirstTalkToButcher_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_FirstTalkToButcher.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_TalkTo1Prisoner_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo1Prisoner.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_TalkTo2Prisoner_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo2Prisoner.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_TalkTo3Prisoner_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo3Prisoner.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_RescuedButcher_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_RescuedButcher.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "FEA539B44187C8F26B9D3B90E20BC243",
+        "SourceString": "Bloody Prisoner",
+        "LocalizedString": "Bloody Prisoner"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "880012B1480CD4CD3F214B83FD5CFEB8",
+        "SourceString": "Our leader has been taken. Need to see you immediately.",
+        "LocalizedString": "Our leader has been taken. Need to see you immediately."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0C88DCCC49D2E8408BABE2809FC02D0F",
+        "SourceString": "After my conversation with the Butcher I have a lot of new informations to handle. Everything seems to be connected to Lord Ashbourne. He looms over everything menacingly. I now realize the gravity of my situation. I am now entangled in a web of politics and covert operations. I must remain alert and, above all, careful.",
+        "LocalizedString": "After my conversation with the Butcher I have a lot of new informations to handle. Everything seems to be connected to Lord Ashbourne. He looms over everything menacingly. I now realize the gravity of my situation. I am now entangled in a web of politics and covert operations. I must remain alert and, above all, careful."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RenownReward": 10000,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereKlaraWinterburn_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereKlaraWinterburn_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ButcherNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/ButcherNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.The Bloody Prisoner"
+      },
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.The Bloody Prisoner"
+      }
+    }
+  }
+]

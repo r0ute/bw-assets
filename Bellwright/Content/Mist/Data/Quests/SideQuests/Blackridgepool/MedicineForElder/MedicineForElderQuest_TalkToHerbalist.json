@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicineForElderQuest_TalkToHerbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_TalkToHerbalist",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicineForElderQuest_TalkToHerbalist_C'Default__MedicineForElderQuest_TalkToHerbalist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_TalkToHerbalist.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicineForElderQuest_TalkToHerbalist_C",
+    "Name": "Default__MedicineForElderQuest_TalkToHerbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_TalkToHerbalist.MedicineForElderQuest_TalkToHerbalist_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_TalkToHerbalist",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "4A484B754A803D3EFC198D85A3228708",
+        "SourceString": "Talk to {Npc} about the cure.",
+        "LocalizedString": "Talk to {Npc} about the cure."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHerbalist_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "625466F9448D2DE59FF5B1B97823DC99",
+        "SourceString": "Talk to {Npc} about the cure.",
+        "LocalizedString": "Talk to {Npc} about the cure."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F2D6469443BA52E3CF4C89BE5D7043B5",
+        "SourceString": "The herbalist helped me understant what has been aflicting the elder, in order to help him with his disease.",
+        "LocalizedString": "The herbalist helped me understant what has been aflicting the elder, in order to help him with his disease."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest.MedicineForElderQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "BigFishQuest_Bring_C",
+    "Name": "Default__BigFishQuest_Bring_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Bring.BigFishQuest_Bring_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Bring",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrimsonDartfish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/CrimsonDartfish.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.6,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'StripedShadowtail_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/StripedShadowtail.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.6,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "516F08564D01555FFFBFE4A6B9854CCA",
+          "SourceString": "About the fishes...",
+          "LocalizedString": "About the fishes..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigFishQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Talk.1"
+        },
+        "TalkEntryPoint": "FishingInProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "PartialCompletionPossibleTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3BFDEE234A8FF98066FB90B76A6419AE",
+          "SourceString": "I brought some stuff you asked for",
+          "LocalizedString": "I brought some stuff you asked for"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuestTalk.1"
+        },
+        "TalkEntryPoint": "PartialDeliveryPossible"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DC35A6C8425809BF157B4995F20CB1E3",
+        "SourceString": "I’ve got both fish now. Time to bring them to Paul Fishburn and see what he thinks.",
+        "LocalizedString": "I’ve got both fish now. Time to bring them to Paul Fishburn and see what he thinks."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.BigFishQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BigFishQuest_Bring_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Bring",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BigFishQuest_Bring_C'Default__BigFishQuest_Bring_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Bring.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

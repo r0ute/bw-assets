@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart3_C'Default__TheSigilPart3_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSigilPart3_C",
+    "Name": "Default__TheSigilPart3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3.TheSigilPart3_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheSigilPart3Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheSigilPart3TalkToAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3TalkToAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheSigilPart3TalkToPaul_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3TalkToPaul.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "171E5CC042930E4B6D16258949AA0AE9",
+        "SourceString": "The Sigil: Padstow",
+        "LocalizedString": "The Sigil: Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "296985014F1D59210EF3259EDE02CC20",
+        "SourceString": "Some villagers might know something about the mysterious sigil I found, but I’ll need to earn their trust first. I should talk to people around the Lowlands and see who needs help.",
+        "LocalizedString": "Some villagers might know something about the mysterious sigil I found, but I’ll need to earn their trust first. I should talk to people around the Lowlands and see who needs help."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7018EA63417034B7CEF3D1965DB5D1C0",
+        "SourceString": "Some villagers might know something about the mysterious sigil I found, but I’ll need to earn their trust first. I should talk to people around the Lowlands and see who needs help.",
+        "LocalizedString": "Some villagers might know something about the mysterious sigil I found, but I’ll need to earn their trust first. I should talk to people around the Lowlands and see who needs help."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4321D4D74852B3DEC57725BA9F6842A1",
+        "SourceString": "Paul mentioned that he came across the symbol, before I had arrived, etched in a tree nearby the house of a murrdered man. I need to remain cautious in my investigation.",
+        "LocalizedString": "Paul mentioned that he came across the symbol, before I had arrived, etched in a tree nearby the house of a murrdered man. I need to remain cautious in my investigation."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSigilPart3Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart3Talk.0"
+        },
+        "TalkEntryPoint": "AmeliaQuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 100,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/PadstowVillageProfile.PadstowVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Friend"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

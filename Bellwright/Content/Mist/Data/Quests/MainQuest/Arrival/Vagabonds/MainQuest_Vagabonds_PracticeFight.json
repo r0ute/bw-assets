@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_Vagabonds_PracticeFight_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_PracticeFight",
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_Vagabonds_PracticeFight_C'Default__MainQuest_Vagabonds_PracticeFight_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_PracticeFight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_Vagabonds_PracticeFight_C",
+    "Name": "Default__MainQuest_Vagabonds_PracticeFight_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_PracticeFight.MainQuest_Vagabonds_PracticeFight_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_PracticeFight",
+    "Properties": {
+      "NpcToFight": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "bCanFailQuest": true,
+      "MaxNumberOfTries": 2,
+      "Title": {
+        "Namespace": "",
+        "Key": "1026842841823C76477B02B002C2FB2D",
+        "SourceString": "Defeat Lubomir in a practice fight.",
+        "LocalizedString": "Defeat Lubomir in a practice fight."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "09F045A64F0383237F92DBAC3749208D",
+        "SourceString": "Defeat Lubomir in a practice fight.",
+        "LocalizedString": "Defeat Lubomir in a practice fight."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2393656744002F4756C426B439D1EA40",
+        "SourceString": "Lubomir was relentless, this was no simple fight. Now we’re both confident in each other's strength to take on these bandits.",
+        "LocalizedString": "Lubomir was relentless, this was no simple fight. Now we’re both confident in each other's strength to take on these bandits."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "E5B089264706CC9895B7818B8BB403CC",
+          "SourceString": "Let’s practice duelling.",
+          "LocalizedString": "Let’s practice duelling."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_Vagabonds_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToLubomir_AnotherDuelAttempt"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.MainQuest_Vagabonds_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

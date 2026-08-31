@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_AlchemistEndKillCecilio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_AlchemistEndKillCecilio_C:ExecuteUbergraph_BlueSkyQuest_AlchemistEndKillCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_AlchemistEndKillCecilio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_AlchemistEndKillCecilio_C:ExecuteUbergraph_BlueSkyQuest_AlchemistEndKillCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_AlchemistEndKillCecilio": {
+        "ObjectName": "Function'BlueSkyQuest_AlchemistEndKillCecilio_C:ExecuteUbergraph_BlueSkyQuest_AlchemistEndKillCecilio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_AlchemistEndKillCecilio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_AlchemistEndKillCecilio_C'Default__BlueSkyQuest_AlchemistEndKillCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_AlchemistEndKillCecilio_C",
+    "Name": "Default__BlueSkyQuest_AlchemistEndKillCecilio_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.BlueSkyQuest_AlchemistEndKillCecilio_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaezNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaezNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CecilioBaez_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/CecilioBaez_Talk.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "A66E1BA34EB0DFEE4AA457A24FA8A027",
+        "SourceString": "Kill Cecilio",
+        "LocalizedString": "Kill Cecilio"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C6BE4AC14B2A054C169AEC89AE05A6E8",
+        "SourceString": "Kill Cecilio",
+        "LocalizedString": "Kill Cecilio"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9A2B3E2347895B574ABF098A6E676F6A",
+        "SourceString": "I chose to set the alchemist free. It'd be better for me to gain all the profits from his work than have to deal with some middleman.",
+        "LocalizedString": "I chose to set the alchemist free. It'd be better for me to gain all the profits from his work than have to deal with some middleman."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_AlchemistEndKillCecilio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_AlchemistEndKillCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_AlchemistEndKillCecilio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpAlchemistEnding/BlueSkyQuest_AlchemistEndKillCecilio.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

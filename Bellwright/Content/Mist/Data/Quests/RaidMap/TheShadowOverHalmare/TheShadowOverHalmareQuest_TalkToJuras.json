@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheShadowOverHalmareQuest_TalkToJuras_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToJuras",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheShadowOverHalmareQuest_TalkToJuras_C'Default__TheShadowOverHalmareQuest_TalkToJuras_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToJuras.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheShadowOverHalmareQuest_TalkToJuras_C",
+    "Name": "Default__TheShadowOverHalmareQuest_TalkToJuras_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToJuras.TheShadowOverHalmareQuest_TalkToJuras_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToJuras",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheShadowOverHalmareQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToMironJuras"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "401A26DA4B5F954F8D11A28EF4860CF4",
+        "SourceString": "The elder confirmed this is Blue Sky, a refined, deadly version of Doll’s Tears. He had the bottle Lysara gave him but couldn’t decipher its markings. He suspects someone’s mass-producing it intentionally.",
+        "LocalizedString": "The elder confirmed this is Blue Sky, a refined, deadly version of Doll’s Tears. He had the bottle Lysara gave him but couldn’t decipher its markings. He suspects someone’s mass-producing it intentionally."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest.TheShadowOverHalmareQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

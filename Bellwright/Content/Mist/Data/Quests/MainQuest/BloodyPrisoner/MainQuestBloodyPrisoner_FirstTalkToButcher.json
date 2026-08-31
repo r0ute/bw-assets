@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBloodyPrisoner_FirstTalkToButcher_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_FirstTalkToButcher",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBloodyPrisoner_FirstTalkToButcher_C'Default__MainQuestBloodyPrisoner_FirstTalkToButcher_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_FirstTalkToButcher.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBloodyPrisoner_FirstTalkToButcher_C",
+    "Name": "Default__MainQuestBloodyPrisoner_FirstTalkToButcher_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_FirstTalkToButcher.MainQuestBloodyPrisoner_FirstTalkToButcher_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_FirstTalkToButcher",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ButcherNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/ButcherNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2811CBE845A83A202EE079B50C1929C5",
+          "SourceString": "So it’s you.",
+          "LocalizedString": "So it’s you."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_Talk.0"
+        },
+        "TalkEntryPoint": "FirstButcherTalk_InProgress",
+        "Icon": "EMistTalkIcon::MainQuest",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "680BC8AE4036334707793484DDBC1879",
+        "SourceString": "I finally met The Butcher, he will answer some of my questions, but first we must reach the settlement safely.",
+        "LocalizedString": "I finally met The Butcher, he will answer some of my questions, but first we must reach the settlement safely."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner.MainQuestBloodyPrisoner_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

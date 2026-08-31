@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VoicesInTheDarkQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToMayor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VoicesInTheDarkQuest_TalkToMayor_C'Default__VoicesInTheDarkQuest_TalkToMayor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToMayor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "VoicesInTheDarkQuest_TalkToMayor_C",
+    "Name": "Default__VoicesInTheDarkQuest_TalkToMayor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToMayor.VoicesInTheDarkQuest_TalkToMayor_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToMayor",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToMayor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4634B2964A77CB8C3BAC73BF5F3D20AD",
+        "SourceString": "The Mayor confirmed our course: the betrayer must die before we can move on to Kug. He warned me the traitor will be well-guarded, likely by the Falsgar, and we’ll need a plan to cut through or outmaneuver them. He’s leaving the tactical details to Lyra, but the message is clear: eliminate Edoardo first, then strike at the throne.",
+        "LocalizedString": "The Mayor confirmed our course: the betrayer must die before we can move on to Kug. He warned me the traitor will be well-guarded, likely by the Falsgar, and we’ll need a plan to cut through or outmaneuver them. He’s leaving the tactical details to Lyra, but the message is clear: eliminate Edoardo first, then strike at the throne."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.VoicesInTheDarkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

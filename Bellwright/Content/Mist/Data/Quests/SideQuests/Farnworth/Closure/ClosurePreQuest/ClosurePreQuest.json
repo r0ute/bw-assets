@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ClosurePreQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ClosurePreQuest_C'Default__ClosurePreQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClosurePreQuest_C",
+    "Name": "Default__ClosurePreQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest.ClosurePreQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ClosurePreQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_BringItem.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D90E1A474F07E5C02828C89691840894",
+        "SourceString": "Return the Lost",
+        "LocalizedString": "Return the Lost"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "81661DF4499D5CC62558F9881EF8BEED",
+        "SourceString": "This reminds me of the necklace Tomas was looking for. Such a treasured item, I must return it to him.",
+        "LocalizedString": "This reminds me of the necklace Tomas was looking for. Such a treasured item, I must return it to him."
+      },
+      "MoneyReward": 200,
+      "RenownReward": 200,
+      "bCanBeDiscarded": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

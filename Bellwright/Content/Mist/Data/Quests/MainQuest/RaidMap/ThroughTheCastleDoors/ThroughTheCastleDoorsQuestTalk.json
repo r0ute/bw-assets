@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThroughTheCastleDoorsQuestTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuestTalk",
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuestTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "Leave",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Leave",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Attack",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Attack",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThroughTheCastleDoorsQuestTalk_C'Default__ThroughTheCastleDoorsQuestTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuestTalk.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThroughTheCastleDoorsQuestTalk_C",
+    "Name": "Default__ThroughTheCastleDoorsQuestTalk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuestTalk.ThroughTheCastleDoorsQuestTalk_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuestTalk",
+    "Properties": {
+      "Leave": [
+        {
+          "Type": "EMistTalkDescriptorType::Quit",
+          "Amount": 0.0,
+          "Faction": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "Village": "",
+          "CustomText": ""
+        }
+      ],
+      "Attack": [
+        {
+          "Type": "EMistTalkDescriptorType::Attack",
+          "Amount": 0.0,
+          "Faction": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "Village": "",
+          "CustomText": ""
+        }
+      ],
+      "DisabledMistQuestDebugValidations": 31
+    }
+  }
+]

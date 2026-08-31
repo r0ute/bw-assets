@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardSeaGoddessQuest_InteractSeaGod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardSeaGoddessQuest_InteractSeaGod_C:ExecuteUbergraph_PiousRewardSeaGoddessQuest_InteractSeaGod'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardSeaGoddessQuest_InteractSeaGod_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardSeaGoddessQuest_InteractSeaGod_C:ExecuteUbergraph_PiousRewardSeaGoddessQuest_InteractSeaGod'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardSeaGoddessQuest_InteractSeaGod": {
+        "ObjectName": "Function'PiousRewardSeaGoddessQuest_InteractSeaGod_C:ExecuteUbergraph_PiousRewardSeaGoddessQuest_InteractSeaGod'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'PiousRewardSeaGoddessQuest_InteractSeaGod_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardSeaGoddessQuest_InteractSeaGod_C'Default__PiousRewardSeaGoddessQuest_InteractSeaGod_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardSeaGoddessQuest_InteractSeaGod",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardSeaGoddessQuest_InteractSeaGod_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardSeaGoddessQuest_InteractSeaGod_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardSeaGoddessQuest_InteractSeaGod_C",
+    "Name": "Default__PiousRewardSeaGoddessQuest_InteractSeaGod_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.PiousRewardSeaGoddessQuest_InteractSeaGod_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Title": {
+        "Namespace": "",
+        "Key": "0F4E2CCD4354F6BB0ACD9F92F1C01097",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A076BDC745B0D08AFF30799BAA48ED59",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "784C73FA4D086CFF91701BA3184C2182",
+        "SourceString": "Another shrine has been found, this one for a sea goddess. The oceans are a big part of people’s lives on the island.",
+        "LocalizedString": "Another shrine has been found, this one for a sea goddess. The oceans are a big part of people’s lives on the island."
+      },
+      "bCanBeDiscarded": false,
+      "bShowMarkerOnMap": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

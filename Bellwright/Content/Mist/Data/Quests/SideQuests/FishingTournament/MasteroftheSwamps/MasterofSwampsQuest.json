@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasterofSwampsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasterofSwampsQuest_C'Default__MasterofSwampsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasterofSwampsQuest_C",
+    "Name": "Default__MasterofSwampsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest.MasterofSwampsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasterofSwampsQuest_TalkToNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_TalkToNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasterofSwampsQuest_BringFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_BringFish.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "DB2995464B346F3FA8B198BFCDFC9DD6",
+        "SourceString": "Fishing Tournament - Master of Swamps",
+        "LocalizedString": "Fishing Tournament - Master of Swamps"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A247A1C14D6D7E0E13089BB6EEE3F18B",
+        "SourceString": "I’ve heard of a fishing master who knows everything about marsh fishing—Humphrey Nettler. If I want to expand my skills, I should seek him out and learn what he has to teach me.",
+        "LocalizedString": "I’ve heard of a fishing master who knows everything about marsh fishing—Humphrey Nettler. If I want to expand my skills, I should seek him out and learn what he has to teach me."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B6C620E14488CFF21A829B9DA9F3ED01",
+        "SourceString": "I handed over the fishes. He looked at them, looked at me, then nodded. I think that means I passed. Or maybe he’s just hungry. Either way, I’m done here. Now it’s time to find another master.",
+        "LocalizedString": "I handed over the fishes. He looked at them, looked at me, then nodded. I think that means I passed. Or maybe he’s just hungry. Either way, I’m done here. Now it’s time to find another master."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "E95F33044E3B12AC83FE298C4076C4EA",
+          "SourceString": "I’m looking for a fishing master in this area…",
+          "LocalizedString": "I’m looking for a fishing master in this area…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MasterofSwampsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'GoldenBandedfishTrophy_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/GoldenBandedfishTrophy.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 100,
+            "MaxQuantity": 100
+          }
+        ]
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.BigFishQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MasterofSwampsTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasterofSwampsTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

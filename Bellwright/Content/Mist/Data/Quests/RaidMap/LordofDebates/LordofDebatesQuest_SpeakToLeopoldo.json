@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LordofDebatesQuest_SpeakToLeopoldo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LordofDebatesQuest_SpeakToLeopoldo_C'Default__LordofDebatesQuest_SpeakToLeopoldo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LordofDebatesQuest_SpeakToLeopoldo_C",
+    "Name": "Default__LordofDebatesQuest_SpeakToLeopoldo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo.LordofDebatesQuest_SpeakToLeopoldo_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeopoldoOrtisNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LordofDebates/LeopoldoOrtisNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuestTalk.0"
+        },
+        "TalkEntryPoint": "Leopoldo after duel",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuestTalk.0"
+        },
+        "TalkEntryPoint": "Leopoldo after duel"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeopoldoOrtisNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LordofDebates/LeopoldoOrtisNPCTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest.LordofDebatesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

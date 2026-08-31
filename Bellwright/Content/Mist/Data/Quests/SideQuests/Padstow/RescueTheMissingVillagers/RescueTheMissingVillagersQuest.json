@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RescueTheMissingVillagersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RescueTheMissingVillagersQuest_C'Default__RescueTheMissingVillagersQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RescueTheMissingVillagersQuest_C",
+    "Name": "Default__RescueTheMissingVillagersQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuest.RescueTheMissingVillagersQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestFindVillagers_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestFindVillagers.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestTalkToStrangeMan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestTalkToStrangeMan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestKillRobbers_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestKillRobbers.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestBringSadNews_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestBringSadNews.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "524D474648C8A0FE958557BB9C84A1C9",
+        "SourceString": "Communication Breakdown",
+        "LocalizedString": "Communication Breakdown"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F94E69E4466CD83D442483AA52CA8C07",
+        "SourceString": "Talk to sad woman",
+        "LocalizedString": "Talk to sad woman"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EE7FBDFA4352B385E521D185B97B5182",
+        "SourceString": "A woman from Padstow asked me to find her missing husband and his brother-in-law. She seemed worried, I hope nothing bad happened to them.Find the woman's missing husband.",
+        "LocalizedString": "A woman from Padstow asked me to find her missing husband and his brother-in-law. She seemed worried, I hope nothing bad happened to them.Find the woman's missing husband."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D81412014F34083A267C3F90E5100EE2",
+          "SourceString": "Helping woman in trouble…",
+          "LocalizedString": "Helping woman in trouble…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RescueTheMissingVillagersQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/RescueTheMissingVillagers/RescueTheMissingVillagersQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 300,
+      "RenownReward": 100,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 250,
+            "MaxQuantity": 250
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowQuestWomanNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowQuestWomanNPCTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowQuestWomanNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowQuestWomanNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowQuestWomanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowQuestWomanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

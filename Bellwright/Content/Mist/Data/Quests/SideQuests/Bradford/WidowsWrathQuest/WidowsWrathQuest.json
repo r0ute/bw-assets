@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WidowsWrathQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WidowsWrathQuest_C'Default__WidowsWrathQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidowsWrathQuest_C",
+    "Name": "Default__WidowsWrathQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest.WidowsWrathQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WidowsWrathQuest_FindHusband_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest_FindHusband.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WidowsWrathQuest_TalkToHusband_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuest_TalkToHusband.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WidowsWrathQuestTalkToWidow_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuestTalkToWidow.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "FF89C7E0479BA51B08111A8269686FE7",
+        "SourceString": "Wife’s Wrath",
+        "LocalizedString": "Wife’s Wrath"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "92AA8F994046FB6C093947890F42F6BF",
+        "SourceString": "Talk to Widow",
+        "LocalizedString": "Talk to Widow"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "163385804425A63555D258AB74544DBD",
+        "SourceString": "Helga Briar’s husband went missing, and I was asked to find him. What is even more suspicious is the fact that I am not the first who went after him.",
+        "LocalizedString": "Helga Briar’s husband went missing, and I was asked to find him. What is even more suspicious is the fact that I am not the first who went after him."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3B84E39640F4E2EC49E91F9A9BD6C6B0",
+          "SourceString": "You look worried…",
+          "LocalizedString": "You look worried…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WidowsWrathQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A11D4D9C4C007B4C2B040886844CB629",
+          "SourceString": "Regarding that boar…",
+          "LocalizedString": "Regarding that boar…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WidowsWrathQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/WidowsWrathQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToHelga_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "MoneyReward": 100,
+      "VillageTrustReward": 250,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykBriarHusbandNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/WidowsWrathQuest/ErykBriarHusbandNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

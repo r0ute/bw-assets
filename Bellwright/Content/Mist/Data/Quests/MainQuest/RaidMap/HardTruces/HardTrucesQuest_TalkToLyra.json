@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardTrucesQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardTrucesQuest_TalkToLyra_C'Default__HardTrucesQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardTrucesQuest_TalkToLyra_C",
+    "Name": "Default__HardTrucesQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyra.HardTrucesQuest_TalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_TalkToLyra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "5454EE6F45CC33CC9D6A24BCC58E2AF4",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HardTrucesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "SpeakWithLyraAtMeeting"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "8E70E7A94BD6E25DD491CA883C8A92F8",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0DF892104399A0A4570DCDA34870AB73",
+        "SourceString": "Lyra refused to step closer. She wants me to do the talking. She’ll keep watch from hiding with steel ready in case this is all a trap. She trusts my tongue more than theirs, but warns me not to let their honeyed words take root. Now it’s up to me to hear Cassandra out.",
+        "LocalizedString": "Lyra refused to step closer. She wants me to do the talking. She’ll keep watch from hiding with steel ready in case this is all a trap. She trusts my tongue more than theirs, but warns me not to let their honeyed words take root. Now it’s up to me to hear Cassandra out."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/HardTruces/HardTrucesQuest.HardTrucesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

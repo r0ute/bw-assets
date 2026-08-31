@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalQuest_KillBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_KillBandits",
+    "SuperStruct": {
+      "ObjectName": "Class'MistStartingBanditQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalQuest_KillBandits_C'Default__SirMedivalQuest_KillBandits_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_KillBandits.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalQuest_KillBandits_C",
+    "Name": "Default__SirMedivalQuest_KillBandits_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_KillBandits.SirMedivalQuest_KillBandits_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_KillBandits",
+    "Properties": {
+      "CampTag": "SirMedivalQuest_BanditCamp",
+      "ClearTaskDescription": {
+        "Namespace": "",
+        "Key": "19BC2BE34AC1DF7F8A6681BAC8218567",
+        "SourceString": "Deal with the bandits.",
+        "LocalizedString": "Deal with the bandits."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "84A85BCF4127E3E6D168B0ABEFA67B40",
+        "SourceString": "Deal with the bandits.",
+        "LocalizedString": "Deal with the bandits."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B7AFA604438E09B6A6AA1AAC297D8BA9",
+        "SourceString": "I defeated the camp that has been harrassing everyone, I should return to the knight.",
+        "LocalizedString": "I defeated the camp that has been harrassing everyone, I should return to the knight."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "450C9D87463ABAECB926E99E6B4A0D06",
+          "SourceString": "About the bandits...",
+          "LocalizedString": "About the bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_QuestTalk.0"
+        },
+        "TalkEntryPoint": "SirMedivalIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest.SirMedival_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheFeudingFamiliesQuest_TalkToElderPhilipMott_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderPhilipMott",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheFeudingFamiliesQuest_TalkToElderPhilipMott_C'Default__TheFeudingFamiliesQuest_TalkToElderPhilipMott_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderPhilipMott.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheFeudingFamiliesQuest_TalkToElderPhilipMott_C",
+    "Name": "Default__TheFeudingFamiliesQuest_TalkToElderPhilipMott_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderPhilipMott.TheFeudingFamiliesQuest_TalkToElderPhilipMott_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest_TalkToElderPhilipMott",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "FDB526724F4FB2F3B95BEEACE5B41A72",
+          "SourceString": "I came here to get some information about the Rhodes and Tholy families. I heard they came from here.",
+          "LocalizedString": "I came here to get some information about the Rhodes and Tholy families. I heard they came from here."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFeudingFamilies_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamilies_Talk.0"
+        },
+        "TalkEntryPoint": "Elder Philip Mott",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D3351E48450E78C7BC5CBD914CEB1A49",
+        "SourceString": "Apparently the families do not have any debt to eachother but instead it's towards the village of Haerndean. I need to go back to the Elder of Padstow and tell him about the letter.",
+        "LocalizedString": "Apparently the families do not have any debt to eachother but instead it's towards the village of Haerndean. I need to go back to the Elder of Padstow and tell him about the letter."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CBB724E04555C9B6E85E729ECFD86DB3",
+          "SourceString": "About the Horndean Elder...",
+          "LocalizedString": "About the Horndean Elder..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFeudingFamilies_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamilies_Talk.0"
+        },
+        "TalkEntryPoint": "Elder Ansgar Selby Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheFeudingFamilies/TheFeudingFamiliesQuest.TheFeudingFamiliesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

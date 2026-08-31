@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "AShotatRedemption_Quest_BringItems_C",
+    "Name": "Default__AShotatRedemption_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_BringItems.AShotatRedemption_Quest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_BringItems",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SimpleArrow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/SimpleArrow.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArrowQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicArrowQuiver.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D2B6705D4EB2BC08CFDF3EB28B958404",
+        "SourceString": "I fetched new arrows and a quiver for Amelie. She seemed eager to get back to practicing her archery, despite her past trouble with the Elder. After handing her the gear, she thanked me, and I left, wondering what she might aim for next.",
+        "LocalizedString": "I fetched new arrows and a quiver for Amelie. She seemed eager to get back to practicing her archery, despite her past trouble with the Elder. After handing her the gear, she thanked me, and I left, wondering what she might aim for next."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "76232B214681C6B5835D7B91A3C5FFE4",
+          "SourceString": "About this quiver and arrows you wanted...",
+          "LocalizedString": "About this quiver and arrows you wanted..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AShotatRedemption_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_Talk.1"
+        },
+        "TalkEntryPoint": "AShotatRedemption_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest.AShotatRedemption_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AShotatRedemption_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_BringItems",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AShotatRedemption_Quest_BringItems_C'Default__AShotatRedemption_Quest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_BringItems.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

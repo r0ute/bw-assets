@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProblemWithWolvesQuest_BringThePotion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_BringThePotion",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProblemWithWolvesQuest_BringThePotion_C'Default__ProblemWithWolvesQuest_BringThePotion_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_BringThePotion.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProblemWithWolvesQuest_BringThePotion_C",
+    "Name": "Default__ProblemWithWolvesQuest_BringThePotion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_BringThePotion.ProblemWithWolvesQuest_BringThePotion_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_BringThePotion",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'PotionFromHerbalist_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/PotionFromHerbalist.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProblemWithWolvesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverPotionToFarmer_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "9D3DE1FE4969EFD3B2BF96BB8FC73403",
+        "SourceString": "Deliver potion to Farmer",
+        "LocalizedString": "Deliver potion to Farmer"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "77AE98B74E1F5E5EFC92C9A60CB1F128",
+        "SourceString": "I delivered the potion to the farmer, hope I gave him the correct instructions.",
+        "LocalizedString": "I delivered the potion to the farmer, hope I gave him the correct instructions."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ProblemWithWolves/ProblemWithWolvesQuest.ProblemWithWolvesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

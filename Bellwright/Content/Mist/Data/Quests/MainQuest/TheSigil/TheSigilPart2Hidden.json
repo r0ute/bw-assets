@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSigilPart2Hidden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart2Hidden",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'HiddenQuest_C'",
+      "ObjectPath": "/Game/Mist/Utils/SpawnScenario/MinimalisticVillage/ChainQuest/HiddenQuest.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSigilPart2Hidden_C'Default__TheSigilPart2Hidden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart2Hidden.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSigilPart2Hidden_C",
+    "Name": "Default__TheSigilPart2Hidden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart2Hidden.TheSigilPart2Hidden_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart2Hidden",
+    "Template": {
+      "ObjectName": "HiddenQuest_C'Default__HiddenQuest_C'",
+      "ObjectPath": "/Game/Mist/Utils/SpawnScenario/MinimalisticVillage/ChainQuest/HiddenQuest.1"
+    },
+    "Properties": {
+      "RequiresCompletedQuestsToComplete": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresVillageTrustLevelToComplete": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/BradfordVillageProfile.BradfordVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Friend"
+      },
+      "WaitDays": 0,
+      "WaitHours": 17,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/TheSigil/TheSigilPart2.TheSigilPart2_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

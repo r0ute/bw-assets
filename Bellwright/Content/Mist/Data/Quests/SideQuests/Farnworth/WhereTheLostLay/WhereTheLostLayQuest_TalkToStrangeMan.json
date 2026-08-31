@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_TalkToStrangeMan_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToStrangeMan",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_TalkToStrangeMan_C'Default__WhereTheLostLayQuest_TalkToStrangeMan_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToStrangeMan.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_TalkToStrangeMan_C",
+    "Name": "Default__WhereTheLostLayQuest_TalkToStrangeMan_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToStrangeMan.WhereTheLostLayQuest_TalkToStrangeMan_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToStrangeMan",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "3C6B7C9B4311E6F33F35ADA8B5086A9C",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "693D2AA04500145BBE52299CFA96D11F",
+          "SourceString": "There is something I'd like to ask you.",
+          "LocalizedString": "There is something I'd like to ask you."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToStrangeMan",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D0EC61F0482D5CF7DE48EFBFDE01CB40",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "01142AB44379C3271D56F8BBA96F653A",
+        "SourceString": "I spoke with a strange mercenary near the tree. He claimed to know why the hangings are happening but refused to explain. He hinted that their group might be responsible and directed me to their camp for answers. It seems this man is somehow tied to the mystery.",
+        "LocalizedString": "I spoke with a strange mercenary near the tree. He claimed to know why the hangings are happening but refused to explain. He hinted that their group might be responsible and directed me to their camp for answers. It seems this man is somehow tied to the mystery."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthExpertCarpenterNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthExpertCarpenterNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

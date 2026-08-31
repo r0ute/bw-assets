@@ -1,0 +1,402 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLongRoadQuest_TalkToEryk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:ExecuteUbergraph_TheLongRoadQuest_TalkToEryk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.2"
+      },
+      {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.3"
+      },
+      {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:ExecuteUbergraph_TheLongRoadQuest_TalkToEryk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLongRoadQuest_TalkToEryk": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:ExecuteUbergraph_TheLongRoadQuest_TalkToEryk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.3"
+      },
+      "OnQuestActivated": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToEryk_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLongRoadQuest_TalkToEryk_C'Default__TheLongRoadQuest_TalkToEryk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLongRoadQuest_TalkToEryk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToEryk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTargetNpc_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetStaticPoi_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistStaticPoi'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsSunset_Mansion_Quest_Poi",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'SunsetMansion_QuestPoi_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/Quest/Sunset/SunsetMansion_QuestPoi.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetTargetNpc_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetStaticPoi_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistStaticPoi'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsOpportunist_Bliss_Cassian_Poi",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'OpportunistBliss_CassianPoi_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/OpportunistBliss_CassianPoi.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_1",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_2",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_3",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestActivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToEryk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestActivated'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToEryk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLongRoadQuest_TalkToEryk_C",
+    "Name": "Default__TheLongRoadQuest_TalkToEryk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk.TheLongRoadQuest_TalkToEryk_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToEryk",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7EDD946744AD87362357F99587695DA1",
+        "SourceString": "Talk to {Npc} at Sol Winery",
+        "LocalizedString": "Talk to {Npc} at Sol Winery"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToEryk"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "16275E1246020CE65BEC4AAE6568E397",
+        "SourceString": "Talk to {Npc} at Sol Winery",
+        "LocalizedString": "Talk to {Npc} at Sol Winery"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "89EED3514BC9FC30F9EDA4906A2ED835",
+        "SourceString": "Turns out the crate is missing, and if I want to see the reward, I must speak to Papa Figos from the winery and help him find it.",
+        "LocalizedString": "Turns out the crate is missing, and if I want to see the reward, I must speak to Papa Figos from the winery and help him find it."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.TheLongRoadQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

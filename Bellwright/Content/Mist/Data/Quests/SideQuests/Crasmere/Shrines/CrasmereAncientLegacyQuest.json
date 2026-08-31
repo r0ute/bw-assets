@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereAncientLegacyQuest_C'Default__CrasmereAncientLegacyQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereAncientLegacyQuest_C",
+    "Name": "Default__CrasmereAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest.CrasmereAncientLegacyQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereAncientLegacyQuest_Examine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_Examine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereAncientLegacyQuest_TalkToOscar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest_TalkToOscar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E65D90C74C77808330CABBA2832EEF78",
+        "SourceString": "Ancient Legacy - Crasmere",
+        "LocalizedString": "Ancient Legacy - Crasmere"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "844462C64F8E2FE7E680679190E6B772",
+        "SourceString": "Ancient Legacy - Crasmere",
+        "LocalizedString": "Ancient Legacy - Crasmere"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 250,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'YdrassaShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/YdrassaShrine.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 3,
+            "MaxQuantity": 3
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "AchievementOnFinishing": {
+        "ID": "FINISH_SHRINE_QUEST"
+      }
+    }
+  }
+]

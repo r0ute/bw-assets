@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "AsDuskSetsQuest_HalmayanEndTalkToLyra_C",
+    "Name": "Default__AsDuskSetsQuest_HalmayanEndTalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndTalkToLyra.AsDuskSetsQuest_HalmayanEndTalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndTalkToLyra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "1277CE444DDEF03BBCAC3299219E704B",
+        "SourceString": "Talk with {Npc}",
+        "LocalizedString": "Talk with {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AsDuskSetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "HalmayanEnd_TalkToLyra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C8D0948E470FB2589D4808AC736DD7A0",
+        "SourceString": "Talk with {Npc}",
+        "LocalizedString": "Talk with {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B04C3AC1436C7665D1F1FC9D35228A6A",
+        "SourceString": "Lyra thanked me for bringing Isa back, calling it a victory for the Halmayans. But this will only worsen things with the Cassians.",
+        "LocalizedString": "Lyra thanked me for bringing Isa back, calling it a victory for the Halmayans. But this will only worsen things with the Cassians."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/AsDuskSetsQuest.AsDuskSetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AsDuskSetsQuest_HalmayanEndTalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndTalkToLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AsDuskSetsQuest_HalmayanEndTalkToLyra_C'Default__AsDuskSetsQuest_HalmayanEndTalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AsDuskSets/HalmayanEnd/AsDuskSetsQuest_HalmayanEndTalkToLyra.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

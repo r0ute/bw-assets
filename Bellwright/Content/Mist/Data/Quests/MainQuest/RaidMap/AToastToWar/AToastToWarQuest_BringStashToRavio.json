@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "AToastToWarQuest_BringStashToRavio_C",
+    "Name": "Default__AToastToWarQuest_BringStashToRavio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.AToastToWarQuest_BringStashToRavio_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RavioSarranNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RavioSarranNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6E109B1C425E13E20BD447B5090BEB27",
+          "SourceString": "About the bottle you wanted me to bring to you...",
+          "LocalizedString": "About the bottle you wanted me to bring to you..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "FindHiddenStash"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BCDF74F64ADA73E0A2CDB0BBCBE895DD",
+        "SourceString": "I’ve got the bottle of Doll’s Tear. Now, I need to take it to Ravio.",
+        "LocalizedString": "I’ve got the bottle of Doll’s Tear. Now, I need to take it to Ravio."
+      },
+      "MoneyReward": 100,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RavioSarranNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RavioSarranNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.AToastToWarQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AToastToWarQuest_BringStashToRavio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AToastToWarQuest_BringStashToRavio_C:ExecuteUbergraph_AToastToWarQuest_BringStashToRavio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AToastToWarQuest_BringStashToRavio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.3"
+      },
+      {
+        "ObjectName": "Function'AToastToWarQuest_BringStashToRavio_C:ExecuteUbergraph_AToastToWarQuest_BringStashToRavio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AToastToWarQuest_BringStashToRavio": {
+        "ObjectName": "Function'AToastToWarQuest_BringStashToRavio_C:ExecuteUbergraph_AToastToWarQuest_BringStashToRavio'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AToastToWarQuest_BringStashToRavio_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AToastToWarQuest_BringStashToRavio_C'Default__AToastToWarQuest_BringStashToRavio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AToastToWarQuest_BringStashToRavio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_BringStashToRavio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_BringStashToRavio_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_BringStashToRavio.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

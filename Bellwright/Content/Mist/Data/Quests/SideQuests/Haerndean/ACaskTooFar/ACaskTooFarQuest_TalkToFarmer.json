@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "ACaskTooFarQuest_TalkToFarmer_C",
+    "Name": "Default__ACaskTooFarQuest_TalkToFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToFarmer.ACaskTooFarQuest_TalkToFarmer_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToFarmer",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "F3F381334F13696804DA99A1A671A78F",
+        "SourceString": "Buy Grain from {Npc}",
+        "LocalizedString": "Buy Grain from {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7A1626D540F69EF09A9C3095AC8EEC96",
+          "SourceString": "I’m looking for some grain. Do you have any to sell?",
+          "LocalizedString": "I’m looking for some grain. Do you have any to sell?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACaskTooFarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToFarmer"
+      },
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5DAD637B4CF39E25AB7D7CB3F43BF064",
+        "SourceString": "The farmer sold me some grain. It didn’t come cheap, but it’s worth it to keep the village calm.",
+        "LocalizedString": "The farmer sold me some grain. It didn’t come cheap, but it’s worth it to keep the village calm."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowUniqueFarmerNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowUniqueFarmerNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest.ACaskTooFarQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACaskTooFarQuest_TalkToFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToFarmer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACaskTooFarQuest_TalkToFarmer_C'Default__ACaskTooFarQuest_TalkToFarmer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ACaskTooFar/ACaskTooFarQuest_TalkToFarmer.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

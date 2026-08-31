@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheMusesHelpQuest_Wait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_Wait",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheMusesHelpQuest_Wait_C'Default__TheMusesHelpQuest_Wait_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_Wait.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheMusesHelpQuest_Wait_C",
+    "Name": "Default__TheMusesHelpQuest_Wait_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_Wait.TheMusesHelpQuest_Wait_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_Wait",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "E914795C47668C9F1701AFB66DC5E2F2",
+        "SourceString": "Wait a few hours",
+        "LocalizedString": "Wait a few hours"
+      },
+      "WaitHours": 3,
+      "Title": {
+        "Namespace": "",
+        "Key": "A3B0C43143739E3FAAE7A2B7497F4123",
+        "SourceString": "Wait a few hours",
+        "LocalizedString": "Wait a few hours"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DE7241C84FAF34F758E47BA2A846D8AE",
+        "SourceString": "Wait a few hours",
+        "LocalizedString": "Wait a few hours"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4AA0779F401694886B0DABA28EF3C4F2",
+        "SourceString": "Roderick should be done with his songwriting attempt with his wondrous muse. I should check in on them, this can go either way - terribly bad or surprisingly good. No chance for a middle ground.",
+        "LocalizedString": "Roderick should be done with his songwriting attempt with his wondrous muse. I should check in on them, this can go either way - terribly bad or surprisingly good. No chance for a middle ground."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ACutAboveQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/ACutAboveQuest/ACutAboveQuest_Talk.1"
+        },
+        "TalkEntryPoint": "NPC Blacksmith next morning"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

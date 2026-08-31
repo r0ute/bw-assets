@@ -1,0 +1,162 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShipmentFullOfSurprisesQuest_KillFiske_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_KillFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.2"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.3"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_KillFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_KillFiske": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_KillFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_KillFiske_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShipmentFullOfSurprisesQuest_KillFiske_C'Default__ShipmentFullOfSurprisesQuest_KillFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_KillFiske",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_KillFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_KillFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_KillFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ShipmentFullOfSurprisesQuest_KillFiske_C",
+    "Name": "Default__ShipmentFullOfSurprisesQuest_KillFiske_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske.ShipmentFullOfSurprisesQuest_KillFiske_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_KillFiske",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BartekGundarNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundarNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BartekGundar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundar_Talk.1"
+        },
+        "FactionName": "Quest"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "498DAF13403A980A0429D783695A44F2",
+        "SourceString": "Kill Bartek Gundar.",
+        "LocalizedString": "Kill Bartek Gundar."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "507E0A29423F137FE689A7ADF151B234",
+        "SourceString": "Kill Bartek Gundar.",
+        "LocalizedString": "Kill Bartek Gundar."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest.ShipmentFullOfSurprisesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

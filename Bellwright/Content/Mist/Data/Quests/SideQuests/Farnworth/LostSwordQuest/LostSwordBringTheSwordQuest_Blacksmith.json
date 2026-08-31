@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostSwordBringTheSwordQuest_Blacksmith_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest_Blacksmith",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostSwordBringTheSwordQuest_Blacksmith_C'Default__LostSwordBringTheSwordQuest_Blacksmith_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest_Blacksmith.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostSwordBringTheSwordQuest_Blacksmith_C",
+    "Name": "Default__LostSwordBringTheSwordQuest_Blacksmith_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest_Blacksmith.LostSwordBringTheSwordQuest_Blacksmith_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordBringTheSwordQuest_Blacksmith",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostSword_BrokenSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/LostSword_BrokenSword.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostSwordQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuestTalk.0"
+        },
+        "TalkEntryPoint": "Finton_Mallet_Start"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FE42F1854BADA2FD2DC2FC80A3BF1075",
+        "SourceString": "The blacksmith is taking care of the sword. I should return tomorrow when he is finished with his work.",
+        "LocalizedString": "The blacksmith is taking care of the sword. I should return tomorrow when he is finished with his work."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest.LostSwordQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HomeIsWheretheCoopIsQuest_BringItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BringItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HomeIsWheretheCoopIsQuest_BringItem_C'Default__HomeIsWheretheCoopIsQuest_BringItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BringItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HomeIsWheretheCoopIsQuest_BringItem_C",
+    "Name": "Default__HomeIsWheretheCoopIsQuest_BringItem_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BringItem.HomeIsWheretheCoopIsQuest_BringItem_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_BringItem",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedAnimalFeed_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/AdvancedAnimalFeed.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FowlPlay_ChickenFarmerNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/FowlPlay/FowlPlay_ChickenFarmerNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3AFA0E5842F81034C2FCCAB0A0854257",
+          "SourceString": "About the food for Peckleton…",
+          "LocalizedString": "About the food for Peckleton…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HomeIsWheretheCoopIsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringFoodInprogress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HomeIsWheretheCoopIs/HomeIsWheretheCoopIsQuest.HomeIsWheretheCoopIsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GiftsfromtheBeyondQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GiftsfromtheBeyondQuest_C'Default__GiftsfromtheBeyondQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GiftsfromtheBeyondQuest_C",
+    "Name": "Default__GiftsfromtheBeyondQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest.GiftsfromtheBeyondQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_ExamineGrave_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ExamineGrave.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_PickupBottle_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_PickupBottle.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_TalkwithElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_TalkwithElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_TalktoViktor_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_TalktoViktor.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_GotoWineShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_GotoWineShrine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_ExaminetheShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ExaminetheShrine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_ReturntoLysara_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_ReturntoLysara.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "6ABCC56245205EAA5D7A9390A0950684",
+        "SourceString": "Gifts from the Beyond",
+        "LocalizedString": "Gifts from the Beyond"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "1822065640E99D3BC6C62C95F0971B22",
+        "SourceString": "A widow named Lysara asked for my help. She’s been visiting her husband’s grave every day since his passing, but this morning found a sealed bottle of Doll’s Tears resting on it. It’s pure, too fine for anyone in this village. She doesn’t want revenge, only to know who left it and why. I agreed to take a look at the grave.",
+        "LocalizedString": "A widow named Lysara asked for my help. She’s been visiting her husband’s grave every day since his passing, but this morning found a sealed bottle of Doll’s Tears resting on it. It’s pure, too fine for anyone in this village. She doesn’t want revenge, only to know who left it and why. I agreed to take a look at the grave."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GiftsfromtheBeyondQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/GiftsfromtheBeyond/GiftsfromtheBeyondQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "LoyaltyReward": {
+        "Value": 50.0
+      },
+      "WrathReward": {
+        "Value": 50.0
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ViktorFerrant_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/ViktorFerrant_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

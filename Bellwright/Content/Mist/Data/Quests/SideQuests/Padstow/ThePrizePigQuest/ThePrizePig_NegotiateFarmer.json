@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThePrizePig_NegotiateFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_NegotiateFarmer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThePrizePig_NegotiateFarmer_C'Default__ThePrizePig_NegotiateFarmer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_NegotiateFarmer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThePrizePig_NegotiateFarmer_C",
+    "Name": "Default__ThePrizePig_NegotiateFarmer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_NegotiateFarmer.ThePrizePig_NegotiateFarmer_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_NegotiateFarmer",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5D2CB65F4AB8282732D4B383813AFAD8",
+          "SourceString": "I’m here to negotiate a deal for Gertrude. The pig.",
+          "LocalizedString": "I’m here to negotiate a deal for Gertrude. The pig."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThePrizePig_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePig_Talk.0"
+        },
+        "TalkEntryPoint": "NegotiateFarmer"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8E23312248D084E02A0162B2995F09F9",
+        "SourceString": "I have talked to the farmer about the price, which is fair for a pig like Gertrude. Now I have to return to the farmer to let him know how it went.",
+        "LocalizedString": "I have talked to the farmer about the price, which is fair for a pig like Gertrude. Now I have to return to the farmer to let him know how it went."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowFarmerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowFarmerTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/ThePrizePigQuest/ThePrizePigQuest.ThePrizePigQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

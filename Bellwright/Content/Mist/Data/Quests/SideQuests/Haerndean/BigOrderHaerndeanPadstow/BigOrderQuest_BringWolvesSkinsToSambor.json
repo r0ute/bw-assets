@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BigOrderQuest_BringWolvesSkinsToSambor_C",
+    "Name": "Default__BigOrderQuest_BringWolvesSkinsToSambor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringWolvesSkinsToSambor.BigOrderQuest_BringWolvesSkinsToSambor_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringWolvesSkinsToSambor",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Pelt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.0"
+          },
+          "MinAmount": 8,
+          "MaxAmount": 8,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowBlacksmithTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "495071BC42BD141ADCA0D9AA250632B9",
+          "SourceString": "About the pelts you asked for...",
+          "LocalizedString": "About the pelts you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigOrderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_Talk.1"
+        },
+        "TalkEntryPoint": "DeliverPeltsToSambor_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2A4D14754E3CC32700720E8BD79A0904",
+        "SourceString": "After gathering those wolves pelts for Sambor, he kept up his end of the bargain and gave me the tools. It's time to deliver them to Dalibor.",
+        "LocalizedString": "After gathering those wolves pelts for Sambor, he kept up his end of the bargain and gave me the tools. It's time to deliver them to Dalibor."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest.BigOrderQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BigOrderQuest_BringWolvesSkinsToSambor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringWolvesSkinsToSambor",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BigOrderQuest_BringWolvesSkinsToSambor_C'Default__BigOrderQuest_BringWolvesSkinsToSambor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringWolvesSkinsToSambor.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

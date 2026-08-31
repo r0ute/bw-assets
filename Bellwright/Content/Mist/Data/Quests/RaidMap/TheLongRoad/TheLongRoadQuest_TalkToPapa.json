@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLongRoadQuest_TalkToPapa_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToPapa_C:ExecuteUbergraph_TheLongRoadQuest_TalkToPapa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToPapa_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.2"
+      },
+      {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToPapa_C:ExecuteUbergraph_TheLongRoadQuest_TalkToPapa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLongRoadQuest_TalkToPapa": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToPapa_C:ExecuteUbergraph_TheLongRoadQuest_TalkToPapa'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheLongRoadQuest_TalkToPapa_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLongRoadQuest_TalkToPapa_C'Default__TheLongRoadQuest_TalkToPapa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLongRoadQuest_TalkToPapa",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToPapa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_TalkToPapa_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLongRoadQuest_TalkToPapa_C",
+    "Name": "Default__TheLongRoadQuest_TalkToPapa_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa.TheLongRoadQuest_TalkToPapa_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToPapa",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PapaFigosNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/SolsWinery/PapaFigosNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToPapa"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3DFFFF5E480FF8F35A3C15A7816695CE",
+        "SourceString": "Two workers who were supposed to bring the crate here have gone missing, so I should look for them along the road leading to the winery.",
+        "LocalizedString": "Two workers who were supposed to bring the crate here have gone missing, so I should look for them along the road leading to the winery."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ErykIdle"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PapaFigosNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/SolsWinery/PapaFigosNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.TheLongRoadQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

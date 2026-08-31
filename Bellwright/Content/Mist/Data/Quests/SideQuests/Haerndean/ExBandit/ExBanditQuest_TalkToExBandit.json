@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ExBanditQuest_TalkToExBandit_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToExBandit",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ExBanditQuest_TalkToExBandit_C'Default__ExBanditQuest_TalkToExBandit_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToExBandit.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ExBanditQuest_TalkToExBandit_C",
+    "Name": "Default__ExBanditQuest_TalkToExBandit_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToExBandit.ExBanditQuest_TalkToExBandit_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToExBandit",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/NPCTalk/ExBanditNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToExBandit_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "652D45304465AD8601E22EABDD2EB7CB",
+        "SourceString": "Come to find out the mysterious figure was a former bandit running away from his group. He asked for my help retrieving his stash in the camp.",
+        "LocalizedString": "Come to find out the mysterious figure was a former bandit running away from his group. He asked for my help retrieving his stash in the camp."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

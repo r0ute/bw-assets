@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheGlassTurnsTheGainFallsPart2_TalkToKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToKug",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheGlassTurnsTheGainFallsPart2_TalkToKug_C'Default__TheGlassTurnsTheGainFallsPart2_TalkToKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToKug.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheGlassTurnsTheGainFallsPart2_TalkToKug_C",
+    "Name": "Default__TheGlassTurnsTheGainFallsPart2_TalkToKug_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToKug.TheGlassTurnsTheGainFallsPart2_TalkToKug_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2_TalkToKug",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "F951442F479EBE4C8385978082573B82",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKug_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKug_NpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheGlassTurnsTheGainFallsPart2QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2QuestTalk.0"
+        },
+        "TalkEntryPoint": "SpeakToKug"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "04A951DE4D6D3557B1C409B8BDBAC2AC",
+        "SourceString": "Kug was waiting, bitter and unbowed. He hurled my own choices back at me, reminding me of every life taken or spared, every stain on my hands.",
+        "LocalizedString": "Kug was waiting, bitter and unbowed. He hurled my own choices back at me, reminding me of every life taken or spared, every stain on my hands."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKug_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKug_NpcTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertholdKug_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKug_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheGlassTurnsTheGainFallsPart2/TheGlassTurnsTheGainFallsPart2.TheGlassTurnsTheGainFallsPart2_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

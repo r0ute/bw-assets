@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheExpectingMotherQuestTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheExpectingMotherQuestTalkToElder_C'Default__TheExpectingMotherQuestTalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheExpectingMotherQuestTalkToElder_C",
+    "Name": "Default__TheExpectingMotherQuestTalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder.TheExpectingMotherQuestTalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "65A0230C4A5BFB5A63C7048892FA3F70",
+        "SourceString": "Check with {Npc} to find out more about the pregnant woman.",
+        "LocalizedString": "Check with {Npc} to find out more about the pregnant woman."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "AF4C5A6C40AE81377AA7779C66D3A2F2",
+          "SourceString": "I wanted to ask about the pregnant woman from the village. There’s something off about her.",
+          "LocalizedString": "I wanted to ask about the pregnant woman from the village. There’s something off about her."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B7A256E140250A26C22B70992E47574B",
+        "SourceString": "Check the village elder to find out more about the pregnant woman.",
+        "LocalizedString": "Check the village elder to find out more about the pregnant woman."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C834B9DD45234CAD95AC2B9247C488ED",
+        "SourceString": "The Elder tells me that the woman was a fraud, I shouldn't have trusted her so easily.",
+        "LocalizedString": "The Elder tells me that the woman was a fraud, I shouldn't have trusted her so easily."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest.TheExpectingMotherQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "AFoolandHisLimbsQuest_EscortEliza_C",
+    "Name": "Default__AFoolandHisLimbsQuest_EscortEliza_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.AFoolandHisLimbsQuest_EscortEliza_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Npc Ref_1": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanCillianGregorNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanCillianGregorNPCTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": false,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'AFoolandHisLimbs_EscortPoint_QuestPOI_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/AFoolandHisLimbs/AFoolandHisLimbs_EscortPoint_QuestPOI.1"
+      },
+      "CompletionDistanceFromTargetToNpc": 800.0,
+      "RoleAfterEscort": "EMistTownNpcRole::Prisoner",
+      "AssignToASpecificSettlement": "AFoolandhIsLimbs_EscortPoint",
+      "Description": {
+        "Namespace": "",
+        "Key": "864791C14EE909426A6408804C5BCC70",
+        "SourceString": "Guide Eliza to an observation point.",
+        "LocalizedString": "Guide Eliza to an observation point."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AFoolandHisLimbsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_Talk.1"
+        },
+        "TalkEntryPoint": "ELIZA Greenbergg AFTER BANDITS"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanElizaGreenberggTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest.AFoolandHisLimbsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AFoolandHisLimbsQuest_EscortEliza_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AFoolandHisLimbsQuest_EscortEliza_C:ExecuteUbergraph_AFoolandHisLimbsQuest_EscortEliza'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AFoolandHisLimbsQuest_EscortEliza_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.3"
+      },
+      {
+        "ObjectName": "Function'AFoolandHisLimbsQuest_EscortEliza_C:ExecuteUbergraph_AFoolandHisLimbsQuest_EscortEliza'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Npc Ref_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AFoolandHisLimbsQuest_EscortEliza": {
+        "ObjectName": "Function'AFoolandHisLimbsQuest_EscortEliza_C:ExecuteUbergraph_AFoolandHisLimbsQuest_EscortEliza'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'AFoolandHisLimbsQuest_EscortEliza_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AFoolandHisLimbsQuest_EscortEliza_C'Default__AFoolandHisLimbsQuest_EscortEliza_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AFoolandHisLimbsQuest_EscortEliza",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AFoolandHisLimbsQuest_EscortEliza_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AFoolandHisLimbsQuest_EscortEliza_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolandHisLimbsQuest_EscortEliza.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

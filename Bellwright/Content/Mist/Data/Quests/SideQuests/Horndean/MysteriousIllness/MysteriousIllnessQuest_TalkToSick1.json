@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MysteriousIllnessQuest_TalkToSick1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToSick1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MysteriousIllnessQuest_TalkToSick1_C'Default__MysteriousIllnessQuest_TalkToSick1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToSick1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MysteriousIllnessQuest_TalkToSick1_C",
+    "Name": "Default__MysteriousIllnessQuest_TalkToSick1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToSick1.MysteriousIllnessQuest_TalkToSick1_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToSick1",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanSick1_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanSick1_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToSick1_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B5FC5F6A408E312391C3D1A9B60F5B08",
+        "SourceString": "Nothing out of the usual, it was a hot day and they drank from the well to quench their thirst.",
+        "LocalizedString": "Nothing out of the usual, it was a hot day and they drank from the well to quench their thirst."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "112CC35C4BD152B18D901B91A196DAAC",
+          "SourceString": "Regarding the sick people…",
+          "LocalizedString": "Regarding the sick people…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHealer_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest.MysteriousIllnessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

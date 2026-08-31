@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheExpectingMotherQuestBringRawHide_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestBringRawHide",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheExpectingMotherQuestBringRawHide_C'Default__TheExpectingMotherQuestBringRawHide_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestBringRawHide.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheExpectingMotherQuestBringRawHide_C",
+    "Name": "Default__TheExpectingMotherQuestBringRawHide_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestBringRawHide.TheExpectingMotherQuestBringRawHide_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestBringRawHide",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RawHide_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/RawHide.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ExpectingMotherNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Blackridgepool/ExpectingMotherNPCTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "08126C72485267A7A82B2A847FB2C2C2",
+          "SourceString": "About the raw hide you asked for...",
+          "LocalizedString": "About the raw hide you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheExpectingMotherQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringRawHide_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "416CB9144D70A9B3C0316BA5D8CD450F",
+        "SourceString": "I brought back the rawhides the mother to be asked for. They should help keep her baby warm.",
+        "LocalizedString": "I brought back the rawhides the mother to be asked for. They should help keep her baby warm."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/TheExpectingMother/TheExpectingMotherQuest.TheExpectingMotherQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

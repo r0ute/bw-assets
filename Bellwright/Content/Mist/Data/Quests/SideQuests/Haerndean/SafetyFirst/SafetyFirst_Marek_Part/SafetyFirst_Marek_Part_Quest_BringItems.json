@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafetyFirst_Marek_Part_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafetyFirst_Marek_Part_Quest_BringItems_C'Default__SafetyFirst_Marek_Part_Quest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafetyFirst_Marek_Part_Quest_BringItems_C",
+    "Name": "Default__SafetyFirst_Marek_Part_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_BringItems.SafetyFirst_Marek_Part_Quest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SoftLog_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SimpleCord_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "204249C448ED228710EC9D9964281C7F",
+          "SourceString": "About those logs and cords…",
+          "LocalizedString": "About those logs and cords…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafetyFirst_Marek_Part_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "SafetyFirst_Marek_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "85341F9748D01304C56CABB6625B6C3E",
+        "SourceString": "I brought the items that Marek requested. Now, I need to wait for him to finish making the tools.",
+        "LocalizedString": "I brought the items that Marek requested. Now, I need to wait for him to finish making the tools."
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest.SafetyFirst_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

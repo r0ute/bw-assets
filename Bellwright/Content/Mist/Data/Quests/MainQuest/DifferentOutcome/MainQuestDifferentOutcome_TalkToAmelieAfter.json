@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestDifferentOutcome_TalkToAmelieAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAmelieAfter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestDifferentOutcome_TalkToAmelieAfter_C'Default__MainQuestDifferentOutcome_TalkToAmelieAfter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAmelieAfter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestDifferentOutcome_TalkToAmelieAfter_C",
+    "Name": "Default__MainQuestDifferentOutcome_TalkToAmelieAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAmelieAfter.MainQuestDifferentOutcome_TalkToAmelieAfter_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_TalkToAmelieAfter",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "C95F4FAE42FCB0056A7B76958DB331ED",
+        "SourceString": "Talk to {Npc} and share what you found out.",
+        "LocalizedString": "Talk to {Npc} and share what you found out."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestDifferentOutcome_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAmelieAfter_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "F671263E45EAF8021BAE9AA8D8B8D8A4",
+        "SourceString": "Talk to {Npc} and share what you found out.",
+        "LocalizedString": "Talk to {Npc} and share what you found out."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "01C5FD994AA94246DD1CBD88B9306CDA",
+        "SourceString": "If our hunch is correct, and Bradford’s election was rigged by Ashbourne, then something similar may be happening in Blackridgepool. We should investigate so Ashbourne doesn’t meddle again.",
+        "LocalizedString": "If our hunch is correct, and Bradford’s election was rigged by Ashbourne, then something similar may be happening in Blackridgepool. We should investigate so Ashbourne doesn’t meddle again."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/DifferentOutcome/MainQuestDifferentOutcome.MainQuestDifferentOutcome_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

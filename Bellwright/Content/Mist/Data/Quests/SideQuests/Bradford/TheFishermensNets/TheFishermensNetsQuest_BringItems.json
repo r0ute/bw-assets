@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheFishermensNetsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BringItems",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheFishermensNetsQuest_BringItems_C'Default__TheFishermensNetsQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheFishermensNetsQuest_BringItems_C",
+    "Name": "Default__TheFishermensNetsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BringItems.TheFishermensNetsQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BringItems",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Rope_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.0"
+          },
+          "MinAmount": 5,
+          "MaxAmount": 5,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuestWoman_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuestWoman_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "GERTRUDEinProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A2EBE90D4316B7901E07CA81E4684C09",
+        "SourceString": "She recognized the glove immediately, it belonged to Thomas Gillslap, a jealous rival. Furious but composed, she asked me to confront him and get the truth.",
+        "LocalizedString": "She recognized the glove immediately, it belonged to Thomas Gillslap, a jealous rival. Furious but composed, she asked me to confront him and get the truth."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest.TheFishermensNetsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

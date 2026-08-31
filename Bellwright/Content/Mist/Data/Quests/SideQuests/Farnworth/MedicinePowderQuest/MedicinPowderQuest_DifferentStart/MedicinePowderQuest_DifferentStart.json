@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicinePowderQuest_DifferentStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicinePowderQuest_DifferentStart_C'Default__MedicinePowderQuest_DifferentStart_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicinePowderQuest_DifferentStart_C",
+    "Name": "Default__MedicinePowderQuest_DifferentStart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart.MedicinePowderQuest_DifferentStart_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_DifferentStart_Find_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart_Find.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_DifferentStart_TalkTo_husband_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_DifferentStart_TalkTo_husband.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_BringTusks_2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusks_2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinePowderQuest_BringTusksWife_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/MedicinePowderQuest/MedicinPowderQuest_DifferentStart/MedicinePowderQuest_BringTusksWife.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "54675FD94DB179AE0B4C44A355DAB6CA",
+        "SourceString": "A Tall Tusk",
+        "LocalizedString": "A Tall Tusk"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "9E0AAF824391229A891D4595B542E009",
+        "SourceString": "Turns out {QuestGiver}’s husband left the house this morning and didn’t tell why. He could get himself into trouble. I’d better look out for him.",
+        "LocalizedString": "Turns out {QuestGiver}’s husband left the house this morning and didn’t tell why. He could get himself into trouble. I’d better look out for him."
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BoarTrophyItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/BoarTrophyItem.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          }
+        ]
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthThaddeusDickTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthThaddeusDickTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

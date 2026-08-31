@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBuildingCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBuildingCamp_C'Default__MainQuestBuildingCamp_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBuildingCamp_C",
+    "Name": "Default__MainQuestBuildingCamp_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp.MainQuestBuildingCamp_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_BuildTent_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildTent.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_BuildChest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildChest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_BuildCampfire_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildCampfire.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_BuildOuthouse_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_BuildOuthouse.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_TalkToLubomir_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_TalkToLubomir.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "3CAEB5B54B3BF82636DEAE871C49D28E",
+        "SourceString": "Humble Beginnings",
+        "LocalizedString": "Humble Beginnings"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7986593044828EDB7F1FF98FBF15908C",
+        "SourceString": "Lubomir became my companion, and now we need to set up camp together to fulfil the basic needs.",
+        "LocalizedString": "Lubomir became my companion, and now we need to set up camp together to fulfil the basic needs."
+      },
+      "RenownReward": 60,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

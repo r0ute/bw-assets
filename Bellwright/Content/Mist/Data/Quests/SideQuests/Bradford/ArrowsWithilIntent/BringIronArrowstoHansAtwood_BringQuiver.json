@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringIronArrowstoHansAtwood_BringQuiver_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringQuiver",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringIronArrowstoHansAtwood_BringQuiver_C'Default__BringIronArrowstoHansAtwood_BringQuiver_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringQuiver.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringIronArrowstoHansAtwood_BringQuiver_C",
+    "Name": "Default__BringIronArrowstoHansAtwood_BringQuiver_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringQuiver.BringIronArrowstoHansAtwood_BringQuiver_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringQuiver",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArrowQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicArrowQuiver.1"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3C8070E04598EB74D401E3BF6E9254CB",
+        "SourceString": "I brought Hans the quiver he asked for.",
+        "LocalizedString": "I brought Hans the quiver he asked for."
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A36D6821493107622F9ED2B1C04BC8FF",
+          "SourceString": "About these arrows…",
+          "LocalizedString": "About these arrows…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringIronArrowstoHansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_Talk.0"
+        },
+        "TalkEntryPoint": "BringIronArrowstoHansAtwood_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "MoneyReward": 50,
+      "RenownReward": 75,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwoodQuest.BringIronArrowstoHansAtwoodQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicineForElderQuest_BringIngredients_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringIngredients",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicineForElderQuest_BringIngredients_C'Default__MedicineForElderQuest_BringIngredients_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringIngredients.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicineForElderQuest_BringIngredients_C",
+    "Name": "Default__MedicineForElderQuest_BringIngredients_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringIngredients.MedicineForElderQuest_BringIngredients_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_BringIngredients",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Sage_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.0"
+          },
+          "MinAmount": 4,
+          "MaxAmount": 4,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Berry_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Berry.1"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Water_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AleksAmanitaHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AleksAmanitaHerbalistTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "155790ED487596A8A6730EAB3B0C2905",
+          "SourceString": "Regarding the ingredients...",
+          "LocalizedString": "Regarding the ingredients..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MedicineForElderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringIngredientsHerbalist_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3EAA0E8A4203AEF1FF1FE5BAD9CD9B10",
+        "SourceString": "Bring Herbalist ingredients for the cure.",
+        "LocalizedString": "Bring Herbalist ingredients for the cure."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "32028BA94B12BAD2E3C5ECAFE85D7A2C",
+        "SourceString": "I have brought all the necessary ingedients for the cure.",
+        "LocalizedString": "I have brought all the necessary ingedients for the cure."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'ElderMedicine_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/ElderMedicine.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MedicineForElder/MedicineForElderQuest.MedicineForElderQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBuildingCamp_Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:ExecuteUbergraph_MainQuestBuildingCamp_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:Lubomir_ChestTent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.3"
+      },
+      {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:Lubomir_CampReady'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.2"
+      },
+      {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:ExecuteUbergraph_MainQuestBuildingCamp_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MainQuestBuildingCamp_Talk": {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:ExecuteUbergraph_MainQuestBuildingCamp_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.1"
+      },
+      "Lubomir_CampReady": {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:Lubomir_CampReady'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.2"
+      },
+      "Lubomir_ChestTent": {
+        "ObjectName": "Function'MainQuestBuildingCamp_Talk_C:Lubomir_ChestTent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.3"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBuildingCamp_Talk_C'Default__MainQuestBuildingCamp_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MainQuestBuildingCamp_Talk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Lubomir_CampReady",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Lubomir_ChestTent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuestBuildingCamp_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MainQuestBuildingCamp_Talk_C",
+    "Name": "Default__MainQuestBuildingCamp_Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk.MainQuestBuildingCamp_Talk_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/BuildingCamp/MainQuestBuildingCamp_Talk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

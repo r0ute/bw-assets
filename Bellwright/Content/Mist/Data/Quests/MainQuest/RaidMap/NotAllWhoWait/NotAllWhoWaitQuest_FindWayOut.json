@@ -1,0 +1,320 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NotAllWhoWaitQuest_FindWayOut_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.2"
+      },
+      {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.3"
+      },
+      {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Darek",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Eryk",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Sebastian",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_NotAllWhoWaitQuest_FindWayOut": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindWayOut'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.3"
+      },
+      "OnQuestActivated": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindWayOut_C:OnQuestActivated'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NotAllWhoWaitQuest_FindWayOut_C'Default__NotAllWhoWaitQuest_FindWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_NotAllWhoWaitQuest_FindWayOut",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_FindWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestActivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_FindWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestActivated'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_FindWayOut_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NotAllWhoWaitQuest_FindWayOut_C",
+    "Name": "Default__NotAllWhoWaitQuest_FindWayOut_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut.NotAllWhoWaitQuest_FindWayOut_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindWayOut",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Darek": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Eryk": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Sebastian": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/TheChainsAreBroken/TheChainsAreBroken_WayOut.TheChainsAreBroken_WayOut_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6760750A434CAEF5442CCC9B5D275E48",
+        "SourceString": "Escape from prison.",
+        "LocalizedString": "Escape from prison."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "600C87644CF74D3D5FF237B3CC20CB5F",
+        "SourceString": "Escape from prison.",
+        "LocalizedString": "Escape from prison."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0302C06246D9F3AC56B3E6BFFF49E5CD",
+        "SourceString": "We moved quickly through the prison, avoiding or confronting guards, heading for the exit.",
+        "LocalizedString": "We moved quickly through the prison, avoiding or confronting guards, heading for the exit."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToMayor_EscapeInProgress"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVossNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVossNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest.NotAllWhoWaitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

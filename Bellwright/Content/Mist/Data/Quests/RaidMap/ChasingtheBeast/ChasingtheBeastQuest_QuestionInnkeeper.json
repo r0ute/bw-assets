@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ChasingtheBeastQuest_QuestionInnkeeper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_QuestionInnkeeper",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ChasingtheBeastQuest_QuestionInnkeeper_C'Default__ChasingtheBeastQuest_QuestionInnkeeper_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_QuestionInnkeeper.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ChasingtheBeastQuest_QuestionInnkeeper_C",
+    "Name": "Default__ChasingtheBeastQuest_QuestionInnkeeper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_QuestionInnkeeper.ChasingtheBeastQuest_QuestionInnkeeper_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest_QuestionInnkeeper",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HarthbayInnkeeper_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HarthbayVillage/HarthbayInnkeeper_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "66CC11C24B8FDC24A56818940483FCEA",
+          "SourceString": "Could you tell me where to find the gambito?",
+          "LocalizedString": "Could you tell me where to find the gambito?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ChasingtheBeastQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalktoHarthbayInnkeeper"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ChasingtheBeast/ChasingtheBeastQuest.ChasingtheBeastQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

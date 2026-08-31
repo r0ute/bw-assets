@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FallenMercenaryQuestHireMercenary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuestHireMercenary",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FallenMercenaryQuestHireMercenary_C'Default__FallenMercenaryQuestHireMercenary_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuestHireMercenary.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FallenMercenaryQuestHireMercenary_C",
+    "Name": "Default__FallenMercenaryQuestHireMercenary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuestHireMercenary.FallenMercenaryQuestHireMercenary_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuestHireMercenary",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "E7D9F7D04539A63C419151BECCD275FE",
+        "SourceString": "Hire {Npc}",
+        "LocalizedString": "Hire {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FallenMercenaryNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/FallenMercenary/FallenMercenaryNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FallenMercenaryQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToStranger_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "38E8658A416A2443BCDDE18AB9C2BC84",
+        "SourceString": "Hire {Npc}",
+        "LocalizedString": "Hire {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6A9D0831429615679127638BFFEBA825",
+        "SourceString": "He's now a part of my village. His skills will prove useful.",
+        "LocalizedString": "He's now a part of my village. His skills will prove useful."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FallenMercenaryNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/FallenMercenary/FallenMercenaryNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/FallenMercenary/FallenMercenaryQuest.FallenMercenaryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

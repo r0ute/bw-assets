@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart3_Quest_CheckOnMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_CheckOnMedival",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart3_Quest_CheckOnMedival_C'Default__SirMedivalPart3_Quest_CheckOnMedival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_CheckOnMedival.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart3_Quest_CheckOnMedival_C",
+    "Name": "Default__SirMedivalPart3_Quest_CheckOnMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_CheckOnMedival.SirMedivalPart3_Quest_CheckOnMedival_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_CheckOnMedival",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "113D01504C33EA4EA907E29A444F274B",
+        "SourceString": "Check on the knight",
+        "LocalizedString": "Check on the knight"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A74FF86F4640B9A39155E7A5EEB75201",
+        "SourceString": "The knight wants my help in executing his revenge. He asked me to clear out a brigand outpost and then give the loot to the family of his lost friend. First, I need to head to the location on the map.",
+        "LocalizedString": "The knight wants my help in executing his revenge. He asked me to clear out a brigand outpost and then give the loot to the family of his lost friend. First, I need to head to the location on the map."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest.SirMedivalPart3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

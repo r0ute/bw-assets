@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TradeRoutesQuest_ConfrontLeandro_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest_ConfrontLeandro",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TradeRoutesQuest_ConfrontLeandro_C'Default__TradeRoutesQuest_ConfrontLeandro_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest_ConfrontLeandro.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TradeRoutesQuest_ConfrontLeandro_C",
+    "Name": "Default__TradeRoutesQuest_ConfrontLeandro_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest_ConfrontLeandro.TradeRoutesQuest_ConfrontLeandro_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest_ConfrontLeandro",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LeandroFerros_NPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/LeandroFerros_NPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TradeRoutesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ConfrontLeandro"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TradeRoutes/TradeRoutesQuest.TradeRoutesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

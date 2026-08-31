@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "JesterQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "JesterQuest_C'Default__JesterQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "JesterQuest_C",
+    "Name": "Default__JesterQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest.JesterQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JesterQuest_TalkToNorton_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_TalkToNorton.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JesterQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'JesterQuest_BackToNorton_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BackToNorton.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "472DFAF74020ACEA01D19F9F8FD0C9D4",
+        "SourceString": "Jester!",
+        "LocalizedString": "Jester!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B0AFCE5D4C0D1D3AEFE1709765579312",
+        "SourceString": "While you were looking for riches and gold, A curious letter is what you behold. No treasure within, be not in denial, A riddle from the weaver who loves a good trial. Find the jester who spun this scheme, And see if their words are as sharp as they seem!",
+        "LocalizedString": "While you were looking for riches and gold, A curious letter is what you behold. No treasure within, be not in denial, A riddle from the weaver who loves a good trial. Find the jester who spun this scheme, And see if their words are as sharp as they seem!"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "360DD007472CDDA29B5E9B82824D1734",
+        "SourceString": "While you were looking for riches and gold, A curious letter is what you behold. No treasure within, be not in denial, A riddle from the weaver who loves a good trial. Find the jester who spun this scheme, And see if their words are as sharp as they seem!",
+        "LocalizedString": "While you were looking for riches and gold, A curious letter is what you behold. No treasure within, be not in denial, A riddle from the weaver who loves a good trial. Find the jester who spun this scheme, And see if their words are as sharp as they seem!"
+      },
+      "MoneyReward": 100,
+      "RenownReward": 100,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowExpertWeaverNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Padstow/PadstowExpertWeaverNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowWeaverTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowWeaverTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanHermitNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/IgorFulkeCraftsmanHermitNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanHermitNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/IgorFulkeCraftsmanHermitNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

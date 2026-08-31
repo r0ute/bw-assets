@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "AToastToWarQuest_TalkToDarioVeleno_C",
+    "Name": "Default__AToastToWarQuest_TalkToDarioVeleno_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToDarioVeleno.AToastToWarQuest_TalkToDarioVeleno_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToDarioVeleno",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "B44C9A4F424284B65798C9B21C5F0B87",
+        "SourceString": "Speak with {Npc}.",
+        "LocalizedString": "Speak with {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToDarioVeleno"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "CA5850AB49BF41D9CF40EF92BEF53E2C",
+        "SourceString": "Speak with {Npc}.",
+        "LocalizedString": "Speak with {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9C35AA004E70863BEC1459B280B13CA3",
+        "SourceString": "Dario, one of the Halmayan people, shared more about the history of the Halmare Isles and agreed to leave the tavern for now. I should inform Mateo of the progress.",
+        "LocalizedString": "Dario, one of the Halmayan people, shared more about the history of the Halmare Isles and agreed to leave the tavern for now. I should inform Mateo of the progress."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarioVelenoNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/DarioVelenoNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.AToastToWarQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AToastToWarQuest_TalkToDarioVeleno_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToDarioVeleno",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AToastToWarQuest_TalkToDarioVeleno_C'Default__AToastToWarQuest_TalkToDarioVeleno_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_TalkToDarioVeleno.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

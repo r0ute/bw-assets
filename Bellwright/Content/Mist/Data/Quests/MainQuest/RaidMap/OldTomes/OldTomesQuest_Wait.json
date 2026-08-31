@@ -1,0 +1,191 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OldTomesQuest_Wait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'OldTomesQuest_Wait_C:ExecuteUbergraph_OldTomesQuest_Wait'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'OldTomesQuest_Wait_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.2"
+      },
+      {
+        "ObjectName": "Function'OldTomesQuest_Wait_C:ExecuteUbergraph_OldTomesQuest_Wait'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "MayorEquipment",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'EquipmentSet'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_OldTomesQuest_Wait": {
+        "ObjectName": "Function'OldTomesQuest_Wait_C:ExecuteUbergraph_OldTomesQuest_Wait'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'OldTomesQuest_Wait_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OldTomesQuest_Wait_C'Default__OldTomesQuest_Wait_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_OldTomesQuest_Wait",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_Wait_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetNpcByRef_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistTownNpc'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_Wait_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "OldTomesQuest_Wait_C",
+    "Name": "Default__OldTomesQuest_Wait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.OldTomesQuest_Wait_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MayorEquipment": {
+        "Items": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'ThickHood_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ThickHood.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'StuddedShirt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Torso/StuddedShirt.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'BreechesWithKneepads_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/BreechesWithKneepads.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'LeatherBoots_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/LeatherBoots.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'Sax_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Sax.0"
+          }
+        ]
+      },
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "044AD6624C1D19FE5B9EEAB0C6F6EB7D",
+        "SourceString": "Wait until dusk",
+        "LocalizedString": "Wait until dusk"
+      },
+      "CompleteOnlyAfterACertainHour": true,
+      "CompleteOnlyAfterThisHourOfTheDay": 21,
+      "Title": {
+        "Namespace": "",
+        "Key": "26D0E26B45134E05F61CBBA426EA3786",
+        "SourceString": "Wait until dusk",
+        "LocalizedString": "Wait until dusk"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0CE95CF7432A4E266523CBB0571C2D07",
+        "SourceString": "Wait until dusk",
+        "LocalizedString": "Wait until dusk"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.OldTomesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

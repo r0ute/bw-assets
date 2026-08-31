@@ -1,0 +1,163 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShrinesContinuationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShrinesContinuationQuest_C'Default__ShrinesContinuationQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ShrinesContinuationQuest_C",
+    "Name": "Default__ShrinesContinuationQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest.ShrinesContinuationQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ShrinesContinuationQuest_TalkToHermit_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest_TalkToHermit.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ShrinesContinuationQuest_BringHerbs_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest_BringHerbs.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "11FD8BDB4398A39AC7DB96A8E3F8BDBF",
+        "SourceString": "Shrines Continuation",
+        "LocalizedString": "Shrines Continuation"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F9CC318C4CF4817B9CD3AFA19DF73676",
+        "SourceString": "Shrines Continuation",
+        "LocalizedString": "Shrines Continuation"
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ShrinesContinuationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/ShrinesContinuationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ShrinesContinuation_Available"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 500,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'DaruShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/DaruShrine.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 3,
+            "MaxQuantity": 3
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/Shrines/BlackridgepoolAncientLegacyQuest.BlackridgepoolAncientLegacyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/Shrines/CrasmereAncientLegacyQuest.CrasmereAncientLegacyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest.FarnworthAncientLegacyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/Shrines/HorndeanAncientLegacyQuest.HorndeanAncientLegacyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest.PadstowAncientLegacyQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FalcoDentonHerbalistTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/ShrinesContinuation/FalcoDentonHerbalistTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

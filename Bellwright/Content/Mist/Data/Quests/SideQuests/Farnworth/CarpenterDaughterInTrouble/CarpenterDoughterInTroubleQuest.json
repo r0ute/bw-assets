@@ -1,0 +1,210 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CarpenterDoughterInTroubleQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CarpenterDoughterInTroubleQuest_C'Default__CarpenterDoughterInTroubleQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CarpenterDoughterInTroubleQuest_C",
+    "Name": "Default__CarpenterDoughterInTroubleQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest.CarpenterDoughterInTroubleQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_MeetCarpenter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_MeetCarpenter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_FindCarpenterDoughter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_FindCarpenterDoughter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_ExamineCarpenterDoughter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_ExamineCarpenterDoughter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_TellCarpenterTheSadNews_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_TellCarpenterTheSadNews.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bExperimentalSubtaskLoading": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "7FB31EEB4DA77DC599A457B00A79A6F2",
+        "SourceString": "A Father's Grief",
+        "LocalizedString": "A Father's Grief"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C1FCE60348EBDF152154BF9B6D06D836",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "2ABB8F0C406FE5AAE47C03852FD388EC",
+        "SourceString": "{QuestGiver} daughter got kidnapped some time ago. Bandits wanted money to keep her alive and suddenly they stopped contacting him. {QuestGiver} asked me to rescue his daughter.",
+        "LocalizedString": "{QuestGiver} daughter got kidnapped some time ago. Bandits wanted money to keep her alive and suddenly they stopped contacting him. {QuestGiver} asked me to rescue his daughter."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5395B3844187B6BDC24A7B98A9C65AE0",
+          "SourceString": "Helping with daughter's kidnapping.",
+          "LocalizedString": "Helping with daughter's kidnapping."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CarpenterDoughterInTroubleQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 350,
+      "RenownReward": 150,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 200.0,
+            "MaxQuantityMultiplier": 200.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'OldCoin'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/OldCoin.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 2.0,
+            "MaxQuantityMultiplier": 2.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true,
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'MushroomStew_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/MushroomStew.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/TheBlacksmithsToolCraftingQuest/TheBlacksmithsToolCraftingQuest.TheBlacksmithsToolCraftingQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

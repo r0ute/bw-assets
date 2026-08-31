@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BradfordLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest_TalkToElderComplete",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BradfordLiberationQuest_TalkToElderComplete_C'Default__BradfordLiberationQuest_TalkToElderComplete_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest_TalkToElderComplete.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BradfordLiberationQuest_TalkToElderComplete_C",
+    "Name": "Default__BradfordLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest_TalkToElderComplete.BradfordLiberationQuest_TalkToElderComplete_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest_TalkToElderComplete",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "EBB23F7D4B6CFBD1A65BEBA82888BC58",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "B6DFFC1B49704937AD81A6BEDA15517C",
+          "SourceString": "What a fight...",
+          "LocalizedString": "What a fight..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CompleteLiberation"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "61CEF27C4EAD258F5630409B54DD9D44",
+        "SourceString": "Time has come: Bradford",
+        "LocalizedString": "Time has come: Bradford"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5A9642654E9189D3B26BFB8B2609262E",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/BradfordLiberation/LiberationAttempt/BradfordLiberationQuest.BradfordLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

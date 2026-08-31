@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProvingTheMightQuest_DuelVicente_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:ExecuteUbergraph_ProvingTheMightQuest_DuelVicente'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.3"
+      },
+      {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.2"
+      },
+      {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:ExecuteUbergraph_ProvingTheMightQuest_DuelVicente'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ProvingTheMightQuest_DuelVicente": {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:ExecuteUbergraph_ProvingTheMightQuest_DuelVicente'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ProvingTheMightQuest_DuelVicente_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProvingTheMightQuest_DuelVicente_C'Default__ProvingTheMightQuest_DuelVicente_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ProvingTheMightQuest_DuelVicente",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_DuelVicente_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference_1",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_DuelVicente_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_DuelVicente_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ProvingTheMightQuest_DuelVicente_C",
+    "Name": "Default__ProvingTheMightQuest_DuelVicente_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente.ProvingTheMightQuest_DuelVicente_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_DuelVicente",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'VicenteVerdeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/VicenteVerdeNpcTemplate.0"
+        }
+      },
+      "bCanFailQuest": true,
+      "NpcToFightTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProvingTheMightQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DuelVicente"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "A90983B84D3597AA0D0F7397EE49F8FD",
+        "SourceString": "Duel {Npc}",
+        "LocalizedString": "Duel {Npc}"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D9C9EC80400EA3BA9EEC938B1D1A8C65",
+        "SourceString": "Duel {Npc}",
+        "LocalizedString": "Duel {Npc}"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'VicenteVerdeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/VicenteVerdeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ProvingTheMight/ProvingTheMightQuest.ProvingTheMightQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

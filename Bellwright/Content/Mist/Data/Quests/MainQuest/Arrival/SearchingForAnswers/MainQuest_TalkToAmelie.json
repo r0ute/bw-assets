@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_TalkToAmelie_C'Default__MainQuest_TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuest_TalkToAmelie_C",
+    "Name": "Default__MainQuest_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_TalkToAmelie.MainQuest_TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_TalkToAmelie",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "169C777B43DBE516F3F5A595706A5ACA",
+        "SourceString": "Talk to Amelie and learn more about the troubling hunter.",
+        "LocalizedString": "Talk to Amelie and learn more about the troubling hunter."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_SearchingForAnswers_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAmelie"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "332E5B8F43BFA780E6484382507E4B48",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7D0FAC884E36292180BF4DABFC995F62",
+        "SourceString": "Talk to Amelie and learn more about the troubling hunter.",
+        "LocalizedString": "Talk to Amelie and learn more about the troubling hunter."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "66D6B4874761FAA9EFE765A50A3F8209",
+        "SourceString": "The elder had advised me to speak with another villager: Amelie. She explained the disagreement between the elder and the hunter. She was also a great help in learning more about the history of Haerndean and the rebellion that swept Karvenia.",
+        "LocalizedString": "The elder had advised me to speak with another villager: Amelie. She explained the disagreement between the elder and the hunter. She was also a great help in learning more about the history of Haerndean and the rebellion that swept Karvenia."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.MainQuest_Arrival_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

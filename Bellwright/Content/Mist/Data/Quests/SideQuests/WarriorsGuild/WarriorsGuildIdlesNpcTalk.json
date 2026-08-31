@@ -1,0 +1,186 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildIdlesNpcTalk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'WarriorsGuildIdlesNpcTalk_C:ExecuteUbergraph_WarriorsGuildIdlesNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WarriorsGuildIdlesNpcTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.2"
+      },
+      {
+        "ObjectName": "Function'WarriorsGuildIdlesNpcTalk_C:ExecuteUbergraph_WarriorsGuildIdlesNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WarriorsGuildIdlesNpcTalk": {
+        "ObjectName": "Function'WarriorsGuildIdlesNpcTalk_C:ExecuteUbergraph_WarriorsGuildIdlesNpcTalk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.1"
+      },
+      "TalkEntry": {
+        "ObjectName": "Function'WarriorsGuildIdlesNpcTalk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.2"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildIdlesNpcTalk_C'Default__WarriorsGuildIdlesNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WarriorsGuildIdlesNpcTalk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WarriorsGuildIdlesNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 88,
+          "Struct": {
+            "ObjectName": "Class'MistTalkChoiceDescriptor'",
+            "ObjectPath": "/Script/Mist"
+          }
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkChoice_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkChoice1Exec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkEntry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'WarriorsGuildIdlesNpcTalk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate:TalkEntry'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "WarriorsGuildIdlesNpcTalk_C",
+    "Name": "Default__WarriorsGuildIdlesNpcTalk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk.WarriorsGuildIdlesNpcTalk_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildIdlesNpcTalk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

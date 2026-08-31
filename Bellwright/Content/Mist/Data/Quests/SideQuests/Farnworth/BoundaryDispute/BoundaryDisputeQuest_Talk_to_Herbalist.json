@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BoundaryDisputeQuest_Talk_to_Herbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Herbalist",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BoundaryDisputeQuest_Talk_to_Herbalist_C'Default__BoundaryDisputeQuest_Talk_to_Herbalist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Herbalist.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoundaryDisputeQuest_Talk_to_Herbalist_C",
+    "Name": "Default__BoundaryDisputeQuest_Talk_to_Herbalist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Herbalist.BoundaryDisputeQuest_Talk_to_Herbalist_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Herbalist",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "F94DDCA34997C0FB233009AD65DAFFA7",
+        "SourceString": "Take the spices from the {Npc}",
+        "LocalizedString": "Take the spices from the {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GilbertHobbHerbalistTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/GilbertHobbHerbalistTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BD_TalkToHerbalist"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "747C0EA1409AACAC0B68CD83EA121C29",
+        "SourceString": "The herbalist spared some spices for Anna's stew. Hope this won't heat up the dispute too much.",
+        "LocalizedString": "The herbalist spared some spices for Anna's stew. Hope this won't heat up the dispute too much."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest.BoundaryDisputeQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

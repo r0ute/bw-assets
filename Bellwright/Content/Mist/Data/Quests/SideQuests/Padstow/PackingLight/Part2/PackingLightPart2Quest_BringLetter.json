@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PackingLightPart2Quest_BringLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_BringLetter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PackingLightPart2Quest_BringLetter_C'Default__PackingLightPart2Quest_BringLetter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_BringLetter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PackingLightPart2Quest_BringLetter_C",
+    "Name": "Default__PackingLightPart2Quest_BringLetter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_BringLetter.PackingLightPart2Quest_BringLetter_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_BringLetter",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrigandsLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BrigandsLetter.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D4CAEEB04AEC4B70B6E0E49F275381B0",
+          "SourceString": "Regarding the transport...",
+          "LocalizedString": "Regarding the transport..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "ComebackToCyprus_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3BBA540F486123EF5F5D7B8E63588B25",
+        "SourceString": "I brought the letter I had found to Cyrus.",
+        "LocalizedString": "I brought the letter I had found to Cyrus."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest.PackingLightPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

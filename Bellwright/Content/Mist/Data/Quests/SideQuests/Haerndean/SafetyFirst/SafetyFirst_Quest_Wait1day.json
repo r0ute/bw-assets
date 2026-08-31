@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafetyFirst_Quest_Wait1day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Wait1day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafetyFirst_Quest_Wait1day_C'Default__SafetyFirst_Quest_Wait1day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Wait1day.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafetyFirst_Quest_Wait1day_C",
+    "Name": "Default__SafetyFirst_Quest_Wait1day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Wait1day.SafetyFirst_Quest_Wait1day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Wait1day",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "64ABB0CC4D367406B034C7A7F0E631EE",
+        "SourceString": "Check with {QuestGiver} later.",
+        "LocalizedString": "Check with {QuestGiver} later."
+      },
+      "WaitHours": 4,
+      "Title": {
+        "Namespace": "",
+        "Key": "43B15F064E1E72F00DE53892B52C0604",
+        "SourceString": "Safety First",
+        "LocalizedString": "Safety First"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7FFC94DE43B9225FE49020971066EC3A",
+        "SourceString": "Check with with {QuestGiver} later.",
+        "LocalizedString": "Check with with {QuestGiver} later."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A2F34C334DEFA8A4F8A74D80B3E95EEF",
+        "SourceString": "Teodor told me to check back with him about another job he might have. I should go meet him.",
+        "LocalizedString": "Teodor told me to check back with him about another job he might have. I should go meet him."
+      },
+      "AskForNewQuestTalk": {
+        "TalkEntryPoint": "SafetyFirst_Part1_InProgress"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2154AEEA440F1EE36E8AD28DB0BFA939",
+          "SourceString": "Do you have any jobs for me today?",
+          "LocalizedString": "Do you have any jobs for me today?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafetyFirst_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "SafetyFirst_NextDay",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanExpertBlacksmithNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanExpertBlacksmithNPCTemplate.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest.SafetyFirst_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

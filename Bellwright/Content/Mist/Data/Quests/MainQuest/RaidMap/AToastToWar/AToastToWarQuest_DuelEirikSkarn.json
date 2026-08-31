@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "AToastToWarQuest_DuelEirikSkarn_C",
+    "Name": "Default__AToastToWarQuest_DuelEirikSkarn_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_DuelEirikSkarn.AToastToWarQuest_DuelEirikSkarn_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_DuelEirikSkarn",
+    "Properties": {
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'EirikSkarnNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/OldPort/EirikSkarnNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'EirikSkarnNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/EirikSkarnNpcTalk.0"
+        }
+      },
+      "bCanFailQuest": true,
+      "NpcToFightTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AToastToWarQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_Talk.1"
+        },
+        "TalkEntryPoint": "DuelFailedEirikSkarn_AnotherTry"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "A342B92E40D2271AFA322488433BC473",
+        "SourceString": "Win a fight againts Eirik Skarn.",
+        "LocalizedString": "Win a fight againts Eirik Skarn."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E6A2AE4F4F8A23E4BF4B18B47884C08E",
+        "SourceString": "Win a fight againts Eirik Skarn.",
+        "LocalizedString": "Win a fight againts Eirik Skarn."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D4D857DD49A9D3646C22269051B4D611",
+        "SourceString": "Eirik will only leave the tavern if I defeat him in a fight. He reeks of ale, so it shouldn’t be too difficult.",
+        "LocalizedString": "Eirik will only leave the tavern if I defeat him in a fight. He reeks of ale, so it shouldn’t be too difficult."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest.AToastToWarQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AToastToWarQuest_DuelEirikSkarn_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_DuelEirikSkarn",
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AToastToWarQuest_DuelEirikSkarn_C'Default__AToastToWarQuest_DuelEirikSkarn_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/AToastToWar/AToastToWarQuest_DuelEirikSkarn.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

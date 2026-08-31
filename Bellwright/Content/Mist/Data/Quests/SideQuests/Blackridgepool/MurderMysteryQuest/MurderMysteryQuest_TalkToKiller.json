@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MurderMysteryQuest_TalkToKiller_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToKiller",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MurderMysteryQuest_TalkToKiller_C'Default__MurderMysteryQuest_TalkToKiller_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToKiller.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MurderMysteryQuest_TalkToKiller_C",
+    "Name": "Default__MurderMysteryQuest_TalkToKiller_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToKiller.MurderMysteryQuest_TalkToKiller_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_TalkToKiller",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "BE49F6014272DDD2BFA1F384449239BB",
+        "SourceString": "Talk to {Npc}at the Graveyard.",
+        "LocalizedString": "Talk to {Npc}at the Graveyard."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'KillerNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/NPCTalks/KillerNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MurderMysteryQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToKiller_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "EDB354894CDD6F622EBEC79954CC2760",
+        "SourceString": "Talk to {Npc}at the Graveyard.",
+        "LocalizedString": "Talk to {Npc}at the Graveyard."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B798068140AB2547C787348DCEDB1A63",
+        "SourceString": "He is very agitated, mentioning a greater purpose and called me a heretic what could tthis mean?",
+        "LocalizedString": "He is very agitated, mentioning a greater purpose and called me a heretic what could tthis mean?"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest.MurderMysteryQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

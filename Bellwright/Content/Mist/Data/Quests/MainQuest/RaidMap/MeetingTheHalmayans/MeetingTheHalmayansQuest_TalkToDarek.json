@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MeetingTheHalmayansQuest_TalkToDarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.2"
+      },
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.3"
+      },
+      {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDarek": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDarek'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MeetingTheHalmayansQuest_TalkToDarek_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MeetingTheHalmayansQuest_TalkToDarek_C'Default__MeetingTheHalmayansQuest_TalkToDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MeetingTheHalmayansQuest_TalkToDarek",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistPlayer'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CompleteQuest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_TalkToDarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MeetingTheHalmayansQuest_TalkToDarek_C",
+    "Name": "Default__MeetingTheHalmayansQuest_TalkToDarek_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek.MeetingTheHalmayansQuest_TalkToDarek_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_TalkToDarek",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8659859E4EA84BF51C1FB9902058733F",
+          "SourceString": "Are you the leader here?",
+          "LocalizedString": "Are you the leader here?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MeetingTheHalmayansQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToDarek"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "9DD17E3643DE1DFB1523E9B9700E9362",
+        "SourceString": "Meeting the Halmayans",
+        "LocalizedString": "Meeting the Halmayans"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "7265457B404E2BD6FE0EE79042788250",
+        "SourceString": "Darek told me more about himself and the Halmayans. Right now, he doesn’t have work for me. He told me I have to work for their trust.",
+        "LocalizedString": "Darek told me more about himself and the Halmayans. Right now, he doesn’t have work for me. He told me I have to work for their trust."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FathersIssuesQuest_SpeakToCarlos_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToCarlos",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FathersIssuesQuest_SpeakToCarlos_C'Default__FathersIssuesQuest_SpeakToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToCarlos.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FathersIssuesQuest_SpeakToCarlos_C",
+    "Name": "Default__FathersIssuesQuest_SpeakToCarlos_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToCarlos.FathersIssuesQuest_SpeakToCarlos_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToCarlos",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CarlosCisneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisneNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CarlosCisne_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisne_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "797BA3BD4517641169E079B712BF54CF",
+          "SourceString": "One of the Cassians is interested in your daughter, Isa.",
+          "LocalizedString": "One of the Cassians is interested in your daughter, Isa."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuestTalk.0"
+        },
+        "TalkEntryPoint": "CarlosCisne",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9A8EF1604489680D42C04D8DBFD66313",
+          "SourceString": "One of the Cassians is interested in your daughter, Isa.",
+          "LocalizedString": "One of the Cassians is interested in your daughter, Isa."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuestTalk.0"
+        },
+        "TalkEntryPoint": "CarlosCisne",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarlosCisne_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisne_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarlosCisneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisneNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest.FathersIssuesQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

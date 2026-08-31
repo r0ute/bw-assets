@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "AWalkingTarget_TalkToLozar_C",
+    "Name": "Default__AWalkingTarget_TalkToLozar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToLozar.AWalkingTarget_TalkToLozar_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToLozar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "DB00AF6C412EA9F72BB523B2F4880E46",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RaulLozar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/RaulLozar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AWalkingTargetQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuestTalk.1"
+        },
+        "TalkEntryPoint": "TalkToLozar"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "193FEC2C4163ECC2E5F859A7363CF04E",
+        "SourceString": "Raul was more cautious, refusing gold but eventually admitting that Dain frequently went to Harthbay in his free time. He seemed worried, but confirmed the same location. I need to go to Harthbay to see if I can find Dain.",
+        "LocalizedString": "Raul was more cautious, refusing gold but eventually admitting that Dain frequently went to Harthbay in his free time. He seemed worried, but confirmed the same location. I need to go to Harthbay to see if I can find Dain."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RaulLozar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/RaulLozar_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest.AWalkingTargetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AWalkingTarget_TalkToLozar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToLozar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AWalkingTarget_TalkToLozar_C'Default__AWalkingTarget_TalkToLozar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToLozar.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

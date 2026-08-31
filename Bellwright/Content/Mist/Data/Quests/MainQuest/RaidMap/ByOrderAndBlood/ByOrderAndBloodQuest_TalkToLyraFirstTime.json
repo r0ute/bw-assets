@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ByOrderAndBloodQuest_TalkToLyraFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToLyraFirstTime",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ByOrderAndBloodQuest_TalkToLyraFirstTime_C'Default__ByOrderAndBloodQuest_TalkToLyraFirstTime_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToLyraFirstTime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ByOrderAndBloodQuest_TalkToLyraFirstTime_C",
+    "Name": "Default__ByOrderAndBloodQuest_TalkToLyraFirstTime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToLyraFirstTime.ByOrderAndBloodQuest_TalkToLyraFirstTime_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToLyraFirstTime",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A30A6F424A69B8F2C3F308AFA81CDA78",
+        "SourceString": "Lyra told me how the Cassian’s leader, Cassandra Kim, still refuses to yield, and as long as she lives, she’ll rally what’s left of her followers. Scouts tracked her leaving Opportunist’s Bliss, but the trail was lost. I need to clear out that camp first, then move against her.",
+        "LocalizedString": "Lyra told me how the Cassian’s leader, Cassandra Kim, still refuses to yield, and as long as she lives, she’ll rally what’s left of her followers. Scouts tracked her leaving Opportunist’s Bliss, but the trail was lost. I need to clear out that camp first, then move against her."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.ByOrderAndBloodQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HelpInjuredWorkersQuest_BringCloths_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringCloths",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HelpInjuredWorkersQuest_BringCloths_C'Default__HelpInjuredWorkersQuest_BringCloths_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringCloths.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HelpInjuredWorkersQuest_BringCloths_C",
+    "Name": "Default__HelpInjuredWorkersQuest_BringCloths_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringCloths.HelpInjuredWorkersQuest_BringCloths_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_BringCloths",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RuggedShirt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Torso/RuggedShirt.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RuggedBoots_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Boots/RuggedBoots.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'RuggedTrousers_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Pants/RuggedTrousers.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0D44DA9646DCCCBE9A1C8CBA078AF9E4",
+          "SourceString": "Regarding the task you gave me...",
+          "LocalizedString": "Regarding the task you gave me..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HelpInjuredWorkersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringClothes_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "291C6EFE4FDDA138EFB7378D1FFF4E9A",
+        "SourceString": "I brought some clothes to help replace the injured miners torn clothing.",
+        "LocalizedString": "I brought some clothes to help replace the injured miners torn clothing."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/HelpInjuredWorkers/HelpInjuredWorkersQuest.HelpInjuredWorkersQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuest_Arrival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MainQuest_Arrival_C:ExecuteUbergraph_MainQuest_Arrival'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MainQuest_Arrival_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.2"
+      },
+      {
+        "ObjectName": "Function'MainQuest_Arrival_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.3"
+      },
+      {
+        "ObjectName": "Function'MainQuest_Arrival_C:ExecuteUbergraph_MainQuest_Arrival'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BrigandGuard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MainQuest_Arrival": {
+        "ObjectName": "Function'MainQuest_Arrival_C:ExecuteUbergraph_MainQuest_Arrival'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'MainQuest_Arrival_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MainQuest_Arrival_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuest_Arrival_C'Default__MainQuest_Arrival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MainQuest_Arrival",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuest_Arrival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuest_Arrival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuest_Arrival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MainQuest_Arrival_C",
+    "Name": "Default__MainQuest_Arrival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival.MainQuest_Arrival_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_Arrival",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BrigandGuard": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BrigandGuardNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/BrigandGuardNPCTemplate.0"
+        },
+        "TalkClass": null,
+        "Tag": "None",
+        "FactionName": "None",
+        "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+        "bIsUniqueNPC": true,
+        "AmountMinMax": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_ReachHaerndean_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_ReachHaerndean.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_SearchingForAnswers_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuest_TalkToAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_TalkToAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C5B58A2A4A01B294DE7B2FACA8B315CC",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "1E8083AE46CE2B1DF98E04B6EB764F66",
+        "SourceString": "In search of answers regarding this strange sigil, I have arrived at the nearest village: Haerndean. I need to speak with the Elder. They will provide guidance and help me find what I’m looking for.",
+        "LocalizedString": "In search of answers regarding this strange sigil, I have arrived at the nearest village: Haerndean. I need to speak with the Elder. They will provide guidance and help me find what I’m looking for."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuest_SearchingForAnswers_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RenownReward": 30,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrigandGuardNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/BrigandGuardNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory"
+      },
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Arrival"
+      }
+    }
+  }
+]

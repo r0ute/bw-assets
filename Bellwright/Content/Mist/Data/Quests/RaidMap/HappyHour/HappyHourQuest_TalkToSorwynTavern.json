@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HappyHourQuest_TalkToSorwynTavern_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToSorwynTavern",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HappyHourQuest_TalkToSorwynTavern_C'Default__HappyHourQuest_TalkToSorwynTavern_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToSorwynTavern.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HappyHourQuest_TalkToSorwynTavern_C",
+    "Name": "Default__HappyHourQuest_TalkToSorwynTavern_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToSorwynTavern.HappyHourQuest_TalkToSorwynTavern_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest_TalkToSorwynTavern",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MateoCavaliiNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/MateoCavaliiNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "E2F89D3B497496A3D180F0907D67B2A8",
+          "SourceString": "Can you write me a list of liquors offered here?",
+          "LocalizedString": "Can you write me a list of liquors offered here?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HappyHourQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuestTalk.0"
+        },
+        "TalkEntryPoint": "Starting Area Tavern Innkeeper",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/HappyHour/HappyHourQuest.HappyHourQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

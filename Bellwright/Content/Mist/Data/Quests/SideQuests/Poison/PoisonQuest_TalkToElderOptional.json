@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PoisonQuest_TalkToElderOptional_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToElderOptional",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PoisonQuest_TalkToElderOptional_C'Default__PoisonQuest_TalkToElderOptional_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToElderOptional.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PoisonQuest_TalkToElderOptional_C",
+    "Name": "Default__PoisonQuest_TalkToElderOptional_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToElderOptional.PoisonQuest_TalkToElderOptional_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToElderOptional",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "7527CDB84F5329B8B7A9A682277E7286",
+          "SourceString": "Aleks Amanita accidentally killed a Brigand while experimenting with his new medicine. He asked me to help him cover it up.",
+          "LocalizedString": "Aleks Amanita accidentally killed a Brigand while experimenting with his new medicine. He asked me to help him cover it up."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Padstow Elder",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B42B5DC440BC78FA28781D94EEC530B4",
+        "SourceString": "I had to tell the Elder about Aleks, however the Elder believes in him, I guess I have no other choice other than to help.",
+        "LocalizedString": "I had to tell the Elder about Aleks, however the Elder believes in him, I guess I have no other choice other than to help."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest.PoisonQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

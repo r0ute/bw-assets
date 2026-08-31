@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CrasmereLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderComplete",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CrasmereLiberationQuest_TalkToElderComplete_C'Default__CrasmereLiberationQuest_TalkToElderComplete_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderComplete.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CrasmereLiberationQuest_TalkToElderComplete_C",
+    "Name": "Default__CrasmereLiberationQuest_TalkToElderComplete_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderComplete.CrasmereLiberationQuest_TalkToElderComplete_C'",
+    "Package": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_TalkToElderComplete",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "34A09F924BD63BFCCB6C799819E5BA93",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "621527E640958DFDDA61FD83BD76953D",
+          "SourceString": "What a fight...",
+          "LocalizedString": "What a fight..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereLiberationQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CompleteLiberation"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "A85EAEFC4D11A9C1CF5E0CA9AFA601E7",
+        "SourceString": "Time has come: Crasmere",
+        "LocalizedString": "Time has come: Crasmere"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D77336CD453171AB41DB1687CCE7D004",
+        "SourceString": "Talk to {Npc} about what's happened.",
+        "LocalizedString": "Talk to {Npc} about what's happened."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/Liberation/CrasmereLiberation/LiberationAttempt/CrasmereLiberationQuest.CrasmereLiberationQuest_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

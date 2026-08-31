@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_TalkToBandit_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_TalkToBandit_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToBandit.BanditLordAndCommonFolkQuest_TalkToBandit_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToBandit",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D0533FA94783FD8082DA14AD09215D6C",
+        "SourceString": "Speak with {Npc}",
+        "LocalizedString": "Speak with {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_Bandit1_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_Bandit1_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_Bandit1NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Bandit1NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToBandit"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9BC9D6764E5C4A2C1D8A869B51DF536D",
+        "SourceString": "I spoke with Sly Wheeze, but he’s unwilling to leave the area. I need to convince him the hard way.",
+        "LocalizedString": "I spoke with Sly Wheeze, but he’s unwilling to leave the area. I need to convince him the hard way."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_Bandit1_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_Bandit1_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_Bandit1NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Bandit1NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_TalkToBandit_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToBandit",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_TalkToBandit_C'Default__BanditLordAndCommonFolkQuest_TalkToBandit_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToBandit.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

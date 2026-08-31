@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheMusesHelpQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheMusesHelpQuest_C'Default__TheMusesHelpQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheMusesHelpQuest_C",
+    "Name": "Default__TheMusesHelpQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_TalkToAidaModic_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToAidaModic.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_TalkToLydiaBakal_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_TalkToLydiaBakal.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_ReturnToBard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_Wait_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_Wait.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuest_ReturnToBardAfterWait_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBardAfterWait.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "692907C2420559E9CD571B9587AD006A",
+        "SourceString": "The Muse's Help",
+        "LocalizedString": "The Muse's Help"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "551876B2445CAA7E1500A4B5BE276B7D",
+        "SourceString": "I found Roderick in a panic at the tavern - his muse abandoned him and he's desperate for inspiration. The dramatic fool described his writer's block like a besieged castle. When I offered to help, he practically wept with gratitude. Now I need to find him a proper muse.",
+        "LocalizedString": "I found Roderick in a panic at the tavern - his muse abandoned him and he's desperate for inspiration. The dramatic fool described his writer's block like a besieged castle. When I offered to help, he practically wept with gratitude. Now I need to find him a proper muse."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "685F783E49C59FDF3441E88DD0F3E3B2",
+          "SourceString": "Something the matter?",
+          "LocalizedString": "Something the matter?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 75,
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AidaModicNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/AidaModicNpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LydiaBakalNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/LydiaBakalNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

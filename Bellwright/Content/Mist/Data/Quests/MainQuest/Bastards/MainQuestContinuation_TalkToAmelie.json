@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestContinuation_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_TalkToAmelie",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestContinuation_TalkToAmelie_C'Default__MainQuestContinuation_TalkToAmelie_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_TalkToAmelie.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestContinuation_TalkToAmelie_C",
+    "Name": "Default__MainQuestContinuation_TalkToAmelie_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_TalkToAmelie.MainQuestContinuation_TalkToAmelie_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_TalkToAmelie",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_Talk.0"
+        },
+        "TalkEntryPoint": "Amelie recruit+trust done"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4F2A041449D1D40EAD3E5B8B3B607EA9",
+        "SourceString": "With a newfound notoriety within Haerndean, Amelie suggested I visit the Elder of the neighbouring village of Padstow. There have been talks of a bandit group frightening its inhabitants. I better go there and see if I can be of assistance.",
+        "LocalizedString": "With a newfound notoriety within Haerndean, Amelie suggested I visit the Elder of the neighbouring village of Padstow. There have been talks of a bandit group frightening its inhabitants. I better go there and see if I can be of assistance."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MagnumOpusQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MagnumOpusQuest_C'Default__MagnumOpusQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MagnumOpusQuest_C",
+    "Name": "Default__MagnumOpusQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest.MagnumOpusQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_GoToTheStonePoi_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_GoToTheStonePoi.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_PickUpStone_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_PickUpStone.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_TalkToLysara1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToLysara1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_TalkToKostra1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToKostra1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_TalkToHermit1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_TalkToHermit1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuest_DeliverManuscriptToTheElder1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuest_DeliverManuscriptToTheElder1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D4E21952480DAD7D13B1F986679F2426",
+        "SourceString": "Magnum Opus",
+        "LocalizedString": "Magnum Opus"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7FD6AC57464FE9613E70FFB47048C300",
+        "SourceString": "Adan, the hermit, is convinced I'm part of some grand cosmic tale. He wants me to fetch a Crown of the Sand King, a rock, apparently, and gather whispers from locals Marti and Lysara. He claims these will help him finish his magnum opus. I’m not sure if he’s a genius or just broken, but he’s desperate enough that he can’t even leave his hut—ran out of ink three days ago.",
+        "LocalizedString": "Adan, the hermit, is convinced I'm part of some grand cosmic tale. He wants me to fetch a Crown of the Sand King, a rock, apparently, and gather whispers from locals Marti and Lysara. He claims these will help him finish his magnum opus. I’m not sure if he’s a genius or just broken, but he’s desperate enough that he can’t even leave his hut—ran out of ink three days ago."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0CB88D7A450AABDD43F788A6845E1160",
+          "SourceString": "You seem to have a lot on your mind?",
+          "LocalizedString": "You seem to have a lot on your mind?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MagnumOpusQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/MagnumOpus/MagnumOpusQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 75,
+      "RenownReward": 120,
+      "ItemReward": {
+        "bEnsureAtLeastOneTableRunning": true,
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": null,
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LysaraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LysaraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdanDelmarHerbalistHermitNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/AdanDelmarHerbalistHermitNpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AdanDelmarHermitTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/AdanDelmarHermitTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJurasNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJurasNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

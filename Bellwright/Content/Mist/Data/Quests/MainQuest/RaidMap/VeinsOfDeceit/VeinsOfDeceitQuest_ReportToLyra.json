@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VeinsOfDeceitQuest_ReportToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_ReportToLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VeinsOfDeceitQuest_ReportToLyra_C'Default__VeinsOfDeceitQuest_ReportToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_ReportToLyra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "VeinsOfDeceitQuest_ReportToLyra_C",
+    "Name": "Default__VeinsOfDeceitQuest_ReportToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_ReportToLyra.VeinsOfDeceitQuest_ReportToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_ReportToLyra",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReportToLyraAfterFight"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0397F3874F664002CB45149E263732C2",
+        "SourceString": "After the fighting, Lyra found me. She said the Mayor’s capture is a disaster, and for now, the Halmayans must scatter and lay low until they can regroup. For now, I rest, but soon we’ll rise again.",
+        "LocalizedString": "After the fighting, Lyra found me. She said the Mayor’s capture is a disaster, and for now, the Halmayans must scatter and lay low until they can regroup. For now, I rest, but soon we’ll rise again."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest.VeinsOfDeceitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

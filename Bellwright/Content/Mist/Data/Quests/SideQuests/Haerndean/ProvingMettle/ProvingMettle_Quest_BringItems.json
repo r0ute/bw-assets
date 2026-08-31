@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ProvingMettle_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_BringItems",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ProvingMettle_Quest_BringItems_C'Default__ProvingMettle_Quest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ProvingMettle_Quest_BringItems_C",
+    "Name": "Default__ProvingMettle_Quest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_BringItems.ProvingMettle_Quest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_BringItems",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'WolfTrophyItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/WolfTrophyItem.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'StagTrophyItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/StagTrophyItem.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoarTrophyItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/BoarTrophyItem.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "PartialCompletionPossibleTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6676A62849BC72E0ECA8FC8254677411",
+          "SourceString": "I brought some stuff you asked for",
+          "LocalizedString": "I brought some stuff you asked for"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuestTalk.1"
+        },
+        "TalkEntryPoint": "PartialDeliveryPossible"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A1F1679F491A8E76A9F52090C0477382",
+        "SourceString": "I crafted the trophies for the village hall, and Elder Dobron was impressed by my work. His acknowledgment came with both praise and a reward.",
+        "LocalizedString": "I crafted the trophies for the village hall, and Elder Dobron was impressed by my work. His acknowledgment came with both praise and a reward."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D9C362AA43E55D1116DF0AA0EE4147CB",
+          "SourceString": "About those trophies you wanted…",
+          "LocalizedString": "About those trophies you wanted…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ProvingMettle_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "ProvingMattle_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ProvingMettle/ProvingMettle_Quest.ProvingMettle_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

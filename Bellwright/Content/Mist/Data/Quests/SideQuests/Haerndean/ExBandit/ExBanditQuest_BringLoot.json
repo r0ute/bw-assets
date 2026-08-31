@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ExBanditQuest_BringLoot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_BringLoot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ExBanditQuest_BringLoot_C'Default__ExBanditQuest_BringLoot_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_BringLoot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ExBanditQuest_BringLoot_C",
+    "Name": "Default__ExBanditQuest_BringLoot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_BringLoot.ExBanditQuest_BringLoot_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_BringLoot",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+          },
+          "MinAmount": 500,
+          "MaxAmount": 500,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/NPCTalk/ExBanditNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToExBanditAfter_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "3272D3DF43AEC74661D6B88F0A39ED0C",
+        "SourceString": "Talk to {Npc} and bring him his loot...or not.",
+        "LocalizedString": "Talk to {Npc} and bring him his loot...or not."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "CD884C6243FE74E901F740AB9DC05DCF",
+        "SourceString": "Talk to {Npc} and bring him the loot back loot...or not.",
+        "LocalizedString": "Talk to {Npc} and bring him the loot back loot...or not."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C0744B744478753A05192094FDC02435",
+        "SourceString": "I brought the loot back to the former bandit.",
+        "LocalizedString": "I brought the loot back to the former bandit."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4EC2514D4BBBDE8684B31A9F4C81AC27",
+          "SourceString": "Regarding your loot…",
+          "LocalizedString": "Regarding your loot…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToExBanditAfter_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/NPCTalk/ExBanditNpcTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

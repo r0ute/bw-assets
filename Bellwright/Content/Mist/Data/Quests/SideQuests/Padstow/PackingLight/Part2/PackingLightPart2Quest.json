@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PackingLightPart2Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PackingLightPart2Quest_C'Default__PackingLightPart2Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PackingLightPart2Quest_C",
+    "Name": "Default__PackingLightPart2Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest.PackingLightPart2Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_Wait1day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_Wait1day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_TalkToCyrus_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_TalkToCyrus.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_FindTheCart_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_FindTheCart.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_TalkToBrigand_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_TalkToBrigand.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_ComebackToCyrus_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_ComebackToCyrus.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightPart2Quest_BringLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightPart2Quest_BringLetter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "54645A5F40C8F54ED13B719D2DD96744",
+        "SourceString": "Packing Light: Part 2",
+        "LocalizedString": "Packing Light: Part 2"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "2762290D4260BC27BB4EC9BFA6E2A438",
+        "SourceString": "Cyrus Sherwin asked me to check on the missing smuggling crew.",
+        "LocalizedString": "Cyrus Sherwin asked me to check on the missing smuggling crew."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 400,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 200,
+            "MaxQuantity": 200
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PackingLightBrigandTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PackingLight/Part2/PackingLightBrigandTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

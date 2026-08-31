@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RescueTheTravelerQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RescueTheTravelerQuest_C'Default__RescueTheTravelerQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RescueTheTravelerQuest_C",
+    "Name": "Default__RescueTheTravelerQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuest.RescueTheTravelerQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheTravelerQuestEscort_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuestEscort.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'RescueTheTravelerQuestTalkToTraveler_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuestTalkToTraveler.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CC7ECCAF48BA732DF912FD98D25027AC",
+        "SourceString": "Far From Home",
+        "LocalizedString": "Far From Home"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "ABFC3F1F4562A4210A11909FE59FD564",
+        "SourceString": "Escort traveler to Bradford.",
+        "LocalizedString": "Escort traveler to Bradford."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "AF55A4DC46E60E3F6BC73DB67F9EDEFC",
+        "SourceString": "A stranded Traveler on the road to Bradford asked me to be his escort due to the bandit's attacks and wild animals. I’ve decided to help him.",
+        "LocalizedString": "A stranded Traveler on the road to Bradford asked me to be his escort due to the bandit's attacks and wild animals. I’ve decided to help him."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'RescueTheTravelerQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/RescueTheStrandedTravelerQuest/RescueTheTravelerQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RenownReward": 300,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordTravelerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordTravelerTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordTravelerTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordTravelerTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

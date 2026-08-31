@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "AFoolsBandits_Talk_C",
+    "Name": "Default__AFoolsBandits_Talk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.AFoolsBandits_Talk_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AFoolsBandits_Talk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'AFoolsBandits_Talk_C:ExecuteUbergraph_AFoolsBandits_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AFoolsBandits_Talk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.3"
+      },
+      {
+        "ObjectName": "Function'AFoolsBandits_Talk_C:ExecuteUbergraph_AFoolsBandits_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AFoolsBandits_Talk": {
+        "ObjectName": "Function'AFoolsBandits_Talk_C:ExecuteUbergraph_AFoolsBandits_Talk'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.2"
+      },
+      "TalkEntry": {
+        "ObjectName": "Function'AFoolsBandits_Talk_C:TalkEntry'",
+        "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.3"
+      }
+    },
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AFoolsBandits_Talk_C'Default__AFoolsBandits_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AFoolsBandits_Talk",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AFoolsBandits_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_TalkExit_Exec",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EMistTalkNoExec'",
+          "ObjectPath": "/Script/Mist"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetConsistentRandomInteger_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchInteger_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkEntry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AFoolsBandits_Talk_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AFoolandHisLimbs/AFoolsBandits_Talk.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkTemplate:TalkEntry'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent | FUNC_Const"
+  }
+]

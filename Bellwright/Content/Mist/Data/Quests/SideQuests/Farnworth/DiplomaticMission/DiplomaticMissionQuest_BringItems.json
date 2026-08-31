@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DiplomaticMissionQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DiplomaticMissionQuest_BringItems_C'Default__DiplomaticMissionQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DiplomaticMissionQuest_BringItems_C",
+    "Name": "Default__DiplomaticMissionQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_BringItems.DiplomaticMissionQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BasicArrowQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Gear/BasicArrowQuiver.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'YewShortbow_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/YewShortbow.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3883502344F78D54CA78CCA47ECAC987",
+          "SourceString": "Elder Yaxley sends his best and these gifts as a token of goodwill.",
+          "LocalizedString": "Elder Yaxley sends his best and these gifts as a token of goodwill."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'DiplomaticMissionQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Elder_Marcel_Dobbins",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false,
+        "TalkEntryPoint": "Elder_Marcel_Dobbins"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2F7623034C4E10D5719BAEA93B39F310",
+        "SourceString": "I brought the gifts from Farnworth to the Elder of Blackridgepool, he seemed interested in the proposition of trade. I need to go back to Farnworth to relay the message.",
+        "LocalizedString": "I brought the gifts from Farnworth to the Elder of Blackridgepool, he seemed interested in the proposition of trade. I need to go back to Farnworth to relay the message."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'DiplomaticMissionQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Elder_Marcel_Dobbins"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "AE09BE124D0A3A212321029CD7710A6D",
+          "SourceString": "Elder Yaxley sends his best and these gifts as a token of goodwill.",
+          "LocalizedString": "Elder Yaxley sends his best and these gifts as a token of goodwill."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'DiplomaticMissionQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Elder_Marcel_Dobbins",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolElder_Talk.1"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/DiplomaticMission/DiplomaticMissionQuest.DiplomaticMissionQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

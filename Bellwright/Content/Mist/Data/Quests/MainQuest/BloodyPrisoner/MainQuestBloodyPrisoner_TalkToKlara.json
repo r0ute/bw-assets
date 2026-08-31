@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBloodyPrisoner_TalkToKlara_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkToKlara",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBloodyPrisoner_TalkToKlara_C'Default__MainQuestBloodyPrisoner_TalkToKlara_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkToKlara.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBloodyPrisoner_TalkToKlara_C",
+    "Name": "Default__MainQuestBloodyPrisoner_TalkToKlara_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkToKlara.MainQuestBloodyPrisoner_TalkToKlara_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkToKlara",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereKlaraWinterburn_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereKlaraWinterburn_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "EntryPriority": 1,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0FFA724149BB0A238357DFB53CF11C35",
+          "SourceString": "You wanted to speak with me?",
+          "LocalizedString": "You wanted to speak with me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_Talk.0"
+        },
+        "TalkEntryPoint": "TalktoKlara_InProgress",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5652017C43767F8C50D7F5B39EAF8B87",
+        "SourceString": "Bloody Prisoner",
+        "LocalizedString": "Bloody Prisoner"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "301B7B6E48B33D87DDCD73BF85A48CDA",
+        "SourceString": "When I met with Klara she shared with me how The Butcher had been taken captive and was needing rescue. klara entrusted me with that task. I need to clear out the prison and make sure to rescue him alive. I need to be careful, this will be a big fight.",
+        "LocalizedString": "When I met with Klara she shared with me how The Butcher had been taken captive and was needing rescue. klara entrusted me with that task. I need to clear out the prison and make sure to rescue him alive. I need to be careful, this will be a big fight."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner.MainQuestBloodyPrisoner_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

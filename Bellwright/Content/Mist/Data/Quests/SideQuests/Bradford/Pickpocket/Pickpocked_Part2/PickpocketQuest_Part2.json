@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PickpocketQuest_Part2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PickpocketQuest_Part2_C'Default__PickpocketQuest_Part2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PickpocketQuest_Part2_C",
+    "Name": "Default__PickpocketQuest_Part2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2.PickpocketQuest_Part2_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Part2_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Part2_TalkToPickPocket_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_TalkToPickPocket.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_KillNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_KillNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Part2_BringHead_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/Pickpocked_Part2/PickpocketQuest_Part2_BringHead.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "4781545B45B94827095DECB23B09E6F2",
+        "SourceString": "Sleight of Hand",
+        "LocalizedString": "Sleight of Hand"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "CE022C154F32DCA0ED38D1B10AFFBA08",
+        "SourceString": "I was robbed and made a fool of, I’m not going to let it go easily.",
+        "LocalizedString": "I was robbed and made a fool of, I’m not going to let it go easily."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PickpocketQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DAUGHTER LUCY LANE"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 200,
+      "RenownReward": 250,
+      "bCanBeDiscarded": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/Pickpocket/PickpocketQuest.PickpocketQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthPickpocketerDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthPickpocketerDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthPickpocketerDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthPickpocketerDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

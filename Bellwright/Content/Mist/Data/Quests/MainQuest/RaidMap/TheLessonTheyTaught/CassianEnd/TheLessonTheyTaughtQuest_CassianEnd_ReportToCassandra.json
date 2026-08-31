@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/CassianEnd/TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C'Default__TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/CassianEnd/TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C",
+    "Name": "Default__TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/CassianEnd/TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra.TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/CassianEnd/TheLessonTheyTaughtQuest_CassianEnd_ReportToCassandra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "77A120064A8FC234AD4D6AB2C9CD726D",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_Talk.0"
+        },
+        "TalkEntryPoint": "CassianEnd_ReportBackToCassandra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "16F208C7486F61F60141649B90FB0020",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "74D6C75C4B5A2A789B2D7587ED62ACDD",
+        "SourceString": "Gold weighs more than trust. She rewarded me, but her eyes said I’m just a tool. Still, the Halmayans will pay for crossing the Cassians.",
+        "LocalizedString": "Gold weighs more than trust. She rewarded me, but her eyes said I’m just a tool. Still, the Halmayans will pay for crossing the Cassians."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest.TheLessonTheyTaughtQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

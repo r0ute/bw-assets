@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBloodyPrisoner_TalkTo2Prisoner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo2Prisoner",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBloodyPrisoner_TalkTo2Prisoner_C'Default__MainQuestBloodyPrisoner_TalkTo2Prisoner_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo2Prisoner.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBloodyPrisoner_TalkTo2Prisoner_C",
+    "Name": "Default__MainQuestBloodyPrisoner_TalkTo2Prisoner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo2Prisoner.MainQuestBloodyPrisoner_TalkTo2Prisoner_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_TalkTo2Prisoner",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BrigandPrisoner2NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/BrigandPrisoner2NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "2A3DF28C439F1CA4DB0A43932BF527A1",
+          "SourceString": "You seem nervous, I’m sure you’ve been through a lot.",
+          "LocalizedString": "You seem nervous, I’m sure you’ve been through a lot."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBloodyPrisoner_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner_Talk.0"
+        },
+        "TalkEntryPoint": "TalktoPrisoner2_InProgress",
+        "Icon": "EMistTalkIcon::MainQuest",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F8BF6D00458F4CB096B707AE919B97AE",
+        "SourceString": "The prisoner deep gratitude for the assistance I provided. They could potentially become valuable assets to our mission.",
+        "LocalizedString": "The prisoner deep gratitude for the assistance I provided. They could potentially become valuable assets to our mission."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/MainQuestBloodyPrisoner.MainQuestBloodyPrisoner_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true,
+      "bIsOptionalSubquest": true
+    }
+  }
+]

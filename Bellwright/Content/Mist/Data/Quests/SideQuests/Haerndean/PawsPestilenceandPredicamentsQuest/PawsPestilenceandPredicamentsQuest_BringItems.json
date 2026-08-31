@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PawsPestilenceandPredicamentsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PawsPestilenceandPredicamentsQuest_BringItems_C'Default__PawsPestilenceandPredicamentsQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PawsPestilenceandPredicamentsQuest_BringItems_C",
+    "Name": "Default__PawsPestilenceandPredicamentsQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_BringItems.PawsPestilenceandPredicamentsQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Flax_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanElizaGreenberggNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElizaGreenberggTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanElizaGreenberggTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PawsPestilenceandPredicamentsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "DeliverItems"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "81CC843E4236AAC2A238DAA10F887E84",
+        "SourceString": "I ventured out to find the garlic and flax needed for the concoction. Eliza mentioned these herbs could be found in the nearby woods or fields. After some searching, I collected the required ingredients and prepared to bring it back.",
+        "LocalizedString": "I ventured out to find the garlic and flax needed for the concoction. Eliza mentioned these herbs could be found in the nearby woods or fields. After some searching, I collected the required ingredients and prepared to bring it back."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/PawsPestilenceandPredicamentsQuest/PawsPestilenceandPredicamentsQuest.PawsPestilenceandPredicamentsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

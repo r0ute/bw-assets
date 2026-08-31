@@ -1,0 +1,216 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OldTomesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "MayorEquipment",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'EquipmentSet'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OldTomesQuest_C'Default__OldTomesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OldTomesQuest_C",
+    "Name": "Default__OldTomesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.OldTomesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest",
+    "Properties": {
+      "MayorEquipment": {
+        "Items": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'ThickHood_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Head/ThickHood.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'StuddedShirt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier0/Torso/StuddedShirt.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'BreechesWithKneepads_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Pants/BreechesWithKneepads.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'LeatherBoots_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Armors/Player/Tier1/Boots/LeatherBoots.0"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'Sax_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier0/Sax.0"
+          }
+        ]
+      },
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_Wait_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_Wait.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_MeetSebastian_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_MeetSebastian.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_FindArchive_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_FindArchive.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_FindDocuments_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_FindDocuments.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_TalkToSebastian_01_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_01.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_FindSecretLever_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_FindSecretLever.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_ExitArchive_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_ExitArchive.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_KillAttackers_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_KillAttackers.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OldTomesQuest_TalkToSebastian_02_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest_TalkToSebastian_02.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "296C2BA148FE1D2DD843D0B61180F44F",
+        "SourceString": "Old Tomes",
+        "LocalizedString": "Old Tomes"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EE81E83845FA8EE6A2F8248B92313DD4",
+        "SourceString": "Sebastian said we can find some information that will give us leverage against Kug in the Archives. I wonder who told him about these documents…",
+        "LocalizedString": "Sebastian said we can find some information that will give us leverage against Kug in the Archives. I wonder who told him about these documents…"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheOneWhoLeftItAllBehind/TheOneWhoLeftItAllBehindQuest.TheOneWhoLeftItAllBehindQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.BaneOfTyrantsQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

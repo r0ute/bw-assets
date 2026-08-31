@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheNewcomersQuest_BringSmokedMeat_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BringSmokedMeat",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheNewcomersQuest_BringSmokedMeat_C'Default__TheNewcomersQuest_BringSmokedMeat_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BringSmokedMeat.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheNewcomersQuest_BringSmokedMeat_C",
+    "Name": "Default__TheNewcomersQuest_BringSmokedMeat_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BringSmokedMeat.TheNewcomersQuest_BringSmokedMeat_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_BringSmokedMeat",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedPieceMeat_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedPieceMeat.0"
+          },
+          "MinAmount": 4,
+          "MaxAmount": 4,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersEdmund_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersEdmund_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheNewcomersQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest_Talk.0"
+        },
+        "TalkEntryPoint": "EDMUNDInProgress"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BBDD0B854929F86964AB93ADA4BAEFA4",
+        "SourceString": "I brought some food to help them settle into their new place.",
+        "LocalizedString": "I brought some food to help them settle into their new place."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/TheNewcomers/TheNewcomersQuest.TheNewcomersQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

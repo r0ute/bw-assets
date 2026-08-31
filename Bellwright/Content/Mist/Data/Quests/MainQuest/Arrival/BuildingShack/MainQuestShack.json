@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestShack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShack",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestShack_C'Default__MainQuestShack_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestShack_C",
+    "Name": "Default__MainQuestShack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShack.MainQuestShack_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShack",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestShackBuild_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackBuild.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestShackTalkAfter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalkAfter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2587702E46DEA9C4EBA8DDAF2CEFDF0C",
+        "SourceString": "A New Home",
+        "LocalizedString": "A New Home"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "EEB62E794890A7C12B3A30A308860C22",
+        "SourceString": "The village elder refused to allow me to stay in the village, only allowing me to build a modest shelter on the outskirts of the village. He seems cautious around strangers, claiming to have had too many problems.",
+        "LocalizedString": "The village elder refused to allow me to stay in the village, only allowing me to build a modest shelter on the outskirts of the village. He seems cautious around strangers, claiming to have had too many problems."
+      },
+      "AskForNewQuestTalk": {
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestShackTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalk.0"
+        },
+        "TalkEntryPoint": "Build_InProgress"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "B11BD509477F712C86FFA2A6D7C0F68F",
+          "SourceString": "Regarding the shack…",
+          "LocalizedString": "Regarding the shack…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestShackTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalk.0"
+        },
+        "TalkEntryPoint": "Build_InProgress",
+        "Icon": "EMistTalkIcon::MainQuest",
+        "Type": "EMistTalkChoiceType::MainQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/SearchingForAnswers/MainQuest_SearchingForAnswers.MainQuest_SearchingForAnswers_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+            "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

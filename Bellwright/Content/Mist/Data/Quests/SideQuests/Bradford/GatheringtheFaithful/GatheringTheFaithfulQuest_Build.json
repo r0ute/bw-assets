@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GatheringTheFaithfulQuest_Build_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Build",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBuildQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GatheringTheFaithfulQuest_Build_C'Default__GatheringTheFaithfulQuest_Build_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Build.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GatheringTheFaithfulQuest_Build_C",
+    "Name": "Default__GatheringTheFaithfulQuest_Build_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Build.GatheringTheFaithfulQuest_Build_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Build",
+    "Properties": {
+      "StructureClass": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/VillageImprovements/VM_Shrine.VM_Shrine_C",
+        "SubPathString": ""
+      },
+      "bBuildInPlayerSettlement": false,
+      "SettlementName": "Bradford",
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "7BFA44354938AAFBE73FA7A3FE6CB183",
+        "SourceString": "I have built a place for the village to reconnect with the gods. Now, I need to go back to Elder Patryk Sten and let him know about the construction. I hope my work would help restore faith in the village.",
+        "LocalizedString": "I have built a place for the village to reconnect with the gods. Now, I need to go back to Elder Patryk Sten and let him know about the construction. I hope my work would help restore faith in the village."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "62158D0849957011C01B8BB4767B3A8E",
+          "SourceString": "About the shrine...",
+          "LocalizedString": "About the shrine..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Talk.0"
+        },
+        "TalkEntryPoint": "NPC Elder Patryk Sten",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "60C97D284F1E2D7247D25496AA3C2A02",
+          "SourceString": "About the shrine...",
+          "LocalizedString": "About the shrine..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GatheringTheFaithfulQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithfulQuest_Talk.0"
+        },
+        "TalkEntryPoint": "NPC Elder Patryk Sten",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/GatheringtheFaithful/GatheringTheFaithful_Quest.GatheringTheFaithful_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

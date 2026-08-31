@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_TalkToElder_C'Default__WhereTheLostLayQuest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_TalkToElder_C",
+    "Name": "Default__WhereTheLostLayQuest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToElder.WhereTheLostLayQuest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToElder",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "FC76447F4040DF761A243E919C594E11",
+        "SourceString": "Speak to {Npc} about the note.",
+        "LocalizedString": "Speak to {Npc} about the note."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "27E4C31A48819E11520C659AFC730DC6",
+          "SourceString": "There is something I'd like to ask you.",
+          "LocalizedString": "There is something I'd like to ask you."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToElder_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "4434BC734B37A1C71AD9B9A867C9E169",
+        "SourceString": "Speak to {Npc} about the note.",
+        "LocalizedString": "Speak to {Npc} about the note."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E53A0DA543A4ADA092ECDBB893FA9C65",
+        "SourceString": "Elder Yaxley seemed shocked by the news of the hangings but didn’t want to draw attention to the situation. He asked me to investigate discreetly. If this stops more people from being sent to that tree, I’ll do what I can.",
+        "LocalizedString": "Elder Yaxley seemed shocked by the news of the hangings but didn’t want to draw attention to the situation. He asked me to investigate discreetly. If this stops more people from being sent to that tree, I’ll do what I can."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

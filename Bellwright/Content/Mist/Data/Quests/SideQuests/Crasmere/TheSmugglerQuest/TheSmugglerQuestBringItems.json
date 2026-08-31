@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSmugglerQuestBringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestBringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSmugglerQuestBringItems_C'Default__TheSmugglerQuestBringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestBringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSmugglerQuestBringItems_C",
+    "Name": "Default__TheSmugglerQuestBringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestBringItems.TheSmugglerQuestBringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestBringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Cranberry_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Cranberry.0"
+          },
+          "MinAmount": 10,
+          "MaxAmount": 10,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SmugglerTalk_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/TheSmuggler/SmugglerTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "531E7AC641835119AF6D60B75AD23FD6",
+          "SourceString": "About the stuff you asked for...",
+          "LocalizedString": "About the stuff you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSmugglerQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringItems_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "85D5E3EB43E94BFD7FFE319316943E14",
+        "SourceString": "I brought the goods that the smuggler is looking to sell.",
+        "LocalizedString": "I brought the goods that the smuggler is looking to sell."
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "B82C327E4E28C94D392620A7F2584FBD",
+          "SourceString": "About the stuff you asked for…",
+          "LocalizedString": "About the stuff you asked for…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSmugglerQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuestTalk.0"
+        },
+        "TalkEntryPoint": "BringItems_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SmugglerTalk_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/Quests_Codex/TheSmuggler/SmugglerTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheSmugglerQuest/TheSmugglerQuest.TheSmugglerQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafetyFirst_Marek_Part_Quest_wait1day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_wait1day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafetyFirst_Marek_Part_Quest_wait1day_C'Default__SafetyFirst_Marek_Part_Quest_wait1day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_wait1day.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SafetyFirst_Marek_Part_Quest_wait1day_C",
+    "Name": "Default__SafetyFirst_Marek_Part_Quest_wait1day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_wait1day.SafetyFirst_Marek_Part_Quest_wait1day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_wait1day",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "1B31BC77403AC7EF793FA59AEC50CAD4",
+        "SourceString": "Wait until tomorrow to check with {QuestGiver}.",
+        "LocalizedString": "Wait until tomorrow to check with {QuestGiver}."
+      },
+      "WaitDays": 1,
+      "Title": {
+        "Namespace": "",
+        "Key": "5B7AB1C140623DD7F75076B75CD9203D",
+        "SourceString": "Safety First",
+        "LocalizedString": "Safety First"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5535A9E04A144CE01FCBB08FA1633043",
+        "SourceString": "Wait until tomorrow to check with {QuestGiver}.",
+        "LocalizedString": "Wait until tomorrow to check with {QuestGiver}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6D927C5D4B0918ADE901F6A54B9215A7",
+        "SourceString": "A day has passed, surely Marek is done making the tools.",
+        "LocalizedString": "A day has passed, surely Marek is done making the tools."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4CFAD6B146D46321116A38892C9D2A09",
+          "SourceString": "Are the tools finished?",
+          "LocalizedString": "Are the tools finished?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SafetyFirst_Marek_Part_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Marek_Part/SafetyFirst_Marek_Part_Quest_Talk.0"
+        },
+        "TalkEntryPoint": "SafetyFirst_Marek_Next_Day",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/SafetyFirst/SafetyFirst_Quest.SafetyFirst_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

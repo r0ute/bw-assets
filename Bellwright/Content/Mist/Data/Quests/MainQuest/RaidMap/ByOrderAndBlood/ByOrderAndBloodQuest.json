@@ -1,0 +1,265 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ByOrderAndBloodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ByOrderAndBloodQuest_C:ExecuteUbergraph_ByOrderAndBloodQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ByOrderAndBloodQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.3"
+      },
+      {
+        "ObjectName": "Function'ByOrderAndBloodQuest_C:ExecuteUbergraph_ByOrderAndBloodQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ByOrderAndBloodQuest": {
+        "ObjectName": "Function'ByOrderAndBloodQuest_C:ExecuteUbergraph_ByOrderAndBloodQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ByOrderAndBloodQuest_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ByOrderAndBloodQuest_C'Default__ByOrderAndBloodQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ByOrderAndBloodQuest_C",
+    "Name": "Default__ByOrderAndBloodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.ByOrderAndBloodQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_TalkToLyraFirstTime_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToLyraFirstTime.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_AttackOpportunistBliss_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_AttackOpportunistBliss.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_CollectNote_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_CollectNote.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_FindCassandra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_FindCassandra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_TalkToCassandra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToCassandra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_KillCassandra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_KillCassandra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_ReportToLyra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_ReportToLyra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_TalkToViceroy_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest_TalkToViceroy.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "258813A643F49E34774129B95E4F7BE5",
+        "SourceString": "By Order and Blood",
+        "LocalizedString": "By Order and Blood"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 1000,
+      "RenownReward": 5000,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'Orchard_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Orchard.0"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheBladeComesDown/TheBladeComesDownQuest.TheBladeComesDownQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/HalmayansTroops.HalmayansTroops",
+          "SubPathString": ""
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ByOrderAndBloodQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasWorldTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ByOrderAndBloodQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ByOrderAndBlood/ByOrderAndBloodQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

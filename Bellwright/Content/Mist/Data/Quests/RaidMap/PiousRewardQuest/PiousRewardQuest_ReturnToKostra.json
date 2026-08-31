@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardQuest_ReturnToKostra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_ReturnToKostra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardQuest_ReturnToKostra_C'Default__PiousRewardQuest_ReturnToKostra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_ReturnToKostra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PiousRewardQuest_ReturnToKostra_C",
+    "Name": "Default__PiousRewardQuest_ReturnToKostra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_ReturnToKostra.PiousRewardQuest_ReturnToKostra_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_ReturnToKostra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "83028FF244E8919BA8AA80A7E2632863",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_Talk.0"
+        },
+        "TalkEntryPoint": "ReturnToKostra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B6707D7746FF3874FDE1DBAD84DD5DC9",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

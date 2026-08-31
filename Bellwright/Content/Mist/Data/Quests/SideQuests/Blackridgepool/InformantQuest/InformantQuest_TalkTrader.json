@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "InformantQuest_TalkTrader_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest_TalkTrader",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "InformantQuest_TalkTrader_C'Default__InformantQuest_TalkTrader_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest_TalkTrader.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "InformantQuest_TalkTrader_C",
+    "Name": "Default__InformantQuest_TalkTrader_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest_TalkTrader.InformantQuest_TalkTrader_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest_TalkTrader",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_MerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_MerchantNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_Merchant_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Merchant_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0575C5DB4034F934FCDE78943157C3CA",
+          "SourceString": "I have some questions.",
+          "LocalizedString": "I have some questions."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'InformantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkTrader"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "791759E840CF6D1036DC07A79775C222",
+        "SourceString": "After speaking with Percival, the trader outside the village, I've gained some new insights into Bernar's activities. However, the situation remains unclear. I need to return to Elder Marcel now and report what I've learned from both Bernar and the trader.",
+        "LocalizedString": "After speaking with Percival, the trader outside the village, I've gained some new insights into Bernar's activities. However, the situation remains unclear. I need to return to Elder Marcel now and report what I've learned from both Bernar and the trader."
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_MerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_MerchantNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_Merchant_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_Merchant_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/InformantQuest/InformantQuest.InformantQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

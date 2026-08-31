@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasteroftheRiversQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_BringFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasteroftheRiversQuest_BringFish_C'Default__MasteroftheRiversQuest_BringFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_BringFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasteroftheRiversQuest_BringFish_C",
+    "Name": "Default__MasteroftheRiversQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_BringFish.MasteroftheRiversQuest_BringFish_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_BringFish",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SpottedGluttonfish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/SpottedGluttonfish.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheRivers-Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRivers-Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MasteroftheRiversQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_Talk.0"
+        },
+        "TalkEntryPoint": "MasterRiverInProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4769CC62481B546EB7EFE98C21B7508A",
+        "SourceString": "That was a challenge, but I finally caught a Spotted Gluttonfish. Time to take it back to Aldric and see what he thinks.",
+        "LocalizedString": "That was a challenge, but I finally caught a Spotted Gluttonfish. Time to take it back to Aldric and see what he thinks."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest.MasteroftheRiversQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

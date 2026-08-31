@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ExBanditQuest_TalkToTheodor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToTheodor",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ExBanditQuest_TalkToTheodor_C'Default__ExBanditQuest_TalkToTheodor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToTheodor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ExBanditQuest_TalkToTheodor_C",
+    "Name": "Default__ExBanditQuest_TalkToTheodor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToTheodor.ExBanditQuest_TalkToTheodor_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_TalkToTheodor",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBlacksmithNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBlacksmithNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ExBanditQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToTheodor_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "08FE9F994CC4E1FAE82D64A99426133E",
+        "SourceString": "I asked Teodor about the mysterious figure and he confirmed that he had seen it too, but didn't dare to investigate what it was.",
+        "LocalizedString": "I asked Teodor about the mysterious figure and he confirmed that he had seen it too, but didn't dare to investigate what it was."
+      },
+      "VillageTrustReward": 15,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ExBandit/ExBanditQuest.ExBanditQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

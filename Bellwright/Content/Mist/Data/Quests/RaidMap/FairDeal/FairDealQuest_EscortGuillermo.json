@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FairDealQuest_EscortGuillermo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_EscortGuillermo",
+    "SuperStruct": {
+      "ObjectName": "Class'MistEscortQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FairDealQuest_EscortGuillermo_C'Default__FairDealQuest_EscortGuillermo_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_EscortGuillermo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FairDealQuest_EscortGuillermo_C",
+    "Name": "Default__FairDealQuest_EscortGuillermo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_EscortGuillermo.FairDealQuest_EscortGuillermo_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest_EscortGuillermo",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FairDealGuillermoNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/FairDeal/FairDealGuillermoNPCTemplate.0"
+        }
+      },
+      "AcceptedTargetActor": {
+        "ObjectName": "BlueprintGeneratedClass'FairDealTargetLocation_QuestPOI_C'",
+        "ObjectPath": "/Game/Mist/Props/Poi/RaidMap/Quest/FairDeal/FairDealTargetLocation_QuestPOI.0"
+      },
+      "MaxDistanceToPlayer": 700.0,
+      "RoleAfterEscort": "EMistTownNpcRole::SettlementGuard",
+      "AssignToASpecificSettlement": "FairDealTravel",
+      "Description": {
+        "Namespace": "",
+        "Key": "E6D9927744BA8EC851311B866E83556B",
+        "SourceString": "Guide Guillermo outside the town",
+        "LocalizedString": "Guide Guillermo outside the town"
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FairDealQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuestTalk.0"
+        },
+        "TalkEntryPoint": "Guillermo Idle Escort"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FairDealQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuestTalk.0"
+        },
+        "TalkEntryPoint": "Guillermo Idle Escort"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GuillermoCalNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/FairDeal/GuillermoCalNPCTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FairDeal/FairDealQuest.FairDealQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

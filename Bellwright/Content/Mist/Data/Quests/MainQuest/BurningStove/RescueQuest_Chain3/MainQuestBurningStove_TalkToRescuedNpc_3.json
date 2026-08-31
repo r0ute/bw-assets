@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBurningStove_TalkToRescuedNpc_3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/MainQuestBurningStove_TalkToRescuedNpc_3",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBurningStove_TalkToRescuedNpc_3_C'Default__MainQuestBurningStove_TalkToRescuedNpc_3_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/MainQuestBurningStove_TalkToRescuedNpc_3.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBurningStove_TalkToRescuedNpc_3_C",
+    "Name": "Default__MainQuestBurningStove_TalkToRescuedNpc_3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/MainQuestBurningStove_TalkToRescuedNpc_3.MainQuestBurningStove_TalkToRescuedNpc_3_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/MainQuestBurningStove_TalkToRescuedNpc_3",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerBelindaStoneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBelindaStoneNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestBurningStove_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/MainQuestBurningStove_Talk.0"
+        },
+        "TalkEntryPoint": "ThirdPrisoner_QuestAvailable"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6D06C01343817FBC369E52BA937EDFB9",
+        "SourceString": "Burning Stove: Part 3",
+        "LocalizedString": "Burning Stove: Part 3"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3737A4B54C6B22D171B445826B8DD507",
+        "SourceString": "Another prisoner rescued. It was tense but swift - we moved quickly through the shadows, avoiding potential guards and navigating the complex prison layout.",
+        "LocalizedString": "Another prisoner rescued. It was tense but swift - we moved quickly through the shadows, avoiding potential guards and navigating the complex prison layout."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerBelindaStoneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBelindaStoneNpcTemplate.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain3/MainQuestBurningStove_Chain3.MainQuestBurningStove_Chain3_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true,
+      "AchievementOnFinishing": {
+        "ID": "ESCORT_BURNING_STOVE"
+      }
+    }
+  }
+]

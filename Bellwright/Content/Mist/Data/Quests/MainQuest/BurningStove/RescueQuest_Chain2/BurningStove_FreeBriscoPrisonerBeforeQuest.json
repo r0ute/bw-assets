@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BurningStove_FreeBriscoPrisonerBeforeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/BurningStove_FreeBriscoPrisonerBeforeQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BurningStove_FreeBriscoPrisonerBeforeQuest_C'Default__BurningStove_FreeBriscoPrisonerBeforeQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/BurningStove_FreeBriscoPrisonerBeforeQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BurningStove_FreeBriscoPrisonerBeforeQuest_C",
+    "Name": "Default__BurningStove_FreeBriscoPrisonerBeforeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/BurningStove_FreeBriscoPrisonerBeforeQuest.BurningStove_FreeBriscoPrisonerBeforeQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/BurningStove_FreeBriscoPrisonerBeforeQuest",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "B2E474CF4BBDCE062A23CDB4F5010F96",
+        "SourceString": "Free and talk to {Npc}",
+        "LocalizedString": "Free and talk to {Npc}"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerBriscoLintonNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBriscoLintonNpcTemplate.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "402C6D214855072E0CA43E9DBE97A2FB",
+        "SourceString": "Imprisoned",
+        "LocalizedString": "Imprisoned"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrisonerBriscoLintonNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBriscoLintonNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

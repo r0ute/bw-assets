@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "AWalkingTarget_TalkToValde_C",
+    "Name": "Default__AWalkingTarget_TalkToValde_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToValde.AWalkingTarget_TalkToValde_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToValde",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "85CD854E453184583AA67094F1F88934",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DainValde_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HarthbayVillage/DainValde_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AWalkingTargetQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuestTalk.1"
+        },
+        "TalkEntryPoint": "TalkToDain"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A1A615144DB7A28C0DF8A69ABACCA4F3",
+        "SourceString": "I finally found Dain near Harthbay, like his fellow men said he would be. Now there’s a decision to make: should I follow the instructions Marcos gave me or spare Dain?",
+        "LocalizedString": "I finally found Dain near Harthbay, like his fellow men said he would be. Now there’s a decision to make: should I follow the instructions Marcos gave me or spare Dain?"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DainValde_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HarthbayVillage/DainValde_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest.AWalkingTargetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AWalkingTarget_TalkToValde_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToValde",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AWalkingTarget_TalkToValde_C'Default__AWalkingTarget_TalkToValde_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToValde.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLongRoadQuest_TalkToBenito_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToBenito",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLongRoadQuest_TalkToBenito_C'Default__TheLongRoadQuest_TalkToBenito_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToBenito.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheLongRoadQuest_TalkToBenito_C",
+    "Name": "Default__TheLongRoadQuest_TalkToBenito_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToBenito.TheLongRoadQuest_TalkToBenito_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_TalkToBenito",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "3F8B47AD4DC651EC474BA5B5844096C6",
+        "SourceString": "Talk to the stranger",
+        "LocalizedString": "Talk to the stranger"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BenitoZamoraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/SolsWinery/BenitoZamoraNpcTemplate.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToBenito"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C6E0891B4E62DB850572D496B6F6B0A4",
+        "SourceString": "Talk to the stranger",
+        "LocalizedString": "Talk to the stranger"
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLongRoadQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest_Talk.0"
+        },
+        "TalkEntryPoint": "BringWine"
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BenitoZamoraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/SolsWinery/BenitoZamoraNpcTemplate.1"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheLongRoad/TheLongRoadQuest.TheLongRoadQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

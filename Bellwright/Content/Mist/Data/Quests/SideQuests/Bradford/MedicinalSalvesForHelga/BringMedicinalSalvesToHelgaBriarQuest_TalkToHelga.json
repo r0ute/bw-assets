@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C'Default__BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C",
+    "Name": "Default__BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga.BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest_TalkToHelga",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A88418934CC5C315A1B3BF9168EE9E89",
+          "SourceString": "Is everything all right? You look worried again.",
+          "LocalizedString": "Is everything all right? You look worried again."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringMedicinalSalvesToHelgaBriar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriar_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHelga_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "FA15301C447A2B41C246F9B28F65C49B",
+        "SourceString": "Blood and Gored",
+        "LocalizedString": "Blood and Gored"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3645616245BC01B6DD24728F78FEA2AD",
+        "SourceString": "After what happened with her husband, I decided to check on Helga to see how she was holding up. It turns out her husband had a nasty fall on his way home from the tavern, and a branch punctured his arm. Now, she’s worried sick that the wound might get infected, and with the local healer refusing to help due to the bad blood between them, she’s desperate for someone to step in and assist.",
+        "LocalizedString": "After what happened with her husband, I decided to check on Helga to see how she was holding up. It turns out her husband had a nasty fall on his way home from the tavern, and a branch punctured his arm. Now, she’s worried sick that the wound might get infected, and with the local healer refusing to help due to the bad blood between them, she’s desperate for someone to step in and assist."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordHelgaBriar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordHelgaBriar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/MedicinalSalvesForHelga/BringMedicinalSalvesToHelgaBriarQuest.BringMedicinalSalvesToHelgaBriarQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

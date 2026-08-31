@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalQuest_TalkToSir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_TalkToSir",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalQuest_TalkToSir_C'Default__SirMedivalQuest_TalkToSir_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_TalkToSir.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalQuest_TalkToSir_C",
+    "Name": "Default__SirMedivalQuest_TalkToSir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_TalkToSir.SirMedivalQuest_TalkToSir_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedivalQuest_TalkToSir",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F2D5C8B84FEC3240444FE88E6690948C",
+          "SourceString": "About the bandits...",
+          "LocalizedString": "About the bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_QuestTalk.0"
+        },
+        "TalkEntryPoint": "SirMedivalIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D9E1C3BB4FBF6DCEE551DC9FAF907EDC",
+        "SourceString": "The knight was appreciative of my efforts, and has a token gifted me this shield. This will be helpful in defending against bandits.",
+        "LocalizedString": "The knight was appreciative of my efforts, and has a token gifted me this shield. This will be helpful in defending against bandits."
+      },
+      "AskForNewQuestTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "59582AFD42C94E2ED37C7CADF78CD8A0",
+          "SourceString": "About the bandits...",
+          "LocalizedString": "About the bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_QuestTalk.0"
+        },
+        "TalkEntryPoint": "SirMedivalIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "E7984F4346BEF48ACA1FE2B59EA1EB08",
+          "SourceString": "About the bandits...",
+          "LocalizedString": "About the bandits..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_QuestTalk.0"
+        },
+        "TalkEntryPoint": "SirMedivalIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Quest.SirMedival_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

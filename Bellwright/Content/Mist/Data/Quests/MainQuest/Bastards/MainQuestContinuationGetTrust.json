@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestContinuationGetTrust_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationGetTrust",
+    "SuperStruct": {
+      "ObjectName": "Class'MistVillageTrustGainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestContinuationGetTrust_C'Default__MainQuestContinuationGetTrust_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationGetTrust.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestContinuationGetTrust_C",
+    "Name": "Default__MainQuestContinuationGetTrust_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationGetTrust.MainQuestContinuationGetTrust_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationGetTrust",
+    "Properties": {
+      "QuestTitle": {
+        "Namespace": "",
+        "Key": "A465DACF48D4F6954AB64AAF980A9B29",
+        "SourceString": "Trustworthy.",
+        "LocalizedString": "Trustworthy."
+      },
+      "MainTaskDescription": {
+        "Namespace": "",
+        "Key": "D9F67A6F4CE351D0652562BC32B2EA22",
+        "SourceString": "Earn {TrustLevel} trust level from people in {VillageName}.",
+        "LocalizedString": "Earn {TrustLevel} trust level from people in {VillageName}."
+      },
+      "SettlementName": "Haerndean",
+      "VillageTrustLevel": "EMistVillageTrustLevelEnum::Friend",
+      "Title": {
+        "Namespace": "",
+        "Key": "79016CA440E68F3851B7A99E79E729D3",
+        "SourceString": "Trustworthy.",
+        "LocalizedString": "Trustworthy."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "884ACFF2402D643C22C81BAA2AB7816C",
+        "SourceString": "Earn {TrustLevel} trust level from people in {VillageName}, and then speak to Amelie",
+        "LocalizedString": "Earn {TrustLevel} trust level from people in {VillageName}, and then speak to Amelie"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D372294C4AABE8C9DC32CCAD8D215C1C",
+        "SourceString": "Like Amelie suggested, I have been building my reputation amongst the villagers. Helping wherever and whenever they need. This has helped me learn more about the village and its people. But now, with a better standing with the people, I should return to Amelie and see if she knows about anything that I could be of help to.",
+        "LocalizedString": "Like Amelie suggested, I have been building my reputation amongst the villagers. Helping wherever and whenever they need. This has helped me learn more about the village and its people. But now, with a better standing with the people, I should return to Amelie and see if she knows about anything that I could be of help to."
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_Talk.0"
+        },
+        "TalkEntryPoint": "Amelie recruit+trust done"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

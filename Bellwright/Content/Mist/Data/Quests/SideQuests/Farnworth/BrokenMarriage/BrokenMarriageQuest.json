@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BrokenMarriageQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BrokenMarriageQuest_C'Default__BrokenMarriageQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BrokenMarriageQuest_C",
+    "Name": "Default__BrokenMarriageQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest.BrokenMarriageQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_TalkAnna_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_TalkAnna.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrokenMarriage_TalkTomas_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriage_TalkTomas.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_ReturnNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_ReturnNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_Wait1Day_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_Wait1Day.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_ReturnNextDay_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_ReturnNextDay.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "188DFDEC4978C6E6916BD294A889E974",
+        "SourceString": "Broken Marriage",
+        "LocalizedString": "Broken Marriage"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "832664E94DA86464626CB8B97224364F",
+        "SourceString": "A concerned villager who explained that Anna and Tomas, a once-happy couple, were now locked in a bitter feud. Their constant arguing was tearing the community apart, and the villager begged me to intervene. I agreed to help, though I wasn’t sure how much I could do.",
+        "LocalizedString": "A concerned villager who explained that Anna and Tomas, a once-happy couple, were now locked in a bitter feud. Their constant arguing was tearing the community apart, and the villager begged me to intervene. I agreed to help, though I wasn’t sure how much I could do."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BrokenMarriageQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BrokenMarriage/BrokenMarriageQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 200,
+      "VillageProsperityReward": 100,
+      "RenownReward": 150,
+      "bCanBeDiscarded": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CarpenterDaughterInTrouble/CarpenterDoughterInTroubleQuest.CarpenterDoughterInTroubleQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest.BoundaryDisputeQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthBeatriceDickTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthBeatriceDickTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthMerchantNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/FarnworthVillageProfile.FarnworthVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

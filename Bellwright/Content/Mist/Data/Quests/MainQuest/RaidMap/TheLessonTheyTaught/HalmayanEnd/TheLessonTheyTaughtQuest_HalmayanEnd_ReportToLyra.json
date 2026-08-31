@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/HalmayanEnd/TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C'Default__TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/HalmayanEnd/TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C",
+    "Name": "Default__TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/HalmayanEnd/TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra.TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/HalmayanEnd/TheLessonTheyTaughtQuest_HalmayanEnd_ReportToLyra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "38F6DE0A498E8677EA161096FEF373AC",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_Talk.0"
+        },
+        "TalkEntryPoint": "HalmayanEnd_ReportBackToLyra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "78A8BD3049F23197548475B7DA6A4C5C",
+        "SourceString": "Report to {Npc}",
+        "LocalizedString": "Report to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A44AFBC54B94C8640C9F7EA7970D16C2",
+        "SourceString": "Lyra was pleased when I returned to her. The Falsgar must be already marching on Opportunit’s Bliss, she said. Mission accomplished. But war is coming.",
+        "LocalizedString": "Lyra was pleased when I returned to her. The Falsgar must be already marching on Opportunit’s Bliss, she said. Mission accomplished. But war is coming."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest.TheLessonTheyTaughtQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

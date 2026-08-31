@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestContinuation_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestContinuation_C'Default__MainQuestContinuation_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestContinuation_C",
+    "Name": "Default__MainQuestContinuation_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation.MainQuestContinuation_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_HireSecondNpc_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_HireSecondNpc.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuationGetTrust_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationGetTrust.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_TalkToAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_TalkToAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuationTalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationTalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuationClearTheCamp_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationClearTheCamp.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestContinuationBackToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuationBackToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "6C18033A437FBECE83F7398D45844843",
+        "SourceString": "Moving up in the world",
+        "LocalizedString": "Moving up in the world"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "436F31934C34266F9668C6A26A6E5587",
+        "SourceString": "Amelie has given me good advice - I should build a place to sleep and hire some people if I want to stay in the Lowlands for longer. The next thing would be helping people in other villages, Padstow should be a good start.",
+        "LocalizedString": "Amelie has given me good advice - I should build a place to sleep and hire some people if I want to stay in the Lowlands for longer. The next thing would be helping people in other villages, Padstow should be a good start."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "FED1AF4B42238297838306942B911225",
+        "SourceString": "Amelie has given me good advice - I should build a place to sleep and hire some people if I want to stay in the Lowlands for longer. The next thing would be helping people in other villages, Padstow should be a good start.",
+        "LocalizedString": "Amelie has given me good advice - I should build a place to sleep and hire some people if I want to stay in the Lowlands for longer. The next thing would be helping people in other villages, Padstow should be a good start."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8A33F2704DD7B20A22D9D59FB02712F0",
+        "SourceString": "After defeating the bandits, the elder warned me that they might retaliate. I only wish this warning had come sooner. No time to waste. I'd need to prepare for whatever vengeance those bastards might be plotting.",
+        "LocalizedString": "After defeating the bandits, the elder warned me that they might retaliate. I only wish this warning had come sooner. No time to waste. I'd need to prepare for whatever vengeance those bastards might be plotting."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "EntryPriority": 1,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestContinuation_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Bastards/MainQuestContinuation_Talk.0"
+        },
+        "TalkEntryPoint": "AmeliaQuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RenownReward": 300,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Vagabonds/MainQuest_Vagabonds.MainQuest_Vagabonds_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Moving Up In The World"
+      },
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.Moving Up In The World"
+      }
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MysteriousIllnessQuest_TalkToBastard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToBastard",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MysteriousIllnessQuest_TalkToBastard_C'Default__MysteriousIllnessQuest_TalkToBastard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToBastard.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MysteriousIllnessQuest_TalkToBastard_C",
+    "Name": "Default__MysteriousIllnessQuest_TalkToBastard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToBastard.MysteriousIllnessQuest_TalkToBastard_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToBastard",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "997D8F84422A8CD8DDDDB58ED3B9F39A",
+        "SourceString": "Talk to bastard.",
+        "LocalizedString": "Talk to bastard."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BastardNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/BastardNPCTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToBastard_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "2331C798483C5E86CE0AC98E29EF73FB",
+        "SourceString": "Talk to bastard.",
+        "LocalizedString": "Talk to bastard."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "881786A1442CCE3187B982B182EE35E6",
+        "SourceString": "This man could not be talked to reason.",
+        "LocalizedString": "This man could not be talked to reason."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D75D05FF49F61001AB5D5FA35C95CA00",
+          "SourceString": "Regarding the man, who is poisoning the village well...",
+          "LocalizedString": "Regarding the man, who is poisoning the village well..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHealer_QuestComplete",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest.MysteriousIllnessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart3_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart3_Quest_C'Default__SirMedivalPart3_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart3_Quest_C",
+    "Name": "Default__SirMedivalPart3_Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest.SirMedivalPart3_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_CheckOnMedival_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_CheckOnMedival.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_TakeTreasure_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_TakeTreasure.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_TalkToFamily_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_TalkToFamily.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_TalkToTrader_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_TalkToTrader.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_Quest_BackToMedival_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_Quest_BackToMedival.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E9481EC34160D01EB93D9DB0F573AF78",
+        "SourceString": "The Wandering Knight Part 3",
+        "LocalizedString": "The Wandering Knight Part 3"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "52945CC54FA41AFFA9F498913BDBDFE6",
+        "SourceString": "The Knight needs my help once again. Knowing what we went through last time, or rather what he went through last time, I’m a little wary. But who knows, maybe I’ll get something out of it this time.",
+        "LocalizedString": "The Knight needs my help once again. Knowing what we went through last time, or rather what he went through last time, I’m a little wary. But who knows, maybe I’ll get something out of it this time."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart3_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalPart3_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest.SirMedivalPart2_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalFamily_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/SirMedivalFamily_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

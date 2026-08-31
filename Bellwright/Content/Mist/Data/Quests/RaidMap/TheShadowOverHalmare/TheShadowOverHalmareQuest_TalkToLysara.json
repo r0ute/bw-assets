@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheShadowOverHalmareQuest_TalkToLysara_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToLysara",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheShadowOverHalmareQuest_TalkToLysara_C'Default__TheShadowOverHalmareQuest_TalkToLysara_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToLysara.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheShadowOverHalmareQuest_TalkToLysara_C",
+    "Name": "Default__TheShadowOverHalmareQuest_TalkToLysara_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToLysara.TheShadowOverHalmareQuest_TalkToLysara_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest_TalkToLysara",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheShadowOverHalmareQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLysara"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "CCE9D3AA411ED7A54132E6ACC2B1BD59",
+        "SourceString": "Lysara knew one of the first victims, Mara, who went blind after drinking a strange blue liquid. She gave the bottle to Elder Miron. The drink is being passed around secretly, never sold openly.",
+        "LocalizedString": "Lysara knew one of the first victims, Mara, who went blind after drinking a strange blue liquid. She gave the bottle to Elder Miron. The drink is being passed around secretly, never sold openly."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Lysara_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/Lysara_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheShadowOverHalmare/TheShadowOverHalmareQuest.TheShadowOverHalmareQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

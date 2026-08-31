@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BoundaryDisputeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BoundaryDisputeQuest_C'Default__BoundaryDisputeQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoundaryDisputeQuest_C",
+    "Name": "Default__BoundaryDisputeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest.BoundaryDisputeQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_Talk_to_Herbalist_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Herbalist.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_Talk_to_Elder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk_to_Elder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_BringItems_MeatStew_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_BringItems_MeatStew.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C26C4457465E5FBD499E888E505745B5",
+        "SourceString": "A Hearty Request",
+        "LocalizedString": "A Hearty Request"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A821D64046717198B69F6CA01F240E64",
+        "SourceString": "Bring {QuestGiver} The spices from the Herbalist and the Meat Stew",
+        "LocalizedString": "Bring {QuestGiver} The spices from the Herbalist and the Meat Stew"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "B8758A69496D1A7CAE7DE9A4473EA626",
+        "SourceString": "Anna seemed really determined to get this part of the land. I hope my cooking will not kill them both.",
+        "LocalizedString": "Anna seemed really determined to get this part of the land. I hope my cooking will not kill them both."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "39B09AE3424F34B92CEFF8BD07C405B5",
+          "SourceString": "Boundary Dispute",
+          "LocalizedString": "Boundary Dispute"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BoundaryDisputeQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/BoundaryDispute/BoundaryDisputeQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 200,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 100.0,
+            "MaxQuantityMultiplier": 100.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicStews'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicStews.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/CommunityWell/CommunityWellQuest.CommunityWellQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GilbertHobbHerbalistTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/HerbalistQuest/GilbertHobbHerbalistTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

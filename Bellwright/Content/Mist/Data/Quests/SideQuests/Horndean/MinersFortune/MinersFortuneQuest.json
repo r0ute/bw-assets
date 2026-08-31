@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MinersFortuneQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MinersFortuneQuest_C'Default__MinersFortuneQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MinersFortuneQuest_C",
+    "Name": "Default__MinersFortuneQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest.MinersFortuneQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_ReturnMaterials_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnMaterials.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_TalkFinton_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_TalkFinton.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest__TalkCressida_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest__TalkCressida.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_ReturnElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_ReturnElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "539869954F21A36B490D858DE22CF083",
+        "SourceString": "Miner's Fortune",
+        "LocalizedString": "Miner's Fortune"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "379E9BEC42C8BFE324740A8F7CDDECF5",
+        "SourceString": "I spoke with Elder Philip Mott, who explained the dire state of the village mine. Years of neglect and cave-ins have left it in disarray. Without the mine, the village struggles to get the ore it needs, leaving everyone in a precarious situation. The elder asked for my help to gather materials—sturdy planks, nails, and stone.",
+        "LocalizedString": "I spoke with Elder Philip Mott, who explained the dire state of the village mine. Years of neglect and cave-ins have left it in disarray. Without the mine, the village struggles to get the ore it needs, leaving everyone in a precarious situation. The elder asked for my help to gather materials—sturdy planks, nails, and stone."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "098038AC47F3D50F2B1149903E78BCE9",
+          "SourceString": "Anything I could help with?",
+          "LocalizedString": "Anything I could help with?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MinersFortuneQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MinersFortune/MinersFortuneQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 50,
+      "VillageProsperityReward": 150,
+      "RenownReward": 200,
+      "bCanBeDiscarded": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMottQuest.BringFlourandWaxtoElderPhilipMottQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CryMeARiver_Quest.CryMeARiver_Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CressidaStone_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/CryMeARiver/CressidaStone_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/HorndeanVillageProfile.HorndeanVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

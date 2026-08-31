@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringFlourandWaxtoElderPhilipMottQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMottQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringFlourandWaxtoElderPhilipMottQuest_C'Default__BringFlourandWaxtoElderPhilipMottQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMottQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringFlourandWaxtoElderPhilipMottQuest_C",
+    "Name": "Default__BringFlourandWaxtoElderPhilipMottQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMottQuest.BringFlourandWaxtoElderPhilipMottQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMottQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringFlourandWaxtoElderPhilipMott_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMott_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D9A0B46949510FE8174DF58F8C9AE247",
+        "SourceString": "Feed the Masses",
+        "LocalizedString": "Feed the Masses"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7FB10EA645BAA276647E0B836E4B4DF4",
+        "SourceString": "It seems Ashbourne is not keeping his part of the bargain with Horndean. Perhaps if I help them, they’ll see the light and break that alliance.",
+        "LocalizedString": "It seems Ashbourne is not keeping his part of the bargain with Horndean. Perhaps if I help them, they’ll see the light and break that alliance."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9CD363644411CA082FDD1EAA142C9E15",
+          "SourceString": "Flour and wax",
+          "LocalizedString": "Flour and wax"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringFlourandWaxtoElderPhilipMott_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/FlourAndWax/BringFlourandWaxtoElderPhilipMott_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 300,
+      "RenownReward": 150,
+      "ItemReward": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Bakery'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Bakery.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HorndeanElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PrideAndParrying_Duel1Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_Duel1Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PrideAndParrying_Duel1Quest_C'Default__PrideAndParrying_Duel1Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_Duel1Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PrideAndParrying_Duel1Quest_C",
+    "Name": "Default__PrideAndParrying_Duel1Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_Duel1Quest.PrideAndParrying_Duel1Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_Duel1Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrideAndParrying_DuelFight1Quest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_DuelFight1Quest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrideAndParrying_TalkAfterDuel1Quest_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_TalkAfterDuel1Quest.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CB3BCF4C4A1CDFF8B916C9A8170A184A",
+        "SourceString": "Pride and Parrying: Part 1",
+        "LocalizedString": "Pride and Parrying: Part 1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "96038CB74FB2DAB675BDEF941AA6D8E5",
+        "SourceString": "I’ve met this weird man, who was desperate to duel me. He is clearly not fully sane and suffering from amnesia. I hope I don’t meet him in the future.",
+        "LocalizedString": "I’ve met this weird man, who was desperate to duel me. He is clearly not fully sane and suffering from amnesia. I hope I don’t meet him in the future."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "66C200344E51ED0368133B9ED3BF07A1",
+        "SourceString": "I’ve met this weird man, who was desperate to duel me. He is clearly not fully sane and suffering from amnesia. I hope I don’t meet him in the future.",
+        "LocalizedString": "I’ve met this weird man, who was desperate to duel me. He is clearly not fully sane and suffering from amnesia. I hope I don’t meet him in the future."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "305F6B45410437475BE4F8A36ED78A05",
+          "SourceString": "Can I help you somehow?",
+          "LocalizedString": "Can I help you somehow?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PrideAndParryingQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/PrideAndParryingQuestTalk.0"
+        },
+        "TalkEntryPoint": "FirstEncounter_Available",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "bEnsureAtLeastOneTableRunning": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DeerHunterQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DeerHunterQuest_C'Default__DeerHunterQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DeerHunterQuest_C",
+    "Name": "Default__DeerHunterQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest.DeerHunterQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'DeerHunterQuest_BringHorns_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest_BringHorns.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "FAA91942493E9AD5C98CEDA809293E17",
+        "SourceString": "Deer Hunter",
+        "LocalizedString": "Deer Hunter"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7B438F784E0EF97449F8DBBAA8FA0ABD",
+        "SourceString": "{QuestGiver} has a personal request for me - a stag horn for a helmet. Looks like an ambitious project. I’m curious if it would be a functional piece of armor or only ceremonial.",
+        "LocalizedString": "{QuestGiver} has a personal request for me - a stag horn for a helmet. Looks like an ambitious project. I’m curious if it would be a functional piece of armor or only ceremonial."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "D8063F2E46972E17CA7B1F83C55A1164",
+          "SourceString": "Helping with ingredients for the special project.",
+          "LocalizedString": "Helping with ingredients for the special project."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'DeerHunterQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/BringHornsQuest/DeerHunterQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'StagTrophyItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/StagTrophyItem.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SmokedLargePieceMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedLargePieceMeat.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SmokedSmallPieceMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedSmallPieceMeat.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SmokedPieceMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedPieceMeat.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Hide_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest.JesterQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

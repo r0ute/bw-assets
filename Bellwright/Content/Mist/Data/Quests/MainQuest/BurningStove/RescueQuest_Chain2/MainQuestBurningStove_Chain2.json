@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestBurningStove_Chain2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_Chain2",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestBurningStove_Chain2_C'Default__MainQuestBurningStove_Chain2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_Chain2.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestBurningStove_Chain2_C",
+    "Name": "Default__MainQuestBurningStove_Chain2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_Chain2.MainQuestBurningStove_Chain2_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_Chain2",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBurningStove_ClearOutCamp_2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_ClearOutCamp_2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBurningStove_TalkToRescuedNpc_2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_TalkToRescuedNpc_2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestBurningStove_TalkToRebel_2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain2/MainQuestBurningStove_TalkToRebel_2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CE4BB21F4C9D0826844F0AB5FFD5B18F",
+        "SourceString": "Burning Stove: Part 2",
+        "LocalizedString": "Burning Stove: Part 2"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "DD67B81A4D87354139DA03A06E9BD1D3",
+        "SourceString": "After rescuing a member of Burning Stove, I’ve struck up an agreement with Klara Winterburn to free more of her people.",
+        "LocalizedString": "After rescuing a member of Burning Stove, I’ve struck up an agreement with Klara Winterburn to free more of her people."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8EC4C6B145A1FCE791BDB5823D3FB185",
+        "SourceString": "Klara seems to be pleased with my aid in rescuing the prisoners. I must continue helping however I can.",
+        "LocalizedString": "Klara seems to be pleased with my aid in rescuing the prisoners. I must continue helping however I can."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "VillageTrustReward": 200,
+      "RenownReward": 1500,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/BurningStove/RescueQuest_Chain1/MainQuestBurningStove_Chain1.MainQuestBurningStove_Chain1_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PrisonerBriscoLintonNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/NPCTalks/PrisonerBriscoLintonNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrisonerBriscoLintonNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BurningStove/NPCTalks/PrisonerBriscoLintonNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'PrisonerBriscoLintonNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/Prisoner/PrisonerBriscoLintonNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereKlaraWinterburn_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereKlaraWinterburn_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true
+    }
+  }
+]

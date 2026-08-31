@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BigOrderQuest_BringMaterialsForMarek_C",
+    "Name": "Default__BigOrderQuest_BringMaterialsForMarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringMaterialsForMarek.BigOrderQuest_BringMaterialsForMarek_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringMaterialsForMarek",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SoftLog_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.0"
+          },
+          "MinAmount": 2,
+          "MaxAmount": 2,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'BronzeIngot_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.0"
+          },
+          "MinAmount": 3,
+          "MaxAmount": 3,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1D10D9614020DC3CED3476B9200919EC",
+          "SourceString": "About the materials you asked for...",
+          "LocalizedString": "About the materials you asked for..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigOrderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_Talk.1"
+        },
+        "TalkEntryPoint": "BringMaterialsForMarek_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2F691DB743B1BD8A4969C8A07C84A49D",
+        "SourceString": "Marek gave me the letter as promised for delivering the items he had asked for.",
+        "LocalizedString": "Marek gave me the letter as promised for delivering the items he had asked for."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest.BigOrderQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BigOrderQuest_BringMaterialsForMarek_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringMaterialsForMarek",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BigOrderQuest_BringMaterialsForMarek_C'Default__BigOrderQuest_BringMaterialsForMarek_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringMaterialsForMarek.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

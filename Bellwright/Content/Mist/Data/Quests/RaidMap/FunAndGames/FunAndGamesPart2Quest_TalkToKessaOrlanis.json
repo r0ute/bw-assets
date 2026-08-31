@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FunAndGamesPart2Quest_TalkToKessaOrlanis_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToKessaOrlanis",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FunAndGamesPart2Quest_TalkToKessaOrlanis_C'Default__FunAndGamesPart2Quest_TalkToKessaOrlanis_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToKessaOrlanis.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FunAndGamesPart2Quest_TalkToKessaOrlanis_C",
+    "Name": "Default__FunAndGamesPart2Quest_TalkToKessaOrlanis_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToKessaOrlanis.FunAndGamesPart2Quest_TalkToKessaOrlanis_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToKessaOrlanis",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "075697A1457643CDFFBB3B88338EB06D",
+        "SourceString": "Confront {Npc}",
+        "LocalizedString": "Confront {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'KessaOrlanis_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/KessaOrlanis_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToKessaOrlanis"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "EB628EDD46DBAFCEC9A27D8A31F762C6",
+        "SourceString": "Confront {Npc}",
+        "LocalizedString": "Confront {Npc}"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SilasVeldrin_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SilasVeldrin_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest.FunAndGamesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

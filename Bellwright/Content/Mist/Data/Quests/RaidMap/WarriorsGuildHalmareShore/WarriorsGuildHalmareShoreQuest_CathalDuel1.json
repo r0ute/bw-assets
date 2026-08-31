@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildHalmareShoreQuest_CathalDuel1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_CathalDuel1",
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildHalmareShoreQuest_CathalDuel1_C'Default__WarriorsGuildHalmareShoreQuest_CathalDuel1_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_CathalDuel1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildHalmareShoreQuest_CathalDuel1_C",
+    "Name": "Default__WarriorsGuildHalmareShoreQuest_CathalDuel1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_CathalDuel1.WarriorsGuildHalmareShoreQuest_CathalDuel1_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildHalmareShoreQuest_CathalDuel1",
+    "Properties": {
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CathalDoyleiNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoyleiNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CathalDoylei_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoylei_Talk.0"
+        }
+      },
+      "NpcToFightTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelCathal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "06D29F27444E7F1BEFE9979CCC7054AD",
+        "SourceString": "Win a fight duel Cathal Doylei.",
+        "LocalizedString": "Win a fight duel Cathal Doylei."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "CCC5C5CF45C235C537C8FA8A748F28A5",
+          "SourceString": "I want to challenge you to a duel.",
+          "LocalizedString": "I want to challenge you to a duel."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildTravelToHalmareShoreQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuestTalk.0"
+        },
+        "TalkEntryPoint": "DuelCathal",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CathalDoyleiNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoyleiNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CathalDoylei_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoylei_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CathalDoyleiNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoyleiNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CathalDoylei_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/CathalDoylei_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WarriorsGuildHalmareShore/WarriorsGuildTravelToHalmareShoreQuest.WarriorsGuildTravelToHalmareShoreQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

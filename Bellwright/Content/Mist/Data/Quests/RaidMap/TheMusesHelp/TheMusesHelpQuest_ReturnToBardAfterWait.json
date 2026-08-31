@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheMusesHelpQuest_ReturnToBardAfterWait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBardAfterWait",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheMusesHelpQuest_ReturnToBardAfterWait_C'Default__TheMusesHelpQuest_ReturnToBardAfterWait_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBardAfterWait.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheMusesHelpQuest_ReturnToBardAfterWait_C",
+    "Name": "Default__TheMusesHelpQuest_ReturnToBardAfterWait_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBardAfterWait.TheMusesHelpQuest_ReturnToBardAfterWait_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest_ReturnToBardAfterWait",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "C5092294456B7607834B37A947066F4E",
+        "SourceString": "Return to the bard {Npc}",
+        "LocalizedString": "Return to the bard {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheMusesHelpQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuestTalk.0"
+        },
+        "TalkEntryPoint": "ReturnToBardAfter"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "ACBBDBAC4256350272141A8542F7D076",
+        "SourceString": "Return to the bard {Npc}",
+        "LocalizedString": "Return to the bard {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F91310294250512A9B6EB59ED4C44AD9",
+        "SourceString": "As predicted, the bard working with his new muse went terribly, and desperate, he begged for my help to finish the song. We crafted verses together, and Roderick transformed my suggestions into full stanzas with his flair for drama. The finished song could make him famous... or get him run out of town.",
+        "LocalizedString": "As predicted, the bard working with his new muse went terribly, and desperate, he begged for my help to finish the song. We crafted verses together, and Roderick transformed my suggestions into full stanzas with his flair for drama. The finished song could make him famous... or get him run out of town."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

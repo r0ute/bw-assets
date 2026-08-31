@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlackTuskerQuest_C",
+    "Name": "Default__BlackTuskerQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest.BlackTuskerQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackTuskerQuest_KillTusker_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest_KillTusker.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackTuskerQuest_BringItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest_BringItem.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "18BD1BC24704ACA6CAC09498CF3B25EA",
+        "SourceString": "Black Tusker",
+        "LocalizedString": "Black Tusker"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "4E0E67B44A3C3A557F7542A7236EB454",
+        "SourceString": "The Black Tusker is lurking deep in the swamps. Garrik said the ground turns black, the air stinks of rot, and the place goes dead silent when you're close, but I don’t think that’s the case. Maybe it’s just an overgrown boar. I will handle it with no issue. I need to track it down and kill it before it causes more damage.",
+        "LocalizedString": "The Black Tusker is lurking deep in the swamps. Garrik said the ground turns black, the air stinks of rot, and the place goes dead silent when you're close, but I don’t think that’s the case. Maybe it’s just an overgrown boar. I will handle it with no issue. I need to track it down and kill it before it causes more damage."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9AC3C31C45B95AAEEED4A29BA8890FD1",
+        "SourceString": "Wait… that was a female? If she had young ones, that means more of these monsters will be growing in the swamps. And if there’s a female, there must be a male out there too, probably bigger, meaner, and now protecting its offspring. Did I just make things worse?",
+        "LocalizedString": "Wait… that was a female? If she had young ones, that means more of these monsters will be growing in the swamps. And if there’s a female, there must be a male out there too, probably bigger, meaner, and now protecting its offspring. Did I just make things worse?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BlackTuskerQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 200,
+      "VillageTrustReward": 100,
+      "RenownReward": 350,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 200,
+            "MaxQuantity": 200
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DemonBoarTrophyItem_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DemonBoarTrophyItem.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/VillageWorkshopImprovement/VillageWorkshopImprovementQuest.VillageWorkshopImprovementQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GarrikIronfang_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/GarrikIronfang_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GarrikIronfang_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/GarrikIronfang_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackTuskerQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackTuskerQuest_C'Default__BlackTuskerQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackTusker/BlackTuskerQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

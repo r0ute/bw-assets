@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OntheKnifesEdgeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OntheKnifesEdgeQuest_C'Default__OntheKnifesEdgeQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "OntheKnifesEdgeQuest_C",
+    "Name": "Default__OntheKnifesEdgeQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuest.OntheKnifesEdgeQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OntheKnifesEdgeQuest_BringSwords_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuest_BringSwords.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'OntheKnifesEdgeQuestTalkToBard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuestTalkToBard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "EB482D2346DF74342019BAA2E5B533B1",
+        "SourceString": "On the Knife's Edge",
+        "LocalizedString": "On the Knife's Edge"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "DE3F63EC41E85414AB3940AA82C2F473",
+        "SourceString": "Pablo Modic wants two swords because he wants to duel the man who slept with his wife. Honor is an important thing, and also the coin reward for those swords.",
+        "LocalizedString": "Pablo Modic wants two swords because he wants to duel the man who slept with his wife. Honor is an important thing, and also the coin reward for those swords."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'OntheKnifesEdgeQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OntheKnifesEdge/OntheKnifesEdgeQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 120,
+      "RenownReward": 100,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/TheMusesHelp/TheMusesHelpQuest.TheMusesHelpQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'OnTheKnifesEdgePabloNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/OnTheKnifesEdge/OnTheKnifesEdgePabloNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'OnTheKnifesEdgePabloNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/OnTheKnifesEdge/OnTheKnifesEdgePabloNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RoderickCollierNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RoderickCollierNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

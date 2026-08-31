@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_C'Default__WhereTheLostLayQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_C",
+    "Name": "Default__WhereTheLostLayQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_MeetStrangeMan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_MeetStrangeMan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_TalkToAnna_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToAnna.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_TalkToTomas_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToTomas.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_TalkToStrangeMan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToStrangeMan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_GoToBanditsCamp_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_GoToBanditsCamp.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_TalkToBanditsLeader_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToBanditsLeader.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_KillBanditsLeader_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_KillBanditsLeader.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_BackToElder1_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_BackToElder1.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "17DC096543208197E5A8898D6F4F7FEB",
+        "SourceString": "Where The Lost Lay",
+        "LocalizedString": "Where The Lost Lay"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "32837F344DA10B3C72C31BB90D879809",
+        "SourceString": "I found a huge tree with several people hanging from it. A note on one of the bodies told me to find Elder Yaxley. Whatever this is happening at this tree, we need to put a stop to it.",
+        "LocalizedString": "I found a huge tree with several people hanging from it. A note on one of the bodies told me to find Elder Yaxley. Whatever this is happening at this tree, we need to put a stop to it."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "3F18E5AA44662BEBD8DB77A1E90456F9",
+        "SourceString": "I found a huge tree with several people hanging from it. A note on one of the bodies told me to find Elder Yaxley. Whatever this is happening at this tree, we need to put a stop to it.",
+        "LocalizedString": "I found a huge tree with several people hanging from it. A note on one of the bodies told me to find Elder Yaxley. Whatever this is happening at this tree, we need to put a stop to it."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 100,
+      "RenownReward": 300,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStrangeMan_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/TheStrangeMan_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

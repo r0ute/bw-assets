@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LordofDebatesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LordofDebatesQuest_C'Default__LordofDebatesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LordofDebatesQuest_C",
+    "Name": "Default__LordofDebatesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest.LordofDebatesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_Duel_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_Duel.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_FindBook_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_FindBook.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_SpeakToLeopoldo_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_FindBook2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_FindBook2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_SpeakToLeopoldo2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToLeopoldo2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuest_SpeakToDoncia_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuest_SpeakToDoncia.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "2AEBDDD947B292BA6DD42493476AE071",
+        "SourceString": "Lord of Debates",
+        "LocalizedString": "Lord of Debates"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "9CD063364EC8821B5CE1E397DD917C17",
+        "SourceString": "Doncia Ortis asked me for help in dealing with her husband's new obsession - theorizing about sword-fighting techniques. It consumes him so much that he is neglecting her and his house duties. The best way to deal with it should be showing him a real fight in a duel or bringing him real sword manuals from the library.",
+        "LocalizedString": "Doncia Ortis asked me for help in dealing with her husband's new obsession - theorizing about sword-fighting techniques. It consumes him so much that he is neglecting her and his house duties. The best way to deal with it should be showing him a real fight in a duel or bringing him real sword manuals from the library."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LordofDebatesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LordofDebates/LordofDebatesQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 100,
+      "RenownReward": 120,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/OldTomes/OldTomesQuest.OldTomesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DonciaOrtisNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LordofDebates/DonciaOrtisNPCTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DonciaOrtisNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LordofDebates/DonciaOrtisNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LeopoldoOrtisNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LordofDebates/LeopoldoOrtisNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

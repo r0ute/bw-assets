@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasterofSwampsQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_BringFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasterofSwampsQuest_BringFish_C'Default__MasterofSwampsQuest_BringFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_BringFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasterofSwampsQuest_BringFish_C",
+    "Name": "Default__MasterofSwampsQuest_BringFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_BringFish.MasterofSwampsQuest_BringFish_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_BringFish",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'GoldenBandedfish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/GoldenBandedfish.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.6,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'StripedCatfin_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Fishes/StripedCatfin.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.6,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MasterofSwampsTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MasterofSwampsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "GO BACK TO HUMPHREY NETTER"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4927368F42C3E3EBF968C2839137B7FE",
+          "SourceString": "I brought some stuff you asked for",
+          "LocalizedString": "I brought some stuff you asked for"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuestTalk.1"
+        },
+        "TalkEntryPoint": "PartialDeliveryPossible"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5369A7E6494F0A319F63FB95C23DA5AF",
+        "SourceString": "The Golden Bandefish and Striped Catfin put up quite a fight, but I finally caught them. Time to take both fish back to Humphrey Nettler and see if I passed his trail.",
+        "LocalizedString": "The Golden Bandefish and Striped Catfin put up quite a fight, but I finally caught them. Time to take both fish back to Humphrey Nettler and see if I passed his trail."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheSwamps/MasterofSwampsQuest.MasterofSwampsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

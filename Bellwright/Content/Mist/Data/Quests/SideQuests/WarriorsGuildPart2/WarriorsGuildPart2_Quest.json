@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuildPart2_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuildPart2_Quest_C'Default__WarriorsGuildPart2_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuildPart2_Quest_C",
+    "Name": "Default__WarriorsGuildPart2_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest.WarriorsGuildPart2_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorGuildPart2Quest_ClearCamp_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorGuildPart2Quest_ClearCamp.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "17CA3DFF49F83E0269B00EA38D50B716",
+        "SourceString": "Warrior's Guild part 2",
+        "LocalizedString": "Warrior's Guild part 2"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "A33518A849932189E7EA6197FE144554",
+        "SourceString": "It’s time to take your next step as a new recruit in the Warrior’s Guild! In fact, your membership might be the only thing that stops the entire guild getting themselves killed.",
+        "LocalizedString": "It’s time to take your next step as a new recruit in the Warrior’s Guild! In fact, your membership might be the only thing that stops the entire guild getting themselves killed."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "QuestInProgressTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuildPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuildPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "WolvesIdle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "MoneyReward": 200,
+      "RenownReward": 250,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuild/WarriorsGuildQuest.WarriorsGuildQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild2_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuild2_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild2_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart2/WarriorsGuild2_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

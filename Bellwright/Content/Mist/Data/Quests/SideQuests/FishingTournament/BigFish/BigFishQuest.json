@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BigFishQuest_C",
+    "Name": "Default__BigFishQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.BigFishQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BigFishQuest_Bring_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Bring.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "EE34DEBA4B4109994FA3728C523CD37D",
+        "SourceString": "Big Fish",
+        "LocalizedString": "Big Fish"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F2952FC34D40A313AC8CE686BC6909FC",
+        "SourceString": "If I want to improve my fishing skills, I should try catching two of the easiest fish in this lake. Sounds simple enough, but I don’t remember doing this before I went back to Karvenia. Maybe it’ll be a good test.",
+        "LocalizedString": "If I want to improve my fishing skills, I should try catching two of the easiest fish in this lake. Sounds simple enough, but I don’t remember doing this before I went back to Karvenia. Maybe it’ll be a good test."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "7F1972D54CB822B2E5BA1EAE7FBA86CC",
+        "SourceString": "Well, that wasn’t too bad. Paul seemed pleased, and I feel like I’m getting better at this. Maybe it’s time to try something more challenging. What about this Fishing Tournament?",
+        "LocalizedString": "Well, that wasn’t too bad. Paul seemed pleased, and I feel like I’m getting better at this. Maybe it’s time to try something more challenging. What about this Fishing Tournament?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "513211D64A4730D752962DB911DB04B4",
+          "SourceString": "I would like to try fishing myself.",
+          "LocalizedString": "I would like to try fishing myself."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigFishQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 80,
+      "RenownReward": 100,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part1/GoldenScalesPart1Quest.GoldenScalesPart1Quest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BigFishQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BigFishQuest_C'Default__BigFishQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

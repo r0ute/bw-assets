@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NotAllWhoWaitQuest_FindPrison_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindPrison_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindPrison'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindPrison_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.2"
+      },
+      {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindPrison_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindPrison'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_NotAllWhoWaitQuest_FindPrison": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindPrison_C:ExecuteUbergraph_NotAllWhoWaitQuest_FindPrison'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'NotAllWhoWaitQuest_FindPrison_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NotAllWhoWaitQuest_FindPrison_C'Default__NotAllWhoWaitQuest_FindPrison_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_NotAllWhoWaitQuest_FindPrison",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_FindPrison_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NotAllWhoWaitQuest_FindPrison_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NotAllWhoWaitQuest_FindPrison_C",
+    "Name": "Default__NotAllWhoWaitQuest_FindPrison_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison.NotAllWhoWaitQuest_FindPrison_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest_FindPrison",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/TheChainsAreBroken/TheChainsAreBroken_PrisonEntrance.TheChainsAreBroken_PrisonEntrance_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "FAE1A6144CF21384202A65A85506FA07",
+        "SourceString": "Find a hidden entrance to prison with Darek and Eryk.",
+        "LocalizedString": "Find a hidden entrance to prison with Darek and Eryk."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8C5E82F34052FDD4667871AC1CBFFC46",
+        "SourceString": "Find a hidden entrance to prison with Darek and Eryk.",
+        "LocalizedString": "Find a hidden entrance to prison with Darek and Eryk."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "AFDCEAFF4DFFB9F98798B4B75E876C49",
+        "SourceString": "Darek and Eryk/Bartek guided me to the entrance. The patrols are tight, and I need to stay stealthy and keep my weapons ready.",
+        "LocalizedString": "Darek and Eryk/Bartek guided me to the entrance. The patrols are tight, and I need to stay stealthy and keep my weapons ready."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/NotAllWhoWait/NotAllWhoWaitQuest.NotAllWhoWaitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLordOfTheLowlands_BackToButcher_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_BackToButcher",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLordOfTheLowlands_BackToButcher_C'Default__MainQuestLordOfTheLowlands_BackToButcher_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_BackToButcher.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLordOfTheLowlands_BackToButcher_C",
+    "Name": "Default__MainQuestLordOfTheLowlands_BackToButcher_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_BackToButcher.MainQuestLordOfTheLowlands_BackToButcher_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_BackToButcher",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ButcherNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/ButcherNpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_Talk.0"
+        },
+        "TalkEntryPoint": "BackToButcher"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ButcherNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/ButcherNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.MainQuestLordOfTheLowlands_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardQuest_TalkTreasureGuard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:ExecuteUbergraph_PiousRewardQuest_TalkTreasureGuard'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.3"
+      },
+      {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:ExecuteUbergraph_PiousRewardQuest_TalkTreasureGuard'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardQuest_TalkTreasureGuard": {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:ExecuteUbergraph_PiousRewardQuest_TalkTreasureGuard'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'PiousRewardQuest_TalkTreasureGuard_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardQuest_TalkTreasureGuard_C'Default__PiousRewardQuest_TalkTreasureGuard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardQuest_TalkTreasureGuard",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_TalkTreasureGuard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_TalkTreasureGuard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_TalkTreasureGuard_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardQuest_TalkTreasureGuard_C",
+    "Name": "Default__PiousRewardQuest_TalkTreasureGuard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.PiousRewardQuest_TalkTreasureGuard_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "03DD84834552DFEA5F9BDA875F2716CF",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BorkeSterle_TreasureGuard_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/BorkeSterle_TreasureGuard_NpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BorkeSterle_TreasureGuard_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/BorkeSterle_TreasureGuard_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TreasureGuard"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C9FAB04045793C32E84D67A97D9AF429",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

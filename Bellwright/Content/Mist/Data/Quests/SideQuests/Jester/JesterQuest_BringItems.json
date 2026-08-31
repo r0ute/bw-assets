@@ -1,0 +1,169 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "JesterQuest_BringItems_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BringItems",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "JesterQuest_BringItems_C'Default__JesterQuest_BringItems_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BringItems.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "JesterQuest_BringItems_C",
+    "Name": "Default__JesterQuest_BringItems_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BringItems.JesterQuest_BringItems_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_BringItems",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'PieceBurntMeat_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/PieceBurntMeat.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'Turnip_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Turnip.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedMushroom_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedMushroom.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanHermitNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/IgorFulkeCraftsmanHermitNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "FC5CEB6D479A72F5B9406CBE6A767121",
+          "SourceString": "Norton Rhodes sent me to deliver you some goods.",
+          "LocalizedString": "Norton Rhodes sent me to deliver you some goods."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'JesterQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Igor Fulke"
+      },
+      "PartialCompletionPossibleTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9443FDD7476EF7742A6816809329D581",
+          "SourceString": "Norton Rhodes sent me to deliver you this.",
+          "LocalizedString": "Norton Rhodes sent me to deliver you this."
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "94329CF045F990CAC0B3A7A445BC24DA",
+        "SourceString": "Deliver items to Igor Fulke",
+        "LocalizedString": "Deliver items to Igor Fulke"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6B6F2EA242666E1789D37588BA929014",
+        "SourceString": "Once you’ve delivered the items with care, To the hermit who lives in their secret lair, Return to the weaver, don’t delay or stray,For your long-awaited reward is on its way. Complete the task, and with joy you’ll find, A prize awaits that’s one of a kind.",
+        "LocalizedString": "Once you’ve delivered the items with care, To the hermit who lives in their secret lair, Return to the weaver, don’t delay or stray,For your long-awaited reward is on its way. Complete the task, and with joy you’ll find, A prize awaits that’s one of a kind."
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C03E98ED4E78B2CE37524BB56DD54376",
+          "SourceString": "Norton Rhodes sent me to deliver you this.",
+          "LocalizedString": "Norton Rhodes sent me to deliver you this."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'JesterQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Igor Fulke",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanHermitNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/IgorFulkeCraftsmanHermitNpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanHermitNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Hermit/IgorFulkeCraftsmanHermitNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Jester/JesterQuest.JesterQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

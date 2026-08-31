@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MysteriousIllnessQuest_FindBastardHideout_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_FindBastardHideout",
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MysteriousIllnessQuest_FindBastardHideout_C'Default__MysteriousIllnessQuest_FindBastardHideout_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_FindBastardHideout.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MysteriousIllnessQuest_FindBastardHideout_C",
+    "Name": "Default__MysteriousIllnessQuest_FindBastardHideout_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_FindBastardHideout.MysteriousIllnessQuest_FindBastardHideout_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_FindBastardHideout",
+    "Properties": {
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Quests_Codex/MysteriousIllness/BastardHideout_QuestPOI.BastardHideout_QuestPOI_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "392F3B9A4F30A0F863FCEE93EE1BE72B",
+        "SourceString": "Find Bastard's hideout in the woods.",
+        "LocalizedString": "Find Bastard's hideout in the woods."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FAC4AC0540D19FFB69757CB27FD4A1BB",
+        "SourceString": "Find Bastard's hideout in the woods.",
+        "LocalizedString": "Find Bastard's hideout in the woods."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B31426DD4127B9509535A78412FA7CE9",
+        "SourceString": "This seems to be the place of the man Calita's patient mentioned.",
+        "LocalizedString": "This seems to be the place of the man Calita's patient mentioned."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C599D93F494633197F5DF1A56DD19872",
+          "SourceString": "Regarding the man, who is poisoning the village well...",
+          "LocalizedString": "Regarding the man, who is poisoning the village well..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHealer_QuestComplete",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest.MysteriousIllnessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

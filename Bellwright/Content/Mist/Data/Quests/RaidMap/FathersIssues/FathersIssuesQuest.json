@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FathersIssuesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FathersIssuesQuest_C'Default__FathersIssuesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FathersIssuesQuest_C",
+    "Name": "Default__FathersIssuesQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest.FathersIssuesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuest_ThrowStone_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_ThrowStone.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuest_SpeakToCarlos_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToCarlos.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalFail",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuest_SpeakToEdoardo_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuest_SpeakToEdoardo.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "5CEB0B7841A643B5F1ED9AB2FDA9EB41",
+        "SourceString": "Father's Issues",
+        "LocalizedString": "Father's Issues"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "B12168E54965F2C6F63FAEA8F8D5EA26",
+        "SourceString": "Edoardo, wants me to throw a rock with a letter into that one Halmayan girl's window because her father is keeping her locked up. I think Edoardo is a little too old to act like that, but who am I to judge?",
+        "LocalizedString": "Edoardo, wants me to throw a rock with a letter into that one Halmayan girl's window because her father is keeping her locked up. I think Edoardo is a little too old to act like that, but who am I to judge?"
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FathersIssuesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FathersIssues/FathersIssuesQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "MoneyReward": 100,
+      "RenownReward": 100,
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest.MeetingCassiansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheDamsel/TheDamselQuest.TheDamselQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'EdoardoPretoNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/EdoardoPretoNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'EdoardoPretoNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/EdoardoPretoNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

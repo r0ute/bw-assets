@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_TalkToAnna_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToAnna",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_TalkToAnna_C'Default__WhereTheLostLayQuest_TalkToAnna_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToAnna.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_TalkToAnna_C",
+    "Name": "Default__WhereTheLostLayQuest_TalkToAnna_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToAnna.WhereTheLostLayQuest_TalkToAnna_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToAnna",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D81EDF2944D09F62CB93CE90843750AA",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthMerchantNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "4D734ABC45A9E1726B7844B5FE683AC3",
+          "SourceString": "There is something I'd like to ask you.",
+          "LocalizedString": "There is something I'd like to ask you."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToAnna",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "ADCE8244454395A1D8D3EE999B834401",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "D52AE84E40968EF589F42E9C84EBD9D4",
+        "SourceString": "Anna said that villagers claim to hear screams near it at night, and some even report seeing dark figures around it. Whatever’s happening there, the locals seem too scared to investigate.",
+        "LocalizedString": "Anna said that villagers claim to hear screams near it at night, and some even report seeing dark figures around it. Whatever’s happening there, the locals seem too scared to investigate."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthMerchantNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthMerchantNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C",
+        "SubPathString": ""
+      },
+      "bIsOptionalSubquest": true
+    }
+  }
+]

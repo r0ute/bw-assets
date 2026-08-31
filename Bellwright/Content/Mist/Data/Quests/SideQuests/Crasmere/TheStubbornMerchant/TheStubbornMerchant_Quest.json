@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheStubbornMerchant_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchant_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheStubbornMerchant_Quest_C'Default__TheStubbornMerchant_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchant_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheStubbornMerchant_Quest_C",
+    "Name": "Default__TheStubbornMerchant_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchant_Quest.TheStubbornMerchant_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchant_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStubbornMerchantQuest_TalkToMerchant_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchantQuest_TalkToMerchant.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheStubbornMerchantQuest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchantQuest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "41576DD54A49E23BACA435B45C3ECE33",
+        "SourceString": "The Stubbor Merchant",
+        "LocalizedString": "The Stubbor Merchant"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "C800E44B477225526ECECF82C22EFADC",
+        "SourceString": "I spoke with Elder Lucien, and he asked me to convince one of the seasonal merchants who visit Crasmere. Varan refuses to sell his goods to others but still occupies a spot that could go to other traveling merchants. I’ll try to persuade him to start selling again or leave the village.",
+        "LocalizedString": "I spoke with Elder Lucien, and he asked me to convince one of the seasonal merchants who visit Crasmere. Varan refuses to sell his goods to others but still occupies a spot that could go to other traveling merchants. I’ll try to persuade him to start selling again or leave the village."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5BDB8A1D4CAA66075C8C118CFD847CFF",
+          "SourceString": "Do you need anything from me?",
+          "LocalizedString": "Do you need anything from me?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheStubbornMerchantQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchantQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 150,
+      "VillageProsperityReward": 150,
+      "RenownReward": 150,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/PlanksAndNailsFetch/PlanksAndNailsQuest.PlanksAndNailsQuest_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Crasmere/TheStubbornMerchant/TheStubbornMerchantQuest_Hidden.TheStubbornMerchantQuest_Hidden_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CrasmereElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Crasmere/CrasmereElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BlackMarketTrader_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part3/BlackMarketTrader_Talk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/CrasmereVillageProfile.CrasmereVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

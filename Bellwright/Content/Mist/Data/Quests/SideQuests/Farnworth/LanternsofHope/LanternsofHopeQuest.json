@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LanternsofHopeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LanternsofHopeQuest_C'Default__LanternsofHopeQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LanternsofHopeQuest_C",
+    "Name": "Default__LanternsofHopeQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest.LanternsofHopeQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LanternsofHope_BuildLanterns_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_BuildLanterns.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LanternsofHope_ClearBandits_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHope_ClearBandits.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'LanternsofHopeQuest_ReturnElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_ReturnElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "C8E764CC4A34C0E09D035FA5E05F3DE2",
+        "SourceString": "Lanterns of Hope",
+        "LocalizedString": "Lanterns of Hope"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "AF0C5B044A8BDC6CE8CC7A9929E4131B",
+        "SourceString": "Elder Viktor Yaxley shared with me how his villagers are being affected by raids. To help make the road safer he has asked me to build some lanterns and defeat a nearby camp that has been troubling them.",
+        "LocalizedString": "Elder Viktor Yaxley shared with me how his villagers are being affected by raids. To help make the road safer he has asked me to build some lanterns and defeat a nearby camp that has been troubling them."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A66B6244404D8A7053D6EF9C0297DC21",
+          "SourceString": "How has everything been since the liberation?",
+          "LocalizedString": "How has everything been since the liberation?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LanternsofHopeQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LanternsofHope/LanternsofHopeQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "MoneyReward": 50,
+      "VillageProsperityReward": 200,
+      "VillageConstructionPointsReward": 1,
+      "RenownReward": 250,
+      "bCanBeDiscarded": false,
+      "RequiresVillageTrustLevel": {
+        "VillageProfile": {
+          "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/FarnworthVillageProfile.FarnworthVillageProfile",
+          "SubPathString": ""
+        },
+        "TrustLevel": "EMistVillageTrustLevelEnum::Protector"
+      },
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElderNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Farnworth/FarnworthElderNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/FarnworthVillageProfile.FarnworthVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

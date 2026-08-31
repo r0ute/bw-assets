@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HaerndeanAncientLegacyIntroductionQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HaerndeanAncientLegacyIntroductionQuest_C'Default__HaerndeanAncientLegacyIntroductionQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HaerndeanAncientLegacyIntroductionQuest_C",
+    "Name": "Default__HaerndeanAncientLegacyIntroductionQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest",
+    "Properties": {
+      "Title": {
+        "Namespace": "",
+        "Key": "D94741E54558F8B78CAFB9B6DAB0DC57",
+        "SourceString": "Ancient Legacy",
+        "LocalizedString": "Ancient Legacy"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B6DF2BED49C58E08932F34A0F49CAE12",
+        "SourceString": "Find out what secrets ancient shrines may hold.",
+        "LocalizedString": "Find out what secrets ancient shrines may hold."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "AD1993F945556F0E078E579032F858FB",
+        "SourceString": "Oscar sent me to discover ancient shrines located all over the Lowlands, I wonder what secrets they hide.",
+        "LocalizedString": "Oscar sent me to discover ancient shrines located all over the Lowlands, I wonder what secrets they hide."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "78DD22BE435E90E8E45BBCB97B8A0408",
+        "SourceString": "I discovered the shrine nea Haerndean. I should talk to Oscar to know more about it.",
+        "LocalizedString": "I discovered the shrine nea Haerndean. I should talk to Oscar to know more about it."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "EC59358C4A3F7419B5CDDAB7D9621E89",
+          "SourceString": "You look lost in your thoughts, can I help you with something?",
+          "LocalizedString": "You look lost in your thoughts, can I help you with something?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanAncientLegacyIntroductionQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "88A3C64240EAE52F25540C89C42A713D",
+          "SourceString": "Regarding the shrines…",
+          "LocalizedString": "Regarding the shrines…"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanAncientLegacyIntroductionQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest_Talk.0"
+        },
+        "TalkEntryPoint": "FindShrines_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 50,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'ErdanaShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/ErdanaShrine.0"
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "AchievementOnFinishing": {
+        "ID": "FINISH_SHRINE_QUEST"
+      }
+    }
+  }
+]

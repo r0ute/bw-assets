@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardQuest_FindTreasure_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardQuest_FindTreasure_C:ExecuteUbergraph_PiousRewardQuest_FindTreasure'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistFindPoiQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardQuest_FindTreasure_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardQuest_FindTreasure_C:ExecuteUbergraph_PiousRewardQuest_FindTreasure'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardQuest_FindTreasure": {
+        "ObjectName": "Function'PiousRewardQuest_FindTreasure_C:ExecuteUbergraph_PiousRewardQuest_FindTreasure'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'PiousRewardQuest_FindTreasure_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardQuest_FindTreasure_C'Default__PiousRewardQuest_FindTreasure_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardQuest_FindTreasure",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_FindTreasure_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_FindTreasure_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardQuest_FindTreasure_C",
+    "Name": "Default__PiousRewardQuest_FindTreasure_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.PiousRewardQuest_FindTreasure_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AcceptedPoi": {
+        "AssetPathName": "/Game/Mist/Props/Poi/RaidMap/Quest/PiousReward/TreasureCave_Poi.TreasureCave_Poi_C",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "7F5857C64241E3CCC3CAFB912D638E8D",
+        "SourceString": "Scout for the Treasure.",
+        "LocalizedString": "Scout for the Treasure."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AD67FED242180D8E81CA588F5B971EDE",
+        "SourceString": "Scout for the Treasure.",
+        "LocalizedString": "Scout for the Treasure."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F0FC4E0F4E7EEA2959BC67AC1770AFE4",
+        "SourceString": "The three shrines lead me to this chest. I wonder what other secrets this island holds.",
+        "LocalizedString": "The three shrines lead me to this chest. I wonder what other secrets this island holds."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

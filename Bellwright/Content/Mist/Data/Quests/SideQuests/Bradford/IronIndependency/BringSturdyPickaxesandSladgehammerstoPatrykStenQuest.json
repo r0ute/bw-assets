@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykStenQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C'Default__BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykStenQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C",
+    "Name": "Default__BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykStenQuest.BringSturdyPickaxesandSladgehammerstoPatrykStenQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykStenQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringSturdyPickaxesandSladgehammerstoPatrykSten_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykSten_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "A272DF6F4E2E4E939EBE4AB85B233EE3",
+        "SourceString": "Hard Labor",
+        "LocalizedString": "Hard Labor"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "DD3C2D654A0BC228B31CB7BBC2D7135B",
+        "SourceString": "I wonder how busy the blacksmith is in this village if the Elder has to pay me for delivering these hammers and pickaxes. I'd better help Bradford in their pursuit of iron independence after seeing all the corruption around the elections.",
+        "LocalizedString": "I wonder how busy the blacksmith is in this village if the Elder has to pay me for delivering these hammers and pickaxes. I'd better help Bradford in their pursuit of iron independence after seeing all the corruption around the elections."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "0A41DEA744E60046BADA9E9B2D192CC5",
+          "SourceString": "Iron Independency",
+          "LocalizedString": "Iron Independency"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringSturdyPickaxesandSladgehammerstoPatrykSten_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/IronIndependency/BringSturdyPickaxesandSladgehammerstoPatrykSten_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 300,
+      "VillageTrustReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Leather_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BronzeArrows_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Equipment/Weapons/Tier1/BronzeArrows.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 250,
+            "MaxQuantity": 250
+          }
+        ]
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordBringIronQuest/HuntersHelpQuest.HuntersHelpQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

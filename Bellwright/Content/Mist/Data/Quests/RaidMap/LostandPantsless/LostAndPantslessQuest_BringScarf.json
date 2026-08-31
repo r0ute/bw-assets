@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostAndPantslessQuest_BringScarf_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_BringScarf",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostAndPantslessQuest_BringScarf_C'Default__LostAndPantslessQuest_BringScarf_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_BringScarf.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostAndPantslessQuest_BringScarf_C",
+    "Name": "Default__LostAndPantslessQuest_BringScarf_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_BringScarf.LostAndPantslessQuest_BringScarf_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest_BringScarf",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'LostandPantslessScarf_QuestItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItemsRaidMap/LostandPantsless/LostandPantslessScarf_QuestItem.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'AbelKawialiNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/AbelKawialiNPCTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "C37371AE46A982793FC377B7367B7B7B",
+          "SourceString": "I found this scarf with embroidered initials.",
+          "LocalizedString": "I found this scarf with embroidered initials."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostandPantslessQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostandPantslessQuestTalk.0"
+        },
+        "TalkEntryPoint": "ShowAbel",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0DB63C8F4E272ED1B6027CB2424D0F64",
+        "SourceString": "Show Abel what you found.",
+        "LocalizedString": "Show Abel what you found."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5B7BC97047726496CC0874B27123D3F8",
+        "SourceString": "He’s gotten some of his memories back. I should look for the owner of this tissue. She might know what happened last night. Maria is a maid at the tavern near Lower Town. I should find her there.",
+        "LocalizedString": "He’s gotten some of his memories back. I should look for the owner of this tissue. She might know what happened last night. Maria is a maid at the tavern near Lower Town. I should find her there."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'AbelKawialiNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/LostandPantsless/AbelKawialiNPCTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/LostandPantsless/LostAndPantslessQuest.LostAndPantslessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

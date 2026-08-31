@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestElections_TalkAnselAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAnselAfter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestElections_TalkAnselAfter_C'Default__MainQuestElections_TalkAnselAfter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAnselAfter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestElections_TalkAnselAfter_C",
+    "Name": "Default__MainQuestElections_TalkAnselAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAnselAfter.MainQuestElections_TalkAnselAfter_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_TalkAnselAfter",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "C2887AF34FD816EAFEDC9197A48858C7",
+        "SourceString": "Speak to {Npc} to cast your vote",
+        "LocalizedString": "Speak to {Npc} to cast your vote"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordUniqueWeaverTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordUniqueWeaverTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestElections_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections_Talk.0"
+        },
+        "TalkEntryPoint": "TalkMessengerofLord_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B6887C6941075AFD91C3788B7975C10D",
+        "SourceString": "Voting, Truth and Power",
+        "LocalizedString": "Voting, Truth and Power"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "18080EA1406331250C88D48D3387B983",
+        "SourceString": "Speak to {Npc} to cast your vote",
+        "LocalizedString": "Speak to {Npc} to cast your vote"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "88815D6645E99521071CF0846414D526",
+        "SourceString": "I have cast my vote with Ansel. Now I shall wait for the results to be announced.",
+        "LocalizedString": "I have cast my vote with Ansel. Now I shall wait for the results to be announced."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Elections/MainQuestElections.MainQuestElections_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BigOrderQuest_BringLetterAndToolsToDalibor_C",
+    "Name": "Default__BigOrderQuest_BringLetterAndToolsToDalibor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringLetterAndToolsToDalibor.BigOrderQuest_BringLetterAndToolsToDalibor_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringLetterAndToolsToDalibor",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'LetterWithOrderFromMarek_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/LetterWithOrderFromMarek.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        },
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'ToolsForDalibor_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/ToolsForDalibor.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BigOrderQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_Talk.1"
+        },
+        "TalkEntryPoint": "DeliverLetterAndTools_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "09DBF577473E6F10C1E62895BBB0DD9E",
+        "SourceString": "Deliver letter and tools to Dalibor",
+        "LocalizedString": "Deliver letter and tools to Dalibor"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "48FA77554873D8A9E0BF74B617FF5BE1",
+        "SourceString": "I delivered the order letter and tools for Dalibor, to ensure that the chairs will be made correctly. With everything in place, I left him to finish his work, hoping he could retire peacefully.",
+        "LocalizedString": "I delivered the order letter and tools for Dalibor, to ensure that the chairs will be made correctly. With everything in place, I left him to finish his work, hoping he could retire peacefully."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest.BigOrderQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BigOrderQuest_BringLetterAndToolsToDalibor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringLetterAndToolsToDalibor",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BigOrderQuest_BringLetterAndToolsToDalibor_C'Default__BigOrderQuest_BringLetterAndToolsToDalibor_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/BigOrderHaerndeanPadstow/BigOrderQuest_BringLetterAndToolsToDalibor.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

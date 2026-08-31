@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_TalkToInnkeeper_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_TalkToInnkeeper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToInnkeeper.BanditLordAndCommonFolkQuest_TalkToInnkeeper_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToInnkeeper",
+    "Properties": {
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_InnkeeperNPCTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_InnkeeperNPCTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Tavern_01_InnkeeperTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_InnkeeperTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "BackToInkeeper"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "079D158745D68F8831F81688F54D9697",
+        "SourceString": "Talk to {Npc}",
+        "LocalizedString": "Talk to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E923DF104CB1ED9E65DA9694D05D6C90",
+        "SourceString": "Rupert suggested I should speak with Pete, the merchant at the tavern, for an extra reward.",
+        "LocalizedString": "Rupert suggested I should speak with Pete, the merchant at the tavern, for an extra reward."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_InnkeeperNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/Tavern_01_InnkeeperNPCTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_01_InnkeeperTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Taverns/Tavern_01/NPCProfile/Tavern_01_InnkeeperTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_TalkToInnkeeper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToInnkeeper",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_TalkToInnkeeper_C'Default__BanditLordAndCommonFolkQuest_TalkToInnkeeper_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToInnkeeper.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

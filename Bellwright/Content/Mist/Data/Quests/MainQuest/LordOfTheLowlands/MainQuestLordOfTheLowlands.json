@@ -1,0 +1,262 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLordOfTheLowlands_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MainQuestLordOfTheLowlands_C:ExecuteUbergraph_MainQuestLordOfTheLowlands'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MainQuestLordOfTheLowlands_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.2"
+      },
+      {
+        "ObjectName": "Function'MainQuestLordOfTheLowlands_C:ExecuteUbergraph_MainQuestLordOfTheLowlands'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MainQuestLordOfTheLowlands": {
+        "ObjectName": "Function'MainQuestLordOfTheLowlands_C:ExecuteUbergraph_MainQuestLordOfTheLowlands'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'MainQuestLordOfTheLowlands_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLordOfTheLowlands_C'Default__MainQuestLordOfTheLowlands_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MainQuestLordOfTheLowlands",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasWorldTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MainQuestLordOfTheLowlands_C",
+    "Name": "Default__MainQuestLordOfTheLowlands_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands.MainQuestLordOfTheLowlands_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_WaitWeek_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_WaitWeek.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_TalkToPatrykSten_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToPatrykSten.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_TalkToAmelie_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToAmelie.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_TalkToButcher_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_TalkToButcher.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_KillAshbourne_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_KillAshbourne.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainQuestLordOfTheLowlands_BackToButcher_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/LordOfTheLowlands/MainQuestLordOfTheLowlands_BackToButcher.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "4507744741D5CC5F0E0F348F005F9818",
+        "SourceString": "Lord of the Lowlands",
+        "LocalizedString": "Lord of the Lowlands"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "6C635DB24E47D098012F6081DD0A67B6",
+        "SourceString": "Lord Ashbourne has invited me to his castle. Obviously something feels off about that, so I better consult with my allies.",
+        "LocalizedString": "Lord Ashbourne has invited me to his castle. Obviously something feels off about that, so I better consult with my allies."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FF96C6AD4CBC1A564605CF849A12FAFD",
+        "SourceString": "After defeating Ashbourne, a mix of triumph and urgency filled the air. The Butcher revealed that my father was alive, hidden somewhere in Karvenia, igniting a fire of determination within me. As I pressed for answers, I knew I had to balance my quest for reunion with the looming threats that still surrounded us, vowing to stay vigilant until I could find him.",
+        "LocalizedString": "After defeating Ashbourne, a mix of triumph and urgency filled the air. The Butcher revealed that my father was alive, hidden somewhere in Karvenia, igniting a fire of determination within me. As I pressed for answers, I knew I had to balance my quest for reunion with the looming threats that still surrounded us, vowing to stay vigilant until I could find him."
+      },
+      "Difficulty": "EMistQuestDifficulty::Hard",
+      "RenownReward": 25000,
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ButcherNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/BloodyPrisoner/NpcTalks/ButcherNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "bMainStoryQuest": true,
+      "StartActivityTaskOnQuestBegin": {
+        "TagName": "Activity.Quest.MainStory.Lord of The Lowlands"
+      },
+      "CompleteActivityTaskOnQuestComplete": {
+        "TagName": "Activity.Quest.MainStory.Lord of The Lowlands"
+      }
+    }
+  }
+]

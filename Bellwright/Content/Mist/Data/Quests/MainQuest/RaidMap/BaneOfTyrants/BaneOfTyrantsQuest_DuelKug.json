@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BaneOfTyrantsQuest_DuelKug_C",
+    "Name": "Default__BaneOfTyrantsQuest_DuelKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.BaneOfTyrantsQuest_DuelKug_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToFight": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+        }
+      },
+      "bCanFailQuest": true,
+      "MaxNumberOfTries": 2,
+      "Title": {
+        "Namespace": "",
+        "Key": "4393DD9D455A26A482A2C1818D7C8909",
+        "SourceString": "Bane of Tyrants",
+        "LocalizedString": "Bane of Tyrants"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "675DFC7D4D896305BA1496B4EC1C3942",
+        "SourceString": "Win the duel against the Viceroy",
+        "LocalizedString": "Win the duel against the Viceroy"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'SebastianMontverdeMayor_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SebastianMontverdeMayor_NpcTemplate.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BertholdKugNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/BertholdKugNpcTemplate.1"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest.BaneOfTyrantsQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BaneOfTyrantsQuest_DuelKug_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_DuelKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_DuelKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistPracticeFightQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_DuelKug_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.3"
+      },
+      {
+        "ObjectName": "Function'BaneOfTyrantsQuest_DuelKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_DuelKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BaneOfTyrantsQuest_DuelKug": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_DuelKug_C:ExecuteUbergraph_BaneOfTyrantsQuest_DuelKug'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.2"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'BaneOfTyrantsQuest_DuelKug_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BaneOfTyrantsQuest_DuelKug_C'Default__BaneOfTyrantsQuest_DuelKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BaneOfTyrantsQuest_DuelKug",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_DuelKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BaneOfTyrantsQuest_DuelKug_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BaneOfTyrants/BaneOfTyrantsQuest_DuelKug.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

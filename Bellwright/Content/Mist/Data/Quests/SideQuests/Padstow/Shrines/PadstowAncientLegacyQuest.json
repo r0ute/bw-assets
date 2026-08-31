@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PadstowAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PadstowAncientLegacyQuest_C'Default__PadstowAncientLegacyQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PadstowAncientLegacyQuest_C",
+    "Name": "Default__PadstowAncientLegacyQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest.PadstowAncientLegacyQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowAncientLegacyQuest_Examine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_Examine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowAncientLegacyQuest_TalkToOscar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/Shrines/PadstowAncientLegacyQuest_TalkToOscar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E93E562948ABBB57A75595B04EA752BC",
+        "SourceString": "Ancient Legacy - Padstow",
+        "LocalizedString": "Ancient Legacy - Padstow"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F06532DE4225AA00A2C196911C80D4DC",
+        "SourceString": "Ancient Legacy - Padstow",
+        "LocalizedString": "Ancient Legacy - Padstow"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "TechReward": {
+        "ObjectName": "BlueprintGeneratedClass'KranekShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/KranekShrine.0"
+      },
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Haerndean/ShrinesIntroduction/HaerndeanAncientLegacyIntroductionQuest.HaerndeanAncientLegacyIntroductionQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "AchievementOnFinishing": {
+        "ID": "FINISH_SHRINE_QUEST"
+      }
+    }
+  }
+]

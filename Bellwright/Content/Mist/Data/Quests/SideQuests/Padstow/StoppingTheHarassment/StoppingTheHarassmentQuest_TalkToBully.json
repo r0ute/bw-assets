@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StoppingTheHarassmentQuest_TalkToBully_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_TalkToBully",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StoppingTheHarassmentQuest_TalkToBully_C'Default__StoppingTheHarassmentQuest_TalkToBully_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_TalkToBully.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StoppingTheHarassmentQuest_TalkToBully_C",
+    "Name": "Default__StoppingTheHarassmentQuest_TalkToBully_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_TalkToBully.StoppingTheHarassmentQuest_TalkToBully_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest_TalkToBully",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HarassmentBanditTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'StoppingTheHarassmentTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentTalk.0"
+        },
+        "TalkEntryPoint": "TalkToBuly"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "66A6691B4C60ECD398E5FDAF83AA29F5",
+        "SourceString": "I went to settle the score with the bandit, but there was no way to have a civil situation, I would have to teach him a lesson.",
+        "LocalizedString": "I went to settle the score with the bandit, but there was no way to have a civil situation, I would have to teach him a lesson."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "32BCC0C34BD6692BE7599FBEFA2EB561",
+          "SourceString": "About the man harassing you...",
+          "LocalizedString": "About the man harassing you..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'StoppingTheHarassmentTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentTalk.0"
+        },
+        "TalkEntryPoint": "BackToQuestgiver",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PadstowRudyTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowRudyTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HarassmentBanditTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/HarassmentBanditTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'PadstowRudyTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Padstow/PadstowRudyTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Padstow/StoppingTheHarassment/StoppingTheHarassmentQuest.StoppingTheHarassmentQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

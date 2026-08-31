@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WhereTheLostLayQuest_TalkToBanditsLeader_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToBanditsLeader",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WhereTheLostLayQuest_TalkToBanditsLeader_C'Default__WhereTheLostLayQuest_TalkToBanditsLeader_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToBanditsLeader.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WhereTheLostLayQuest_TalkToBanditsLeader_C",
+    "Name": "Default__WhereTheLostLayQuest_TalkToBanditsLeader_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToBanditsLeader.WhereTheLostLayQuest_TalkToBanditsLeader_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_TalkToBanditsLeader",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "A46860EB42A578A0DBF2928C3D711228",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditsLeader_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/BanditsLeader_NpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditsLeader_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/BanditsLeader_NpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "BF0CE6E74E7013D89AD32B9D4628FB87",
+          "SourceString": "We need to talk.",
+          "LocalizedString": "We need to talk."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WhereTheLostLayQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToNpcLeader",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6B06269D4EDF74F7C2A47ABD453C5831",
+        "SourceString": "Speak to {Npc}.",
+        "LocalizedString": "Speak to {Npc}."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "EA671A9545A3C3347F77EE852C276678",
+        "SourceString": "The leader of the group admitted to the hangings, claiming they’re enforcing justice where the system has failed. They target brigands and criminals, sending them to the tree as punishment. While their methods are extreme, they believe this is the only way to restore order in Karvenia.",
+        "LocalizedString": "The leader of the group admitted to the hangings, claiming they’re enforcing justice where the system has failed. They target brigands and criminals, sending them to the tree as punishment. While their methods are extreme, they believe this is the only way to restore order in Karvenia."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditsLeader_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/BanditsLeader_NpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditsLeader_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/WhereTheLostLay/BanditsLeader_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/WhereTheLostLay/WhereTheLostLayQuest.WhereTheLostLayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

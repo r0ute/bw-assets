@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShipmentFullOfSurprisesQuest_BackToFiske_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_BackToFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.2"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.3"
+      },
+      {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_BackToFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_BackToFiske": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:ExecuteUbergraph_ShipmentFullOfSurprisesQuest_BackToFiske'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'ShipmentFullOfSurprisesQuest_BackToFiske_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShipmentFullOfSurprisesQuest_BackToFiske_C'Default__ShipmentFullOfSurprisesQuest_BackToFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ShipmentFullOfSurprisesQuest_BackToFiske",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_BackToFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_BackToFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuest_BackToFiske_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ShipmentFullOfSurprisesQuest_BackToFiske_C",
+    "Name": "Default__ShipmentFullOfSurprisesQuest_BackToFiske_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske.ShipmentFullOfSurprisesQuest_BackToFiske_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest_BackToFiske",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "391A90904769720B6CCDDEACAFF05EF8",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BartekGundarNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundarNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BartekGundar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/BartekGundar_Talk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3D750C904F8DF62EA978F2BCDF9D1ED4",
+          "SourceString": "I’ve defeated all the people you asked of me.",
+          "LocalizedString": "I’ve defeated all the people you asked of me."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ShipmentFullOfSurprisesQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToBartekAgain"
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiskeNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiskeNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'ErykFiske_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/ErykFiske_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ShipmentFullofSurprises/ShipmentFullOfSurprisesQuest.ShipmentFullOfSurprisesQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

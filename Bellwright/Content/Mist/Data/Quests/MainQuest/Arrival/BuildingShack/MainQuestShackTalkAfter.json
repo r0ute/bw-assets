@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestShackTalkAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalkAfter",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestShackTalkAfter_C'Default__MainQuestShackTalkAfter_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalkAfter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestShackTalkAfter_C",
+    "Name": "Default__MainQuestShackTalkAfter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalkAfter.MainQuestShackTalkAfter_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalkAfter",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "DE55B1BB45A53956B717FB923168D2A9",
+        "SourceString": "Return to {Npc}",
+        "LocalizedString": "Return to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanElderQuestsTalkNew_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/Talk/New/NPCTalk/HaerndeanElderQuestsTalkNew.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "EntryPriority": 1,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6904EC564DCBD03D99E3129D4F5ED784",
+          "SourceString": "I finished setting up my camp.",
+          "LocalizedString": "I finished setting up my camp."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestShackTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShackTalk.0"
+        },
+        "TalkEntryPoint": "Build_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5D62A1B842847679C01F8F98B9900C37",
+        "SourceString": "A New Home",
+        "LocalizedString": "A New Home"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A987ACA24C6CA28416D156A6AB67AE7F",
+        "SourceString": "Return to {Npc}",
+        "LocalizedString": "Return to {Npc}"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "4D24623D48DC93A01A36628C432F6541",
+        "SourceString": "The Elder asked for my help with dealing with a former resident of the village who has been causing trouble. Although he has been a nuisance, the Elder doesn’t want me to use unnecessary violence and simply give him a stern talking to.",
+        "LocalizedString": "The Elder asked for my help with dealing with a former resident of the village who has been causing trouble. Although he has been a nuisance, the Elder doesn’t want me to use unnecessary violence and simply give him a stern talking to."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/BuildingShack/MainQuestShack.MainQuestShack_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

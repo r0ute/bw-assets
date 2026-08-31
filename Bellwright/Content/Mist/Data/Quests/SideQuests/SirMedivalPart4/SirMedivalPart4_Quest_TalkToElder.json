@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart4_Quest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToElder",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart4_Quest_TalkToElder_C'Default__SirMedivalPart4_Quest_TalkToElder_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToElder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart4_Quest_TalkToElder_C",
+    "Name": "Default__SirMedivalPart4_Quest_TalkToElder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToElder.SirMedivalPart4_Quest_TalkToElder_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToElder",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "44017CF4459C2C84B405AB98A3206255",
+        "SourceString": "Think On Your Sins",
+        "LocalizedString": "Think On Your Sins"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "993FA3AA4F5912E8CA7233881D840123",
+        "SourceString": "The elder asked me about the knight that I have been helping. He asked me to investigate a cave nearby, perhaps I should go take a look.",
+        "LocalizedString": "The elder asked me about the knight that I have been helping. He asked me to investigate a cave nearby, perhaps I should go take a look."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest.SirMedivalPart4_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

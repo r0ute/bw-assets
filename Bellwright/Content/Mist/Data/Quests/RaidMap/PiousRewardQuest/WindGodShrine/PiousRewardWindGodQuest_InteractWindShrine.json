@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardWindGodQuest_InteractWindShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardWindGodQuest_InteractWindShrine_C:ExecuteUbergraph_PiousRewardWindGodQuest_InteractWindShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardWindGodQuest_InteractWindShrine_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardWindGodQuest_InteractWindShrine_C:ExecuteUbergraph_PiousRewardWindGodQuest_InteractWindShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardWindGodQuest_InteractWindShrine": {
+        "ObjectName": "Function'PiousRewardWindGodQuest_InteractWindShrine_C:ExecuteUbergraph_PiousRewardWindGodQuest_InteractWindShrine'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'PiousRewardWindGodQuest_InteractWindShrine_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardWindGodQuest_InteractWindShrine_C'Default__PiousRewardWindGodQuest_InteractWindShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardWindGodQuest_InteractWindShrine",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardWindGodQuest_InteractWindShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardWindGodQuest_InteractWindShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardWindGodQuest_InteractWindShrine_C",
+    "Name": "Default__PiousRewardWindGodQuest_InteractWindShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.PiousRewardWindGodQuest_InteractWindShrine_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Title": {
+        "Namespace": "",
+        "Key": "D9E319A743289B7327158C8274C6E43B",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BCFB8D0C4DEEF8228D7C75A833CC11F4",
+        "SourceString": "Read the Inscription",
+        "LocalizedString": "Read the Inscription"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "FD0BF4D54220037EAEFC008A3883ED39",
+        "SourceString": "I came across another shrine on the island. This one is a wind god, which makes sense on such a windy island.",
+        "LocalizedString": "I came across another shrine on the island. This one is a wind god, which makes sense on such a windy island."
+      },
+      "bCanBeDiscarded": false,
+      "bShowMarkerOnMap": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

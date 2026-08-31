@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheFishermensNetsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheFishermensNetsQuest_C'Default__TheFishermensNetsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheFishermensNetsQuest_C",
+    "Name": "Default__TheFishermensNetsQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest.TheFishermensNetsQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_UsePOI_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_UsePOI.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BringItems.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_ConfrontFisherman_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_ConfrontFisherman.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_BackToFisherwoman_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_BackToFisherwoman.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D1CF5ADA4E9114CFA260B49D3D17B613",
+        "SourceString": "The Fishermen's Nets",
+        "LocalizedString": "The Fishermen's Nets"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "5D0285C7425C74084A2526BF6B02CEEB",
+        "SourceString": "Gertrude’s fishing nets were ruined, and without them, the village supplies can go pretty low. She asked me to bring 5 ropes but also suspected foul play. She wanted me to check the nets for anything suspicious. I also don’t think that storm broke them. I don’t recall feeling that big of a wind yesterday or during the night.",
+        "LocalizedString": "Gertrude’s fishing nets were ruined, and without them, the village supplies can go pretty low. She asked me to bring 5 ropes but also suspected foul play. She wanted me to check the nets for anything suspicious. I also don’t think that storm broke them. I don’t recall feeling that big of a wind yesterday or during the night."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Available"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 100,
+      "VillageProsperityReward": 100,
+      "RenownReward": 150,
+      "ItemReward": {
+        "Tables": [
+          {
+            "Table": null,
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'RainbowSpeckler_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Fishes/RainbowSpeckler.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 100,
+            "MaxQuantity": 100
+          }
+        ]
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuestWoman_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuestWoman_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuestWoman_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuestWoman_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'TheFishermensNetsQuestMan_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/TheFishermensNets/TheFishermensNetsQuestMan_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "RequiresVillageLiberatedToBeVisible": {
+        "AssetPathName": "/Game/Mist/Props/Poi/Static/Villages/VillagesProfiles/BradfordVillageProfile.BradfordVillageProfile",
+        "SubPathString": ""
+      }
+    }
+  }
+]

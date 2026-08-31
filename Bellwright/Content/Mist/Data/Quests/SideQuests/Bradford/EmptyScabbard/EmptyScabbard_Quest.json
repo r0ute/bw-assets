@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "EmptyScabbard_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "EmptyScabbard_Quest_C'Default__EmptyScabbard_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "EmptyScabbard_Quest_C",
+    "Name": "Default__EmptyScabbard_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Quest.EmptyScabbard_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'EmptyScabbard_Quest_BringSword_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Quest_BringSword.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "54557E5447953AFE691FCC98F90A7CF8",
+        "SourceString": "Empty Scabbard",
+        "LocalizedString": "Empty Scabbard"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "BAE2AF7D4002FCFB30B6F7B6C1BC4FA8",
+        "SourceString": "A professional mercenary prefers that I forge him a sword instead of a regular blacksmith? Either he's eccentric or he's not telling me something. But in the end, I took the job.",
+        "LocalizedString": "A professional mercenary prefers that I forge him a sword instead of a regular blacksmith? Either he's eccentric or he's not telling me something. But in the end, I took the job."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "3DD114FF43E8DB8592C413B7504A1E7E",
+          "SourceString": "Helping with sword",
+          "LocalizedString": "Helping with sword"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'EmptyScabbard_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/EmptyScabbard/EmptyScabbard_Talk.0"
+        },
+        "TalkEntryPoint": "Quest_Available",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "VillageTrustReward": 50,
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 200,
+            "MaxQuantity": 200
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'OldCoin_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/OldCoin.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BradfordCrimsonReid_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordCrimsonReid_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BradfordCrimsonReid_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/BradfordCrimsonReid_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

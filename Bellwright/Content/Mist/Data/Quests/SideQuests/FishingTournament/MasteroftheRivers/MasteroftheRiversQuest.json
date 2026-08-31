@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MasteroftheRiversQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MasteroftheRiversQuest_C'Default__MasteroftheRiversQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MasteroftheRiversQuest_C",
+    "Name": "Default__MasteroftheRiversQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest.MasteroftheRiversQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheRiversQuest_TalkToNPC_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_TalkToNPC.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheRiversQuest_BringFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRiversQuest_BringFish.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "3462A9F94413FD0793B25AAB2E61C434",
+        "SourceString": "Fishing Tournament - Master of the Rivers",
+        "LocalizedString": "Fishing Tournament - Master of the Rivers"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "324D74A04E9DF4B383EEF69F36F0DB69",
+        "SourceString": "I’ve heard there’s a fishing master by the river—Aldric Angler. If I want to refine my skills, I should seek him out and see what he has to teach me. He should be near Farnworth river.",
+        "LocalizedString": "I’ve heard there’s a fishing master by the river—Aldric Angler. If I want to refine my skills, I should seek him out and see what he has to teach me. He should be near Farnworth river."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5EFD02CE46E3285E52D7608D8C73985A",
+        "SourceString": "Aldric inspected my catch and gave me a nod of approval. Looks like I’m making progress as a river fisherman. Now it’s time to visit swamps.",
+        "LocalizedString": "Aldric inspected my catch and gave me a nod of approval. Looks like I’m making progress as a river fisherman. Now it’s time to visit swamps."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 50,
+      "RenownReward": 100,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SpottedGluttonfishTrophy_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/SpottedGluttonfishTrophy.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 50,
+            "MaxQuantity": 50
+          }
+        ]
+      },
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/BigFish/BigFishQuest.BigFishQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MasteroftheRivers-Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishingTournament/MasteroftheRivers/MasteroftheRivers-Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

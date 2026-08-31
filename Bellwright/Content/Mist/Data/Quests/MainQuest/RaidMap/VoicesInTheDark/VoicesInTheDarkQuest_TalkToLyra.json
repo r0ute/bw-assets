@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VoicesInTheDarkQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToLyra_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToLyra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.2"
+      },
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToLyra_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VoicesInTheDarkQuest_TalkToLyra": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToLyra_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToLyra'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToLyra_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VoicesInTheDarkQuest_TalkToLyra_C'Default__VoicesInTheDarkQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VoicesInTheDarkQuest_TalkToLyra",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToLyra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VoicesInTheDarkQuest_TalkToLyra_C",
+    "Name": "Default__VoicesInTheDarkQuest_TalkToLyra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra.VoicesInTheDarkQuest_TalkToLyra_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToLyra",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLyra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "02EBFDE54BB4B4117E4EF19BFF4CEF45",
+        "SourceString": "Voices in the Dark",
+        "LocalizedString": "Voices in the Dark"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "F7B413414EC8BCC53F4E2DB9734F880A",
+        "SourceString": "I met with Lyra after pledging my loyalty. She told me the Halmayans uncovered a betrayer in their ranks who has been feeding the Kug secrets. The traitor must be dealt with before we strike the Kug.",
+        "LocalizedString": "I met with Lyra after pledging my loyalty. She told me the Halmayans uncovered a betrayer in their ranks who has been feeding the Kug secrets. The traitor must be dealt with before we strike the Kug."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauharNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauharNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.VoicesInTheDarkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

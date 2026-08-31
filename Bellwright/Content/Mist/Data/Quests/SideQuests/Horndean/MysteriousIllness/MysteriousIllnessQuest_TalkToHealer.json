@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MysteriousIllnessQuest_TalkToHealer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToHealer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MysteriousIllnessQuest_TalkToHealer_C'Default__MysteriousIllnessQuest_TalkToHealer_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToHealer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MysteriousIllnessQuest_TalkToHealer_C",
+    "Name": "Default__MysteriousIllnessQuest_TalkToHealer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToHealer.MysteriousIllnessQuest_TalkToHealer_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_TalkToHealer",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanPhysician_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanPhysician_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MysteriousIllnessQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToHealer_InProgress"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "20712D704EAD6D351B3DA3ABED8FAE2E",
+        "SourceString": "Calita seems suspicious that there was foul play with the water in the well. I should investigate further.",
+        "LocalizedString": "Calita seems suspicious that there was foul play with the water in the well. I should investigate further."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Horndean/MysteriousIllness/MysteriousIllnessQuest.MysteriousIllnessQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

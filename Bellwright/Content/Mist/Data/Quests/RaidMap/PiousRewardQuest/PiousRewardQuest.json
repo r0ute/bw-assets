@@ -1,0 +1,354 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PiousRewardQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'PiousRewardQuest_C:ExecuteUbergraph_PiousRewardQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PiousRewardQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.2"
+      },
+      {
+        "ObjectName": "Function'PiousRewardQuest_C:ExecuteUbergraph_PiousRewardQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PiousRewardQuest": {
+        "ObjectName": "Function'PiousRewardQuest_C:ExecuteUbergraph_PiousRewardQuest'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.1"
+      },
+      "OnQuestInitializing": {
+        "ObjectName": "Function'PiousRewardQuest_C:OnQuestInitializing'",
+        "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PiousRewardQuest_C'Default__PiousRewardQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PiousRewardQuest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddActiveSubquest_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistQuest'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestInitializing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestInitializing'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PiousRewardQuest_C",
+    "Name": "Default__PiousRewardQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest.PiousRewardQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWineGodQuest_FindWineGod_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_FindWineGod.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWineGodQuest_InteractWineShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_InteractWineShrine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWineGodQuest_WineGodLore_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WineGodShrine/PiousRewardWineGodQuest_WineGodLore.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWindGodQuest_FindWindGod_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_FindWindGod.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWindGodQuest_InteractWindShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_InteractWindShrine.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardWindGodQuest_WindGodLore_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/WindGodShrine/PiousRewardWindGodQuest_WindGodLore.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardSeaGoddessQuest_FindSeaGoddess_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_FindSeaGoddess.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardSeaGoddessQuest_InteractSeaGod_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_InteractSeaGod.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardSeaGoddessQuest_SeaGodLore_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/SeaGoddessShrine/PiousRewardSeaGoddessQuest_SeaGodLore.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalKeep",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_FindTreasure_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_FindTreasure.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_TalkTreasureGuard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_TalkTreasureGuard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_KillGuard_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_KillGuard.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_CollectTreasure_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_CollectTreasure.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_ReturnToKostra_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_ReturnToKostra.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "bManualSubtaskControl": true,
+      "Title": {
+        "Namespace": "",
+        "Key": "111DD5224B55FDCFA5B62BB763F0E054",
+        "SourceString": "Pious Reward",
+        "LocalizedString": "Pious Reward"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "395C278E4C19C54AC86AE782D10057E4",
+        "SourceString": "Find out what secrets the island shrines may hold.",
+        "LocalizedString": "Find out what secrets the island shrines may hold."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "4CA1EF2B4A507E422FC7B1A69B21FB9C",
+        "SourceString": "A drunkard at the tavern let me know that there's shrines scattered around the island. Legend says that visiting all three will lead to a treasure. The first one is not far from here, Marti said it was across the bridge on a hill. Seems worth to check it.",
+        "LocalizedString": "A drunkard at the tavern let me know that there's shrines scattered around the island. Legend says that visiting all three will lead to a treasure. The first one is not far from here, Marti said it was across the bridge on a hill. Seems worth to check it."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5CEC69824963E29D0C5838B6680B8D60",
+          "SourceString": "You look like you’ve seen your share of adventures.",
+          "LocalizedString": "You look like you’ve seen your share of adventures."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PiousRewardQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PiousRewardQuest/PiousRewardQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostraNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostraNpcTemplate.0"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MartiKostra_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/Shrines/MartiKostra_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

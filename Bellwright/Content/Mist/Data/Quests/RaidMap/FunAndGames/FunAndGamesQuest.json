@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FunAndGamesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FunAndGamesQuest_C'Default__FunAndGamesQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FunAndGamesQuest_C",
+    "Name": "Default__FunAndGamesQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest.FunAndGamesQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_TalkToGarrickDorn_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_TalkToGarrickDorn.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_TalkToMiraTelvanni_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_TalkToMiraTelvanni.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_TalkToGarethVander_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_TalkToGarethVander.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_FindForge_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_FindForge.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_InteractLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_InteractLetter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_BringGarrickLetter_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_BringGarrickLetter.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "929A00DA4E26DC5EE1C4B38808D78EDB",
+        "SourceString": "Fun and Games",
+        "LocalizedString": "Fun and Games"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EE5C04CD48268A824747A780F7DDD137",
+        "SourceString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits. He suspects Garrick and Mira are involved and wants me to question them discreetly.",
+        "LocalizedString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits. He suspects Garrick and Mira are involved and wants me to question them discreetly."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "14897C294F16464625F2A2A19FD1D3C2",
+        "SourceString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits. He suspects Garrick and Mira are involved and wants me to question them discreetly.",
+        "LocalizedString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits. He suspects Garrick and Mira are involved and wants me to question them discreetly."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "F574C8D84F4002889D1B178266380573",
+          "SourceString": "Heard any interesting rumors?",
+          "LocalizedString": "Heard any interesting rumors?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FunAndGamesQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GarrickDorn_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarrickDorn_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MiraTelvanni_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/MiraTelvanni_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

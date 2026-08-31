@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MainQuestLubomir_TalkToLubomir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomir",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MainQuestLubomir_TalkToLubomir_C'Default__MainQuestLubomir_TalkToLubomir_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomir.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MainQuestLubomir_TalkToLubomir_C",
+    "Name": "Default__MainQuestLubomir_TalkToLubomir_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomir.MainQuestLubomir_TalkToLubomir_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir_TalkToLubomir",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "A8FC9FEE4992FF895D9FE9B5D1D605FE",
+        "SourceString": "Find Lubomir Netterby and warn him about the Brigands plans.",
+        "LocalizedString": "Find Lubomir Netterby and warn him about the Brigands plans."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'MainQuestLubomirTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomirTalk.0"
+        },
+        "TalkEntryPoint": "TalkToLubomir"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "05DB883044C098876BEEA1A7B62CF2B3",
+        "SourceString": "Arrival",
+        "LocalizedString": "Arrival"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6DB1DB3D4CD08D07FD7B038EC3254422",
+        "SourceString": "Find Lubomir Netterby and warn him about the Brigands plans.",
+        "LocalizedString": "Find Lubomir Netterby and warn him about the Brigands plans."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "1C52309B49BAFF17759518A599A86099",
+        "SourceString": "I managed to find the hunter that the elder mentioned. He was bitter about his treatment by Dobron, but after talking to him, I was able to convince him to join me.",
+        "LocalizedString": "I managed to find the hunter that the elder mentioned. He was bitter about his treatment by Dobron, but after talking to him, I was able to convince him to join me."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanLubomirJuice_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanLubomirJuice.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Lubomir/MainQuestLubomir.MainQuestLubomir_C",
+        "SubPathString": ""
+      },
+      "bMainStoryQuest": true
+    }
+  }
+]

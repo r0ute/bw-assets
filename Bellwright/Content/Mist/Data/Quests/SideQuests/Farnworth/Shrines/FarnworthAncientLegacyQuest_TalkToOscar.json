@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FarnworthAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest_TalkToOscar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FarnworthAncientLegacyQuest_TalkToOscar_C'Default__FarnworthAncientLegacyQuest_TalkToOscar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest_TalkToOscar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FarnworthAncientLegacyQuest_TalkToOscar_C",
+    "Name": "Default__FarnworthAncientLegacyQuest_TalkToOscar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest_TalkToOscar.FarnworthAncientLegacyQuest_TalkToOscar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest_TalkToOscar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "DEABE39C4B6632869368B4B1A304AE76",
+        "SourceString": "Talk to {Npc} and tell him shrine that you've discovered near Farnworth.",
+        "LocalizedString": "Talk to {Npc} and tell him shrine that you've discovered near Farnworth."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "AF693C22463D76F67D580D881D4F723B",
+          "SourceString": "Regarding the shrine next to Farnworth...",
+          "LocalizedString": "Regarding the shrine next to Farnworth..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthAncientLegacyQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToOscar_InProgress",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "D14401E6485A814915CB6C8B6364417B",
+        "SourceString": "Ancient Legacy - Farnworth.",
+        "LocalizedString": "Ancient Legacy - Farnworth."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "571BCE6645461774CCEDA4BEB89ADB4E",
+        "SourceString": "Farnworth's shrine mentioned a deity called Devannos, must have been a hunter god.",
+        "LocalizedString": "Farnworth's shrine mentioned a deity called Devannos, must have been a hunter god."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "bAutogenerateReturnToGiverSubtask": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Shrines/FarnworthAncientLegacyQuest.FarnworthAncientLegacyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

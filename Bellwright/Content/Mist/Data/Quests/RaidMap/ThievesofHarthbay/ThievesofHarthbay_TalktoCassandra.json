@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ThievesofHarthbay_TalktoCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_TalktoCassandra",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ThievesofHarthbay_TalktoCassandra_C'Default__ThievesofHarthbay_TalktoCassandra_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_TalktoCassandra.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ThievesofHarthbay_TalktoCassandra_C",
+    "Name": "Default__ThievesofHarthbay_TalktoCassandra_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_TalktoCassandra.ThievesofHarthbay_TalktoCassandra_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbay_TalktoCassandra",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "43DA7D6D4F7BCDD1438737BDDADEFC24",
+        "SourceString": "Bring stolen goods to {Npc} to prove your loyality.",
+        "LocalizedString": "Bring stolen goods to {Npc} to prove your loyality."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ThievesofHarthbayTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbayTalk.0"
+        },
+        "TalkEntryPoint": "TalkWithCassandra"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "C8ED5D0B4A4358A512FEADB1C4BA336A",
+        "SourceString": "Bring stolen goods to {Npc} to prove your loyality.",
+        "LocalizedString": "Bring stolen goods to {Npc} to prove your loyality."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "8F6F344E49E78EB6BF87298C7BE4EEAB",
+        "SourceString": "I gave everything to Cassandra. It’s better in her hands now.",
+        "LocalizedString": "I gave everything to Cassandra. It’s better in her hands now."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'CassandraKim_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassandraKim_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/ThievesofHarthbay/ThievesofHarthbayQuest.ThievesofHarthbayQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

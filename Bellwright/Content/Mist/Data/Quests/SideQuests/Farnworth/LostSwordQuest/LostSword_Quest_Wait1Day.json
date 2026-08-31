@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostSword_Quest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_Quest_Wait1Day",
+    "SuperStruct": {
+      "ObjectName": "Class'MistWaitQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostSword_Quest_Wait1Day_C'Default__LostSword_Quest_Wait1Day_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_Quest_Wait1Day.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostSword_Quest_Wait1Day_C",
+    "Name": "Default__LostSword_Quest_Wait1Day_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_Quest_Wait1Day.LostSword_Quest_Wait1Day_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSword_Quest_Wait1Day",
+    "Properties": {
+      "WaitTaskDescription": {
+        "Namespace": "",
+        "Key": "7AB384B848A6EFC42352FEB3957F3EFF",
+        "SourceString": "Wait until tomorrow to talk to Blacksmith.",
+        "LocalizedString": "Wait until tomorrow to talk to Blacksmith."
+      },
+      "WaitDays": 1,
+      "Title": {
+        "Namespace": "",
+        "Key": "011AADFF4ED0F0AABD05CA830309161F",
+        "SourceString": "Wait until tomorrow to talk to Blacksmith.",
+        "LocalizedString": "Wait until tomorrow to talk to Blacksmith."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "804347DF4DD19AB27A4B248FBDB7DDFB",
+        "SourceString": "Wait until tomorrow to talk to Blacksmith.",
+        "LocalizedString": "Wait until tomorrow to talk to Blacksmith."
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "9AE1E7A043A80A48819077BDB2F961B4",
+        "SourceString": "The blacksmith must be done by now. I need to return to him.",
+        "LocalizedString": "The blacksmith must be done by now. I need to return to him."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "1D01C8A4451F099BAE8FA5B0FAC8C43D",
+          "SourceString": "Is the sword finished?",
+          "LocalizedString": "Is the sword finished?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'LostSwordQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuestTalk.0"
+        },
+        "TalkEntryPoint": "Finton_Mallet_NextDay",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HorndeanBlacksmithTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Horndean/HorndeanBlacksmithTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/LostSwordQuest/LostSwordQuest.LostSwordQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

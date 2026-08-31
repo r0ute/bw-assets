@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "AShotatRedemption_Quest_C",
+    "Name": "Default__AShotatRedemption_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest.AShotatRedemption_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'AShotatRedemption_Quest_BringItems_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_BringItems.1"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "CA62DBD140F105609285E08BC841DC15",
+        "SourceString": "A Shot at Redemption",
+        "LocalizedString": "A Shot at Redemption"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5A031E714C1383F4471CE08FB6A715C1",
+        "SourceString": "Bring quiver and simple arrows to the {QuestGiver}",
+        "LocalizedString": "Bring quiver and simple arrows to the {QuestGiver}"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "8A3545F94185720E618DB5AA4F023C01",
+        "SourceString": "Tasked with aiding Amelie Felltóir, I sourced a new quiver and arrows after the Elder forced her to sell hers due to a mishap with a Brigand. Despite warnings, Amelie's mischievous gratitude hinted she might soon find herself in another predicament, arrows in hand.",
+        "LocalizedString": "Tasked with aiding Amelie Felltóir, I sourced a new quiver and arrows after the Elder forced her to sell hers due to a mishap with a Brigand. Despite warnings, Amelie's mischievous gratitude hinted she might soon find herself in another predicament, arrows in hand."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A72217C44123F75265CC2C81C3A39BE1",
+          "SourceString": "A Shot at Redemption",
+          "LocalizedString": "A Shot at Redemption"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AShotatRedemption_Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest_Talk.1"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "MoneyReward": 100,
+      "RenownReward": 130,
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/Wolves/MainQuestWolves.MainQuestWolves_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanShepherdsDaughterTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanShepherdsDaughterNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Haerndean/HaerndeanShepherdsDaughterNPCTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AShotatRedemption_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AShotatRedemption_Quest_C'Default__AShotatRedemption_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/AShotatRedemption/AShotatRedemption_Quest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

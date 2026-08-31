@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GoldenScalesPart2Quest_TalkToFisherman_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFisherman",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GoldenScalesPart2Quest_TalkToFisherman_C'Default__GoldenScalesPart2Quest_TalkToFisherman_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFisherman.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GoldenScalesPart2Quest_TalkToFisherman_C",
+    "Name": "Default__GoldenScalesPart2Quest_TalkToFisherman_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFisherman.GoldenScalesPart2Quest_TalkToFisherman_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_TalkToFisherman",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PaulFishburnFishermanTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/PaulFishburnFishermanTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'GoldenScalesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToFishermanStart_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "99674B0441C57A0575C399834FE38054",
+        "SourceString": "Golden Scales",
+        "LocalizedString": "Golden Scales"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DDCF5A494B4E3A7218DBF98D63E92EED",
+        "SourceString": "Paul found a mysterious letter in the fish's belly. I agreed to take it to Oscar. I am curious about what’s written there.",
+        "LocalizedString": "Paul found a mysterious letter in the fish's belly. I agreed to take it to Oscar. I am curious about what’s written there."
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FIshermanLetter_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FIshermanLetter.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/FishermanQuest/GoldenScales/Part2/GoldenScalesPart2Quest.GoldenScalesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VeinsOfDeceitQuest_SearchTheBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_SearchTheBody_C:ExecuteUbergraph_VeinsOfDeceitQuest_SearchTheBody'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_SearchTheBody_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.2"
+      },
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_SearchTheBody_C:ExecuteUbergraph_VeinsOfDeceitQuest_SearchTheBody'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VeinsOfDeceitQuest_SearchTheBody": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_SearchTheBody_C:ExecuteUbergraph_VeinsOfDeceitQuest_SearchTheBody'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_SearchTheBody_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VeinsOfDeceitQuest_SearchTheBody_C'Default__VeinsOfDeceitQuest_SearchTheBody_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VeinsOfDeceitQuest_SearchTheBody",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_SearchTheBody_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_SearchTheBody_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VeinsOfDeceitQuest_SearchTheBody_C",
+    "Name": "Default__VeinsOfDeceitQuest_SearchTheBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody.VeinsOfDeceitQuest_SearchTheBody_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_SearchTheBody",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Title": {
+        "Namespace": "",
+        "Key": "5902A5DF4330C554A29672822846D2EC",
+        "SourceString": "Search the dead body",
+        "LocalizedString": "Search the dead body"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "016F211A4A5198BCC6C54E9EA945F69E",
+        "SourceString": "Search the dead body",
+        "LocalizedString": "Search the dead body"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BBD8E8B84671E5846F2C628F784221CD",
+        "SourceString": "On Lydia’s body, I found a note. Kug himself claimed responsibility for her death, boasting that not even his own blood could escape him. It’s clear this was meant to be a warning. I need to take this news back to Darek.",
+        "LocalizedString": "On Lydia’s body, I found a note. Kug himself claimed responsibility for her death, boasting that not even his own blood could escape him. It’s clear this was meant to be a warning. I need to take this news back to Darek."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest.VeinsOfDeceitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

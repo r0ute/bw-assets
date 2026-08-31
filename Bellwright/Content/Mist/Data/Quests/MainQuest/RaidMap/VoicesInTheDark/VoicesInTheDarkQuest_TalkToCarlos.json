@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VoicesInTheDarkQuest_TalkToCarlos_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.2"
+      },
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.3"
+      },
+      {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VoicesInTheDarkQuest_TalkToCarlos": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:ExecuteUbergraph_VoicesInTheDarkQuest_TalkToCarlos'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VoicesInTheDarkQuest_TalkToCarlos_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VoicesInTheDarkQuest_TalkToCarlos_C'Default__VoicesInTheDarkQuest_TalkToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VoicesInTheDarkQuest_TalkToCarlos",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuest_TalkToCarlos_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VoicesInTheDarkQuest_TalkToCarlos_C",
+    "Name": "Default__VoicesInTheDarkQuest_TalkToCarlos_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos.VoicesInTheDarkQuest_TalkToCarlos_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest_TalkToCarlos",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'CarlosCisneNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisneNpcTemplate.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VoicesInTheDarkQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuestTalk.0"
+        },
+        "TalkEntryPoint": "TalkToCarlos"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "22B80FE74773714E918A9DA8DC96E391",
+        "SourceString": "I spoke with Carlos about Edoardo’s betrayal. The man is furious, his daughter, Isa, was the heart of his pain. Carlos has charged me with ending Edoardo’s life and making sure he knows why before the blade falls.",
+        "LocalizedString": "I spoke with Carlos about Edoardo’s betrayal. The man is furious, his daughter, Isa, was the heart of his pain. Carlos has charged me with ending Edoardo’s life and making sure he knows why before the blade falls."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'CarlosCisneNpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/HalmayansOutpost/CarlosCisneNpcTemplate.0"
+          },
+          "TalkClass": null,
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VoicesInTheDark/VoicesInTheDarkQuest.VoicesInTheDarkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VeinsOfDeceitQuest_MeetLyraInTavern_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_MeetLyraInTavern_C:ExecuteUbergraph_VeinsOfDeceitQuest_MeetLyraInTavern'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_MeetLyraInTavern_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.2"
+      },
+      {
+        "ObjectName": "Function'VeinsOfDeceitQuest_MeetLyraInTavern_C:ExecuteUbergraph_VeinsOfDeceitQuest_MeetLyraInTavern'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_VeinsOfDeceitQuest_MeetLyraInTavern": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_MeetLyraInTavern_C:ExecuteUbergraph_VeinsOfDeceitQuest_MeetLyraInTavern'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.1"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'VeinsOfDeceitQuest_MeetLyraInTavern_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VeinsOfDeceitQuest_MeetLyraInTavern_C'Default__VeinsOfDeceitQuest_MeetLyraInTavern_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_VeinsOfDeceitQuest_MeetLyraInTavern",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_MeetLyraInTavern_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MistNpcReference",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'MistNpcReference'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSettlementByName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistSettlement'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_MeetLyraInTavern_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "VeinsOfDeceitQuest_MeetLyraInTavern_C",
+    "Name": "Default__VeinsOfDeceitQuest_MeetLyraInTavern_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern.VeinsOfDeceitQuest_MeetLyraInTavern_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_MeetLyraInTavern",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "61A618BA4C1C065AD82279A630146CAD",
+        "SourceString": "Meet {Npc} in Sorwynn's Cup",
+        "LocalizedString": "Meet {Npc} in Sorwynn's Cup"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'VeinsOfDeceitQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest_Talk.0"
+        },
+        "TalkEntryPoint": "MeetLyraInTavern"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "6AA793604177A953CED5DAA6B4A60543",
+        "SourceString": "Meet {Npc} in Sorwynn's Cup",
+        "LocalizedString": "Meet {Npc} in Sorwynn's Cup"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "B95E99AE4C2B6D8CF85D4D8ACCDF4B4A",
+        "SourceString": "I reached Sorwynn’s Tavern and gave Lyra the grim news. She was shaken but saw an opportunity: Kug’s cruelty could ignite the crowd’s anger if handled carefully. She sent me to the Mayor, who is also in the tavern, saying he must hear this at once.",
+        "LocalizedString": "I reached Sorwynn’s Tavern and gave Lyra the grim news. She was shaken but saw an opportunity: Kug’s cruelty could ignite the crowd’s anger if handled carefully. She sent me to the Mayor, who is also in the tavern, saying he must hear this at once."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'LyraZauhar_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/LyraZauhar_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/VeinsOfDeceit/VeinsOfDeceitQuest.VeinsOfDeceitQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

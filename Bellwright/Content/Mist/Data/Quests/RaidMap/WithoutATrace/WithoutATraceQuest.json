@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WithoutATraceQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WithoutATraceQuest_C'Default__WithoutATraceQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WithoutATraceQuest_C",
+    "Name": "Default__WithoutATraceQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest.WithoutATraceQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_FindCaravan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_FindCaravan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_ReachCaravan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_ReachCaravan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_CheckCaravan_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_CheckCaravan.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_ExamineBodies_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_ExamineBodies.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_ExamineBottle_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_ExamineBottle.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalDiscard",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_ReturnToRavio_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_ReturnToRavio.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "5BBF5B64404A473804FAFD8E47BA8470",
+        "SourceString": "Without a Trace",
+        "LocalizedString": "Without a Trace"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "4128AEE24ABD667F88875DBC350234C8",
+        "SourceString": "Ravio said he is waiting for a caravan that should have already reached Opportunist’s Bliss. He asked me to look for the transport and the two people sent to bring it. I should check the roads near Dread Maw, heading toward the Belltower Ruins. I’m likely to find them along the way.",
+        "LocalizedString": "Ravio said he is waiting for a caravan that should have already reached Opportunist’s Bliss. He asked me to look for the transport and the two people sent to bring it. I should check the roads near Dread Maw, heading toward the Belltower Ruins. I’m likely to find them along the way."
+      },
+      "AskForNewQuestTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WithoutATraceQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WithoutATrace/WithoutATraceQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 150,
+            "MaxQuantity": 150
+          }
+        ]
+      },
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingCassians/MeetingCassiansQuest.MeetingCassiansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiresExcursionFactionsLoyaltyLevel": {
+        "Faction": {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/Cassians.Cassians",
+          "SubPathString": ""
+        }
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'RavioSarranNpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RavioSarranNpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'RavioSarranNpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/OldPort/RavioSarranNpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

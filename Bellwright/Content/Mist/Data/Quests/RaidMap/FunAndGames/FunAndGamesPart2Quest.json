@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FunAndGamesPart2Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FunAndGamesPart2Quest_C'Default__FunAndGamesPart2Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FunAndGamesPart2Quest_C",
+    "Name": "Default__FunAndGamesPart2Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest.FunAndGamesPart2Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_Hidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_Hidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_TalkToGarethVander_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToGarethVander.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_TalkToSilasVeldrin_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrin.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_TalkToKessaOrlanis_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToKessaOrlanis.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrinPart2.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "0FC245364C8CB525D1CC1F8B283FC97A",
+        "SourceString": "Fun and Games - Part 2",
+        "LocalizedString": "Fun and Games - Part 2"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "030A331F43BB2DC52297F2B48FAFF42B",
+        "SourceString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits.",
+        "LocalizedString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7E4657044B94FFDB4FE02EA293FE4D58",
+        "SourceString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits.",
+        "LocalizedString": "Gareth Vander, a merchant, is furious about underground gambling dens cutting into the Duke’s taxes and his own profits."
+      },
+      "AskForNewQuestTalk": {
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "RewardType": "EMistQuestRewardType::Item",
+      "RenownReward": 120,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 2,
+            "MaxQuantity": 2
+          }
+        ]
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesQuest.FunAndGamesQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GarethVander_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/GarethVander_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SilasVeldrin_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SilasVeldrin_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'KessaOrlanis_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/KessaOrlanis_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WinningHogHalmayansQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WinningHogHalmayansQuest_C'Default__WinningHogHalmayansQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WinningHogHalmayansQuest_C",
+    "Name": "Default__WinningHogHalmayansQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest.WinningHogHalmayansQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogHalmayansQuest_TalkToJeffreyKlok_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest_TalkToJeffreyKlok.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogHalmayansQuest_FindTheShipment_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest_FindTheShipment.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogHalmayansQuest_MixTheFeeds_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest_MixTheFeeds.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'WinningHogHalmayansQuest_ReportToDarekVoss_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuest_ReportToDarekVoss.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "467452CD472CA7E537E84588A2BA99AB",
+        "SourceString": "Trough Tactics",
+        "LocalizedString": "Trough Tactics"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "90E9C775455B30C32DFC2BB2F1621941",
+        "SourceString": "Darek Voss pulled me aside with a strange request—he wants to sabotage the Cassians’ pig races. Apparently, they’re a big deal around here. His plan is to slip in some extra-fattening feed to slow the pigs down and mess with the results. He told me to fetch the special feed from a guy named Jeffrey Klok.",
+        "LocalizedString": "Darek Voss pulled me aside with a strange request—he wants to sabotage the Cassians’ pig races. Apparently, they’re a big deal around here. His plan is to slip in some extra-fattening feed to slow the pigs down and mess with the results. He told me to fetch the special feed from a guy named Jeffrey Klok."
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "2D8ECEE442D4ACA39B6B37AE409A878B",
+        "SourceString": "Darek Voss pulled me aside with a strange request—he wants to sabotage the Cassians’ pig races. Apparently, they’re a big deal around here. His plan is to slip in some extra-fattening feed to slow the pigs down and mess with the results. He told me to fetch the special feed from a guy named Jeffrey Klok.",
+        "LocalizedString": "Darek Voss pulled me aside with a strange request—he wants to sabotage the Cassians’ pig races. Apparently, they’re a big deal around here. His plan is to slip in some extra-fattening feed to slow the pigs down and mess with the results. He told me to fetch the special feed from a guy named Jeffrey Klok."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "5694F1894E2818E4265FA598835064D3",
+          "SourceString": "Do you have any job for me now?",
+          "LocalizedString": "Do you have any job for me now?"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WinningHogHalmayansQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Halmayans/WinningHogHalmayansQuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "RewardType": "EMistQuestRewardType::Item",
+      "MoneyReward": 150,
+      "RenownReward": 200,
+      "ItemReward": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "MinQuantity": 100,
+            "MaxQuantity": 100
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'DollsTearAlcohol_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Special/DollsTearAlcohol.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      },
+      "LoyaltyReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "WrathReward": {
+        "Value": 50.0,
+        "bIsPermanent": true
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/MeetingTheHalmayans/MeetingTheHalmayansQuest.MeetingTheHalmayansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "ForbidsTakenQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/WinningHogQuest/Cassians/WinningHogCassiansQuest.WinningHogCassiansQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'DarekVoss_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/DarekVoss_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'JeffreyKlok_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/JeffreyKlok_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

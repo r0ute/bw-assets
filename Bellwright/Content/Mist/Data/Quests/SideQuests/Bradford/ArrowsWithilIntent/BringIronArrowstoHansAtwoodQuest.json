@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BringIronArrowstoHansAtwoodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwoodQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BringIronArrowstoHansAtwoodQuest_C'Default__BringIronArrowstoHansAtwoodQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwoodQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BringIronArrowstoHansAtwoodQuest_C",
+    "Name": "Default__BringIronArrowstoHansAtwoodQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwoodQuest.BringIronArrowstoHansAtwoodQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwoodQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringIronArrowstoHansAtwood_BringArrows_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringArrows.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": true
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'BringIronArrowstoHansAtwood_BringQuiver_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_BringQuiver.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::OptionalFail",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "D5A56B5243DA68422332728D65724881",
+        "SourceString": "Arrows with Ill Intent",
+        "LocalizedString": "Arrows with Ill Intent"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "F85A368243570B23621924A5AE867A26",
+        "SourceString": "Hans is a hothead with a deep hatred for the Brigands, I hope we will not get the village into trouble with these arrows he asked for.",
+        "LocalizedString": "Hans is a hothead with a deep hatred for the Brigands, I hope we will not get the village into trouble with these arrows he asked for."
+      },
+      "AskForNewQuestTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "644A48194465CF455FAA7E88356FAD84",
+          "SourceString": "Arrows with il intent",
+          "LocalizedString": "Arrows with il intent"
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BringIronArrowstoHansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/ArrowsWithilIntent/BringIronArrowstoHansAtwood_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::NewQuest"
+      },
+      "QuestInProgressTalk": {
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "8C9DBB4F42A24A67A20A8AA19D0B5D81",
+          "SourceString": "Regarding those arrows you asked for...",
+          "LocalizedString": "Regarding those arrows you asked for..."
+        }
+      },
+      "MoneyReward": 150,
+      "VillageTrustReward": 50,
+      "RenownReward": 150,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'Bradford_HansAtwood_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Bradford/Bradford_HansAtwood_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

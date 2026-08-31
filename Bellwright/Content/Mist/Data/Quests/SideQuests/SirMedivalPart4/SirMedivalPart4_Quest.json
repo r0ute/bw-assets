@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart4_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart4_Quest_C'Default__SirMedivalPart4_Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart4_Quest_C",
+    "Name": "Default__SirMedivalPart4_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest.SirMedivalPart4_Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_QuestHidden_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_QuestHidden.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_Quest_TalkToElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_Quest_FindCave_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_FindCave.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_Quest_TalkToMedival_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToMedival.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_Quest_KillMedival_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_KillMedival.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": true,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_Quest_BacktoElder_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_BacktoElder.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "E4A7EE9B4D0B7F9A17412EA235E1881F",
+        "SourceString": "Think On Your Sins",
+        "LocalizedString": "Think On Your Sins"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "7F6392CC4070486E7503C1846E2152F1",
+        "SourceString": "There’s been rumors of a murder near Farnworth. But for some reason, I have an uneasy feeling about this… I should go speak to the Elder and learn more.",
+        "LocalizedString": "There’s been rumors of a murder near Farnworth. But for some reason, I have an uneasy feeling about this… I should go speak to the Elder and learn more."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "Difficulty": "EMistQuestDifficulty::Medium",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'FarnworthElder_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthElder_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

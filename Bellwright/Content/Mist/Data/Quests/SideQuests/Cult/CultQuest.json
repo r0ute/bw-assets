@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultQuest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistChainQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultQuest_C'Default__CultQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultQuest_C",
+    "Name": "Default__CultQuest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest.CultQuest_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest",
+    "Properties": {
+      "Subquests": [
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultQuest_BringItemToOscar_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToOscar.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultQuest_BringItemToTollgor_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_BringItemToTollgor.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultQuest_CheckSite_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_CheckSite.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        },
+        {
+          "QuestClass": {
+            "ObjectName": "BlueprintGeneratedClass'CultQuest_CheckNote_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult/CultQuest_CheckNote.0"
+          },
+          "Quest": null,
+          "Type": "EMistSubquestType::Required",
+          "bSkipIfFailed": false,
+          "bGroupNext": false
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "AE29EB7C4E3E6E2347547BA156F15192",
+        "SourceString": "Sacrifice",
+        "LocalizedString": "Sacrifice"
+      },
+      "Summary": {
+        "Namespace": "",
+        "Key": "CB13738A46CE5F89B4A32FA6B254FD9D",
+        "SourceString": "I came across an ancient cult ritual site, and found a book out in the open, as if it had been used recently. More suspiciously, it was the book that Alistain Boone was obsessed with before he murdered that guard - the Book of the Overseer. I should investigate.",
+        "LocalizedString": "I came across an ancient cult ritual site, and found a book out in the open, as if it had been used recently. More suspiciously, it was the book that Alistain Boone was obsessed with before he murdered that guard - the Book of the Overseer. I should investigate."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "RequiresCompletedQuestsToBeVisible": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/MurderMysteryQuest/MurderMysteryQuest.MurderMysteryQuest_C",
+          "SubPathString": ""
+        }
+      ],
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'IgorFulkeCraftsmanTalk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/CraftsmanQuest/IgorFulkeCraftsmanTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ]
+    }
+  }
+]

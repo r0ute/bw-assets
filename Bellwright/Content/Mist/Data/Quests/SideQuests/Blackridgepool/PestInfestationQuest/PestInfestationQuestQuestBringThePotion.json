@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PestInfestationQuestQuestBringThePotion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringThePotion",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBringItemsQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PestInfestationQuestQuestBringThePotion_C'Default__PestInfestationQuestQuestBringThePotion_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringThePotion.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PestInfestationQuestQuestBringThePotion_C",
+    "Name": "Default__PestInfestationQuestQuestBringThePotion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringThePotion.PestInfestationQuestQuestBringThePotion_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestQuestBringThePotion",
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'AntiPestPotion_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/AntiPestPotion.1"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlackridgepoolFarmerTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/BlackridgepoolFarmerTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PestInfestationQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuestTalk.0"
+        },
+        "TalkEntryPoint": "DeliverPotionToFarmer_InProgress"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "7614D6D14AB93D86DE3DF981B4FC5914",
+        "SourceString": "Deliver potion to Farmer",
+        "LocalizedString": "Deliver potion to Farmer"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "A9CC44BC48F0DC06FCA87E8A7B75139E",
+        "SourceString": "The farmer has the potion for his issue. Hopefully this will help his crops.",
+        "LocalizedString": "The farmer has the potion for his issue. Hopefully this will help his crops."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Blackridgepool/PestInfestationQuest/PestInfestationQuest.PestInfestationQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

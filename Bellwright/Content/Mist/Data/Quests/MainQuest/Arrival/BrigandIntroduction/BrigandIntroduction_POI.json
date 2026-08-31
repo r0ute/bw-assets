@@ -1,0 +1,695 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BrigandIntroduction_POI_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BrigandIntroduction_POI_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistStaticPoi'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpearLoopIdle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+          "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MistStructureSnowMask",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MistStructureSnowMask'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MistNPCManager",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MistNPCManagerComponent'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MobSpawnLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'MobSpawnLocation_C'",
+          "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MistWorldObjectAdjustments",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldObjectAdjustmentsComponent'",
+          "ObjectPath": "/Script/Mist"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BrigandIntroduction_POI_C",
+    "Name": "Default__BrigandIntroduction_POI_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.BrigandIntroduction_POI_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI",
+    "Properties": {
+      "PoiName": {
+        "Namespace": "",
+        "Key": "97AD684249E859E35FA3E39B613E9BC3",
+        "SourceString": "Brigand Introduction",
+        "LocalizedString": "Brigand Introduction"
+      },
+      "PoiNameGeneratorComponent": {
+        "ObjectName": "MistPoiNameGeneratorComponent'Default__BrigandIntroduction_POI_C:PoiNameGeneratorComponent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.7"
+      },
+      "MapIconProviderComponent": {
+        "ObjectName": "MistMapIconProviderComponent'Default__BrigandIntroduction_POI_C:MapIconProviderComponent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.4"
+      },
+      "SettlementAffiliationComponent": {
+        "ObjectName": "MistSettlementAffiliationComponent'Default__BrigandIntroduction_POI_C:SettlementAffiliationComponent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.8"
+      },
+      "NpcSpotComponent": {
+        "ObjectName": "MistNpcSpotComponent'Default__BrigandIntroduction_POI_C:NpcSpotComponent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.6"
+      },
+      "LogicLayerComponent": {
+        "ObjectName": "MistLogicLayerComponent'Default__BrigandIntroduction_POI_C:LogicLayerComponent'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.3"
+      },
+      "InfluenceRadius": 1125.0,
+      "bIsTechnicalAndHidden": true,
+      "bCreateSettlement": true,
+      "bIsStandalone": true,
+      "Faction": {
+        "AssetPathName": "/Game/Mist/Data/Factions/Brigands/HaerndeanGarrison.HaerndeanGarrison",
+        "SubPathString": ""
+      },
+      "bReplicates": true,
+      "RemoteRole": "ENetRole::ROLE_SimulatedProxy"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    }
+  },
+  {
+    "Type": "MistLogicLayerComponent",
+    "Name": "LogicLayerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistLogicLayerComponent'",
+    "Outer": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    }
+  },
+  {
+    "Type": "MistMapIconProviderComponent",
+    "Name": "MapIconProviderComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistMapIconProviderComponent'",
+    "Outer": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    }
+  },
+  {
+    "Type": "MistNPCManagerComponent",
+    "Name": "MistNPCManager_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistNPCManagerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    },
+    "Properties": {
+      "NpcProfileClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_NpcManagerProfile.BrigandIntroduction_NpcManagerProfile",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "MistNpcSpotComponent",
+    "Name": "NpcSpotComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistNpcSpotComponent'",
+    "Outer": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    },
+    "Properties": {
+      "MasterProfileAsset": {
+        "ObjectName": "MistNpcSpotMasterProfile'MasterVillageStructureSpotProfile'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/NpcSpotProfiles/MasterVillageStructureSpotProfile.0"
+      }
+    }
+  },
+  {
+    "Type": "MistPoiNameGeneratorComponent",
+    "Name": "PoiNameGeneratorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistPoiNameGeneratorComponent'",
+    "Outer": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    }
+  },
+  {
+    "Type": "MistSettlementAffiliationComponent",
+    "Name": "SettlementAffiliationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistSettlementAffiliationComponent'",
+    "Outer": {
+      "ObjectName": "BrigandIntroduction_POI_C'Default__BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.1"
+    }
+  },
+  {
+    "Type": "MistStructureSnowMask",
+    "Name": "MistStructureSnowMask_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistStructureSnowMask'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    }
+  },
+  {
+    "Type": "MistWorldObjectAdjustmentsComponent",
+    "Name": "MistWorldObjectAdjustments_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistWorldObjectAdjustmentsComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    }
+  },
+  {
+    "Type": "MobSpawnLocation_C",
+    "Name": "MobSpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.MobSpawnLocation_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    },
+    "Template": {
+      "ObjectName": "MobSpawnLocation_C'Default__MobSpawnLocation_C'",
+      "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -880.0,
+        "Y": 60.0,
+        "Z": 0.0
+      },
+      "ComponentTags": [
+        "MobSpawner"
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BrigandIntroduction_POI_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.12"
+      },
+      "VariableGUID": "8525EB58-47D33786-A7098B80-3E058D01",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+        "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpearLoopIdle_C'BrigandIntroduction_POI_C:SpearLoopIdle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.22"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "AllowedNpcRoles",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+              "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+            }
+          },
+          {
+            "PropertyName": "InteractableProperties",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+              "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+            }
+          },
+          {
+            "PropertyName": "Duration",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'MistInteractableProperties'",
+              "ObjectPath": "/Script/Mist"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+              "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'SpearLoopIdle_C'",
+              "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.0"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "50B379C5-4044EFC1-5EE97EBA-397298E5",
+      "InternalVariableName": "SpearLoopIdle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MistWorldObjectAdjustmentsComponent'",
+        "ObjectPath": "/Script/Mist"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MistWorldObjectAdjustmentsComponent'BrigandIntroduction_POI_C:MistWorldObjectAdjustments_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.10"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "BF2DA96C-483417B8-5F66F280-229C9BF5",
+      "InternalVariableName": "MistWorldObjectAdjustments"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MistStructureSnowMask'",
+        "ObjectPath": "/Script/Mist"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MistStructureSnowMask'BrigandIntroduction_POI_C:MistStructureSnowMask_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.9"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "D186A19B-4B1DE0BF-BCDAD08A-F22CEA04",
+      "InternalVariableName": "MistStructureSnowMask"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BrigandIntroduction_POI_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.13"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.15"
+        }
+      ],
+      "VariableGUID": "EA599C02-44C10BDA-CF63FBBD-57A6EA20",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'MobSpawnLocation_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MobSpawnLocation_C'BrigandIntroduction_POI_C:MobSpawnLocation_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.11"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'MobSpawnLocation_C'",
+              "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.0"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "ComponentTags",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'MobSpawnLocation_C'",
+              "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.0"
+            }
+          },
+          {
+            "PropertyName": "ComponentTags",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'MobSpawnLocation_C'",
+              "ObjectPath": "/Game/Mist/Characters/Creatures/Monkey/MobSpawnLocation.0"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "687A9BA2-442E84F5-A64174A6-1A0BBFFB",
+      "InternalVariableName": "MobSpawnLocation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BrigandIntroduction_POI_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MistNPCManagerComponent'",
+        "ObjectPath": "/Script/Mist"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MistNPCManagerComponent'BrigandIntroduction_POI_C:MistNPCManager_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.5"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "NpcProfileClass",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'MistNPCManagerComponent'",
+              "ObjectPath": "/Script/Mist"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "B55B7F38-4734CE42-FE42C1B7-7C864314",
+      "InternalVariableName": "MistNPCManager"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.18"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BrigandIntroduction_POI_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.14"
+      }
+    }
+  },
+  {
+    "Type": "SpearLoopIdle_C",
+    "Name": "SpearLoopIdle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.SpearLoopIdle_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BrigandIntroduction_POI_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/Arrival/BrigandIntroduction/BrigandIntroduction_POI.0"
+    },
+    "Template": {
+      "ObjectName": "SpearLoopIdle_C'Default__SpearLoopIdle_C'",
+      "ObjectPath": "/Game/Mist/Logic/AI/IdleInteractions/SpearLoopIdle.1"
+    },
+    "Properties": {
+      "AllowedNpcRoles": 577,
+      "InteractableProperties": {
+        "Duration": 1000.0
+      },
+      "RelativeLocation": {
+        "X": -124.95935,
+        "Y": 176.9154,
+        "Z": 50.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.000002,
+        "Roll": -0.0
+      }
+    }
+  }
+]

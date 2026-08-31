@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart4_Quest_TalkToMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToMedival",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart4_Quest_TalkToMedival_C'Default__SirMedivalPart4_Quest_TalkToMedival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToMedival.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart4_Quest_TalkToMedival_C",
+    "Name": "Default__SirMedivalPart4_Quest_TalkToMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToMedival.SirMedivalPart4_Quest_TalkToMedival_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest_TalkToMedival",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart4_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_QuestTalk.0"
+        },
+        "TalkEntryPoint": "MedivalInCave"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5AD5DBE94CED0B4D6BDCC7B8107309E7",
+        "SourceString": "Think On Your Sins",
+        "LocalizedString": "Think On Your Sins"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "612705CA46E10209656185A44873041C",
+        "SourceString": "The knight found out that I sold the treasure instead of giving it to the grieving family. He drew his weapon, I have to fight him.",
+        "LocalizedString": "The knight found out that I sold the treasure instead of giving it to the grieving family. He drew his weapon, I have to fight him."
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedivalPart4/SirMedivalPart4_Quest.SirMedivalPart4_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

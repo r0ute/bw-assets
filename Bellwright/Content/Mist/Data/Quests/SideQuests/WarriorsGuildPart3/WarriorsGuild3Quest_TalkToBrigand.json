@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WarriorsGuild3Quest_TalkToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_TalkToBrigand",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WarriorsGuild3Quest_TalkToBrigand_C'Default__WarriorsGuild3Quest_TalkToBrigand_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_TalkToBrigand.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WarriorsGuild3Quest_TalkToBrigand_C",
+    "Name": "Default__WarriorsGuild3Quest_TalkToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_TalkToBrigand.WarriorsGuild3Quest_TalkToBrigand_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_TalkToBrigand",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Brigand_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Brigand"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "25039B9D4EB52ED0271AC7B04118BDD7",
+        "SourceString": "The man was agressive and attacked me on sight.",
+        "LocalizedString": "The man was agressive and attacked me on sight."
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "A5242D7B46C0A0B284BE5DA28EAB84F5",
+          "SourceString": "About the Brigand...",
+          "LocalizedString": "About the Brigand..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "WarriorsGuild3Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'WarriorsGuild3Brigand_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3Brigand_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/WarriorsGuildPart3/WarriorsGuild3_Quest.WarriorsGuild3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

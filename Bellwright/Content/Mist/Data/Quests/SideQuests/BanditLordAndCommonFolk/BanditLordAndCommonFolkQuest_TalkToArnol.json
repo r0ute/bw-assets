@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BanditLordAndCommonFolkQuest_TalkToArnol_C",
+    "Name": "Default__BanditLordAndCommonFolkQuest_TalkToArnol_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToArnol.BanditLordAndCommonFolkQuest_TalkToArnol_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToArnol",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "0FED6F7841E8DD7BC895AC8B0326F1D0",
+        "SourceString": "Recruit {Npc} for the merchant",
+        "LocalizedString": "Recruit {Npc} for the merchant"
+      },
+      "NpcRef": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Arnol_NpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Arnol_NpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Arnol_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Arnol_NpcTalk.1"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolkQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_Talk.1"
+        },
+        "TalkEntryPoint": "TalkToArnol"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "082F63A34B703FE852B64E9610FE7180",
+        "SourceString": "Recruit {Npc} for the merchant",
+        "LocalizedString": "Recruit {Npc} for the merchant"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "C323BB7C429E3467F51F618757B0B9F7",
+        "SourceString": "I chose Arnol Ingrid to protect Pete and the tavern… Now I think I might try to recruit Nam Kaew to work for me. I will check with Pete tomorrow to see if he’s satisfied with Arnol.",
+        "LocalizedString": "I chose Arnol Ingrid to protect Pete and the tavern… Now I think I might try to recruit Nam Kaew to work for me. I will check with Pete tomorrow to see if he’s satisfied with Arnol."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Arnol_NpcTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Arnol_NpcTemplate.1"
+          },
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'BanditLordAndCommonFolk_Arnol_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Quest/BanditLordAndCommonFolk/BanditLordAndCommonFolk_Arnol_NpcTalk.1"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest.BanditLordAndCommonFolkQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BanditLordAndCommonFolkQuest_TalkToArnol_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToArnol",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BanditLordAndCommonFolkQuest_TalkToArnol_C'Default__BanditLordAndCommonFolkQuest_TalkToArnol_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/BanditLordAndCommonFolk/BanditLordAndCommonFolkQuest_TalkToArnol.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

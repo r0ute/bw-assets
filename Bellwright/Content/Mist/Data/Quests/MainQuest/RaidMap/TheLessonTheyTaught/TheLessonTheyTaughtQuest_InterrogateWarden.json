@@ -1,0 +1,217 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheLessonTheyTaughtQuest_InterrogateWarden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_InterrogateWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.2"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.3"
+      },
+      {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_InterrogateWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TheLessonTheyTaughtQuest_InterrogateWarden": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:ExecuteUbergraph_TheLessonTheyTaughtQuest_InterrogateWarden'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.1"
+      },
+      "OnQuestFailed": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:OnQuestFailed'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.3"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'TheLessonTheyTaughtQuest_InterrogateWarden_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheLessonTheyTaughtQuest_InterrogateWarden_C'Default__TheLessonTheyTaughtQuest_InterrogateWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TheLessonTheyTaughtQuest_InterrogateWarden",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_InterrogateWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldDataHolder_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MistWorldDataHolder'",
+          "ObjectPath": "/Script/Mist"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasTalkKeyValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_InterrogateWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestFailed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_InterrogateWarden_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestFailed'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TheLessonTheyTaughtQuest_InterrogateWarden_C",
+    "Name": "Default__TheLessonTheyTaughtQuest_InterrogateWarden_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden.TheLessonTheyTaughtQuest_InterrogateWarden_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_InterrogateWarden",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "161A18564B999A7AE7CE0E856077A448",
+        "SourceString": "Interrogate the warden",
+        "LocalizedString": "Interrogate the warden"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'MirkoIlves_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/MirkoIlves_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheLessonTheyTaughtQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest_Talk.0"
+        },
+        "TalkEntryPoint": "InterrogateWarden"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "B88631D842E95B9F1CFD73BB04E4D053",
+        "SourceString": "Interrogate the warden",
+        "LocalizedString": "Interrogate the warden"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "E1C1036B4D1E07AFAEC9A38CF9D1CCC4",
+        "SourceString": "The warden didn’t beg for his life, but instead, he made a bargain.",
+        "LocalizedString": "The warden didn’t beg for his life, but instead, he made a bargain."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MirkoIlves_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/MirkoIlves_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/TheLessonTheyTaught/TheLessonTheyTaughtQuest.TheLessonTheyTaughtQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

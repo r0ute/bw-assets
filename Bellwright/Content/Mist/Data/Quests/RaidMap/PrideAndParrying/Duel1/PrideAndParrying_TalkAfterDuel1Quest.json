@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PrideAndParrying_TalkAfterDuel1Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_TalkAfterDuel1Quest",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PrideAndParrying_TalkAfterDuel1Quest_C'Default__PrideAndParrying_TalkAfterDuel1Quest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_TalkAfterDuel1Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PrideAndParrying_TalkAfterDuel1Quest_C",
+    "Name": "Default__PrideAndParrying_TalkAfterDuel1Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_TalkAfterDuel1Quest.PrideAndParrying_TalkAfterDuel1Quest_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_TalkAfterDuel1Quest",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PrideAndParryingQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/PrideAndParryingQuestTalk.0"
+        },
+        "TalkEntryPoint": "FirstEncounter_AfterDuel"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'GregorySweatNPCTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/GregorySweatNPCTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/PrideAndParrying/Duel1/PrideAndParrying_Duel1Quest.PrideAndParrying_Duel1Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

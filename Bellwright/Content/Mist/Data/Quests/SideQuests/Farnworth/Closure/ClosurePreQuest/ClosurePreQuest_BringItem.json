@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ClosurePreQuest_BringItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_BringItem",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ClosurePreQuest_BringItem_C'Default__ClosurePreQuest_BringItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_BringItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClosurePreQuest_BringItem_C",
+    "Name": "Default__ClosurePreQuest_BringItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_BringItem.ClosurePreQuest_BringItem_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_BringItem",
+    "Template": {
+      "ObjectName": "BaseBringItemsQuest_C'Default__BaseBringItemsQuest_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/BaseBringItemQuest/BaseBringItemsQuest.0"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "ItemClass": {
+            "ObjectName": "BlueprintGeneratedClass'ClosureNecklace_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/ClosureNecklace.0"
+          },
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "MinimumWeightNormalized": 0.0,
+          "RequiredAmount": 0,
+          "MinimumWeightRequired": 0.0,
+          "DeliveredAmount": 0,
+          "bAddToQuestTarget": false
+        }
+      ],
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'FarnworthCarpenterTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/FarnworthCarpenterTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "6355BBBA4DC026DBB7CE208C4FFEB49A",
+          "SourceString": "Tomas, I found something. It's Lyanna's necklace.",
+          "LocalizedString": "Tomas, I found something. It's Lyanna's necklace."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ClosurePreQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_Talk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "PartialCompletionPossibleTalk": {
+        "bIsChoice": false,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "098D1D064C26818CE3E8B889D8595A82",
+          "SourceString": "Tomas, I found something. It's Lyanna's necklace.",
+          "LocalizedString": "Tomas, I found something. It's Lyanna's necklace."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'ClosurePreQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest_Talk.0"
+        },
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DB7D45E94F9653C71342898FB2127F30",
+        "SourceString": "I gave Tomas his daughter's necklace back, it felt like the right thing to do.",
+        "LocalizedString": "I gave Tomas his daughter's necklace back, it felt like the right thing to do."
+      },
+      "bCanBeDiscarded": false,
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Farnworth/Closure/ClosurePreQuest/ClosurePreQuest.ClosurePreQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

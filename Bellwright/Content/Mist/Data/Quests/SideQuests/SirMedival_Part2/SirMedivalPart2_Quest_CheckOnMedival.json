@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SirMedivalPart2_Quest_CheckOnMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_CheckOnMedival",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SirMedivalPart2_Quest_CheckOnMedival_C'Default__SirMedivalPart2_Quest_CheckOnMedival_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_CheckOnMedival.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SirMedivalPart2_Quest_CheckOnMedival_C",
+    "Name": "Default__SirMedivalPart2_Quest_CheckOnMedival_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_CheckOnMedival.SirMedivalPart2_Quest_CheckOnMedival_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest_CheckOnMedival",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "95F53BBE40BB028D2F9DE9A8AC855D5D",
+        "SourceString": "Check on the knight",
+        "LocalizedString": "Check on the knight"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5CD732FA4E07221DAAE4E2892A47812F",
+        "SourceString": "The knight enlisted by help once again, this time to go find his friend and free him. I should head towards the location he pointed to in my map.",
+        "LocalizedString": "The knight enlisted by help once again, this time to go find his friend and free him. I should head towards the location he pointed to in my map."
+      },
+      "QuestInProgressTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedivalPart2_QuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_QuestTalk.0"
+        },
+        "TalkEntryPoint": "QuestAvailable"
+      },
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SirMedival_Talk_C'",
+            "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/SirMedival/SirMedival_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/SirMedival_Part2/SirMedivalPart2_Quest.SirMedivalPart2_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

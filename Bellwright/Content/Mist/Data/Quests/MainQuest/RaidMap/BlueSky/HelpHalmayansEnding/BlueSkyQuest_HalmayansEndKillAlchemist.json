@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlueSkyQuest_HalmayansEndKillAlchemist_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BlueSkyQuest_HalmayansEndKillAlchemist_C:ExecuteUbergraph_BlueSkyQuest_HalmayansEndKillAlchemist'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistKillNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BlueSkyQuest_HalmayansEndKillAlchemist_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.3"
+      },
+      {
+        "ObjectName": "Function'BlueSkyQuest_HalmayansEndKillAlchemist_C:ExecuteUbergraph_BlueSkyQuest_HalmayansEndKillAlchemist'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BlueSkyQuest_HalmayansEndKillAlchemist": {
+        "ObjectName": "Function'BlueSkyQuest_HalmayansEndKillAlchemist_C:ExecuteUbergraph_BlueSkyQuest_HalmayansEndKillAlchemist'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.2"
+      },
+      "OnQuestCompleted": {
+        "ObjectName": "Function'BlueSkyQuest_HalmayansEndKillAlchemist_C:OnQuestCompleted'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.3"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlueSkyQuest_HalmayansEndKillAlchemist_C'Default__BlueSkyQuest_HalmayansEndKillAlchemist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BlueSkyQuest_HalmayansEndKillAlchemist_C",
+    "Name": "Default__BlueSkyQuest_HalmayansEndKillAlchemist_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.BlueSkyQuest_HalmayansEndKillAlchemist_C'",
+    "Package": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NpcToKill": {
+        "TemplateClass": {
+          "ObjectName": "BlueprintGeneratedClass'BaltasarBlancoNpcTemplate_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlancoNpcTemplate.1"
+        },
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'BaltasarBlanco_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/QuestNpcs/BaltasarBlanco_NpcTalk.1"
+        }
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "FA332C264B0D5F828E6401A0C740348D",
+        "SourceString": "Kill Baltasar",
+        "LocalizedString": "Kill Baltasar"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5DE09BBD40F2E73A05D1789C90AFAA68",
+        "SourceString": "Kill Baltasar",
+        "LocalizedString": "Kill Baltasar"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "358912D44EDF2C10772A5981D3F7BAAA",
+        "SourceString": "Alchemist and Cecilio are dead.Dario promised me a reward for that, I only need to talk to Lyra Zauhar.",
+        "LocalizedString": "Alchemist and Cecilio are dead.Dario promised me a reward for that, I only need to talk to Lyra Zauhar."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/BlueSkyQuest.BlueSkyQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BlueSkyQuest_HalmayansEndKillAlchemist",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_HalmayansEndKillAlchemist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsQuestCompleted_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BlueSkyQuest_HalmayansEndKillAlchemist_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/BlueSky/HelpHalmayansEnding/BlueSkyQuest_HalmayansEndKillAlchemist.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MistQuest:OnQuestCompleted'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

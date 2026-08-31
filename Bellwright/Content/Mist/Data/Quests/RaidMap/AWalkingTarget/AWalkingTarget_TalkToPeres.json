@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "AWalkingTarget_TalkToPeres_C",
+    "Name": "Default__AWalkingTarget_TalkToPeres_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPeres.AWalkingTarget_TalkToPeres_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPeres",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "8A51E11442648F3C5393ED9CA627BD3C",
+        "SourceString": "Talk to {Npc}.",
+        "LocalizedString": "Talk to {Npc}."
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ValonPeres_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/ValonPeres_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'AWalkingTargetQuestTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuestTalk.1"
+        },
+        "TalkEntryPoint": "FirstTalkToPeres"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "6A41AFB0454E376A3C89BBAB956714F6",
+        "SourceString": "Valon was hostile at first, but after some persuasion (and a bribe), he revealed that Dain often visited Harthbay. I still need to talk to Raul first before I follow this clue.",
+        "LocalizedString": "Valon was hostile at first, but after some persuasion (and a bribe), he revealed that Dain often visited Harthbay. I still need to talk to Raul first before I follow this clue."
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'ValonPeres_Talk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/ValonPeres_Talk.0"
+        }
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'MironJuras_Talk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/RustshoreVillage/MironJuras_Talk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTargetQuest.AWalkingTargetQuest_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AWalkingTarget_TalkToPeres_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPeres",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AWalkingTarget_TalkToPeres_C'Default__AWalkingTarget_TalkToPeres_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/AWalkingTarget/AWalkingTarget_TalkToPeres.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

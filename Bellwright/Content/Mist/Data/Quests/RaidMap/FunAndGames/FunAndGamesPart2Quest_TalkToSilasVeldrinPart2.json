@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrinPart2",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C'Default__FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrinPart2.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C",
+    "Name": "Default__FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrinPart2.FunAndGamesPart2Quest_TalkToSilasVeldrinPart2_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_TalkToSilasVeldrinPart2",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "7C3C15F8436BB97F2B98B49DB90EBC2E",
+        "SourceString": "Report back to {Npc}",
+        "LocalizedString": "Report back to {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'SilasVeldrin_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SilasVeldrin_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'FunAndGamesPart2Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToSilasVeldrinPart2"
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "8D6CF37D4ED824CB3DC1CF9EF99C4E61",
+        "SourceString": "Report back to {Npc}",
+        "LocalizedString": "Report back to {Npc}"
+      },
+      "RequiredNpcsForQuestToBeVisible": [
+        {
+          "TemplateClass": null,
+          "TalkClass": {
+            "ObjectName": "BlueprintGeneratedClass'SilasVeldrin_NpcTalk_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CragkeepTownCastle/SilasVeldrin_NpcTalk.0"
+          },
+          "Tag": "None",
+          "FactionName": "None",
+          "NameOverrideFilter": "EMistNpcNameOverrideFilter::NoFilter",
+          "bIsUniqueNPC": true,
+          "AmountMinMax": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      ],
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FunAndGames/FunAndGamesPart2Quest.FunAndGamesPart2Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

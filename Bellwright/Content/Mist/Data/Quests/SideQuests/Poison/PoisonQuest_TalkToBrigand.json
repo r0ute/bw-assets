@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PoisonQuest_TalkToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToBrigand",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PoisonQuest_TalkToBrigand_C'Default__PoisonQuest_TalkToBrigand_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToBrigand.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PoisonQuest_TalkToBrigand_C",
+    "Name": "Default__PoisonQuest_TalkToBrigand_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToBrigand.PoisonQuest_TalkToBrigand_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_TalkToBrigand",
+    "Properties": {
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonBrigand_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonBrigand_Talk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "99C3214E4EACAC9AF7F697859EE92AAF",
+          "SourceString": "Why are you hanging around here? You’re not welcome.",
+          "LocalizedString": "Why are you hanging around here? You’re not welcome."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'PoisonQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest_Talk.0"
+        },
+        "TalkEntryPoint": "Brigands",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "BB7766794D112889C426EB851A66AAA8",
+        "SourceString": "I had to disuade the brigand from investigating Aleks, one way or another.",
+        "LocalizedString": "I had to disuade the brigand from investigating Aleks, one way or another."
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Poison/PoisonQuest.PoisonQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

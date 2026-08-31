@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TheSpecialStallQuest_TalkToGaiusSolazar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest_TalkToGaiusSolazar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistTalkToNpcQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TheSpecialStallQuest_TalkToGaiusSolazar_C'Default__TheSpecialStallQuest_TalkToGaiusSolazar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest_TalkToGaiusSolazar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "TheSpecialStallQuest_TalkToGaiusSolazar_C",
+    "Name": "Default__TheSpecialStallQuest_TalkToGaiusSolazar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest_TalkToGaiusSolazar.TheSpecialStallQuest_TalkToGaiusSolazar_C'",
+    "Package": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest_TalkToGaiusSolazar",
+    "Properties": {
+      "TalkTaskDescription": {
+        "Namespace": "",
+        "Key": "D2B6CC6F47AA897DA590FAA975727774",
+        "SourceString": "Check with {Npc}",
+        "LocalizedString": "Check with {Npc}"
+      },
+      "NpcRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'CassianFactionMerchant_NpcTalk_C'",
+          "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/CassiansCave/CassianFactionMerchant_NpcTalk.0"
+        }
+      },
+      "TargetNpcTalk": {
+        "bIsTalkStartEntry": true,
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'TheSpecialStallQuest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest_Talk.0"
+        },
+        "TalkEntryPoint": "TalkToGaius"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "651E4AD9437131D2CB341EAF0115E474",
+        "SourceString": "Solazar is selling crossbows, bolts, and other items in exchange for Doll’s Tears. I should check with him again to replenish my supplies once I gather more dolls.",
+        "LocalizedString": "Solazar is selling crossbows, bolts, and other items in exchange for Doll’s Tears. I should check with him again to replenish my supplies once I gather more dolls."
+      },
+      "bCanBeDiscarded": false,
+      "CompletionMode": "EMistQuestCompletionMode::Manual",
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/RaidMap/FactionMerchantQuests/Cassians/TheSpecialStallQuest.TheSpecialStallQuest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]

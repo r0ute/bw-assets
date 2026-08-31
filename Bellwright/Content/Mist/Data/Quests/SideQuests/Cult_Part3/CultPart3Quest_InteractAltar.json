@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultPart3Quest_InteractAltar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_InteractAltar",
+    "SuperStruct": {
+      "ObjectName": "Class'MistInteractableQuest'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultPart3Quest_InteractAltar_C'Default__CultPart3Quest_InteractAltar_C'",
+      "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_InteractAltar.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultPart3Quest_InteractAltar_C",
+    "Name": "Default__CultPart3Quest_InteractAltar_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_InteractAltar.CultPart3Quest_InteractAltar_C'",
+    "Package": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_InteractAltar",
+    "Properties": {
+      "Description": {
+        "Namespace": "",
+        "Key": "68D1AE504861BE9BFFDDF88D9B6CC468",
+        "SourceString": "Check the altar",
+        "LocalizedString": "Check the altar"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "3903C859478AE003DDD7538C72145D7B",
+        "SourceString": "I found a crude altar hidden in the woods, clearly dedicated to Joren, our missing villager. Eerie symbols are carved into rough stones, and Joren's personal items are scattered around it. An unsettling energy emanates from this place, hinting at dark rituals. I must report this to Oscar immediately – this cult threat seems all too real now.",
+        "LocalizedString": "I found a crude altar hidden in the woods, clearly dedicated to Joren, our missing villager. Eerie symbols are carved into rough stones, and Joren's personal items are scattered around it. An unsettling energy emanates from this place, hinting at dark rituals. I must report this to Oscar immediately – this cult threat seems all too real now."
+      },
+      "AskForNewQuestTalk": {
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Oscar Altars Idle"
+      },
+      "QuestInProgressTalk": {
+        "bIsChoice": true,
+        "ChoiceText": {
+          "Namespace": "",
+          "Key": "9F4BCC6143865E6D84436EB254EFF714",
+          "SourceString": "About the altars...",
+          "LocalizedString": "About the altars..."
+        },
+        "TalkTemplateToOpen": {
+          "ObjectName": "BlueprintGeneratedClass'CultPart3Quest_Talk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3Quest_Talk.0"
+        },
+        "TalkEntryPoint": "Oscar Altars Idle",
+        "Icon": "EMistTalkIcon::TrackedQuest"
+      },
+      "CompletionMode": "EMistQuestCompletionMode::Automatic",
+      "DefaultQuestGiverRef": {
+        "TalkClass": {
+          "ObjectName": "BlueprintGeneratedClass'HaerndeanBookMerchantTalk_C'",
+          "ObjectPath": "/Game/Mist/Data/Quests/SideQuests/Haerndean/HaerndeanBookMerchantTalk.0"
+        }
+      },
+      "ParentQuestClass": {
+        "AssetPathName": "/Game/Mist/Data/Quests/SideQuests/Cult_Part3/CultPart3_Quest.CultPart3_Quest_C",
+        "SubPathString": ""
+      }
+    }
+  }
+]
