@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "MistHuntingConfig",
+    "Name": "HuntingConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistHuntingConfig'",
+    "Package": "/Game/Mist/Data/Configs/HuntingConfig",
+    "Properties": {
+      "AnimalGroups": [
+        {
+          "ID": "Rabbit",
+          "Name": {
+            "Namespace": "",
+            "Key": "28242C184EC92B912C3F93A1A28F7DEB",
+            "SourceString": "Rabbits",
+            "LocalizedString": "Rabbits"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsRabbit.T_IconAnimalsRabbit",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Rabbit/Rabbit.Rabbit_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Deer",
+          "Name": {
+            "Namespace": "",
+            "Key": "E7708D2E4EA51EAD4841DE833F51BB85",
+            "SourceString": "Deers",
+            "LocalizedString": "Deers"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsDeer.T_IconAnimalsDeer",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Deer/Deer.Deer_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Boar",
+          "Name": {
+            "Namespace": "",
+            "Key": "F64530824832085FE7682ABD50C0CE16",
+            "SourceString": "Boars",
+            "LocalizedString": "Boars"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsBoar.T_IconAnimalsBoar",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Boar/Boar_Piglet.Boar_Piglet_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Boar/Boar_Small.Boar_Small_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Boar/Boar.Boar_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Wolf",
+          "Name": {
+            "Namespace": "",
+            "Key": "C60F478E4AC9F230CEEE83A921D9DCBB",
+            "SourceString": "Wolves",
+            "LocalizedString": "Wolves"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsWolf.T_IconAnimalsWolf",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Wolf/Wolf2Animal.Wolf2Animal_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Wolf/HighlandsWolfAnimal.HighlandsWolfAnimal_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Crow",
+          "Name": {
+            "Namespace": "",
+            "Key": "96D979F443ABF242212BF7AC9612978D",
+            "SourceString": "Crows",
+            "LocalizedString": "Crows"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsCrow.T_IconAnimalsCrow",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Animals/Raven/Raven.Raven_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Crow/Crow.Crow_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Chamois",
+          "Name": {
+            "Namespace": "",
+            "Key": "3D447F2846C57C696D608E98E10F3E7E",
+            "SourceString": "Chamois",
+            "LocalizedString": "Chamois"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Animals/T_Animal_Chamois.T_Animal_Chamois",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/WIldGoat/Chamois.Chamois_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/WIldGoat/WildGoat.WildGoat_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/WIldGoat/YoungWildGoat.YoungWildGoat_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ID": "Fox",
+          "Name": {
+            "Namespace": "",
+            "Key": "245784A448DBF8CC83A7AFBB9A057D55",
+            "SourceString": "Foxes",
+            "LocalizedString": "Foxes"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons/Animals/T_Animal_Fox.T_Animal_Fox",
+            "SubPathString": ""
+          },
+          "Animals": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Fox/Fox.Fox_C",
+              "SubPathString": ""
+            }
+          ]
+        }
+      ],
+      "SkinTimeMultiplier": {
+        "AssetPathName": "/Game/Mist/Data/Npcs/HuntingSkinTimeMultiplier.HuntingSkinTimeMultiplier",
+        "SubPathString": ""
+      },
+      "AnimalsProcessing": [
+        {
+          "Type": "EMistProcessingType::Skinning",
+          "Name": {
+            "Namespace": "",
+            "Key": "21FFDBEA446AEB9CADC2A89B53F9CE6A",
+            "SourceString": "Skinning",
+            "LocalizedString": "Skinning"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons_new/T_Skinning.T_Skinning",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Type": "EMistProcessingType::Pickup",
+          "Name": {
+            "Namespace": "",
+            "Key": "3E2E533E461E0A830DB4EA8258D4F050",
+            "SourceString": "Carcass",
+            "LocalizedString": "Carcass"
+          },
+          "Icon": {
+            "AssetPathName": "/Game/Mist/UI/Icons_new/T_Pick_up_carcass.T_Pick_up_carcass",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "AllowedAmmunitionCategory": {
+        "ObjectName": "BlueprintGeneratedClass'Ammo_Arrows_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Ammo_Arrows.1"
+      }
+    }
+  }
+]

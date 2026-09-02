@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "MistInvasionConfig",
+    "Name": "InvasionConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistInvasionConfig'",
+    "Package": "/Game/Mist/Data/Configs/InvasionConfig",
+    "Properties": {
+      "InvasionFaction": {
+        "AssetPathName": "/Game/Mist/Data/Factions/Invasion.Invasion",
+        "SubPathString": ""
+      },
+      "InvasionPartyPointsTemplate": {
+        "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/InvasionPartyPointsTemplate.InvasionPartyPointsTemplate_C",
+        "SubPathString": ""
+      },
+      "InvasionPartyIcon": {
+        "AssetPathName": "/Game/Mist/UI/Map/Threats/InvasionPartyIcon.InvasionPartyIcon_C",
+        "SubPathString": ""
+      },
+      "InvasionTasksWeights": [
+        {
+          "Key": "EMistInvasionTaskType::NewCampMigration",
+          "Value": 2
+        },
+        {
+          "Key": "EMistInvasionTaskType::TakeOverBanditCamp",
+          "Value": 2
+        },
+        {
+          "Key": "EMistInvasionTaskType::RaidPlayerSettlement",
+          "Value": 1
+        },
+        {
+          "Key": "EMistInvasionTaskType::RaidNeutralVillage",
+          "Value": 1
+        }
+      ],
+      "VillageProsperityAfterInvasion": -1000,
+      "InvasionVillageRaidDefeatedProsperityReward": 1000
+    }
+  }
+]

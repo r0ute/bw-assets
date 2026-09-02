@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "MistBanditsConfig",
+    "Name": "BanditsConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistBanditsConfig'",
+    "Package": "/Game/Mist/Data/Configs/BanditsConfig",
+    "Properties": {
+      "MaxPatrolDistance": 65000.0,
+      "ResourcePointsGainRate": 0.1,
+      "MinBanditThreatForMigration": 8.0,
+      "BanditThreatDailyChangeByDifference": {
+        "AssetPathName": "/Game/Mist/Data/Configs/BanditThreatDailyChangeByDifference.BanditThreatDailyChangeByDifference",
+        "SubPathString": ""
+      },
+      "SubregionOutgoingMigrationDaysByThreat": {
+        "AssetPathName": "/Game/Mist/Data/Configs/SubregionOutgoingMigrationDaysByThreat.SubregionOutgoingMigrationDaysByThreat",
+        "SubPathString": ""
+      },
+      "SubregionIncomingMigrationDaysByCampPointsRatio": {
+        "AssetPathName": "/Game/Mist/Data/Configs/SubregionIncomingMigrationDaysByCampPointsRatio.SubregionIncomingMigrationDaysByCampPointsRatio",
+        "SubPathString": ""
+      },
+      "PatrolPartyPointsTemplate": {
+        "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/BanditsPartyPointsTemplate.BanditsPartyPointsTemplate_C",
+        "SubPathString": ""
+      },
+      "RaidPartyPointsTemplate": {
+        "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/BanditsPartyPointsTemplate.BanditsPartyPointsTemplate_C",
+        "SubPathString": ""
+      },
+      "RaidIcon": {
+        "AssetPathName": "/Game/Mist/UI/Map/Threats/RaidIcon.RaidIcon_C",
+        "SubPathString": ""
+      },
+      "PatrolPartyIcon": {
+        "AssetPathName": "/Game/Mist/UI/Map/Threats/BanditPatrolPartyIcon.BanditPatrolPartyIcon_C",
+        "SubPathString": ""
+      },
+      "MigrationPartyIcon": {
+        "AssetPathName": "/Game/Mist/UI/Map/Threats/BanditMigrationPartyIcon.BanditMigrationPartyIcon_C",
+        "SubPathString": ""
+      },
+      "RaidPointsDecreasePerBanditKilled": -25.0,
+      "RaidPointsDecreasePerCampClearedOut": -1000.0,
+      "RaidThreatWinterMultiplier": 1.2,
+      "BanditsPartyPointsTemplate": [
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Lowlands_Bandits.Lowlands_Bandits",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/LowlandsBanditsPartyPointsTemplate.LowlandsBanditsPartyPointsTemplate_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Highlands_Bandits.Highlands_Bandits",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/HighlandsBanditsPartyPointsTemplate.HighlandsBanditsPartyPointsTemplate_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Swamp_Bandits.Swamp_Bandits",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/SwampPartyPointsTemplate.SwampPartyPointsTemplate_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/RaidMap/Smugglers.Smugglers",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Configs/PartyPoints/RaidMapSmugglersPartyPointsTemplate.RaidMapSmugglersPartyPointsTemplate_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "BanditsFactionMigrationPartyPoints": [
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Lowlands_Bandits.Lowlands_Bandits",
+          "Value": {
+            "Points": 55.0,
+            "MinCost": -1,
+            "MaxCost": 13,
+            "PreferredSize": 5
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Highlands_Bandits.Highlands_Bandits",
+          "Value": {
+            "Points": 550.0,
+            "MinCost": -1,
+            "MaxCost": 100,
+            "PreferredSize": 5
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/Bandits/Swamp_Bandits.Swamp_Bandits",
+          "Value": {
+            "Points": 350.0,
+            "MinCost": -1,
+            "MaxCost": 100,
+            "PreferredSize": 5
+          }
+        }
+      ]
+    }
+  }
+]

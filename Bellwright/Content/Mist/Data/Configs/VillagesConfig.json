@@ -1,0 +1,581 @@
+[
+  {
+    "Type": "MistVillagesConfig",
+    "Name": "VillagesConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistVillagesConfig'",
+    "Package": "/Game/Mist/Data/Configs/VillagesConfig",
+    "Properties": {
+      "TrustLevels": [
+        {
+          "ObjectName": "MistVillageTrustLevel'StrangerTrustLevel'",
+          "ObjectPath": "/Game/Mist/Data/Configs/VillageTrustLevels/StrangerTrustLevel.0"
+        },
+        {
+          "ObjectName": "MistVillageTrustLevel'AssociateTrustLevel'",
+          "ObjectPath": "/Game/Mist/Data/Configs/VillageTrustLevels/AssociateTrustLevel.0"
+        },
+        {
+          "ObjectName": "MistVillageTrustLevel'FriendTrustLevel'",
+          "ObjectPath": "/Game/Mist/Data/Configs/VillageTrustLevels/FriendTrustLevel.0"
+        },
+        {
+          "ObjectName": "MistVillageTrustLevel'ProtectorTrustLevel'",
+          "ObjectPath": "/Game/Mist/Data/Configs/VillageTrustLevels/ProtectorTrustLevel.0"
+        },
+        {
+          "ObjectName": "MistVillageTrustLevel'BellwrightTrustLevel'",
+          "ObjectPath": "/Game/Mist/Data/Configs/VillageTrustLevels/BellwrightTrustLevel.0"
+        }
+      ],
+      "VillageImprovementsTrustRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_ArcheryRange.VM_ArcheryRange_C'",
+          "Value": "EMistVillageTrustLevelEnum::Leader"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_Granary.VM_Granary_C'",
+          "Value": "EMistVillageTrustLevelEnum::Protector"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_HerbGarden.VM_HerbGarden_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_Shrine.VM_Shrine_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_CattlePens.VM_CattlePens_C'",
+          "Value": "EMistVillageTrustLevelEnum::Leader"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_TrainingGrounds.VM_TrainingGrounds_C'",
+          "Value": "EMistVillageTrustLevelEnum::Leader"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_Vault.VM_Vault_C'",
+          "Value": "EMistVillageTrustLevelEnum::Protector"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_VillageHouse.VM_VillageHouse_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_VillageLantern.VM_VillageLantern_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_Well.VM_Well_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_Belltower.VM_Belltower_C'",
+          "Value": "EMistVillageTrustLevelEnum::Protector"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_FishingPier.VM_FishingPier_C'",
+          "Value": "EMistVillageTrustLevelEnum::Protector"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_DrinkStand.VM_DrinkStand_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_GameTable.VM_GameTable_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_FoodSortingBench.VM_FoodSortingBench_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_BigDrinkStand.VM_BigDrinkStand_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_HerbalistWorkstation.VM_HerbalistWorkstation_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_HerbDryingRack.VM_HerbDryingRack_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_HerbHanger.VM_HerbHanger_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_LogCuttingStation.VM_LogCuttingStation_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_LogSplittingPlace.VM_LogSplittingPlace_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_VillageGatheringSpot.VM_VillageGatheringSpot_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VillageDecorations/VM_LaudryPlace.VM_LaudryPlace_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_MilitiaRoom.VM_MilitiaRoom_C'",
+          "Value": "EMistVillageTrustLevelEnum::Leader"
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Placeables/VillageImprovements/VM_ScoutsLookout.VM_ScoutsLookout_C'",
+          "Value": "EMistVillageTrustLevelEnum::Friend"
+        }
+      ],
+      "BelltowerTech": {
+        "AssetPathName": "/Game/Mist/Data/TechTree/TownBuilding/VM_Belltower.VM_Belltower_C",
+        "SubPathString": ""
+      },
+      "BelltowerPlaceable": {
+        "AssetPathName": "/Game/Mist/Data/Placeables/VillageImprovements/VM_Belltower.VM_Belltower_C",
+        "SubPathString": ""
+      },
+      "VillageOutposts": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'TestVillageOutpostTemplate_C'",
+          "ObjectPath": "/Game/Mist/Props/Poi/Static/Villages/VillageOutposts/TestVillageOutpostTemplate.0"
+        }
+      ],
+      "BaseMilitia": [
+        {
+          "Key": "EMilitiaType::LightInfantry",
+          "Value": 6
+        },
+        {
+          "Key": "EMilitiaType::Archer",
+          "Value": 1
+        }
+      ],
+      "MilitiaUnits": [
+        {
+          "MilitiaType": "EMilitiaType::LightInfantry",
+          "Tier": 0,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T0_LightInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T0_LightInfantryMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::LightInfantry",
+          "Tier": 1,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T1_LightInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T1_LightInfantryMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::LightInfantry",
+          "Tier": 2,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T2_LightInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T2_LightInfantryMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::Archer",
+          "Tier": 0,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T0_ArcherMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T0_ArcherMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::Archer",
+          "Tier": 1,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T1_ArcherMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T1_ArcherMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::Archer",
+          "Tier": 2,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T2_ArcherMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T2_ArcherMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::HeavyInfantry",
+          "Tier": 0,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T0_HeavyInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T0_HeavyInfantryMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::HeavyInfantry",
+          "Tier": 1,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T1_HeavyInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T1_HeavyInfantryMilitiaNPCTemplate.0"
+          }
+        },
+        {
+          "MilitiaType": "EMilitiaType::HeavyInfantry",
+          "Tier": 2,
+          "NpcTemplate": {
+            "ObjectName": "BlueprintGeneratedClass'T2_HeavyInfantryMilitiaNPCTemplate_C'",
+            "ObjectPath": "/Game/Mist/Characters/NPC/Villager/Militia/T2_HeavyInfantryMilitiaNPCTemplate.0"
+          }
+        }
+      ],
+      "MilitiaTypeUpkeep": [
+        {
+          "Key": "EMilitiaType::LightInfantry",
+          "Value": {
+            "GoldCostPerTier": [
+              30,
+              100,
+              250
+            ],
+            "ProsperityCostPerTier": [
+              15.0,
+              30.0,
+              45.0
+            ]
+          }
+        },
+        {
+          "Key": "EMilitiaType::HeavyInfantry",
+          "Value": {
+            "GoldCostPerTier": [
+              120,
+              350,
+              700
+            ],
+            "ProsperityCostPerTier": [
+              30.0,
+              60.0,
+              90.0
+            ]
+          }
+        },
+        {
+          "Key": "EMilitiaType::Archer",
+          "Value": {
+            "GoldCostPerTier": [
+              60,
+              150,
+              450
+            ],
+            "ProsperityCostPerTier": [
+              24.0,
+              45.0,
+              75.0
+            ]
+          }
+        }
+      ],
+      "ProsperityRewards": [
+        {
+          "Key": "2",
+          "Value": {
+            "MilitiaAmount": [
+              {
+                "Key": "EMilitiaType::LightInfantry",
+                "Value": 1
+              },
+              {
+                "Key": "EMilitiaType::Archer",
+                "Value": 2
+              }
+            ],
+            "MilitiaUpgrade": []
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "MilitiaAmount": [
+              {
+                "Key": "EMilitiaType::LightInfantry",
+                "Value": 2
+              }
+            ],
+            "MilitiaUpgrade": [
+              "EMilitiaType::LightInfantry"
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "MilitiaAmount": [
+              {
+                "Key": "EMilitiaType::Archer",
+                "Value": 2
+              }
+            ],
+            "MilitiaUpgrade": [
+              "EMilitiaType::Archer"
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "MilitiaAmount": [
+              {
+                "Key": "EMilitiaType::LightInfantry",
+                "Value": 1
+              },
+              {
+                "Key": "EMilitiaType::HeavyInfantry",
+                "Value": 1
+              },
+              {
+                "Key": "EMilitiaType::Archer",
+                "Value": 2
+              }
+            ],
+            "MilitiaUpgrade": []
+          }
+        }
+      ],
+      "VillageProsperityThresholds": [
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "EE5C4BBD4A9EBC0F35D8B7AABBA82FC0",
+            "SourceString": "Struggling",
+            "LocalizedString": "Struggling"
+          },
+          "Value": 0.0,
+          "ConstructionPointsBonus": 15
+        },
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "5E36288F4BA5DEB7732DBCB88CFF9832",
+            "SourceString": "Modest",
+            "LocalizedString": "Modest"
+          },
+          "Value": 5000.0,
+          "ConstructionPointsBonus": 20
+        },
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "71099A5E4CB3B5B38309E99EB81407B1",
+            "SourceString": "Stable",
+            "LocalizedString": "Stable"
+          },
+          "Value": 15000.0,
+          "ConstructionPointsBonus": 30
+        },
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "BD6AE8E04870957681C531B5B473C294",
+            "SourceString": "Thriving",
+            "LocalizedString": "Thriving"
+          },
+          "Value": 40000.0,
+          "ConstructionPointsBonus": 40
+        },
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "3994467F467251485F77C4A4907B4592",
+            "SourceString": "Prosperous",
+            "LocalizedString": "Prosperous"
+          },
+          "Value": 100000.0,
+          "ConstructionPointsBonus": 50
+        }
+      ],
+      "BasePredictedProsperity": 0,
+      "BaseProsperityRewardOnReclamationPartyDefeated": 200,
+      "ProsperityPenaltiesOnReoccupation": [
+        0,
+        250,
+        750,
+        1500,
+        3000,
+        6000
+      ],
+      "ProsperityDailyChangeByDifference": {
+        "AssetPathName": "/Game/Mist/Data/Configs/ProsperityDailyChangeByDifference.ProsperityDailyChangeByDifference",
+        "SubPathString": ""
+      },
+      "GenericVillagersTierMap": [
+        {
+          "Key": "EMistVillagerTier::Beggar",
+          "Value": {
+            "Templates": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BeggarNPCTemplate_C'",
+                "ObjectPath": "/Game/Mist/Characters/NPC/Villager/RaidMap/GenericNpcs/BeggarNPCTemplate.1"
+              },
+              {
+                "ObjectName": "BlueprintGeneratedClass'LowBeggarNPCTemplate_C'",
+                "ObjectPath": "/Game/Mist/Characters/NPC/Villager/LowSkill/LowBeggarNPCTemplate.0"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMistVillagerTier::Low",
+          "Value": {
+            "Templates": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'LowVillagerIdleNPCTemplate_C'",
+                "ObjectPath": "/Game/Mist/Characters/NPC/Villager/LowSkill/LowVillagerIdleNPCTemplate.0"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMistVillagerTier::Medium",
+          "Value": {
+            "Templates": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'MediumVillagerIdleNPCTemplate_C'",
+                "ObjectPath": "/Game/Mist/Characters/NPC/Villager/MediumSkill/MediumVillagerIdleNPCTemplate.0"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMistVillagerTier::High",
+          "Value": {
+            "Templates": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'HighVillagerIdleNPCTemplate_C'",
+                "ObjectPath": "/Game/Mist/Characters/NPC/Villager/HighSkill/HighVillagerIdleNPCTemplate.0"
+              }
+            ]
+          }
+        }
+      ],
+      "VillagersTierSpawnMultipliers": [
+        {
+          "Key": "1",
+          "Value": {
+            "SpawnMultipliersMap": [
+              {
+                "Key": "EMistVillagerTier::Beggar",
+                "Value": 1.0
+              },
+              {
+                "Key": "EMistVillagerTier::Low",
+                "Value": 1.0
+              },
+              {
+                "Key": "EMistVillagerTier::Medium",
+                "Value": 0.5
+              },
+              {
+                "Key": "EMistVillagerTier::High",
+                "Value": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "SpawnMultipliersMap": [
+              {
+                "Key": "EMistVillagerTier::Beggar",
+                "Value": 0.5
+              },
+              {
+                "Key": "EMistVillagerTier::Low",
+                "Value": 1.0
+              },
+              {
+                "Key": "EMistVillagerTier::Medium",
+                "Value": 1.0
+              },
+              {
+                "Key": "EMistVillagerTier::High",
+                "Value": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "SpawnMultipliersMap": [
+              {
+                "Key": "EMistVillagerTier::Beggar",
+                "Value": 0.25
+              },
+              {
+                "Key": "EMistVillagerTier::Low",
+                "Value": 0.75
+              },
+              {
+                "Key": "EMistVillagerTier::Medium",
+                "Value": 1.5
+              },
+              {
+                "Key": "EMistVillagerTier::High",
+                "Value": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "SpawnMultipliersMap": [
+              {
+                "Key": "EMistVillagerTier::Beggar",
+                "Value": 0.0
+              },
+              {
+                "Key": "EMistVillagerTier::Low",
+                "Value": 0.5
+              },
+              {
+                "Key": "EMistVillagerTier::Medium",
+                "Value": 1.5
+              },
+              {
+                "Key": "EMistVillagerTier::High",
+                "Value": 1.5
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "SpawnMultipliersMap": [
+              {
+                "Key": "EMistVillagerTier::Beggar",
+                "Value": 0.0
+              },
+              {
+                "Key": "EMistVillagerTier::Low",
+                "Value": 0.5
+              },
+              {
+                "Key": "EMistVillagerTier::Medium",
+                "Value": 2.0
+              },
+              {
+                "Key": "EMistVillagerTier::High",
+                "Value": 2.0
+              }
+            ]
+          }
+        }
+      ],
+      "MilitiaNpcsCountToSpawnPatrols": 10,
+      "PatrolMembersCount": 5
+    }
+  }
+]

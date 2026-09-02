@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "MistAnimalsConfig",
+    "Name": "AnimalsConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistAnimalsConfig'",
+    "Package": "/Game/Mist/Data/Configs/AnimalsConfig",
+    "Properties": {
+      "CombatStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'CombatStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/CombatStressStatusEffect.0"
+      },
+      "FailedInseminationStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'FailedInseminationStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/FailedInseminationStressStatusEffect.0"
+      },
+      "PregnancyStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'PregnancyStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/PregnancyStressStatusEffect.0"
+      },
+      "WinterStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'WinterStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/WinterStressStatusEffect.0"
+      },
+      "OverpopulationStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'OverpopulationStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/OverpopulationStressStatusEffect.0"
+      },
+      "HomelessnessStressStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass'HomelessnessStressStatusEffect_C'",
+        "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/AnimalStress/HomelessnessStressStatusEffect.0"
+      },
+      "SkillMinLevel": 1,
+      "SkillMaxLevel": 6,
+      "SkillMeanLevel": 3,
+      "SkillStdDevFactor": 6.0,
+      "CapIncreaseChances": [
+        1.0,
+        0.5,
+        0.1,
+        0.01,
+        0.001
+      ],
+      "MinAnimalStatBonusFromCattlePen": 1,
+      "MaxAnimalStatBonusFromCattlePen": 3,
+      "AnimalHusbandryUnassigningDistance": 3000.0,
+      "AnimalHusbandryAssigningDistance": 1000.0,
+      "MaxHusbandryWanderingDistanceByAnimalType": [
+        {
+          "Key": "EMistAnimalType::Chicken",
+          "Value": 1000.0
+        },
+        {
+          "Key": "EMistAnimalType::Cow",
+          "Value": 2500.0
+        },
+        {
+          "Key": "EMistAnimalType::Pig",
+          "Value": 2500.0
+        },
+        {
+          "Key": "EMistAnimalType::Goose",
+          "Value": 1000.0
+        },
+        {
+          "Key": "EMistAnimalType::Sheep",
+          "Value": 2000.0
+        }
+      ],
+      "DefaultTemplateByAnimalType": [
+        {
+          "Key": "EMistAnimalType::Chicken",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'ChickenTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/ChickenTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Cow",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'CowTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/CowTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Cat",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'CatTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/CatTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Pig",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'PigTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/PigTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Sheep",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'SheepTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/SheepTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Goose",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'GooseTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/GooseTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Dog",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'DogTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/DogTemplate.0"
+          }
+        },
+        {
+          "Key": "EMistAnimalType::Goat",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'GoatTemplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Characters/Animals/Templates/GoatTemplate.0"
+          }
+        }
+      ],
+      "AnimalSkillCurves": [
+        {
+          "Key": "EMistFarmAnimalSkill::Vitality",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/VitalityCurve.VitalityCurve",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistFarmAnimalSkill::Metabolism",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/MetabolismCurve.MetabolismCurve",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistFarmAnimalSkill::Production",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/ProductionCurve.ProductionCurve",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistFarmAnimalSkill::Fertility",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/FertilityCurve.FertilityCurve",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistFarmAnimalSkill::Yield",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/YieldCurve.YieldCurve",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistFarmAnimalSkill::Resilience",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Characters/Animals/Curves/ResilienceCurve.ResilienceCurve",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  }
+]

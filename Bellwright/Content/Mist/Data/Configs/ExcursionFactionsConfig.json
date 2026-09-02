@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MistExcursionFactionsConfig",
+    "Name": "ExcursionFactionsConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistExcursionFactionsConfig'",
+    "Package": "/Game/Mist/Data/Configs/ExcursionFactionsConfig",
+    "Properties": {
+      "ExcursionFactionProfiles": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/FactionProfiles/CassiansProfile.CassiansProfile",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/FactionProfiles/HalmayansTroopsProfile.HalmayansTroopsProfile",
+          "SubPathString": ""
+        }
+      ],
+      "FalsgarFaction": {
+        "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/FalsgarTroops.FalsgarTroops",
+        "SubPathString": ""
+      },
+      "WrathPenaltyOnNpcKilled": 25.0,
+      "WrathPenaltyOnBattleStarted": 100.0,
+      "TemporaryReputationDecreaseSpeedMap": [
+        {
+          "Key": "EMistExcursionFactionReputationType::Loyalty",
+          "Value": 0.1
+        },
+        {
+          "Key": "EMistExcursionFactionReputationType::Wrath",
+          "Value": 0.1
+        }
+      ],
+      "MinLoyaltyLevelForPlayerEventParticipation": "EMistExcursionFactionLoyaltyLevel::Loyalty2",
+      "FactionIconsMap": [
+        {
+          "Key": "/Game/Mist/Data/Factions/RaidMap/Cassians.Cassians",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'CassiansFactionPoiIcon_C'",
+            "ObjectPath": "/Game/Mist/UI/Map/POI/ExcursionFactions/CassiansFactionPoiIcon.0"
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/RaidMap/HalmayansTroops.HalmayansTroops",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'HalmayansFactionPoiIcon_C'",
+            "ObjectPath": "/Game/Mist/UI/Map/POI/ExcursionFactions/HalmayansFactionPoiIcon.0"
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/RaidMap/FalsgarTroops.FalsgarTroops",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'FalsgarFactionPoiIcon_C'",
+            "ObjectPath": "/Game/Mist/UI/Map/POI/ExcursionFactions/FalsgarFactionPoiIcon.0"
+          }
+        },
+        {
+          "Key": "/Game/Mist/Data/Factions/RaidMap/NeutralHalmare.NeutralHalmare",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'NeutralHalmareFactionPoiIcon_C'",
+            "ObjectPath": "/Game/Mist/UI/Map/POI/ExcursionFactions/NeutralHalmareFactionPoiIcon.0"
+          }
+        }
+      ],
+      "FactionsForWarQuest": [
+        {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/Cassians.Cassians",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Mist/Data/Factions/RaidMap/HalmayansTroops.HalmayansTroops",
+          "SubPathString": ""
+        }
+      ],
+      "QuestToStartWhenAtWarWithAllFactions": {
+        "ObjectName": "BlueprintGeneratedClass'ThroughTheCastleDoorsQuest_C'",
+        "ObjectPath": "/Game/Mist/Data/Quests/MainQuest/RaidMap/ThroughTheCastleDoors/ThroughTheCastleDoorsQuest.0"
+      }
+    }
+  }
+]
