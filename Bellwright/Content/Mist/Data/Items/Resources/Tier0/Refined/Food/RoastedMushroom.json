@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RoastedMushroom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RoastedMushroom_C'Default__RoastedMushroom_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RoastedMushroom_C",
+    "Name": "Default__RoastedMushroom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom.RoastedMushroom_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom",
+    "Properties": {
+      "NutritionDurationHours": 4.0,
+      "HealthBonus": 25,
+      "HealthRegen": 0.15,
+      "StaminaBonus": 12,
+      "StaminaRegen": 3.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "ED74D6BD43258A6EF4A35FB4EF1A1A44",
+        "SourceString": "Roasted Mushroom",
+        "LocalizedString": "Roasted Mushroom"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'CookedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/CookedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceCoockedMushroom.T_IconResourceCoockedMushroom",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/RoastedMushroom_CodexEntry.RoastedMushroom_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RoastedMushroom_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'GrilledFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/GrilledFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Mushroom.Mushroom_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 80.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Mushroom/SM_Mushroom_02_Fried.SM_Mushroom_02_Fried",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_cooked_food_bowl.SM_cooked_food_bowl",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Mushroom/SM_Mushroom_02_Fried.SM_Mushroom_02_Fried",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "2330C2254EF5C1EBA9AE1AB6E086A4E5",
+        "SourceString": "Much tastier than eating them raw.",
+        "LocalizedString": "Much tastier than eating them raw."
+      },
+      "MaxDurability": 2500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

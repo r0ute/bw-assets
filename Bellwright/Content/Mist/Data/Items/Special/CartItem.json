@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CartItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/CartItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCartItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CartItem_C'Default__CartItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/CartItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CartItem_C",
+    "Name": "Default__CartItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/CartItem.CartItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/CartItem",
+    "Properties": {
+      "AttachmentRules": [
+        {
+          "ActorSet": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Human/Player.Player_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Mist/Characters/NPC/TownNpc/TownNpc.TownNpc_C",
+              "SubPathString": ""
+            }
+          ],
+          "AttachmentRule": {
+            "InteractionAnimInstance": {
+              "ObjectName": "AnimBlueprintGeneratedClass'CaravanInteraction_AnimBP_C'",
+              "ObjectPath": "/Game/Mist/Animations/Characters/Metahuman/AnimInstances/CaravanInteraction_AnimBP.0"
+            },
+            "AttachedSocketName": "root",
+            "FrontOffsetTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 150.0,
+                "Y": 0.0,
+                "Z": -90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "BackOffsetTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.087155744,
+                "Z": 0.0,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -100.0,
+                "Y": 0.0,
+                "Z": -90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RotationRateMultiplier": 0.5,
+            "OptionalCollarMesh": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "ActorSet": [
+            {
+              "AssetPathName": "/Game/Mist/Characters/Creatures/Cow/Bull_AnimalHusbandryBase.Bull_AnimalHusbandryBase_C",
+              "SubPathString": ""
+            }
+          ],
+          "AttachmentRule": {
+            "InteractionAnimInstance": null,
+            "AttachedSocketName": "RigSpine1",
+            "FrontOffsetTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 150.0,
+                "Y": 0.0,
+                "Z": -90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "BackOffsetTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.087155744,
+                "Z": 0.0,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -210.0,
+                "Y": 0.0,
+                "Z": -90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RotationRateMultiplier": 0.3,
+            "OptionalCollarMesh": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ],
+      "ActorClass": {
+        "AssetPathName": "/Game/Mist/Caravan/BP_GenericCaravanCart.BP_GenericCaravanCart_C",
+        "SubPathString": ""
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "C920AB324726813AE95F62ADDC45AB25",
+        "SourceString": "Cart",
+        "LocalizedString": "Cart"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/Cart.Cart",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'Cart'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Structures/Cart.0"
+      },
+      "bRepairable": false,
+      "bTradeable": false,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'CartItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/CartItem.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CartStation_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/CartStation.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'SmallCaravanStation_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/SmallCaravanStation.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 7
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/CopperIngot.CopperIngot_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "A2D6C71244607B97DBD811A8C14CBB9C",
+        "SourceString": "Required for caravan deliveries and trading.",
+        "LocalizedString": "Required for caravan deliveries and trading."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "0DDE312441D837BB9C461FAC5F3F047D",
+        "SourceString": "Can be crafted at Caravan station.",
+        "LocalizedString": "Can be crafted at Caravan station."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "bDestroyedByExplosion": false,
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "HugeObjects"
+    }
+  }
+]

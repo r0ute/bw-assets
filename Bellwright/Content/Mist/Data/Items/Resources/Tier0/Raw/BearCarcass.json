@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BearCarcass_C",
+    "Name": "Default__BearCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/BearCarcass.BearCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/BearCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'Boar_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Boar/Boar.2"
+      },
+      "ButcheringTime": 70.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 4,
+      "bIsPortable": false,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fur_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 3.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/PieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 2.0,
+            "UpperBoundMaxQuantity": 3.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'LargePieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/LargePieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 3.0,
+            "LowerBoundMaxQuantity": 3.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 4.0,
+            "UpperBoundMaxQuantity": 5.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "F1979A894AE82381AFAE799F269981C0",
+        "SourceString": "Bear Carcass",
+        "LocalizedString": "Bear Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_BearCarcass.T_BearCarcass",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/BearCarcass_CodexEntry.BearCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Bear_Carcass_Drop.SM_Bear_Carcass_Drop",
+        "SubPathString": ""
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B7CAB7A34B38FBDE209A57A45CFAD4E8",
+        "SourceString": "Not accessable in the game. Logic only",
+        "LocalizedString": "Not accessable in the game. Logic only"
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "MaxDurability": 4500,
+      "MinWeight": 100.0,
+      "MaxWeight": 300.0,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 72.0,
+      "CarryAnimTypeOverride": "Disable",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BearCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/BearCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BearCarcass_C'Default__BearCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/BearCarcass.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

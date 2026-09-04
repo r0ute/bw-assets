@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Honey_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/Honey",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Honey_C'Default__Honey_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/Honey.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Honey_C",
+    "Name": "Default__Honey_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/Honey.Honey_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/Honey",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 4.5,
+      "HealthBonus": 17,
+      "HealthRegen": 0.3,
+      "StaminaBonus": 45,
+      "StaminaRegen": 5.0,
+      "FoodType": "EMistFoodType::Stew",
+      "Name": {
+        "Namespace": "",
+        "Key": "5533928D43E272747DCEA5B03F2A94F5",
+        "SourceString": "Honey",
+        "LocalizedString": "Honey"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'RawFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/RawFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceHoney.T_IconResourceHoney",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Honey_CodexEntry.Honey_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Honey_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/Honey.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Apiary_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Apiary.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.Sage_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 2,
+          "CraftingTime": 300.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E668364A43523B09AED2BAA66DFB6679",
+        "SourceString": "Produced by bees, it serves as a valuable resource for cooking.",
+        "LocalizedString": "Produced by bees, it serves as a valuable resource for cooking."
+      },
+      "MaxDurability": 32767,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 18.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

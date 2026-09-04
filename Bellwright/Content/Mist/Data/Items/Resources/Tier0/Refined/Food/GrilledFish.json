@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GrilledFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GrilledFish_C'Default__GrilledFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GrilledFish_C",
+    "Name": "Default__GrilledFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish.GrilledFish_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish",
+    "Properties": {
+      "ActiveFoodStatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'30HungerSpeedStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/Food/30HungerSpeedStatusEffect.1"
+        }
+      ],
+      "NutritionDurationHours": 4.5,
+      "HealthBonus": 45,
+      "HealthRegen": 0.25,
+      "StaminaBonus": 15,
+      "StaminaRegen": 4.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "F3DB518F4B8404403E1110A3D4E47B07",
+        "SourceString": "Grilled Fish Fillet",
+        "LocalizedString": "Grilled Fish Fillet"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'CookedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/CookedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResourceSalmonSmoked.T_IconResourceSalmonSmoked",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/GrilledFish_CodexEntry.GrilledFish_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'GrilledFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'GrilledFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/GrilledFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.Fish_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 100.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Fried.SM_Salmon_Fried",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Fried.SM_Salmon_Fried",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E1D5578F418A98AF194D02A4DA3FD422",
+        "SourceString": "Delicious and nutritious.",
+        "LocalizedString": "Delicious and nutritious."
+      },
+      "MaxDurability": 6000,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 7.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

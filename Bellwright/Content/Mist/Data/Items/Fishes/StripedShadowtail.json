@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StripedShadowtail_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/StripedShadowtail",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StripedShadowtail_C'Default__StripedShadowtail_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/StripedShadowtail.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StripedShadowtail_C",
+    "Name": "Default__StripedShadowtail_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/StripedShadowtail.StripedShadowtail_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/StripedShadowtail",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/FishCarcasses/Skeletons/SK_StripedShadowtail.SK_StripedShadowtail",
+        "SubPathString": ""
+      },
+      "DeathAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Data/Fishing/FishingMinigames/Animations/ABP_DeadStripedCatfin_PostProcess.ABP_DeadStripedCatfin_PostProcess_C",
+        "SubPathString": ""
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.1,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.4,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.1,
+            "UpperBoundMaxQuantity": 0.1,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "6EE6C7524E5897906AE4B89BC1CA3408",
+        "SourceString": "Striped Shadowtail",
+        "LocalizedString": "Striped Shadowtail"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish3.T_IconFish3",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/StripedShadowtail_CodexEntry.StripedShadowtail_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/FishCarcasses/SM_StripedShadowtail_Carcass.SM_StripedShadowtail_Carcass",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/FishCarcasses/SM_StripedShadowtail_Carcass.SM_StripedShadowtail_Carcass",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "6599DA0B4065736B9960639023C2500C",
+        "SourceString": "Occurs in lakes and swamps. Typically weighs between 0.45 and 1.81.",
+        "LocalizedString": "Occurs in lakes and swamps. Typically weighs between 0.45 and 1.81."
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 0.45,
+      "MaxWeight": 1.81,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

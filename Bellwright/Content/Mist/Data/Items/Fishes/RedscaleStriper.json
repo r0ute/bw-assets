@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RedscaleStriper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RedscaleStriper",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RedscaleStriper_C'Default__RedscaleStriper_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/RedscaleStriper.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RedscaleStriper_C",
+    "Name": "Default__RedscaleStriper_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/RedscaleStriper.RedscaleStriper_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RedscaleStriper",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.2,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.6,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.1,
+            "UpperBoundMaxQuantity": 0.1,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "4DCBE0E5437E021E047512B7D91D010C",
+        "SourceString": "Redscale Striper",
+        "LocalizedString": "Redscale Striper"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish9.T_IconFish9",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/RedscaleStriper_CodexEntry.RedscaleStriper_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Description": {
+        "Namespace": "",
+        "Key": "F58A42594CDFD39E626ADB8D6F2D7733",
+        "SourceString": "Occurs in swamps. Typically weighs between 0.45 and 1.91.",
+        "LocalizedString": "Occurs in swamps. Typically weighs between 0.45 and 1.91."
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 0.45,
+      "MaxWeight": 1.91,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

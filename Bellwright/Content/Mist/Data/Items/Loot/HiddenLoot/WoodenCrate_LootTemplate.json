@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WoodenCrate_LootTemplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Loot/HiddenLoot/WoodenCrate_LootTemplate",
+    "SuperStruct": {
+      "ObjectName": "Class'MistLootTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WoodenCrate_LootTemplate_C'Default__WoodenCrate_LootTemplate_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Loot/HiddenLoot/WoodenCrate_LootTemplate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WoodenCrate_LootTemplate_C",
+    "Name": "Default__WoodenCrate_LootTemplate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Loot/HiddenLoot/WoodenCrate_LootTemplate.WoodenCrate_LootTemplate_C'",
+    "Package": "/Game/Mist/Data/Items/Loot/HiddenLoot/WoodenCrate_LootTemplate",
+    "Properties": {
+      "Loot": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 50.0,
+            "MaxQuantityMultiplier": 100.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Bandage'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Bandage.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.7,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'RefinedCookedFood'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/RefinedCookedFood.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 0.8,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicFood'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicFood.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 3,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 0.8,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'ArmorsT2'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/ArmorsT2.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.2,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'WeaponsT2'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/WeaponsT2.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.3,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      }
+    }
+  }
+]

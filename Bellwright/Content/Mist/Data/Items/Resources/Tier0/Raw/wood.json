@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Wood_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Wood_C'Default__Wood_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Wood_C",
+    "Name": "Default__Wood_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "E66BACF8430AFA92EBB23FBCC38DBB34",
+        "SourceString": "Wood",
+        "LocalizedString": "Wood"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/WoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceBrunches.T_IconResourceBrunches",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Wood_CodexEntry.Wood_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Wood_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'LumberjackSpot_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/LumberjackSpot.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 10,
+          "CraftingTime": 15.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 1,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.SM_Softwood",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_brush.SM_brush",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.SM_Softwood",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/MWConiferForest/Meshes/Trees/Fir/SM_CF_TreeFirSeedlings_A.SM_CF_TreeFirSeedlings_A",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "7021D11A492DB7208666EDBDF338E401",
+        "SourceString": "Smaller pieces of wood that can be processed to create simple items. Can be harvested by hand, axe or obtained by refining logs.",
+        "LocalizedString": "Smaller pieces of wood that can be processed to create simple items. Can be harvested by hand, axe or obtained by refining logs."
+      },
+      "SoundAddedId": 2,
+      "ExpectedPrice": 5.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

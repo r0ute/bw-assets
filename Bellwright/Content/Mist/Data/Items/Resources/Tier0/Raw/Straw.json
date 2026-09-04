@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Straw_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Straw_C'Default__Straw_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Straw_C",
+    "Name": "Default__Straw_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.Straw_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F4C042AE477B4317F022988F1F40B4AE",
+        "SourceString": "Straw",
+        "LocalizedString": "Straw"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceStraw_D.T_IconResourceStraw_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Straw_CodexEntry.Straw_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Straw_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Thresher_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Thresher.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Wheat.Wheat_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 12.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_straw.SM_straw",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Crops/Grain/SM_Grain_spoiled_01.SM_Grain_spoiled_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_FakeThatch.SM_FakeThatch",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "AD56FE2F4B27561957AEB2A201C10A13",
+        "SourceString": "Used for crafting better building materials. Processed from wheat.",
+        "LocalizedString": "Used for crafting better building materials. Processed from wheat."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 4.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

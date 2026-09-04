@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SheepCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SheepCarcass_C'Default__SheepCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SheepCarcass_C",
+    "Name": "Default__SheepCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass.SheepCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'Sheep_AnimalHusbandryBase_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Sheep/Sheep_AnimalHusbandryBase.1"
+      },
+      "ButcheringTime": 70.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 4,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'LargePieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/LargePieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 1.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 3.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/PieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 3.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A5D88EA54D784806F77268BCC210E0C3",
+        "SourceString": "Sheep Carcass",
+        "LocalizedString": "Sheep Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Icon_CarcassSheep2.T_Icon_CarcassSheep2",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_Icon_CarcassSheep2'",
+        "ObjectPath": "/Game/Mist/UI/Icons/Resources/T_Icon_CarcassSheep2.0"
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/SheepCarcass_CodexEntry.SheepCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SheepCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryRack_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryRack.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SheepCarcass.SheepCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 35.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Sheep_Carcass_Drop.SM_Sheep_Carcass_Drop",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/FarmAnimalsPack/Sheep/Meshes/Sheep_Hang_Rack_Pose9.Sheep_Hang_Rack_Pose9",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/FarmAnimalsPack/Sheep/Meshes/Sheep_Carry.Sheep_Carry",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "B76BC0644955ADA470CB41ACCDE19DBE",
+        "SourceString": "Sheep Carcass",
+        "LocalizedString": "Sheep Carcass"
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "MaxDurability": 4500,
+      "MinWeight": 40.0,
+      "MaxWeight": 70.0,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 25.0,
+      "CarryAnimTypeOverride": "BoarObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

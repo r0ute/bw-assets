@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SpottedGluttonfish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/SpottedGluttonfish",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SpottedGluttonfish_C'Default__SpottedGluttonfish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/SpottedGluttonfish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SpottedGluttonfish_C",
+    "Name": "Default__SpottedGluttonfish_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/SpottedGluttonfish.SpottedGluttonfish_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/SpottedGluttonfish",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Mist/Props/NewImported/Fish/Skeletons/SK_Salmon.SK_Salmon",
+        "SubPathString": ""
+      },
+      "DeathAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Data/Fishing/FishingMinigames/Animations/ABP_DeadStripedCatfin_PostProcess.ABP_DeadStripedCatfin_PostProcess_C",
+        "SubPathString": ""
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.7,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 2.5,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.1,
+            "UpperBoundMaxQuantity": 0.3,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'WhitePearl_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/WhitePearl.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.06,
+            "UpperBoundMaxQuantity": 0.2,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BlackPearl_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/BlackPearl.1"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.01,
+            "LowerBoundMaxQuantity": 0.01,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.01,
+            "UpperBoundMaxQuantity": 0.01,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "4D4154184457290DF1D3B6B475D9B0C3",
+        "SourceString": "Spotted Gluttonfish",
+        "LocalizedString": "Spotted Gluttonfish"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish7.T_IconFish7",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/SpottedGluttonfish_CodexEntry.SpottedGluttonfish_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/FishCarcasses/SM_SpottedGluttonfish_Carcass.SM_SpottedGluttonfish_Carcass",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/FishCarcasses/SM_SpottedGluttonfish_Carcass.SM_SpottedGluttonfish_Carcass",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "0638E5AF40DC490CE4E747AE2B117E83",
+        "SourceString": "Occurs in rivers. Typically weighs between 2.72 and 5.44.",
+        "LocalizedString": "Occurs in rivers. Typically weighs between 2.72 and 5.44."
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 2.72,
+      "MaxWeight": 5.44,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Garlic_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Garlic_C'Default__Garlic_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Garlic_C",
+    "Name": "Default__Garlic_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.Garlic_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "B9B865EE49FA74346C4C00AF27A1A08E",
+        "SourceString": "Garlic",
+        "LocalizedString": "Garlic"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceGarlic.T_IconResourceGarlic",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Herbs/Garlic_CodexEntry.Garlic_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Garlic_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmallFarm_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/SmallFarm.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/PlantSeeds/GarlicSeeds.GarlicSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 4,
+          "CraftingTime": 3800.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_SM_Decor_Food_Garlic_02.SM_SM_Decor_Food_Garlic_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Herbs/Garlic/SM_Garlic.SM_Garlic",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Sack_03.SM_Decor_Container_Sack_03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_SM_Decor_Food_Garlic_02.SM_SM_Decor_Food_Garlic_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Herbs/Garlic/SM_VioletGarlic01.SM_VioletGarlic01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "1A2DF4D44E914C258E2CAF95143E712B",
+        "SourceString": "A common herb that can be used to add flavor to dishes. Grows mostly in fields. Can be planted on a farm.",
+        "LocalizedString": "A common herb that can be used to add flavor to dishes. Grows mostly in fields. Can be planted on a farm."
+      },
+      "SoundAddedId": 1,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 6.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

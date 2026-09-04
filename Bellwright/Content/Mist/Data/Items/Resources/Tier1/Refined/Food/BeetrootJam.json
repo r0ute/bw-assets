@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BeetrootJam_C",
+    "Name": "Default__BeetrootJam_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/BeetrootJam.BeetrootJam_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/BeetrootJam",
+    "Properties": {
+      "NutritionDurationHours": 5.0,
+      "HealthBonus": 25,
+      "HealthRegen": 0.3,
+      "StaminaBonus": 50,
+      "StaminaRegen": 6.0,
+      "FoodType": "EMistFoodType::Stew",
+      "Name": {
+        "Namespace": "",
+        "Key": "846352F7429F92F8B10A4E8BF922EDA3",
+        "SourceString": "Beetroot Jam",
+        "LocalizedString": "Beetroot Jam"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'PreservedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/PreservedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResourceBeetrootJam.T_IconResourceBeetrootJam",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/BeetrootJam_CodexEntry.BeetrootJam_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BeetrootJam_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/BeetrootJam.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TavernStews_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/TavernStews.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Beetroot.Beetroot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.Sage_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 2,
+          "CraftingTime": 150.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Jam/SM_Jam_Boiled.SM_Jam_Boiled",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "ED59A94D407BF940F2AF2BB75E4D8124",
+        "SourceString": "Made of beetroots and water. Sweet and healthy.",
+        "LocalizedString": "Made of beetroots and water. Sweet and healthy."
+      },
+      "MaxDurability": 4500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 10.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BeetrootJam_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/BeetrootJam",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BeetrootJam_C'Default__BeetrootJam_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Food/BeetrootJam.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Milefang_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/Milefang",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Milefang_C'Default__Milefang_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/RaidMap/Milefang.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Milefang_C",
+    "Name": "Default__Milefang_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/RaidMap/Milefang.Milefang_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/Milefang",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SK_SK_Milefang_Dead.SK_SK_Milefang_Dead",
+        "SubPathString": ""
+      },
+      "DeathAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Data/Fishing/FishingMinigames/Animations/ABP_DeadStripedCatfin_PostProcess.ABP_DeadStripedCatfin_PostProcess_C",
+        "SubPathString": ""
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 2.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.2,
+            "UpperBoundMinQuantity": 3.0,
+            "UpperBoundMaxQuantity": 9.0,
+            "UpperBoundProbabilityPeak": 1.8,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.1,
+            "LowerBoundMaxQuantity": 0.1,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.3,
+            "UpperBoundMaxQuantity": 0.3,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "5DAA194E4754AC8C5F0D2181EB5030F4",
+        "SourceString": "Milefang",
+        "LocalizedString": "Milefang"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish19.T_IconFish19",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/RadMap/Milefang_CodexEntry.Milefang_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SK_Milefang.SK_Milefang",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SK_Milefang.SK_Milefang",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "13631194462D9DDF299F3ABA44F3BC8E",
+        "SourceString": "Occurs in oceans. Typically weighs between 20 and 80.",
+        "LocalizedString": "Occurs in oceans. Typically weighs between 20 and 80."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 20.0,
+      "MaxWeight": 80.0,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

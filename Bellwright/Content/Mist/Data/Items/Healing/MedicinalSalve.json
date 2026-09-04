@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MedicinalSalve_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Healing/MedicinalSalve",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MedicinalSalve_C'Default__MedicinalSalve_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Healing/MedicinalSalve.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MedicinalSalve_C",
+    "Name": "Default__MedicinalSalve_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Healing/MedicinalSalve.MedicinalSalve_C'",
+    "Package": "/Game/Mist/Data/Items/Healing/MedicinalSalve",
+    "Properties": {
+      "StatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'SalveHealingStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Items/Healing/SalveHealingStatusEffect.0"
+        }
+      ],
+      "Name": {
+        "Namespace": "",
+        "Key": "519FD87A4D420149150055BD6D4DD4F9",
+        "SourceString": "Medicinal salve",
+        "LocalizedString": "Medicinal salve"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Medicine_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Medicine.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceMedicine.T_IconResourceMedicine",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/MedicinalSalve_CodexEntry.MedicinalSalve_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinalSalve_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Healing/MedicinalSalve.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'MedicinalSalve_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/MedicinalSalve.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin.Resin_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.Sage_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Dishes_Bottle_04.SM_Decor_Dishes_Bottle_04",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Crate_01.SM_Decor_Container_Crate_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Dishes_Bottle_04.SM_Decor_Dishes_Bottle_04",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "2D8C148145A5CDDE35C1E3B0B88FF380",
+        "SourceString": "Allows you to instantly heal some amount health. Better than Bandage.",
+        "LocalizedString": "Allows you to instantly heal some amount health. Better than Bandage."
+      },
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 48.0,
+      "CarryAnimTypeOverride": "SmallObjects"
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CheeseOmelette_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/CheeseOmelette",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CheeseOmelette_C'Default__CheeseOmelette_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/CheeseOmelette.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CheeseOmelette_C",
+    "Name": "Default__CheeseOmelette_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/CheeseOmelette.CheeseOmelette_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/CheeseOmelette",
+    "Properties": {
+      "NutritionDurationHours": 7.5,
+      "HealthBonus": 65,
+      "HealthRegen": 0.7,
+      "StaminaBonus": 93,
+      "StaminaRegen": 8.5,
+      "FoodType": "EMistFoodType::Stew",
+      "Name": {
+        "Namespace": "",
+        "Key": "CCAB96494590EF768541CEB07BF1539A",
+        "SourceString": "Cheese Omelette",
+        "LocalizedString": "Cheese Omelette"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'PreservedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/PreservedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_CheeseOmlette.T_CheeseOmlette",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/CheeseOmelette_CodexEntry.CheeseOmelette_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'CheeseOmelette_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/CheeseOmelette.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TavernStews_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/TavernStews.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Tavern_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Tavern.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/Cheese.Cheese_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Egg.Egg_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Onion.Onion_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Garlic.Garlic_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 3,
+          "CraftingTime": 250.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E27D285545A5FFDD53F105A9CF16557E",
+        "SourceString": "Simple dish.",
+        "LocalizedString": "Simple dish."
+      },
+      "MaxDurability": 7500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 24.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

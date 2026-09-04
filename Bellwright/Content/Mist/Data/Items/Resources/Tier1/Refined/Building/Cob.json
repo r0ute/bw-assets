@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cob_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Cob",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cob_C'Default__Cob_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Cob.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Cob_C",
+    "Name": "Default__Cob_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Cob.Cob_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Cob",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "C96456A5412A1D4ED1260FB1ED667759",
+        "SourceString": "Cob",
+        "LocalizedString": "Cob"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceCobb.T_IconResourceCobb",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Cob_CodexEntry.Cob_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Cob_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Cob.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.Straw_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Mud.Mud_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 25.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_CobBrick_01.SM_Decor_Misc_CobBrick_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_CobBrick_02.SM_Decor_Misc_CobBrick_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_CobBrick_01.SM_Decor_Misc_CobBrick_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "B4EA52024DF3BB4196C910BF6285661E",
+        "SourceString": "Fireproof building material made from subsoil, water and fibrous organic materials. Can be made in a Mixing Bucket.",
+        "LocalizedString": "Fireproof building material made from subsoil, water and fibrous organic materials. Can be made in a Mixing Bucket."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 23.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

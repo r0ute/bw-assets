@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FoxCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FoxCarcass_C'Default__FoxCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FoxCarcass_C",
+    "Name": "Default__FoxCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass.FoxCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'Fox_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Fox/Fox.4"
+      },
+      "ButcheringTime": 50.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 3,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/PieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 2.0,
+            "UpperBoundMaxQuantity": 3.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fur_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 1.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 2.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "EF092A6245F726A4609CB6A57DDEE1BB",
+        "SourceString": "Fox Carcass",
+        "LocalizedString": "Fox Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Icon_CarcassFox.T_Icon_CarcassFox",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/FoxCarcass_CodexEntry.FoxCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FoxCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/FoxCarcass.FoxCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_FoxCarcass1_Drop.SM_FoxCarcass1_Drop",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/NewImported/AnimalVarietyPack/Fox/Meshes/SM_Fox_Carcass_Carry_New.SM_Fox_Carcass_Carry_New",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_FoxCarcass1_Drop.SM_FoxCarcass1_Drop",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "0EFC83F1482DF2CCB524ECA0127BDDAC",
+        "SourceString": "A grim trophy of the wild's merciless challenges. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards.",
+        "LocalizedString": "A grim trophy of the wild's merciless challenges. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "MaxDurability": 4000,
+      "MinWeight": 6.0,
+      "MaxWeight": 10.0,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 16.0,
+      "CarryAnimTypeOverride": "FoxObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RabbitCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RabbitCarcass_C'Default__RabbitCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RabbitCarcass_C",
+    "Name": "Default__RabbitCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass.RabbitCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'Rabbit_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Rabbit/Rabbit.2"
+      },
+      "ButcheringTime": 30.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 1,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Pelt_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 1.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 2.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'SmallPieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SmallPieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 1.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 2.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "34D68CC94B7A7A142114C4A8604CF43D",
+        "SourceString": "Rabbit Carcass",
+        "LocalizedString": "Rabbit Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsRabbitCarcass.T_IconAnimalsRabbitCarcass",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/RabbitCarcass_CodexEntry.RabbitCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RabbitCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RabbitCarcass.RabbitCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Rabbit_Carcass_Drop1.SM_Rabbit_Carcass_Drop1",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Rabbit_Carcass_Carry1.SM_Rabbit_Carcass_Carry1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Rabbit_Carcass_Drop1.SM_Rabbit_Carcass_Drop1",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Rabbit_Carcass_Drop1.SM_Rabbit_Carcass_Drop1",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "6483347240BECA945696018A65BD0940",
+        "SourceString": "A humble catch from the fields, small yet resourceful. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards.",
+        "LocalizedString": "A humble catch from the fields, small yet resourceful. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "MaxDurability": 3000,
+      "MinWeight": 1.0,
+      "MaxWeight": 2.5,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 10.0,
+      "CarryAnimTypeOverride": "Bucket",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

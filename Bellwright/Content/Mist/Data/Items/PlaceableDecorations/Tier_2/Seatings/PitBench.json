@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PitBench_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/PitBench",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PitBench_C'Default__PitBench_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/PitBench.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PitBench_C",
+    "Name": "Default__PitBench_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/PitBench.PitBench_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/PitBench",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'PitBench_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/PitBench.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "8D7EE2AC4C5D6C65C4E1EAB76FBCC1C3",
+        "SourceString": "Pit Bench",
+        "LocalizedString": "Pit Bench"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/T_PitBench.T_PitBench",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'PitBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/PitBench.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'BasicDecorations_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/BasicDecorations.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.CopperNails_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_DropMesh.SM_crate_small_DropMesh",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Furniture_Bench_03.SM_Decor_Furniture_Bench_03",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "38EA73F64343DDE96130559CF7B34054",
+        "SourceString": "A simple seating solution to make any space more inviting.",
+        "LocalizedString": "A simple seating solution to make any space more inviting."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

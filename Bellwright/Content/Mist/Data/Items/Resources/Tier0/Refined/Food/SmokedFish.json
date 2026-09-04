@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SmokedFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SmokedFish_C'Default__SmokedFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SmokedFish_C",
+    "Name": "Default__SmokedFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish.SmokedFish_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish",
+    "Properties": {
+      "ActiveFoodStatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'20ProductivityStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/Food/20ProductivityStatusEffect.1"
+        }
+      ],
+      "NutritionDurationHours": 4.5,
+      "HealthBonus": 30,
+      "HealthRegen": 0.3,
+      "StaminaBonus": 60,
+      "StaminaRegen": 6.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "E93BB7A846D371179D197FB38B0F6487",
+        "SourceString": "Smoked Fish Fillet",
+        "LocalizedString": "Smoked Fish Fillet"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'DriedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/DriedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResourceSalmonRaw.T_IconResourceSalmonRaw",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/SmokedCarp_CodexEntry.SmokedCarp_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/SmokedFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.Fish_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 250.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Smoked.SM_Salmon_Smoked",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Smoked.SM_Salmon_Smoked",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "4E1E191B4C0DB788E9B74D867A59AC11",
+        "SourceString": "Nutritious and doesn't spoil too fast.",
+        "LocalizedString": "Nutritious and doesn't spoil too fast."
+      },
+      "MaxDurability": 8000,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 7.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

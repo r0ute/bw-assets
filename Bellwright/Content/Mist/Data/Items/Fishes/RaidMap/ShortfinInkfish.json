@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShortfinInkfish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/ShortfinInkfish",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShortfinInkfish_C'Default__ShortfinInkfish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/RaidMap/ShortfinInkfish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ShortfinInkfish_C",
+    "Name": "Default__ShortfinInkfish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/RaidMap/ShortfinInkfish.ShortfinInkfish_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/ShortfinInkfish",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SK_Shortfin_Inkfish_Dead.SK_Shortfin_Inkfish_Dead",
+        "SubPathString": ""
+      },
+      "DeathAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Data/Fishing/FishingMinigames/Animations/ABP_DeadStripedCatfin_PostProcess.ABP_DeadStripedCatfin_PostProcess_C",
+        "SubPathString": ""
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.2,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.8,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.1,
+            "UpperBoundMaxQuantity": 0.1,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9D57F9AD40FB47D764886DA715659F46",
+        "SourceString": "Shortfin Inkfish",
+        "LocalizedString": "Shortfin Inkfish"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish22.T_IconFish22",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/RadMap/ShortfinInkfish_CodexEntry.ShortfinInkfish_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Shortfin_Inkfish.SM_Shortfin_Inkfish",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Shortfin_Inkfish.SM_Shortfin_Inkfish",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "62CF12214AB6DD885C1784877148D24D",
+        "SourceString": "Occurs in oceans. Typically weighs between 0.95 and 3.25.",
+        "LocalizedString": "Occurs in oceans. Typically weighs between 0.95 and 3.25."
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 0.95,
+      "MaxWeight": 3.25,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

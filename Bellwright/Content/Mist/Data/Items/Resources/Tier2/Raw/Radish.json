@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Radish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Radish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Radish_C'Default__Radish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Radish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Radish_C",
+    "Name": "Default__Radish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Radish.Radish_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Radish",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 2.5,
+      "HealthBonus": 10,
+      "HealthRegen": 0.1,
+      "StaminaBonus": 30,
+      "StaminaRegen": 2.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "715C8E474B991F24ABCFF08B2AE908BF",
+        "SourceString": "Radish",
+        "LocalizedString": "Radish"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'RawFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/RawFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceRadish.T_IconResourceRadish",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Radish_CodexEntry.Radish_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Radish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Radish.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmallFarm_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/SmallFarm.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/FarmSeeds/RadishSeeds.RadishSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 10,
+          "CraftingTime": 2400.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Radish/SM_Radish_Raw.SM_Radish_Raw",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2v3.SM_sack2v3",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Radish/SM_Radish_Raw.SM_Radish_Raw",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeBeetroot.SM_FakeBeetroot",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/UltimateFarming/Meshes/SM_Turnip_A.SM_Turnip_A",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "F657DBD9462A156AEA6A0BB2593915BA",
+        "SourceString": "A vibrant and crisp root vegetable with a peppery bite, radishes bring a refreshing crunch. Can be grown on a farm.",
+        "LocalizedString": "A vibrant and crisp root vegetable with a peppery bite, radishes bring a refreshing crunch. Can be grown on a farm."
+      },
+      "MaxDurability": 2500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 4.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

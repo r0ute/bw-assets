@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "YoungWildGoatCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "YoungWildGoatCarcass_C'Default__YoungWildGoatCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "YoungWildGoatCarcass_C",
+    "Name": "Default__YoungWildGoatCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass.YoungWildGoatCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'YoungWildGoat_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/WIldGoat/YoungWildGoat.2"
+      },
+      "ButcheringTime": 70.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 4,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Hide_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 2.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/PieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 2.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A58E1391407197111B841698D736AD40",
+        "SourceString": "Wild Goat Carcass",
+        "LocalizedString": "Wild Goat Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_YoungGoatCarcass.T_YoungGoatCarcass",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/YoungWildGoatCarcass_CodexEntry.YoungWildGoatCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'YoungWildGoatCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryBench_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryBench.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/YoungWildGoatCarcass.YoungWildGoatCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_YoungWildGoat_Carcass_Drop.SM_YoungWildGoat_Carcass_Drop",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Animalia/Chamois_Y/Meshes/YoungWildGoat_Carcass_Carry.YoungWildGoat_Carcass_Carry",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_YoungWildGoat_Carcass_Butcher.SM_YoungWildGoat_Carcass_Butcher",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "4FCBBE204BA3722EF6689386C585085E",
+        "SourceString": "Wild Goat Carcass.",
+        "LocalizedString": "Wild Goat Carcass."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "MaxDurability": 4500,
+      "MinWeight": 10.0,
+      "MaxWeight": 15.0,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 15.0,
+      "CarryAnimTypeOverride": "Disable",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SmallClosedBasket_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Miscellaneous/SmallClosedBasket",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SmallClosedBasket_C'Default__SmallClosedBasket_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Miscellaneous/SmallClosedBasket.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SmallClosedBasket_C",
+    "Name": "Default__SmallClosedBasket_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Miscellaneous/SmallClosedBasket.SmallClosedBasket_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Miscellaneous/SmallClosedBasket",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'SmallClosedBasket_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/SmallClosedBasket.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "F16514F04A1F39926887DB877B74A119",
+        "SourceString": "Small Closed Basket",
+        "LocalizedString": "Small Closed Basket"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/T_SmallClosedBasket.T_SmallClosedBasket",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SmallClosedBasket_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Miscellaneous/SmallClosedBasket.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'BasicDecorations_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/BasicDecorations.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch.Thatch_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/SimpleCord.SimpleCord_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_DropMesh.SM_crate_small_DropMesh",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_small.SM_basket_small",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "7D9AB71043E6FDA206A0479E1421FE8F",
+        "SourceString": "Simple decorative Small Closed Basket.",
+        "LocalizedString": "Simple decorative Small Closed Basket."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

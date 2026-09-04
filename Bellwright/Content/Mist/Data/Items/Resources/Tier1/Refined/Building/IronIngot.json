@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IronIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IronIngot_C'Default__IronIngot_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "IronIngot_C",
+    "Name": "Default__IronIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "C8AA916243A0697161C74A8474E43508",
+        "SourceString": "Iron Ingot",
+        "LocalizedString": "Iron Ingot"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IronIngot.T_IronIngot",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_IronIngot'",
+        "ObjectPath": "/Game/Mist/UI/Icons/Resources/T_IronIngot.0"
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/IronIngot_CodexEntry.IronIngot_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'IronIngot_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmeltingFurnace_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/SmeltingFurnace.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/IronOre.IronOre_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_IronIngot.SM_IronIngot",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_IronIngot.SM_IronIngot",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_IronIngot.SM_IronIngot",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "79FF3C014921346534F8C0A04757017A",
+        "SourceString": "A hard and durable metal. Used to make improved tools and weapons. Smelted from Iron Ore in the Furnace.",
+        "LocalizedString": "A hard and durable metal. Used to make improved tools and weapons. Smelted from Iron Ore in the Furnace."
+      },
+      "CraftedItemsStat": {
+        "ID": "IRON_INGOTS_CRAFTED",
+        "MaxValue": 50,
+        "Unlockables": [
+          {
+            "UnlockAchievementName": "CRAFT_IRON_INGOTS",
+            "UnlockAmount": 50
+          }
+        ]
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 80.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

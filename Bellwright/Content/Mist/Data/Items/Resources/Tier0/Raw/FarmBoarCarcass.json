@@ -1,0 +1,181 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FarmBoarCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FarmBoarCarcass_C'Default__FarmBoarCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FarmBoarCarcass_C",
+    "Name": "Default__FarmBoarCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass.FarmBoarCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'FarmBoar_AnimalHusbandry_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Pig/FarmBoar_AnimalHusbandry.2"
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Pelt_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Pelt.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 2.0,
+            "LowerBoundMaxQuantity": 3.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 4.0,
+            "UpperBoundMaxQuantity": 5.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'PieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/PieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 4.0,
+            "LowerBoundMaxQuantity": 5.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 6.0,
+            "UpperBoundMaxQuantity": 7.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'LargePieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/LargePieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 2.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 3.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "CAF1BC43452CA47A522DFA9F56031756",
+        "SourceString": "Pig Carcass",
+        "LocalizedString": "Pig Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsPigMCarcass2.T_IconAnimalsPigMCarcass2",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/FarmBoarCarcass_CodexEntry.FarmBoarCarcass_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FarmBoarCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryRack_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryRack.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/FarmBoarCarcass.FarmBoarCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 45.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_Sow_Carcass_Drop.SM_Sow_Carcass_Drop",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Animalia/Pig_F/Meshes/Pig_Carry_Carcass_Pose.Pig_Carry_Carcass_Pose",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Animalia/Pig_F/Meshes/Pig_Hang_Rack_Pose_Ropes.Pig_Hang_Rack_Pose_Ropes",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "BC01AE2C4789AD99D212E38A69AA2CE0",
+        "SourceString": "A sturdy beast, once the backbone of the farm, now a source of sustenance. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards.",
+        "LocalizedString": "A sturdy beast, once the backbone of the farm, now a source of sustenance. While field skinning can yield a modest return, processing it at a Butchery unlocks far greater rewards."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 30.0,
+      "MaxWeight": 60.0,
+      "bEnableSpoilage": true,
+      "SoundAddedId": 0,
+      "ExpectedPrice": 25.0,
+      "CarryAnimTypeOverride": "PigObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

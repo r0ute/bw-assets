@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WoodenChair_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/WoodenChair",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WoodenChair_C'Default__WoodenChair_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/WoodenChair.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WoodenChair_C",
+    "Name": "Default__WoodenChair_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/WoodenChair.WoodenChair_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/WoodenChair",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'WoodenChair_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/WoodenChair.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "31E896974D8B6409BC46EAB7676CADDD",
+        "SourceString": "Wooden Chair",
+        "LocalizedString": "Wooden Chair"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/WoodenChair.WoodenChair",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodenChair_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Seatings/WoodenChair.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'BasicDecorations_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/BasicDecorations.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.WoodenPlank_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.CopperNails_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_DropMesh.SM_crate_small_DropMesh",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Furniture_Chair_01.SM_Decor_Furniture_Chair_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "94C27FD34027110F5004DDA717EB56B6",
+        "SourceString": "A simple seating solution to make any space more inviting.",
+        "LocalizedString": "A simple seating solution to make any space more inviting."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

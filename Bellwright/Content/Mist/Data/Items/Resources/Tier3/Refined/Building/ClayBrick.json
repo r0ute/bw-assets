@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ClayBrick_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/ClayBrick",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ClayBrick_C'Default__ClayBrick_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/ClayBrick.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClayBrick_C",
+    "Name": "Default__ClayBrick_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/ClayBrick.ClayBrick_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/ClayBrick",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "6983B19145ABA22A9DFDBFA540BAAB15",
+        "SourceString": "Clay Brick",
+        "LocalizedString": "Clay Brick"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceClayBlock.T_IconResourceClayBlock",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ClayBrick_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/ClayBrick.0"
+          },
+          "Category": null,
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Clay.Clay_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 0.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_FakeClayBrick.SM_FakeClayBrick",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Crate_01.SM_Decor_Container_Crate_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeClayBrick.SM_FakeClayBrick",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "B822A5A640BB0AA554DF568C14D67918",
+        "SourceString": "Basic building material but much stronger than wood. Used higher tier constructions.",
+        "LocalizedString": "Basic building material but much stronger than wood. Used higher tier constructions."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "99AB72B7450A7807048A889BAE7C331B",
+        "SourceString": "Fired out of raw clay at the Smelter.",
+        "LocalizedString": "Fired out of raw clay at the Smelter."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 60.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

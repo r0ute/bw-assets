@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Sage_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Sage_C'Default__Sage_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Sage_C",
+    "Name": "Default__Sage_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.Sage_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "2541D60A4A1419973924E9B307171750",
+        "SourceString": "Sage",
+        "LocalizedString": "Sage"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoliageItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/FoliageItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceSage.T_IconResourceSage",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Herbs/Sage_CodexEntry.Sage_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Sage_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Sage.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmallFarm_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/SmallFarm.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/PlantSeeds/SageSeed.SageSeed_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 4,
+          "CraftingTime": 1800.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_Sage_Drop_Cart.SM_Sage_Drop_Cart",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Herbs/Sage/SM_Sage02.SM_Sage02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Sage.SM_Sage",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Sage_Drop_Cart.SM_Sage_Drop_Cart",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Sage.SM_Sage",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "4C4EB8994493F4A8C0D6ABB30B43EA6B",
+        "SourceString": "Used to add flavor and healing properties to many dishes, especially soups and stews. Grows mostly in fields. Can be planted on a farm.",
+        "LocalizedString": "Used to add flavor and healing properties to many dishes, especially soups and stews. Grows mostly in fields. Can be planted on a farm."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 4.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

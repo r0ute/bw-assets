@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BroadheadChub_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/BroadheadChub",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BroadheadChub_C'Default__BroadheadChub_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/RaidMap/BroadheadChub.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BroadheadChub_C",
+    "Name": "Default__BroadheadChub_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/RaidMap/BroadheadChub.BroadheadChub_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/RaidMap/BroadheadChub",
+    "Template": {
+      "ObjectName": "BaseFish_C'Default__BaseFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/BaseFish.0"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SK_Broadhead_Chub_Dead.SK_Broadhead_Chub_Dead",
+        "SubPathString": ""
+      },
+      "DeathAnimInstanceClass": {
+        "AssetPathName": "/Game/Mist/Data/Fishing/FishingMinigames/Animations/ABP_DeadStripedCatfin_PostProcess.ABP_DeadStripedCatfin_PostProcess_C",
+        "SubPathString": ""
+      },
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fish_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Fish.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Gaussian",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 4.0,
+            "LowerBoundProbabilityPeak": 1.2,
+            "UpperBoundMinQuantity": 1.0,
+            "UpperBoundMaxQuantity": 4.0,
+            "UpperBoundProbabilityPeak": 1.8,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FishScale_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/FishScale.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.05,
+            "LowerBoundMaxQuantity": 0.05,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.1,
+            "UpperBoundMaxQuantity": 0.1,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B73B30C6433A59A879CFA88F4AE62899",
+        "SourceString": "Broadhead Chub",
+        "LocalizedString": "Broadhead Chub"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Fish/T_IconFish17.T_IconFish17",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Fishes/RadMap/BroadheadChub_CodexEntry.BroadheadChub_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Broadhead_Chub.SM_Broadhead_Chub",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Broadhead_Chub.SM_Broadhead_Chub",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "D98D21814269E1BCAADA38B48964AD1D",
+        "SourceString": "Occurs in lakes. Typically weighs between 0.52 and 3.",
+        "LocalizedString": "Occurs in lakes. Typically weighs between 0.52 and 3."
+      },
+      "MaxDurability": 5000,
+      "MinWeight": 0.52,
+      "MaxWeight": 3.0,
+      "bEnableSpoilage": true,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

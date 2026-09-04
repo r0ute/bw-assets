@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CultLeader_LootTemplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Loot/Bandits/T0/Quest/CultLeader_LootTemplate",
+    "SuperStruct": {
+      "ObjectName": "Class'MistLootTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CultLeader_LootTemplate_C'Default__CultLeader_LootTemplate_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Loot/Bandits/T0/Quest/CultLeader_LootTemplate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CultLeader_LootTemplate_C",
+    "Name": "Default__CultLeader_LootTemplate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Loot/Bandits/T0/Quest/CultLeader_LootTemplate.CultLeader_LootTemplate_C'",
+    "Package": "/Game/Mist/Data/Items/Loot/Bandits/T0/Quest/CultLeader_LootTemplate",
+    "Properties": {
+      "Loot": {
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.6,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 20.0,
+            "MaxQuantityMultiplier": 40.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Bandage'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Bandage.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.2,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook1'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook1.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 0.3,
+            "PerIterationRunChance": 0.3,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Rope'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Rope.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.15,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 2.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Strap'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Strap.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.5,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 2.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicFood'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicFood.0"
+            },
+            "MinIterations": 2,
+            "MaxIterations": 3,
+            "RunChance": 0.3,
+            "PerIterationRunChance": 0.3,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 2.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'Hide'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Hide.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.1,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'KnowledgeBook2'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/KnowledgeBook2.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 0.15,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true,
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Cult3_CultNote_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/Cult3_CultNote.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SpicedOnionSoup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/SpicedOnionSoup",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SpicedOnionSoup_C'Default__SpicedOnionSoup_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/SpicedOnionSoup.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SpicedOnionSoup_C",
+    "Name": "Default__SpicedOnionSoup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/SpicedOnionSoup.SpicedOnionSoup_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/SpicedOnionSoup",
+    "Properties": {
+      "ActiveFoodStatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'40ExpGainStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/Food/40ExpGainStatusEffect.1"
+        }
+      ],
+      "NutritionDurationHours": 5.0,
+      "HealthBonus": 23,
+      "HealthRegen": 0.5,
+      "StaminaBonus": 70,
+      "StaminaRegen": 8.0,
+      "FoodType": "EMistFoodType::Stew",
+      "Name": {
+        "Namespace": "",
+        "Key": "DBF426C047F267667A8673B068A83020",
+        "SourceString": "Spiced Onion Soup",
+        "LocalizedString": "Spiced Onion Soup"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'SoupFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/SoupFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResource_SpicedOnionSoup.T_IconResource_SpicedOnionSoup",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/SpicedTurnipSoup_CodexEntry.SpicedTurnipSoup_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SpicedOnionSoup_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/SpicedOnionSoup.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TavernStews_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/TavernStews.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/Spices.Spices_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Onion.Onion_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Turnip.Turnip_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 2,
+          "CraftingTime": 200.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Barrel_01.SM_Decor_Container_Barrel_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaxDurability": 5000,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 18.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

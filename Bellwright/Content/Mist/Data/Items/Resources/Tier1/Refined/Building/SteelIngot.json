@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SteelIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SteelIngot_C'Default__SteelIngot_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SteelIngot_C",
+    "Name": "Default__SteelIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.SteelIngot_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F7E074C247070C09AA351D9E68861FFF",
+        "SourceString": "Steel Ingot",
+        "LocalizedString": "Steel Ingot"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceIronBlock.T_IconResourceIronBlock",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_IconResourceIronBlock'",
+        "ObjectPath": "/Game/Mist/UI/Icons/Resources/T_IconResourceIronBlock.0"
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/SteelIngot_CodexEntry.SteelIngot_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SteelIngot_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SteelIngot.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedSmelter_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/AdvancedSmelter.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/IronOre.IronOre_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.Charcoal_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 58.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_SteelIngot.SM_SteelIngot",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_SteelIngot.SM_SteelIngot",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_SteelIngot.SM_SteelIngot",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "D5A7B567441DAEAD78DCC7BB080C46C4",
+        "SourceString": "Used in crafting of steel items. Smelted in Smelter from Iron Ore and Coal.",
+        "LocalizedString": "Used in crafting of steel items. Smelted in Smelter from Iron Ore and Coal."
+      },
+      "CraftedItemsStat": {
+        "ID": "STEEL_INGOTS_CRAFTED",
+        "MaxValue": 100,
+        "Unlockables": [
+          {
+            "UnlockAchievementName": "CRAFT_STEEL_INGOTS",
+            "UnlockAmount": 100
+          }
+        ]
+      },
+      "SoundAddedId": 0,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 115.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

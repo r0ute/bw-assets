@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DriedBerries_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/DriedBerries",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DriedBerries_C'Default__DriedBerries_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/DriedBerries.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DriedBerries_C",
+    "Name": "Default__DriedBerries_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/DriedBerries.DriedBerries_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/DriedBerries",
+    "Properties": {
+      "ActiveFoodStatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'20HungerSpeedStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/Food/20HungerSpeedStatusEffect.1"
+        }
+      ],
+      "NutritionDurationHours": 4.0,
+      "HealthBonus": 16,
+      "HealthRegen": 0.25,
+      "StaminaBonus": 36,
+      "StaminaRegen": 3.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "DA9F893746D174A9F090EDB54208802A",
+        "SourceString": "Dried Berries",
+        "LocalizedString": "Dried Berries"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'DriedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/DriedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceBerriesDried.T_IconResourceBerriesDried",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/DriedBerries_CodexEntry.DriedBerries_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'DriedBerries_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/DriedBerries.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ForagerRack_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/ForagerRack.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Berry.Berry_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 200.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Berrys/SM_Berrys_Fried.SM_Berrys_Fried",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_cooked_food_bowl.SM_cooked_food_bowl",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Berrys/SM_Berrys_Fried.SM_Berrys_Fried",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "B502B8614AD57743ABF7EE8BCE5A2AA4",
+        "SourceString": "Dried berries that don't spoil too fast.",
+        "LocalizedString": "Dried berries that don't spoil too fast."
+      },
+      "MaxDurability": 6000,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 5.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

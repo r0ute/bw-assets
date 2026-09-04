@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Gruel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Gruel",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Gruel_C'Default__Gruel_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Gruel.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Gruel_C",
+    "Name": "Default__Gruel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Gruel.Gruel_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Gruel",
+    "Properties": {
+      "NutritionDurationHours": 6.5,
+      "HealthBonus": 25,
+      "HealthRegen": 0.45,
+      "StaminaBonus": 50,
+      "StaminaRegen": 7.0,
+      "FoodType": "EMistFoodType::Stew",
+      "Name": {
+        "Namespace": "",
+        "Key": "9132EAD645BDF6C350C40FB7EB191EFD",
+        "SourceString": "Gruel",
+        "LocalizedString": "Gruel"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'PreservedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/PreservedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResourceMushroomStewBoiled.T_IconResourceMushroomStewBoiled",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Gruel_CodexEntry.Gruel_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Gruel_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Gruel.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CauldronStews_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/CauldronStews.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains.Grains_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Egg.Egg_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 2,
+          "CraftingTime": 150.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Cooking",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/MeatStew/SM_MeatStew_Boiled.SM_MeatStew_Boiled",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "254DEDCB412E7643144D7ABF6005FE7C",
+        "SourceString": "Simple dish.",
+        "LocalizedString": "Simple dish."
+      },
+      "MaxDurability": 5000,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 8.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

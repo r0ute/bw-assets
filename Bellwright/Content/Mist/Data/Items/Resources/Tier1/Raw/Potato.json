@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Potato_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Raw/Potato",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Potato_C'Default__Potato_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/Potato.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Potato_C",
+    "Name": "Default__Potato_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Potato.Potato_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Raw/Potato",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 3.5,
+      "HealthBonus": 15,
+      "HealthRegen": 0.1,
+      "StaminaBonus": 30,
+      "StaminaRegen": 2.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "C6A97C4348DC5BABCE5081BCE67D1792",
+        "SourceString": "Potato",
+        "LocalizedString": "Potato"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'RawFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/RawFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourcePotato.T_IconResourcePotato",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Potato_CodexEntry.Potato_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Potato_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/Potato.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmallFarm_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/SmallFarm.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/FarmSeeds/PotatoSeeds.PotatoSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 5,
+          "CraftingTime": 6000.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Potato/SM_Potato_Raw.SM_Potato_Raw",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2.SM_sack2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Potato/SM_Potato_Raw.SM_Potato_Raw",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Potato/SM_Potato_Raw.SM_Potato_Raw",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/UltimateFarming/Meshes/SM_Potato_A.SM_Potato_A",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "759A0A654A23F292CC0246B8AA8E843A",
+        "SourceString": "A nutritious staple crop with versatile culinary uses, providing sustenance and filling bellies. Can be grown on a farm.",
+        "LocalizedString": "A nutritious staple crop with versatile culinary uses, providing sustenance and filling bellies. Can be grown on a farm."
+      },
+      "MaxDurability": 2500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 3.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

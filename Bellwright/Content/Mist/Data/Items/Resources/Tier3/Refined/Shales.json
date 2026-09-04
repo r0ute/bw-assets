@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Shales_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Shales",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Shales_C'Default__Shales_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Shales.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Shales_C",
+    "Name": "Default__Shales_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Shales.Shales_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Shales",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "320C24714511D67657E2B5A4EEBB98BF",
+        "SourceString": "Shales",
+        "LocalizedString": "Shales"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceShales.T_IconResourceShales",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Shales_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Shales.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'StonemasonsHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/StonemasonsHut.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Quartz.Quartz_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 5,
+          "CraftingTime": 40.0,
+          "SkillRequiredValue": 45,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bag_03.SM_Bag_03",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bag_03.SM_Bag_03",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "49D7D559420930BC320A599A7990B604",
+        "SourceString": "Fine-grained, clastic sedimentary rock formed from quartz.",
+        "LocalizedString": "Fine-grained, clastic sedimentary rock formed from quartz."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "355702B84FCAC467CC3E88B51FEDB5AD",
+        "SourceString": "Mined from iron rocks or from soil rich in iron.",
+        "LocalizedString": "Mined from iron rocks or from soil rich in iron."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 175.0,
+      "CarryAnimTypeOverride": "HugeObjects"
+    }
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "WoodenPlank_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WoodenPlank_C'Default__WoodenPlank_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WoodenPlank_C",
+    "Name": "Default__WoodenPlank_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.WoodenPlank_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F25FF54F4AC3472C5E18088A3E3DBCC0",
+        "SourceString": "Wooden Plank",
+        "LocalizedString": "Wooden Plank"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/WoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_WoodenPlank_D.T_WoodenPlank_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/WoodenPlank_CodexEntry.WoodenPlank_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodenPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'PitSaw_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/PitSaw.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 3,
+          "CraftingTime": 60.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'WoodenPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedPitSaw_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedPitSaw.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 18,
+          "CraftingTime": 198.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.SM_WoodenPlankCarry",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_soft_log.SM_soft_log",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.SM_WoodenPlankCarry",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "A72ECD334716FA25AF3F1582E6FCBA3B",
+        "SourceString": "Regular wooden plank used for building. Refined by a Lumberjack.",
+        "LocalizedString": "Regular wooden plank used for building. Refined by a Lumberjack."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "SoundAddedId": 2,
+      "ExpectedPrice": 12.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

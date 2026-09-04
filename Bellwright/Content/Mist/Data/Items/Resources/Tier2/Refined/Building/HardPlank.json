@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "HardPlank_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "HardPlank_C'Default__HardPlank_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "HardPlank_C",
+    "Name": "Default__HardPlank_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "71D3D69A4C4E36C8B30EEA9CD986B5CF",
+        "SourceString": "Hardwood Plank",
+        "LocalizedString": "Hardwood Plank"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/WoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/wood.wood",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/HardPlank_CodexEntry.HardPlank_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HardPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'PitSaw_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/PitSaw.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/HardWood.HardWood_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 3,
+          "CraftingTime": 75.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'HardPlank_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedPitSaw_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedPitSaw.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/HardWood.HardWood_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 18,
+          "CraftingTime": 247.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 1,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Castle/WoodenObjects/SM_Plank_01.SM_Plank_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Castle/WoodenObjects/SM_Plank_01.SM_Plank_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "6C3773CB4177789AB5A0548D805C8C6C",
+        "SourceString": "Better quality wooden planks used in building. Refined at Pitsaw.",
+        "LocalizedString": "Better quality wooden planks used in building. Refined at Pitsaw."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "B2628C2846CB5AC069C9608BA77D7679",
+        "SourceString": "Can be refined at Workshop.",
+        "LocalizedString": "Can be refined at Workshop."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 3
+      },
+      "SoundAddedId": 2,
+      "ExpectedPrice": 16.0,
+      "CarryAnimTypeOverride": "LargeLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

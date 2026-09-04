@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SturdyChair_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Seatings/SturdyChair",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SturdyChair_C'Default__SturdyChair_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Seatings/SturdyChair.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SturdyChair_C",
+    "Name": "Default__SturdyChair_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Seatings/SturdyChair.SturdyChair_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Seatings/SturdyChair",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'SturdyChair_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/SturdyChair.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "62912E9A488E929827E7DFA68C9A879A",
+        "SourceString": "Sturdy Chair",
+        "LocalizedString": "Sturdy Chair"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/T_SturdyChair.T_SturdyChair",
+        "SubPathString": ""
+      },
+      "bRepairable": false,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SturdyChair_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Seatings/SturdyChair.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedDecorations_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/AdvancedDecorations.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/HardPlank.HardPlank_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Nails.Nails_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_DropMesh.SM_crate_small_DropMesh",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Furniture/Chairs/SM_Chair02.SM_Chair02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "019F095E476BE1814BCBA791AD1C06CD",
+        "SourceString": "A practical and solid seat, offering a place to unwind.",
+        "LocalizedString": "A practical and solid seat, offering a place to unwind."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

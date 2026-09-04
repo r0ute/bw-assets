@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CuredRope_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CuredRope_C'Default__CuredRope_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CuredRope_C",
+    "Name": "Default__CuredRope_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.CuredRope_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F274FD89450D84CB33F5178C159E0C31",
+        "SourceString": "Cured Rope",
+        "LocalizedString": "Cured Rope"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_CuredRope.T_CuredRope",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/CuredRope_CodexEntry.CuredRope_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'CuredRope_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CuredRope.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedWeaverLoom_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/AdvancedWeaverLoom.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Rope.Rope_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin.Resin_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_Rope_CuredRope.SM_Rope_CuredRope",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2.SM_sack2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_tangled.SM_rope_tangled",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Rope_CuredRope.SM_Rope_CuredRope",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "63BBA4E94599D6B6ABCE65BA4E0399D1",
+        "SourceString": "Rope hardened in resin to increase durability. Crafted by skilled artisans.",
+        "LocalizedString": "Rope hardened in resin to increase durability. Crafted by skilled artisans."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 28.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DaruShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Shrines/DaruShrine",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DaruShrine_C'Default__DaruShrine_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Shrines/DaruShrine.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DaruShrine_C",
+    "Name": "Default__DaruShrine_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Shrines/DaruShrine.DaruShrine_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Shrines/DaruShrine",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'DaruShrine_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/DaruShrine.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "19480C244FE88527CC3A698AC3BEBBD5",
+        "SourceString": "Daru the Elderbark Shrine",
+        "LocalizedString": "Daru the Elderbark Shrine"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/T_DaruShrine.T_DaruShrine",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_DaruShrine'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/T_DaruShrine.0"
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Buildings/Decorations/DaruShrine_CodexEntry.DaruShrine_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'DaruShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Shrines/DaruShrine.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'DaruShrine_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Decorations/DaruShrine.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_DropMesh.SM_crate_DropMesh",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Decorations/Culture/Shrine_Wooden_02.Shrine_Wooden_02",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "087D5F7746764B71143443807021C370",
+        "SourceString": "Daru is a colossal tree, offering guidance and prophecy to those who seek it, using ancient knowledge.",
+        "LocalizedString": "Daru is a colossal tree, offering guidance and prophecy to those who seek it, using ancient knowledge."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

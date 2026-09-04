@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Strap_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Strap_C'Default__Strap_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Strap_C",
+    "Name": "Default__Strap_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "21817C434311DC4DA3B01FAFC0D6CACC",
+        "SourceString": "Strap",
+        "LocalizedString": "Strap"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Straps_D.T_Straps_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Tongs_CodexEntry.Tongs_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Strap_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedRefines_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedRefines.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 85.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_FakeStrap2.SM_FakeStrap2",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_FakeStrap1.SM_FakeStrap1",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "D57D2D8F4ABD75163BD39EAB51E47AA9",
+        "SourceString": "These tools made of bronze ingot are essential for crafting and researching. Can be found as loot and produced by a Toolmaker.",
+        "LocalizedString": "These tools made of bronze ingot are essential for crafting and researching. Can be found as loot and produced by a Toolmaker."
+      },
+      "Volume": {
+        "X": 1,
+        "Y": 2
+      },
+      "SoundAddedId": 11,
+      "ExpectedPrice": 39.0,
+      "CarryAnimTypeOverride": "SmallObjects"
+    }
+  }
+]

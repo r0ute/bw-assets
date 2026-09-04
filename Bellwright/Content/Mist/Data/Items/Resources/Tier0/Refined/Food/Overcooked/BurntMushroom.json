@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BurntMushroom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BurntMushroom_C'Default__BurntMushroom_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BurntMushroom_C",
+    "Name": "Default__BurntMushroom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom.BurntMushroom_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 1.5,
+      "HealthBonus": 8,
+      "HealthRegen": 0.05,
+      "StaminaBonus": 7,
+      "StaminaRegen": 0.3,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "9527B13E4B5AC8B238BAF9B827C42CF2",
+        "SourceString": "Burnt Mushroom",
+        "LocalizedString": "Burnt Mushroom"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OvercookedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/OvercookedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceBurnedMushroom.T_IconResourceBurnedMushroom",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/BurntMushroom_CodexEntry.BurntMushroom_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BurntMushroom_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'GrilledFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/GrilledFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/RoastedMushroom.RoastedMushroom_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 500.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": true
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BurntMushroom_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntMushroom.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/SmokedFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedMushroom.SmokedMushroom_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 500.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": true
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Mushroom/SM_Mushroom_02_Burnt.SM_Mushroom_02_Burnt",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_cooked_food_bowl.SM_cooked_food_bowl",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Mushroom/SM_Mushroom_02_Burnt.SM_Mushroom_02_Burnt",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "0CBD349446342133893D0DAE4358FA42",
+        "SourceString": "Probably not the best idea to eat this. Made by keeping over a campfire for too long.",
+        "LocalizedString": "Probably not the best idea to eat this. Made by keeping over a campfire for too long."
+      },
+      "MaxDurability": 2000,
+      "bEnableSpoilage": true,
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 1.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

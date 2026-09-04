@@ -1,0 +1,566 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Softwood'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "SphereElems": [
+          {
+            "Center": {
+              "X": 2.6524875,
+              "Y": -1.0053477,
+              "Z": -3.9701447
+            },
+            "Radius": 75.624985,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attackable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "PlacementParent",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FloorTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "BD7574D84476E74A80506D98C626EDCF",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 28,
+        "SizeOnDisk": 28,
+        "OffsetInFile": "0x96"
+      }
+    }
+  },
+  {
+    "Type": "MistStructureDecoNavCollision",
+    "Name": "MistStructureDecoNavCollision_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistStructureDecoNavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Softwood'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.2"
+    },
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'MistNavArea_Decoration_150'",
+        "ObjectPath": "/Script/Mist"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7610,
+        "SizeOnDisk": 7610,
+        "OffsetInFile": "0x36"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'MistNavArea_Decoration_150'",
+      "ObjectPath": "/Script/Mist"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Softwood",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_STR_BarkBuildings'",
+            "ObjectPath": "/Game/Mist/Props/TownBuilding/VillagerHouses/Kitbash/Materials_Textures/MI_STR_BarkBuildings.0"
+          },
+          "MaterialSlotName": "MI_STR_BarkBuildings",
+          "ImportedMaterialSlotName": "MI_STR_BarkBuildings",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 55.093586,
+            "LocalUVDensities[1]": 0.95870185,
+            "LocalUVDensities[2]": 78.80227,
+            "LocalUVDensities[3]": 150.41386
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_STR_BarkBuildingsInside'",
+            "ObjectPath": "/Game/Mist/Props/TownBuilding/VillagerHouses/Kitbash/Materials_Textures/MI_STR_BarkBuildingsInside.0"
+          },
+          "MaterialSlotName": "MI_STR_BarkBuildingsInside",
+          "ImportedMaterialSlotName": "MI_STR_BarkBuildingsInside",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 17.068287,
+            "LocalUVDensities[1]": 2.807964,
+            "LocalUVDensities[2]": 13.203465,
+            "LocalUVDensities[3]": 10.885176
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 143.43465,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 3,
+      "bAllowCPUAccess": true,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket'SM_Softwood:StaticMeshSocket_0'",
+          "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.3"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 3.02631,
+          "Y": -2.0351136,
+          "Z": -1.4779663
+        },
+        "BoxExtent": {
+          "X": 75.51849,
+          "Y": 9.533045,
+          "Z": 5.419449
+        },
+        "SphereRadius": 76.2382609294005
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Softwood:BodySetup_3'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.0"
+    },
+    "NavCollision": {
+      "ObjectName": "MistStructureDecoNavCollision'SM_Softwood:MistStructureDecoNavCollision_0'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.1"
+    },
+    "LightingGuid": "EF428447-47776782-5AA0FFBD-B4E44D31",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 392,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 284,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 1176,
+              "NumTriangles": 50,
+              "MinVertexIndex": 285,
+              "MaxVertexIndex": 355,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 356
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 4,
+            "NumVertices": 356,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 356
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -73.49219,
+                "Y": -12.568158,
+                "Z": -7.897415
+              },
+              "Max": {
+                "X": 79.5448,
+                "Y": 8.4979315,
+                "Z": 4.9414825
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 3.0263062,
+                    "Y": -2.0351133,
+                    "Z": -1.4779663
+                  },
+                  "Extent": {
+                    "X": 75.0,
+                    "Y": 5.0,
+                    "Z": 15.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 3.0263062,
+                    "Y": -2.0351133,
+                    "Z": -1.4779663
+                  },
+                  "Extent": {
+                    "X": 75.0,
+                    "Y": 5.0,
+                    "Z": 15.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 3
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": -1.0
+                  },
+                  "Origin": {
+                    "X": 3.0263062,
+                    "Y": -2.0351133,
+                    "Z": -1.4779663
+                  },
+                  "Extent": {
+                    "X": 75.0,
+                    "Y": 10.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 4
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "Origin": {
+                    "X": 3.0263062,
+                    "Y": -2.0351133,
+                    "Z": -1.4779663
+                  },
+                  "Extent": {
+                    "X": 75.0,
+                    "Y": 10.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 203,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 153,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 609,
+              "NumTriangles": 17,
+              "MinVertexIndex": 154,
+              "MaxVertexIndex": 190,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 2.725844,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 191
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 4,
+            "NumVertices": 191,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 191
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 98,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 85,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 294,
+              "NumTriangles": 12,
+              "MinVertexIndex": 86,
+              "MaxVertexIndex": 115,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 7.1212,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 116
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 4,
+            "NumVertices": 116,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 116
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 57,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 56,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 171,
+              "NumTriangles": 7,
+              "MinVertexIndex": 57,
+              "MaxVertexIndex": 75,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 12.233069,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 76
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 4,
+            "NumVertices": 76,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 76
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x1460"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": [],
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "PageRangeLookup": [],
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 3.02631,
+          "Y": -2.0351136,
+          "Z": -1.4779663
+        },
+        "BoxExtent": {
+          "X": 75.51849,
+          "Y": 9.533045,
+          "Z": 5.419449
+        },
+        "SphereRadius": 76.23826
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        0.40108597,
+        0.17836478,
+        0.10837458,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Softwood'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Softwood.2"
+    },
+    "Properties": {
+      "SocketName": "Carry",
+      "RelativeLocation": {
+        "X": -0.096959636,
+        "Y": -4.9838943,
+        "Z": 0.7724003
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 5.6802745,
+        "Roll": 0.0
+      }
+    }
+  }
+]

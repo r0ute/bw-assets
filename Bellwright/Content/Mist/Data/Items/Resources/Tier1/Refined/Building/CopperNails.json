@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CopperNails_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CopperNails_C'Default__CopperNails_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CopperNails_C",
+    "Name": "Default__CopperNails_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.CopperNails_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "3D5734FB4DDC86382ED54DA5A59F22A9",
+        "SourceString": "Copper Nails",
+        "LocalizedString": "Copper Nails"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceNails.T_IconResourceNails",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Nails_CodexEntry.Nails_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'CopperNails_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicRefines_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicRefines.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Bloomery_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Bloomery.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/CopperIngot.CopperIngot_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 5,
+          "CraftingTime": 150.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_BoxOfNails.SM_BoxOfNails",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_BoxOfNails.SM_BoxOfNails",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_BoxOfNails.SM_BoxOfNails",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "FC1E89B04FBD329F76A536B73D999D0E",
+        "SourceString": "Can be crafted from copper. Used for building various structures.",
+        "LocalizedString": "Can be crafted from copper. Used for building various structures."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 4.0,
+      "CarryAnimTypeOverride": "BalancedObject"
+    }
+  }
+]

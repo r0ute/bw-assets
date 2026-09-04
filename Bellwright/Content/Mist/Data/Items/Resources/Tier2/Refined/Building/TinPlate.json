@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Tinplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Tinplate_C'Default__Tinplate_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Tinplate_C",
+    "Name": "Default__Tinplate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate.Tinplate_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "D738E1AF408275CA29E398887DEECCB4",
+        "SourceString": "Tinplate",
+        "LocalizedString": "Tinplate"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WeaponItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/WeaponItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceTinPlate.T_IconResourceTinPlate",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/TinPlate_CodexEntry.TinPlate_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Tinplate_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Tinplate.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Workshop_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Workshop.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/IronIngot.IronIngot_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/TinIngot.TinIngot_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 45.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Crate_01.SM_Decor_Container_Crate_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_MetalBar_01.SM_Decor_Misc_MetalBar_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E2B9972F4534AA3D0C65B7A9F019D902",
+        "SourceString": "Sheets of iron coated in tin to inhibit corrosion. Crafted at Workshop.",
+        "LocalizedString": "Sheets of iron coated in tin to inhibit corrosion. Crafted at Workshop."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "FDA075B44352EA97AAE693A28C7E50EF",
+        "SourceString": "Crafted by a blacksmith.",
+        "LocalizedString": "Crafted by a blacksmith."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 120.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

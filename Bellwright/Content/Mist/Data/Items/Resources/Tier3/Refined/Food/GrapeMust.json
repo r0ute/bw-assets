@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GrapeMust_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/GrapeMust",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GrapeMust_C'Default__GrapeMust_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/GrapeMust.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GrapeMust_C",
+    "Name": "Default__GrapeMust_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/GrapeMust.GrapeMust_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/GrapeMust",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "A876262B4AD60990A5006796AFAF7F07",
+        "SourceString": "Grape Must",
+        "LocalizedString": "Grape Must"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_GrapeMust.T_GrapeMust",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/GrapeMust_CodexEntry.GrapeMust_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'GrapeMust_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/GrapeMust.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Distillery_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Distillery.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape.Grape_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 340.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "258BD00144E41FE4303069B77A74D1FE",
+        "SourceString": "Used in production of wine.",
+        "LocalizedString": "Used in production of wine."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 60.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

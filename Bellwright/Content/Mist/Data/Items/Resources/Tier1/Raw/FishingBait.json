@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FishingBait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait",
+    "SuperStruct": {
+      "ObjectName": "Class'MistBaitItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FishingBait_C'Default__FishingBait_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FishingBait_C",
+    "Name": "Default__FishingBait_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait.FishingBait_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "9B283A7446E44CA714B4E3807AD4A46D",
+        "SourceString": "Fishing Bait",
+        "LocalizedString": "Fishing Bait"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/AdvancedFishingBait.AdvancedFishingBait",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/FishingBait_CodexEntry.FishingBait_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FishingBait_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Mushroom.Mushroom_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SmallPieceRawMeat.SmallPieceRawMeat_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FishingBait_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/Cheese.Cheese_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FishingBait_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Raw/FishingBait.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Food/Bread.Bread_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 20.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeMudBucket.SM_FakeMudBucket",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "01AB4DB04D93E5B72AAC6F8F3F1F23FC",
+        "SourceString": "Perfectly prepared fishing bait. A favorite meal for fish, perfect for fishing.",
+        "LocalizedString": "Perfectly prepared fishing bait. A favorite meal for fish, perfect for fishing."
+      },
+      "MaxDurability": 5,
+      "bForbidStacking": false,
+      "bShowNumericalDurability": true,
+      "SoundAddedId": 0,
+      "ExpectedPrice": 12.0,
+      "CarryAnimTypeOverride": "Bucket"
+    }
+  }
+]

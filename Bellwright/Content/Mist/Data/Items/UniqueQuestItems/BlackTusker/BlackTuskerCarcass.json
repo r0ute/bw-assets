@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "BlackTuskerCarcass_C",
+    "Name": "Default__BlackTuskerCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass.BlackTuskerCarcass_C'",
+    "Package": "/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass",
+    "Properties": {
+      "AnimalClass": {
+        "ObjectName": "BlueprintGeneratedClass'Boar_C'",
+        "ObjectPath": "/Game/Mist/Characters/Creatures/Boar/Boar.2"
+      },
+      "ButcheringTime": 70.0,
+      "OverrideRequiredSkill": "EMistNpcSkill::AnimalHandling",
+      "RequiredSkillLevel": 4,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Fur_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 2.0,
+            "LowerBoundMaxQuantity": 3.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 4.0,
+            "UpperBoundMaxQuantity": 5.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'LargePieceRawMeat_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/LargePieceRawMeat.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 5.0,
+            "LowerBoundMaxQuantity": 5.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 8.0,
+            "UpperBoundMaxQuantity": 8.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BoarTusk_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/BoarTusk.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 1.0,
+            "LowerBoundMaxQuantity": 1.0,
+            "LowerBoundProbabilityPeak": 0.3,
+            "UpperBoundMinQuantity": 2.0,
+            "UpperBoundMaxQuantity": 2.0,
+            "UpperBoundProbabilityPeak": 0.6,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "BC6DF0B24CC794615FD8E1867354E8B8",
+        "SourceString": "Black Tusker Carcass",
+        "LocalizedString": "Black Tusker Carcass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Uncommon_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Uncommon.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconAnimalsBoarCarcass2.T_IconAnimalsBoarCarcass2",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/Lore/Quests/SideQuests/BlackTuskerQuestCodexEntry.BlackTuskerQuestCodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BlackTuskerCarcass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'ButcheryRack_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/ButcheryRack.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass.BlackTuskerCarcass_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::AnimalHandling",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/AnimalCarcasses/SM_BlackTusker_Carcass_Drop.SM_BlackTusker_Carcass_Drop",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Animalia/Realistic_Boar/Meshes/Boar_Carry_Pose.Boar_Carry_Pose",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Animalia/Realistic_Boar/Meshes/WildBoar_Rack_Hang_2_Ropes.WildBoar_Rack_Hang_2_Ropes",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "429671144D4463666B52A8AAF4F7A5CE",
+        "SourceString": "The carcass of a Black Tusker, covered in blood and mud. Its thick hide is scarred, and its massive tusks remain sharp even in death.",
+        "LocalizedString": "The carcass of a Black Tusker, covered in blood and mud. Its thick hide is scarred, and its massive tusks remain sharp even in death."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "MaxDurability": 4500,
+      "MinWeight": 20.0,
+      "MaxWeight": 45.0,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 7.0,
+      "CarryAnimTypeOverride": "Disable",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BlackTuskerCarcass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistCarcassItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BlackTuskerCarcass_C'Default__BlackTuskerCarcass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/BlackTusker/BlackTuskerCarcass.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

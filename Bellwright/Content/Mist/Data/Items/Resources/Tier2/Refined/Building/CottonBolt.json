@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CottonBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CottonBolt_C'Default__CottonBolt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CottonBolt_C",
+    "Name": "Default__CottonBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.CottonBolt_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "09A808094E80D5BFE480508823105BB4",
+        "SourceString": "Cotton Bolt",
+        "LocalizedString": "Cotton Bolt"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_CottonBolt_D.T_CottonBolt_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/CottonBolt_CodexEntry.CottonBolt_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'CottonBolt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/CottonBolt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedWeaverLoom_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/AdvancedWeaverLoom.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Refined/Building/Cotton.Cotton_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 45.0,
+          "SkillRequiredValue": 8,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Furniture/ClothRollTied/SM_ClothRollTied.SM_ClothRollTied",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Furniture/ClothRollTied/SM_ClothRollTied.SM_ClothRollTied",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "0B446AF342C263A98BF4A0AF474C7200",
+        "SourceString": "Cotton fabric used to make armor, clothing, and other soft but durable fibers. Crafted by skilled artisans.",
+        "LocalizedString": "Cotton fabric used to make armor, clothing, and other soft but durable fibers. Crafted by skilled artisans."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 24.0,
+      "CarryAnimTypeOverride": "SmallLongObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

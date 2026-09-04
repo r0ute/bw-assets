@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Grains_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Grains_C'Default__Grains_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Grains_C",
+    "Name": "Default__Grains_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains.Grains_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "EB87BF3741B877E5671725BBDA16495D",
+        "SourceString": "Grains",
+        "LocalizedString": "Grains"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Seeds_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Seeds.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceGrains_D.T_IconResourceGrains_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Grains_CodexEntry.Grains_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Grains_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Thresher_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Thresher.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Raw/Wheat.Wheat_C'",
+              "Value": 10
+            }
+          ],
+          "Quantity": 30,
+          "CraftingTime": 15.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_Small_Open_Sack.SM_Small_Open_Sack",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Crops/Grain/SM_Grain_02.SM_Grain_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Small_Open_Sack.SM_Small_Open_Sack",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Environment/Foliage/Crops/Grain/SM_Grain_02.SM_Grain_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_SackOpen_01_Grain.SM_Decor_Container_SackOpen_01_Grain",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "FB42D1EC45ACA15BB25689A5692A03D9",
+        "SourceString": "The lifeblood of medieval sustenance, these crops serve as the foundation for bread, porridge, and other hearty meals. Use wisely, grain doesn't come easily these days. Processed from wheat.",
+        "LocalizedString": "The lifeblood of medieval sustenance, these crops serve as the foundation for bread, porridge, and other hearty meals. Use wisely, grain doesn't come easily these days. Processed from wheat."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Reed'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 9.847656,
+              "Y": 5.136963,
+              "Z": 80.23428
+            },
+            "Rotation": {
+              "Pitch": -4.893037,
+              "Yaw": -1.4368311E-09,
+              "Roll": 2.1643462
+            },
+            "X": 5.288442,
+            "Y": 4.2423315,
+            "Z": 186.49011,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attackable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "PlacementParent",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FloorTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "BA16C95342D0CE606DCCC5A5800D897B",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 28,
+        "SizeOnDisk": 28,
+        "OffsetInFile": "0xB7"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Reed'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 410,
+        "SizeOnDisk": 410,
+        "OffsetInFile": "0x32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Reed",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MTL_MWL_ReedsNoWind'",
+            "ObjectPath": "/Game/Mist/Props/Nature/MWMeadowWetlands/Materials/Plants/MTL_MWL_ReedsNoWind.0"
+          },
+          "MaterialSlotName": "MTL_MWL_Plants",
+          "ImportedMaterialSlotName": "MTL_MWL_Plants",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 112.89382,
+            "LocalUVDensities[1]": 222.92067,
+            "LocalUVDensities[2]": 41.542053,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 41.542053,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 2,
+      "bAllowCPUAccess": true,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket'SM_Reed:StaticMeshSocket_0'",
+          "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.3"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 9.896418,
+          "Y": 5.154096,
+          "Z": 80.229385
+        },
+        "BoxExtent": {
+          "X": 8.273371,
+          "Y": 4.442182,
+          "Z": 93.249954
+        },
+        "SphereRadius": 93.65656232833862
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Reed:BodySetup_0'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Reed:NavCollision_0'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.1"
+    },
+    "LightingGuid": "9A770987-443CABF6-DEEFA9AB-DA11581F",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 456,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 301,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 302
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 3,
+            "NumVertices": 302,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 302
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": 0.6230469,
+                "Y": -0.28808594,
+                "Z": -14.020569
+              },
+              "Max": {
+                "X": 19.169788,
+                "Y": 10.596278,
+                "Z": 174.47934
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": true,
+            "CardBuildData": []
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 228,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 169,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.76650304,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 170
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 3,
+            "NumVertices": 170,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 170
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 113,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 92,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 2.9085104,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 93
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 3,
+            "NumVertices": 93,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 93
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 63,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 58,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 7.0063868,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 59
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 3,
+            "NumVertices": 59,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 59
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0xFE5"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": [],
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "PageRangeLookup": [],
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 9.896418,
+          "Y": 5.154096,
+          "Z": 80.229385
+        },
+        "BoxExtent": {
+          "X": 8.273371,
+          "Y": 4.442182,
+          "Z": 93.249954
+        },
+        "SphereRadius": 93.65656
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        0.99557346,
+        0.44653356,
+        0.21728714,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Reed'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Reed.2"
+    },
+    "Properties": {
+      "SocketName": "Carry",
+      "RelativeLocation": {
+        "X": 11.070575,
+        "Y": 7.2698054,
+        "Z": 115.259544
+      },
+      "RelativeRotation": {
+        "Pitch": 86.51888,
+        "Yaw": 1.5487701E-06,
+        "Roll": 90.0
+      }
+    }
+  }
+]

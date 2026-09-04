@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FairDealGuillermo_LootTemplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Loot/Quest/FairDealGuillermo_LootTemplate",
+    "SuperStruct": {
+      "ObjectName": "Class'MistLootTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FairDealGuillermo_LootTemplate_C'Default__FairDealGuillermo_LootTemplate_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Loot/Quest/FairDealGuillermo_LootTemplate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FairDealGuillermo_LootTemplate_C",
+    "Name": "Default__FairDealGuillermo_LootTemplate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Loot/Quest/FairDealGuillermo_LootTemplate.FairDealGuillermo_LootTemplate_C'",
+    "Package": "/Game/Mist/Data/Items/Loot/Quest/FairDealGuillermo_LootTemplate",
+    "Properties": {
+      "Loot": {
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 500.0,
+            "MaxQuantityMultiplier": 500.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true,
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'FairDeal_Trinket_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/UniqueQuestItems/FairDeal/FairDeal_Trinket.0"
+            },
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ]
+      }
+    }
+  }
+]

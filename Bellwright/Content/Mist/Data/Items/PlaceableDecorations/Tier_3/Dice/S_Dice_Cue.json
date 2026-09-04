@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "S_Dice_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Dice/S_Dice_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'S_Dice_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Dice/S_Dice_Cue.1"
+      },
+      "VolumeMultiplier": 0.5,
+      "bPrimeOnLoad": true,
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 4,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest",
+        "RetriggerTime": 0.05,
+        "VolumeScale": 0.5
+      },
+      "Duration": 0.33464852,
+      "MaxDistance": 6700.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'S_RandomSmallItems_Atten'",
+        "ObjectPath": "/Game/Mist/Audio/Attenuations/S_RandomSmallItems_Atten.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'S_Dice_Cue'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Dice/S_Dice_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Dice/S_Dice.S_Dice",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'S_Dice'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_3/Dice/S_Dice.0"
+    }
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BurntFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BurntFish_C'Default__BurntFish_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BurntFish_C",
+    "Name": "Default__BurntFish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish.BurntFish_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 2.0,
+      "HealthBonus": 12,
+      "HealthRegen": 0.05,
+      "StaminaBonus": 12,
+      "StaminaRegen": 0.6,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "F838AC774363E12541C381A2A8544C15",
+        "SourceString": "Burnt Fish",
+        "LocalizedString": "Burnt Fish"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'OvercookedFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/OvercookedFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/Crafting/FoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Food/T_IconResourceSalmonBurned.T_IconResourceSalmonBurned",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/BurntFish_CodexEntry.BurntFish_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BurntFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'GrilledFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/GrilledFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/GrilledFish.GrilledFish_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 600.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": true
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BurntFish_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/Overcooked/BurntFish.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmokedFood_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Cooking/SmokedFood.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Food/SmokedFish.SmokedFish_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 600.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": true,
+          "bIgnoreSkillBonus": true
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Burnt.SM_Salmon_Burnt",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Personal/PlayerShack/Campfire/Food/Food/Salmon/SM_Salmon_Burnt.SM_Salmon_Burnt",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "A70C13FA4696A3D45AE8B88BFA7FE6CF",
+        "SourceString": "Akin to a piece of charcoal. Made by keeping over a campfire for too long.",
+        "LocalizedString": "Akin to a piece of charcoal. Made by keeping over a campfire for too long."
+      },
+      "MaxDurability": 2000,
+      "bEnableSpoilage": true,
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 1.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resin_C'Default__Resin_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Resin_C",
+    "Name": "Default__Resin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin.Resin_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F71912C04A79C2EDE920DD882881C2D0",
+        "SourceString": "Resin",
+        "LocalizedString": "Resin"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceResin_D.T_IconResourceResin_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Resin_CodexEntry.Resin_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Resin_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier2/Raw/Resin.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CoalBurner_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/CoalBurner.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/HardWood.HardWood_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 3,
+          "CraftingTime": 95.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_FakeWax.SM_FakeWax",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FakeWax.SM_FakeWax",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E909BFA44C2A0DA8FFA7759E41AEC520",
+        "SourceString": "A sticky and aromatic substance secreted by trees, resin serves as a valuable material for crafting. Can be processed from hard wood at Coal Burner.",
+        "LocalizedString": "A sticky and aromatic substance secreted by trees, resin serves as a valuable material for crafting. Can be processed from hard wood at Coal Burner."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 10.0,
+      "CarryAnimTypeOverride": "SmallObjects"
+    }
+  }
+]

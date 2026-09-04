@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Flax_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Flax_C'Default__Flax_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Flax_C",
+    "Name": "Default__Flax_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "AEA7C8D54E28C472D9638FBAB271CBCD",
+        "SourceString": "Flax",
+        "LocalizedString": "Flax"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoliageItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/FoliageItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceFlax_D.T_IconResourceFlax_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Herbs/Flax_CodexEntry.Flax_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Flax_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'SmallFarm_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/SmallFarm.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/PlantSeeds/FlaxSeeds.FlaxSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 6,
+          "CraftingTime": 4000.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_Flax_Drop_Cart.SM_Flax_Drop_Cart",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FlaxHarvested.SM_FlaxHarvested",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Sack_03.SM_Decor_Container_Sack_03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_FlaxHarvested.SM_FlaxHarvested",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/Meadow_Environment_Set/Environment/Foliage/Meshes/SM_flower_common_chicory_02.SM_flower_common_chicory_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_Flax_Drop_Cart.SM_Flax_Drop_Cart",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "E501701744964802ED59F1A54428B5ED",
+        "SourceString": "A flowering plant that has fibers that can be used for many things. Native to the Lowlands. Grows mostly in fields. Can be planted on a farm.",
+        "LocalizedString": "A flowering plant that has fibers that can be used for many things. Native to the Lowlands. Grows mostly in fields. Can be planted on a farm."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 1.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

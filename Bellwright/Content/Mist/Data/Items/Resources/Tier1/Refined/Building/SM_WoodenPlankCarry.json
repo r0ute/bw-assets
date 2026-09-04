@@ -1,0 +1,476 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_WoodenPlankCarry'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": -0.8027344,
+              "Y": -0.08203125,
+              "Z": 0.17115784
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 96.0,
+            "Y": 8.2890625,
+            "Z": 2.7726746,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "EngineTraceChannel1",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attackable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "PlacementParent",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FloorTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "4D87BF10472159AFB8DB27AC328019C6",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 28,
+        "SizeOnDisk": 28,
+        "OffsetInFile": "0x9F"
+      }
+    }
+  },
+  {
+    "Type": "MistStructureDecoNavCollision",
+    "Name": "MistStructureDecoNavCollision_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MistStructureDecoNavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_WoodenPlankCarry'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.2"
+    },
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'MistNavArea_Decoration_050'",
+        "ObjectPath": "/Script/Mist"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 410,
+        "SizeOnDisk": 410,
+        "OffsetInFile": "0x36"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'MistNavArea_Decoration_050'",
+      "ObjectPath": "/Script/Mist"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_WoodenPlankCarry",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WoodenPlank'",
+            "ObjectPath": "/Game/MedievalGameEnvironment/Megascans/3D_Assets/WoodenPlank/MI_WoodenPlank.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 49.030224,
+            "LocalUVDensities[1]": 53.072124,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 53.072124,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "bAllowCPUAccess": true,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket'SM_WoodenPlankCarry:StaticMeshSocket_0'",
+          "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.3"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.78722477,
+          "Y": -0.055605292,
+          "Z": 0.15224934
+        },
+        "BoxExtent": {
+          "X": 48.01551,
+          "Y": 4.170957,
+          "Z": 1.4052458
+        },
+        "SphereRadius": 48.13847537492813
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_WoodenPlankCarry:BodySetup_0'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.0"
+    },
+    "NavCollision": {
+      "ObjectName": "MistStructureDecoNavCollision'SM_WoodenPlankCarry:MistStructureDecoNavCollision_0'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.1"
+    },
+    "LightingGuid": "D048A88F-458A3EEC-1582DDBE-21834211",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 6572,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3821,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 3822
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 3822,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -49.802734,
+                "Y": -5.2265625,
+                "Z": -2.2529964
+              },
+              "Max": {
+                "X": 48.228287,
+                "Y": 5.1153517,
+                "Z": 2.557495
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": -0.7872238,
+                    "Y": -0.05560541,
+                    "Z": 0.15224934
+                  },
+                  "Extent": {
+                    "X": 49.01551,
+                    "Y": 2.4052458,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 3
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": -1.0
+                  },
+                  "Origin": {
+                    "X": -0.7872238,
+                    "Y": -0.05560541,
+                    "Z": 0.15224934
+                  },
+                  "Extent": {
+                    "X": 49.01551,
+                    "Y": 5.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 4
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "Origin": {
+                    "X": -0.7872238,
+                    "Y": -0.05560541,
+                    "Z": 0.15224934
+                  },
+                  "Extent": {
+                    "X": 49.01551,
+                    "Y": 5.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3286,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 2032,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.24813166,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 2033
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 2033,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1643,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1090,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.555539,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1091
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1091,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 822,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 599,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 1.0334094,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 600
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 600,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x6CC1"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": [],
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "PageRangeLookup": [],
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": -0.78722477,
+          "Y": -0.055605292,
+          "Z": 0.15224934
+        },
+        "BoxExtent": {
+          "X": 48.01551,
+          "Y": 4.170957,
+          "Z": 1.4052458
+        },
+        "SphereRadius": 48.138474
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        1.1892796,
+        0.8433953,
+        0.5808073,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_WoodenPlankCarry'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_WoodenPlankCarry.2"
+    },
+    "Properties": {
+      "SocketName": "Carry",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -4.2120237,
+        "Z": 1.0847199E-08
+      }
+    }
+  }
+]

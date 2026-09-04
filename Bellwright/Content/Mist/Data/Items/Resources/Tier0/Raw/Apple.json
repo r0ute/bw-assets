@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "Apple_C",
+    "Name": "Default__Apple_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Apple.Apple_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Apple",
+    "Properties": {
+      "ActiveFoodStatusEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'20ExpGainStatusEffect_C'",
+          "ObjectPath": "/Game/Mist/Data/Npcs/StatusEffects/Food/20ExpGainStatusEffect.1"
+        }
+      ],
+      "bIsCooked": false,
+      "NutritionDurationHours": 3.0,
+      "HealthBonus": 10,
+      "HealthRegen": 0.1,
+      "StaminaBonus": 25,
+      "StaminaRegen": 4.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "CFFD96C64C1FAF21519DB399A1135B5D",
+        "SourceString": "Apple",
+        "LocalizedString": "Apple"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'RawFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/RawFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceFruit_D.T_IconResourceFruit_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Food/Apple_CodexEntry.Apple_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Apple_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Apple.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Orchard_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/Orchard.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/FarmSeeds/AppleSeeds.AppleSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 10,
+          "CraftingTime": 5200.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/NoneGameFunc/IconsMeshes/Resources/Fruit/Source/apple_Sphere001.apple_Sphere001",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/NoneGameFunc/IconsMeshes/Resources/Fruit/Source/apple_Sphere001.apple_Sphere001",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "F6EAF4CE46BFDAA96410ABBF9AEA1182",
+        "SourceString": "Red and shiny. Can be bought or found.",
+        "LocalizedString": "Red and shiny. Can be bought or found."
+      },
+      "MaxDurability": 2500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "ExpectedPrice": 4.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Apple_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Apple",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Apple_C'Default__Apple_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/Apple.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

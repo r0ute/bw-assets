@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Thatch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Thatch_C'Default__Thatch_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Thatch_C",
+    "Name": "Default__Thatch_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch.Thatch_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "1110A8614633605594E2F8B307DA3A9D",
+        "SourceString": "Thatch",
+        "LocalizedString": "Thatch"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'FoliageItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/FoliageItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceThatch_D.T_IconResourceThatch_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Thatch_CodexEntry.Thatch_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Thatch_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Thatch.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverLoom_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/WeaverLoom.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.Straw_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 35.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_straw.SM_straw",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/TownBuilding/Warehouse/Temp/SM_Grain_Sack_01.SM_Grain_Sack_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_FakeThatch.SM_FakeThatch",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "4E3852EF45A8EB8329CB6FB4A4D48167",
+        "SourceString": "Mainly used as a material when building roofs. Refined by a Weaver.",
+        "LocalizedString": "Mainly used as a material when building roofs. Refined by a Weaver."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 22.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

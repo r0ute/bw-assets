@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "ArrowRackItem_C",
+    "Name": "Default__ArrowRackItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/ArrowRackItem.ArrowRackItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/ArrowRackItem",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'ArrowRack_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/TownBuilding/ArrowRack.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "992EFFE941F762BF648386B865A886C6",
+        "SourceString": "Ammunition Basket",
+        "LocalizedString": "Ammunition Basket"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/T_ArrowRack.T_ArrowRack",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ArrowRackItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/ArrowRackItem.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'ArrowRack_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/ArrowRack.1"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Straw.Straw_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RiverReed.RiverReed_C'",
+              "Value": 8
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 90.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Basket_Arrows_01.SM_Basket_Arrows_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "A1200B8A43D9F0D379035DA745AD4501",
+        "SourceString": "Deployable storage for arrows and bolts, where your Guards and Companions can fill their quivers.",
+        "LocalizedString": "Deployable storage for arrows and bolts, where your Guards and Companions can fill their quivers."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "HugeObjects"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ArrowRackItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/ArrowRackItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ArrowRackItem_C'Default__ArrowRackItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/ArrowRackItem.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

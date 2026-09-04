@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Linen_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Linen_C'Default__Linen_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Linen_C",
+    "Name": "Default__Linen_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "102F68B2492C0395A3448BBB861B87CF",
+        "SourceString": "Linen",
+        "LocalizedString": "Linen"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_FiberCloth_D.T_FiberCloth_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Linen_CodexEntry.Linen_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Linen_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'WeaverLoom_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/WeaverLoom.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/RiverReed.RiverReed_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 26.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Furniture/ClothRollTied/SM_ClothRollTied.SM_ClothRollTied",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Furniture/ClothRollTied/SM_ClothRollTied.SM_ClothRollTied",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Furniture/ClothRollTied/SM_ClothRollTied.SM_ClothRollTied",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "B5EDACD3409C05BE6BF02BA6EA9DD6B0",
+        "SourceString": "Mainly used for crafting clothing and armor. Refined by a Weaver.",
+        "LocalizedString": "Mainly used for crafting clothing and armor. Refined by a Weaver."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 17.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

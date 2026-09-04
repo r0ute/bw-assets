@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "Beer_C",
+    "Name": "Default__Beer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Alcohol/Beer.Beer_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Alcohol/Beer",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "C0DF69F74EB2124396B4E4898D194968",
+        "SourceString": "Ale",
+        "LocalizedString": "Ale"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconBottle1.T_IconBottle1",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_IconBottle1'",
+        "ObjectPath": "/Game/Mist/UI/Icons/Resources/T_IconBottle1.0"
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Beer_CodexEntry.Beer_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Beer_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Alcohol/Beer.1"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Distillery_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Distillery.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt.Malt_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Hops.Hops_C'",
+              "Value": 6
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 4
+            }
+          ],
+          "Quantity": 12,
+          "CraftingTime": 2100.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Dishes_Bottle_04.SM_Decor_Dishes_Bottle_04",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Crate_01.SM_Decor_Container_Crate_01",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Dishes_Bottle_04.SM_Decor_Dishes_Bottle_04",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "FA33C9DA4C15F07A370A4B99E356856A",
+        "SourceString": "Alcoholic beverage",
+        "LocalizedString": "Alcoholic beverage"
+      },
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 15.0,
+      "CarryAnimTypeOverride": "SmallObjects"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Beer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Alcohol/Beer",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Beer_C'Default__Beer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Alcohol/Beer.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  }
+]

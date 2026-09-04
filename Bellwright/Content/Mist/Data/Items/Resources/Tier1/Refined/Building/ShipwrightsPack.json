@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ShipwrightsPack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/ShipwrightsPack",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ShipwrightsPack_C'Default__ShipwrightsPack_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/ShipwrightsPack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ShipwrightsPack_C",
+    "Name": "Default__ShipwrightsPack_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/ShipwrightsPack.ShipwrightsPack_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/ShipwrightsPack",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "83CAC25E4240FB9A8CD95AA4D57045E8",
+        "SourceString": "Shipwright's Pack",
+        "LocalizedString": "Shipwright's Pack"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'WoodItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/WoodItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceTools.T_IconResourceTools",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/ShipwrightsPack_CodexEntry.ShipwrightsPack_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'ShipwrightsPack_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/ShipwrightsPack.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'AdvancedRefines_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/AdvancedRefines.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RiverDock_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/RiverDock.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/WoodenPlank.WoodenPlank_C'",
+              "Value": 5
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/CopperNails.CopperNails_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Linen.Linen_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 120.0,
+          "SkillRequiredValue": 5,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::Stationary",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "400A42544C8E7A8409208EA1585EA9CC",
+        "SourceString": "Used for repairing the ship after sailing.",
+        "LocalizedString": "Used for repairing the ship after sailing."
+      },
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 75.0,
+      "CarryAnimTypeOverride": "HugeObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StandingTorchItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/StandingTorchItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StandingTorchItem_C'Default__StandingTorchItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/StandingTorchItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StandingTorchItem_C",
+    "Name": "Default__StandingTorchItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/StandingTorchItem.StandingTorchItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/StandingTorchItem",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'StandingTorch_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Torches/StandingTorch.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "D47226F74A64134ED30477BF2EC39580",
+        "SourceString": "Standing Torch",
+        "LocalizedString": "Standing Torch"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/T_StandingTorch.T_StandingTorch",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'StandingTorchItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/StandingTorchItem.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'StandingTorch_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/StandingTorch.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Flax.Flax_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 55.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Nature/ModularLostRuinKit/Models/Props/SM_Torch.SM_Torch",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/ModularLostRuinKit/Models/Props/SM_Torch.SM_Torch",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/ModularLostRuinKit/Models/Props/SM_Torch.SM_Torch",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "847253B940A6FE0F36C51DBCF7A23507",
+        "SourceString": "Simple standing torch that illuminates everything in the area.",
+        "LocalizedString": "Simple standing torch that illuminates everything in the area."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

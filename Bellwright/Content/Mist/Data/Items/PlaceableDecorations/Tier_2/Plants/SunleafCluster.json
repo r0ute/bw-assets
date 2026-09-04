@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SunleafCluster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Plants/SunleafCluster",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SunleafCluster_C'Default__SunleafCluster_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Plants/SunleafCluster.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SunleafCluster_C",
+    "Name": "Default__SunleafCluster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Plants/SunleafCluster.SunleafCluster_C'",
+    "Package": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Plants/SunleafCluster",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'SunleafCluster_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Decorations/SunleafCluster.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "9A4FB2424D498EA9E874DDA487AE76AF",
+        "SourceString": "Sunleaf Cluster",
+        "LocalizedString": "Sunleaf Cluster"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 1,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/SunleafClusterDecoration.SunleafClusterDecoration",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'SunleafClusterDecoration'",
+        "ObjectPath": "/Game/Mist/UI/Icons_new/Decorations/PlaceableDecorations/SunleafClusterDecoration.0"
+      },
+      "bRepairable": false,
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Buildings/SunflowerPatch_CodexEntry.SunflowerPatch_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'SunleafCluster_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/PlaceableDecorations/Tier_2/Plants/SunleafCluster.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'FlowersGarden_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/FlowersGarden.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Garden_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Garden.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/FarmSeeds/SunleafSeeds.SunleafSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 2400.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": true
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Sack_03.SM_Decor_Container_Sack_03",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::CraftingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/Meadow_Environment_Set/Environment/Foliage/Meshes/SM_flower_common_Saint_John_s_wort_01_cross.SM_flower_common_Saint_John_s_wort_01_cross",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::FarmingSpot",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/Meadow_Environment_Set/Environment/Foliage/Meshes/SM_flower_common_Saint_John_s_wort_01_cross.SM_flower_common_Saint_John_s_wort_01_cross",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "3B3D58244EE63040AB01AD89FC905843",
+        "SourceString": "Perfect for adding a touch of nature to your village paths and corners.",
+        "LocalizedString": "Perfect for adding a touch of nature to your village paths and corners."
+      },
+      "SoundAddedId": 1,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

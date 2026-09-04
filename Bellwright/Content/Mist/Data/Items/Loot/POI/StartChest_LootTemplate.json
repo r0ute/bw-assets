@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StartChest_LootTemplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Loot/POI/StartChest_LootTemplate",
+    "SuperStruct": {
+      "ObjectName": "Class'MistLootTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StartChest_LootTemplate_C'Default__StartChest_LootTemplate_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Loot/POI/StartChest_LootTemplate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StartChest_LootTemplate_C",
+    "Name": "Default__StartChest_LootTemplate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Loot/POI/StartChest_LootTemplate.StartChest_LootTemplate_C'",
+    "Package": "/Game/Mist/Data/Items/Loot/POI/StartChest_LootTemplate",
+    "Properties": {
+      "Loot": {
+        "bUseTables": true,
+        "Tables": [
+          {
+            "Table": {
+              "ObjectName": "DataTable'Coins'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/Coins.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 1,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 15.0,
+            "MaxQuantityMultiplier": 30.0
+          },
+          {
+            "Table": {
+              "ObjectName": "DataTable'BasicFood'",
+              "ObjectPath": "/Game/Mist/Data/Items/Loot/ItemLootTables/BasicFood.0"
+            },
+            "MinIterations": 1,
+            "MaxIterations": 2,
+            "RunChance": 1.0,
+            "PerIterationRunChance": 1.0,
+            "MinQuantityMultiplier": 1.0,
+            "MaxQuantityMultiplier": 1.0
+          }
+        ],
+        "bEnsureAtLeastOneTableRunning": true
+      }
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StoneBlock_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/StoneBlock",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StoneBlock_C'Default__StoneBlock_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/StoneBlock.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StoneBlock_C",
+    "Name": "Default__StoneBlock_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/StoneBlock.StoneBlock_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/StoneBlock",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "245E8A4741257D5C8F39B58653582790",
+        "SourceString": "Stone Block",
+        "LocalizedString": "Stone Block"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceStoneBlock.T_IconResourceStoneBlock",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'StoneBlock_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/StoneBlock.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'StonemasonsHut_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/StonemasonsHut.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/CrudeStone.CrudeStone_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 35,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Parts/TradingStationProps/meshes/bricks_a.bricks_a",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Parts/TradingStationProps/meshes/bricks_a.bricks_a",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Volume": {
+        "X": 3,
+        "Y": 3
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 125.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

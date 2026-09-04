@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Malt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Malt_C'Default__Malt_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Malt_C",
+    "Name": "Default__Malt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt.Malt_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "33FDFACF403EA62A6C02B3ABC6D2EF8E",
+        "SourceString": "Malt",
+        "LocalizedString": "Malt"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Malt.T_Malt",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Malt_CodexEntry.Malt_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Malt_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Food/Malt.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'MixingBucket_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/MixingBucket.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Distillery_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Distillery.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Grains.Grains_C'",
+              "Value": 8
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Water.Water_C'",
+              "Value": 6
+            }
+          ],
+          "Quantity": 4,
+          "CraftingTime": 600.0,
+          "SkillRequiredValue": 4,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_Small_Open_Sack.SM_Small_Open_Sack",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_SackOpen_01_Grain.SM_Decor_Container_SackOpen_01_Grain",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "84679F0140B7FE8CCF361597426AE2DA",
+        "SourceString": "Used in production of various alcoholic beverages.",
+        "LocalizedString": "Used in production of various alcoholic beverages."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 25.0,
+      "CarryAnimTypeOverride": "BalancedObject",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

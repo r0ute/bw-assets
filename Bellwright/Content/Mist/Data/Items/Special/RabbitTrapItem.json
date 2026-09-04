@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "RabbitTrapItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/RabbitTrapItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "RabbitTrapItem_C'Default__RabbitTrapItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/RabbitTrapItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "RabbitTrapItem_C",
+    "Name": "Default__RabbitTrapItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/RabbitTrapItem.RabbitTrapItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/RabbitTrapItem",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'RabbitTrap_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/Traps/RabbitTrap.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "BA0A0E784735EA1D6E272BAA8CD77237",
+        "SourceString": "Small trap",
+        "LocalizedString": "Small trap"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Equipment_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Equipment.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/T_RabbitTrap.T_RabbitTrap",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/General/Gear/RabbitTrap_CodexEntry.RabbitTrap_CodexEntry",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'RabbitTrapItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/RabbitTrapItem.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'BasicGear_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/BasicGear.1"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'RabbitTrap_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/Gear/Other/RabbitTrap.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 5
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 30.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tools/SM_Rabbit_Trap_02.SM_Rabbit_Trap_02",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tools/SM_Rabbit_Trap_02.SM_Rabbit_Trap_02",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/to_replace/SM_ToolBox.SM_ToolBox",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "AE5BAAD74B3E0599B2FAEF890B9EADA2",
+        "SourceString": "This basic trap requires bait and actual rabbits nearby to secure a quick meal, so placing it in dense forest is most effective.",
+        "LocalizedString": "This basic trap requires bait and actual rabbits nearby to secure a quick meal, so placing it in dense forest is most effective."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 8.0,
+      "CarryAnimTypeOverride": "HugeObjects"
+    }
+  }
+]

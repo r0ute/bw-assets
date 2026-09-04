@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StagTrophyItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/StagTrophyItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StagTrophyItem_C'Default__StagTrophyItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/StagTrophyItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "StagTrophyItem_C",
+    "Name": "Default__StagTrophyItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/StagTrophyItem.StagTrophyItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/StagTrophyItem",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'StagTrophy_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/TownBuilding/StagTrophy.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "3D9A75A24A7E6238859BEA9B5E62E834",
+        "SourceString": "Stag Trophy",
+        "LocalizedString": "Stag Trophy"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/T_DeerTrophy.T_DeerTrophy",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'StagTrophyItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/StagTrophyItem.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Trophy_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Trophy.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/StagHorns.StagHorns_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Hide.Hide_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 4
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 75.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_TrophySupport_01.SM_Decor_Misc_TrophySupport_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_TrophySupport_01.SM_Decor_Misc_TrophySupport_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "66C575B5438BBF80B0281C80F13AFF38",
+        "SourceString": "Stag trophy provides renown for placing in your settlement.",
+        "LocalizedString": "Stag trophy provides renown for placing in your settlement."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "910DD12249DDA9470CE447BB250B7C1F",
+        "SourceString": "Can be crafted at Craftsman's Nook.",
+        "LocalizedString": "Can be crafted at Craftsman's Nook."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]

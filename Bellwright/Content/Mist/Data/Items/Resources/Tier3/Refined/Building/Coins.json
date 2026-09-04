@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Coins_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Coins_C'Default__Coins_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Coins_C",
+    "Name": "Default__Coins_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.Coins_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "9F1B6F1746A2F1DF5668AF840299F947",
+        "SourceString": "Coins",
+        "LocalizedString": "Coins"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Other_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Other/Other.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/T_Coins_D.T_Coins_D",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99999,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CoinMint_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/CoinMint.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/GoldBar.GoldBar_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 50,
+          "CraftingTime": 60.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "003318DB4680426C7CF38A93BF6DF9A7",
+        "SourceString": "Golden coins used as currency.",
+        "LocalizedString": "Golden coins used as currency."
+      },
+      "SoundAddedId": 10,
+      "SoundUsedId": 6,
+      "ExpectedPrice": 1.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

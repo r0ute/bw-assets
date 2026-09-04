@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Glass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Glass",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Glass_C'Default__Glass_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Glass.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Glass_C",
+    "Name": "Default__Glass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/Glass.Glass_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Glass",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "AAE8FE5C44C61C3B3F7933BA5CA3FAA0",
+        "SourceString": "Glass",
+        "LocalizedString": "Glass"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Glass_D.T_Glass_D",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Glass_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Glass.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Glassworks_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Glassworks.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Quartz.Quartz_C'",
+              "Value": 3
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 35.0,
+          "SkillRequiredValue": 30,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Description": {
+        "Namespace": "",
+        "Key": "5BC986754612A7BA94D4CEB5FD633423",
+        "SourceString": "Non-crystalline, often transparent amorphous solid.",
+        "LocalizedString": "Non-crystalline, often transparent amorphous solid."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "26C62B864BA0745942FC5E9A99379E7A",
+        "SourceString": "Could be made from quartz.",
+        "LocalizedString": "Could be made from quartz."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 215.0,
+      "CarryAnimTypeOverride": "Disable"
+    }
+  }
+]

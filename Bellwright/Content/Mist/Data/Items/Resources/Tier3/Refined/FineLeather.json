@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FineLeather_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/FineLeather",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FineLeather_C'Default__FineLeather_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/FineLeather.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FineLeather_C",
+    "Name": "Default__FineLeather_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Refined/FineLeather.FineLeather_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Refined/FineLeather",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "41EDFCA94A06B6ED8730FB828E88625F",
+        "SourceString": "Fine Leather",
+        "LocalizedString": "Fine Leather"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 3,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceFineLeather.T_IconResourceFineLeather",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'FineLeather_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/FineLeather.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'TannersHouse_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/TannersHouse.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Strap.Strap_C'",
+              "Value": 2
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/Leather.Leather_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 25.0,
+          "SkillRequiredValue": 0,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::None",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_LeatherCarry.SM_LeatherCarry",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier1/Refined/Building/SM_LeatherCarry.SM_LeatherCarry",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "D54D01D344EB163F782FAEA56861BEA6",
+        "SourceString": "Used in crafting of equipment and other useful things.",
+        "LocalizedString": "Used in crafting of equipment and other useful things."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "D14E38A24319454CDF81C1B944C2CE29",
+        "SourceString": "Produced from animal skins and pelts at skinneries.",
+        "LocalizedString": "Produced from animal skins and pelts at skinneries."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 180.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

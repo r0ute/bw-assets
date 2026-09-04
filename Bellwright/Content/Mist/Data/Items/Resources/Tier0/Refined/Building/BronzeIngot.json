@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BronzeIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BronzeIngot_C'Default__BronzeIngot_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BronzeIngot_C",
+    "Name": "Default__BronzeIngot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.BronzeIngot_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "9F189BD74BD5B7A15237D28142C3B22A",
+        "SourceString": "Bronze Ingot",
+        "LocalizedString": "Bronze Ingot"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_BronzeIngot.T_BronzeIngot",
+        "SubPathString": ""
+      },
+      "PreloadedIcon": {
+        "ObjectName": "Texture2D'T_BronzeIngot'",
+        "ObjectPath": "/Game/Mist/UI/Icons/Resources/T_BronzeIngot.0"
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/BronzeIngot_CodexEntry.BronzeIngot_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BronzeIngot_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/BronzeIngot.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Bloomery_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/Bloomery.1"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/CopperOre.CopperOre_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/TinOre.TinOre_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 50.0,
+          "SkillRequiredValue": 2,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 0,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Items/SM_BronzeIngot.SM_BronzeIngot",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_BronzeIngot.SM_BronzeIngot",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Items/SM_BronzeIngot.SM_BronzeIngot",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "8D73124B45B95F96378B7A97AE9ACB09",
+        "SourceString": "Used in crafting of bronze items. Smelted in Bloomery from Copper and Tin",
+        "LocalizedString": "Used in crafting of bronze items. Smelted in Bloomery from Copper and Tin"
+      },
+      "CraftedItemsStat": {
+        "ID": "BRONZE_INGOTS_CRAFTED",
+        "MaxValue": 100,
+        "Unlockables": [
+          {
+            "UnlockAchievementName": "CRAFT_BRONZE_INGOTS",
+            "UnlockAmount": 25
+          }
+        ]
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 44.0,
+      "CarryAnimTypeOverride": "SmallLongObjects"
+    }
+  }
+]

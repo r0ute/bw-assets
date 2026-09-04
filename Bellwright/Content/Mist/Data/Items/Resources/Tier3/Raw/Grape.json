@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Grape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape",
+    "SuperStruct": {
+      "ObjectName": "Class'MistConsumableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Grape_C'Default__Grape_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Grape_C",
+    "Name": "Default__Grape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape.Grape_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape",
+    "Properties": {
+      "bIsCooked": false,
+      "NutritionDurationHours": 3.0,
+      "HealthBonus": 12,
+      "HealthRegen": 0.15,
+      "StaminaBonus": 42,
+      "StaminaRegen": 3.0,
+      "FoodType": "EMistFoodType::Generic",
+      "Name": {
+        "Namespace": "",
+        "Key": "A539A6D04BB6D31746B38C8898934A4F",
+        "SourceString": "Grape",
+        "LocalizedString": "Grape"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'RawFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Consumables/RawFood.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_Grapes.T_Grapes",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Grape_CodexEntry.Grape_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Grape_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Raw/Grape.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Orchard_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/PassiveCrafting/Orchard.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier3/FarmSeeds/GrapeSeeds.GrapeSeeds_C'",
+              "Value": 1
+            }
+          ],
+          "Quantity": 15,
+          "CraftingTime": 3200.0,
+          "SkillRequiredValue": 7,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Farming",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "Mesh": {
+        "AssetPathName": "/Game/UltimateFarming/Meshes/SM_Grape.SM_Grape",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Nature/ModularLostRuinKit/Models/Props/SM_Barrel.SM_Barrel",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/UltimateFarming/Meshes/SM_Grape.SM_Grape",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "C0F0AB004CC74600D72609AB9B5A6EEA",
+        "SourceString": "Can be eaten raw or processed into wine and various dishes.",
+        "LocalizedString": "Can be eaten raw or processed into wine and various dishes."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "50B1621E4C93F0BA9E6E27BBE63C5479",
+        "SourceString": "Native to Halmare Isles.",
+        "LocalizedString": "Native to Halmare Isles."
+      },
+      "MaxDurability": 2500,
+      "bEnableSpoilage": true,
+      "DamagedItem": {
+        "ObjectName": "BlueprintGeneratedClass'SpoiledFood_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SpoiledFood.0"
+      },
+      "SoundAddedId": 4,
+      "SoundUsedId": 1,
+      "ExpectedPrice": 10.0,
+      "CarryAnimTypeOverride": "SmallObjects",
+      "NativeClass": {
+        "ObjectName": "Class'MistEdibleItemTemplate'",
+        "ObjectPath": "/Script/Mist"
+      }
+    }
+  }
+]

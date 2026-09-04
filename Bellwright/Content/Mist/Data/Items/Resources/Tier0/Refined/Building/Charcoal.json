@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Charcoal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal",
+    "SuperStruct": {
+      "ObjectName": "Class'MistItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Charcoal_C'Default__Charcoal_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Charcoal_C",
+    "Name": "Default__Charcoal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.Charcoal_C'",
+    "Package": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "173F3D0F49A2DD32FCD7DB95B53FEA89",
+        "SourceString": "Charcoal",
+        "LocalizedString": "Charcoal"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Resources_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Resources.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'StoneItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/StoneItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Tier": 2,
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_IconResourceCoalOre_D.T_IconResourceCoalOre_D",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/Charcoal_CodexEntry.Charcoal_CodexEntry",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 200,
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Charcoal_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CoalBurner_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/CoalBurner.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 12,
+          "CraftingTime": 100.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Charcoal_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'Kiln_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Kiln.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/SoftLog.SoftLog_C'",
+              "Value": 3
+            }
+          ],
+          "Quantity": 10,
+          "CraftingTime": 120.0,
+          "SkillRequiredValue": 3,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        },
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'Charcoal_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier0/Refined/Building/Charcoal.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CoalBurner_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/CoalBurner.0"
+          },
+          "RequiredUnlockable": null,
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/HardWood.HardWood_C'",
+              "Value": 2
+            }
+          ],
+          "Quantity": 20,
+          "CraftingTime": 200.0,
+          "SkillRequiredValue": 6,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 1,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Charcoal.SM_Charcoal",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::Warehouse",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Container_Crate_01_Stones.SM_Decor_Container_Crate_01_Stones",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Data/Items/Resources/Tier0/Raw/SM_Charcoal.SM_Charcoal",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "790B3A454D4628A318FB29915C30FA58",
+        "SourceString": "Fuel for smelting metals. Can be produced by burning logs at Coal Burner.",
+        "LocalizedString": "Fuel for smelting metals. Can be produced by burning logs at Coal Burner."
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 6.0,
+      "CarryAnimTypeOverride": "SmallObjects"
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LostPurse_FishingLootContainer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Fishes/LootContainers/LostPurse_FishingLootContainer",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'Base_FishingLootContainer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/LootContainers/Base_FishingLootContainer.1"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LostPurse_FishingLootContainer_C'Default__LostPurse_FishingLootContainer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/LootContainers/LostPurse_FishingLootContainer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "LostPurse_FishingLootContainer_C",
+    "Name": "Default__LostPurse_FishingLootContainer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Fishes/LootContainers/LostPurse_FishingLootContainer.LostPurse_FishingLootContainer_C'",
+    "Package": "/Game/Mist/Data/Items/Fishes/LootContainers/LostPurse_FishingLootContainer",
+    "Template": {
+      "ObjectName": "Base_FishingLootContainer_C'Default__Base_FishingLootContainer_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Fishes/LootContainers/Base_FishingLootContainer.0"
+    },
+    "Properties": {
+      "bIsHiddenInFishingHut": true,
+      "Loot": {
+        "Outputs": [
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'Coins_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Tier3/Refined/Building/Coins.0"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 100.0,
+            "LowerBoundMaxQuantity": 180.0,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 190.0,
+            "UpperBoundMaxQuantity": 300.0,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          },
+          {
+            "ItemClass": {
+              "ObjectName": "BlueprintGeneratedClass'BlackPearl_C'",
+              "ObjectPath": "/Game/Mist/Data/Items/Resources/Unique/BlackPearl.1"
+            },
+            "UsedDistribution": "ProbabilityDistribution::Flat",
+            "LowerBoundMinQuantity": 0.0,
+            "LowerBoundMaxQuantity": 0.3,
+            "LowerBoundProbabilityPeak": 1.0,
+            "UpperBoundMinQuantity": 0.0,
+            "UpperBoundMaxQuantity": 1.5,
+            "UpperBoundProbabilityPeak": 1.0,
+            "StandardDevFactor": 6.0
+          }
+        ]
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "2544B1A743752945458AC68E3EE6C3CA",
+        "SourceString": "Lost Purse",
+        "LocalizedString": "Lost Purse"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons/Resources/T_LostPurse.T_LostPurse",
+        "SubPathString": ""
+      },
+      "CodexEntry": {
+        "AssetPathName": "/Game/Mist/Data/Codex/World/Resources/FishingLootContainers/FishingLootContainers_CodexEntry.FishingLootContainers_CodexEntry",
+        "SubPathString": ""
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "940E81054BCF3C9B485587A39D8BD964",
+        "SourceString": "Dropped or hidden, it's hard to tell. Either way, someone meant not to lose it.",
+        "LocalizedString": "Dropped or hidden, it's hard to tell. Either way, someone meant not to lose it."
+      },
+      "MinWeight": 0.05,
+      "MaxWeight": 0.25
+    }
+  }
+]

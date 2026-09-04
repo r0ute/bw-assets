@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BoarTrophyItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Mist/Data/Items/Special/BoarTrophyItem",
+    "SuperStruct": {
+      "ObjectName": "Class'MistDeployableItemTemplate'",
+      "ObjectPath": "/Script/Mist"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BoarTrophyItem_C'Default__BoarTrophyItem_C'",
+      "ObjectPath": "/Game/Mist/Data/Items/Special/BoarTrophyItem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoarTrophyItem_C",
+    "Name": "Default__BoarTrophyItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Special/BoarTrophyItem.BoarTrophyItem_C'",
+    "Package": "/Game/Mist/Data/Items/Special/BoarTrophyItem",
+    "Properties": {
+      "PlaceableTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'BoarTrophy_C'",
+        "ObjectPath": "/Game/Mist/Data/Placeables/TownBuilding/BoarTrophy.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "48BFBE3E47B4C08A79A3FEAE550875FA",
+        "SourceString": "Boar Trophy",
+        "LocalizedString": "Boar Trophy"
+      },
+      "Category": {
+        "ObjectName": "BlueprintGeneratedClass'Decorations_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Categories/Decorations.0"
+      },
+      "SoundCategory": {
+        "ObjectName": "BlueprintGeneratedClass'GenericItemSetting_C'",
+        "ObjectPath": "/Game/Mist/Data/Audio/GenericItemSetting.0"
+      },
+      "Rarity": {
+        "ObjectName": "BlueprintGeneratedClass'Common_C'",
+        "ObjectPath": "/Game/Mist/Data/Items/Rarities/Common.0"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Mist/UI/Icons_new/Structures/T_BoarTrophy.T_BoarTrophy",
+        "SubPathString": ""
+      },
+      "InstancedRecipes": [
+        {
+          "ParentItem": {
+            "ObjectName": "BlueprintGeneratedClass'BoarTrophyItem_C'",
+            "ObjectPath": "/Game/Mist/Data/Items/Special/BoarTrophyItem.0"
+          },
+          "Category": {
+            "ObjectName": "BlueprintGeneratedClass'CraftsmansNook_C'",
+            "ObjectPath": "/Game/Mist/Data/Crafting/Categories/TownBuilding/Caravan/CraftsmansNook.0"
+          },
+          "RequiredUnlockable": {
+            "ObjectName": "BlueprintGeneratedClass'Trophy_C'",
+            "ObjectPath": "/Game/Mist/Data/TechTree/TownBuilding/Trophy.0"
+          },
+          "Inputs": [
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Unique/BoarTusk.BoarTusk_C'",
+              "Value": 1
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier2/Raw/Fur.Fur_C'",
+              "Value": 4
+            },
+            {
+              "Key": "BlueprintGeneratedClass'/Game/Mist/Data/Items/Resources/Tier0/Raw/Wood.Wood_C'",
+              "Value": 4
+            }
+          ],
+          "Quantity": 1,
+          "CraftingTime": 75.0,
+          "SkillRequiredValue": 1,
+          "SkillRequiredTypeOverride": "EMistNpcSkill::Crafting",
+          "bIsSystemRecipe": false,
+          "bIgnoreSkillBonus": false
+        }
+      ],
+      "ExperienceRewardCrafting": 3,
+      "Mesh": {
+        "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_TrophySupport_01.SM_Decor_Misc_TrophySupport_01",
+        "SubPathString": ""
+      },
+      "CustomDisplayMeshes": [
+        {
+          "Key": "EMistItemDisplayMesh::HandCarried_Many",
+          "Value": {
+            "AssetPathName": "/Game/Mist/Props/Tier_00-02/SM_Decor_Misc_TrophySupport_01.SM_Decor_Misc_TrophySupport_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Description": {
+        "Namespace": "",
+        "Key": "751A46A8441A1FE68B6D128A86F51474",
+        "SourceString": "Boar trophy provides renown for placing in your settlement.",
+        "LocalizedString": "Boar trophy provides renown for placing in your settlement."
+      },
+      "AcquisitionHint": {
+        "Namespace": "",
+        "Key": "D0D008F746921AFF4A3810813FD23626",
+        "SourceString": "Can be crafted at Craftsman's Nook.",
+        "LocalizedString": "Can be crafted at Craftsman's Nook."
+      },
+      "Volume": {
+        "X": 2,
+        "Y": 2
+      },
+      "SoundAddedId": 0,
+      "ExpectedPrice": 2.0,
+      "CarryAnimTypeOverride": "LargeLongObjects"
+    }
+  }
+]
